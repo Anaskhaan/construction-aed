@@ -7,7 +7,6 @@ export default function Layout() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="">
-        {/* Outlet renders the matched route's element */}
         <Outlet />
       </main>
       <Footer />
