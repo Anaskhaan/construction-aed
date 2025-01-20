@@ -11,7 +11,7 @@ const sendEmail = async (formData, file) => {
 
   const mailOptions = {
     from: process.env.EMAIL,
-    to: "AK4066912@gmail.com",
+    to: "mashhoodbutt47@gmail.com",
     subject: "New Form Submission",
     text: `Form submitted by ${formData.name}\nMessage: ${formData.message}\nCompany: ${formData.companyName}\nEmail: ${formData.email}\nPhone: ${formData.number}`, // Plain text body
     html: `<p><strong>Name:</strong> ${formData.name}</p><p><strong>Email:</strong> ${formData.email}</p><p><strong>Message:</strong> ${formData.message}</p><p><strong>Company Name:</strong> ${formData.companyName}</p><p><strong>Phone Number:</strong> ${formData.number}</p>`, // HTML body
