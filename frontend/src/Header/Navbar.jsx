@@ -105,7 +105,7 @@ const Navbar = () => {
                 <Link
                   key={index}
                   to={service.path}
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-blue-100"
                 >
                   {service.name}
                 </Link>
