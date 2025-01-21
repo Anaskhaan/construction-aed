@@ -3,15 +3,12 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between px-16 py-4 shadow-md">
+    <div className="flex items-center justify-between px-16 py-4 ">
       {/* Left Side - Logo */}
       <div className="w-1/4">
-        {/* Placeholder for the logo */}
-
         <img src="/Main-logo.webp" alt="Bidworks-logo" />
       </div>
 
-      {/* Center - Navigation Tabs */}
       <div className="flex space-x-6 text-gray-700 font-medium">
         <Link to="/" className="hover:text-[#0163BE] transition duration-300">
           Home
