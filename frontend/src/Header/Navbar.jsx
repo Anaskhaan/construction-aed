@@ -3,7 +3,7 @@ import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 
 const services = [
-  { name: "MEP Estimating", path: "/mepestimating" },
+  { name: "MEP Estimating", path: "/mep" },
   { name: "Concrete Estimating", path: "/concreteestimating" },
   { name: "Painting Estimating", path: "/paintingestimating" },
   { name: "Steel Estimating", path: "/steelestimating" },
@@ -14,7 +14,7 @@ const services = [
 ];
 
 const trades = [
-  { name: "Existing Condition", path: "/existingcondition" },
+  { name: "Existing Condition", path: "/existingconditions" },
   { name: "Concrete Estimating", path: "/concrete" },
   { name: "Masonary Estimating", path: "/masonary" },
   { name: "Metal Estimating", path: "/metal" },
@@ -142,7 +142,7 @@ const Navbar = () => {
           )}
         </div>
         <Link
-          to="/contactus"
+          to="/contact"
           className="hover:text-[#0163BE] transition duration-300"
         >
           Contact Us
