@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/src/assets/fonts/MontserratItalic.ttf") format("ttf"),
+    url("/src/assets/fonts/MontserrateVariable.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Global styles */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
