@@ -1,18 +1,28 @@
-// export default function ExistingsConditions() {
-//   return (
-//     <div>
-//       <div className="w-full h-48 bg-black"></div>
-//       <div className="flex justify-center items-center">
-//         <div className=""></div>
-//       </div>
-//     </div>
-//   );
-// }
+import { MoveRight } from "lucide-react";
 
 export default function ExistingsConditions() {
   return (
     <div>
-      <div className="w-full h-48 bg-black"></div>
+      <div className="w-full h-48 relative">
+        {/* Black Overlay */}
+        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+
+        {/* Image */}
+        <img
+          src="/businesswoman.webp"
+          alt="businesswoman image"
+          className="w-full h-full object-cover"
+        />
+
+        {/* Text Content */}
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4">
+          <h1 className="text-3xl font-bold">Existing Condition Estimating</h1>
+          <span className="text-lg flex  justify-center items-center gap-4">
+            Home <MoveRight />
+            Existing Condition Estimating
+          </span>
+        </div>
+      </div>
       <div className="flex justify-center items-center">
         <div className="grid grid-cols-3 gap-4 w-[90%] my-8">
           <div className="col-span-2  p-4">
@@ -45,7 +55,7 @@ export default function ExistingsConditions() {
                 <strong className="font-semibold text-[#0163BE]">
                   BidWorks Estimating
                 </strong>
-                , you'll have a clear picture of the costs associated with
+                , you&apos;ll have a clear picture of the costs associated with
                 addressing these conditions, minimizing risks, and reducing the
                 chances of unexpected expenses during construction.
               </p>
