@@ -4,7 +4,6 @@ const Hero = () => {
   return (
     <div>
       <div className="relative flex h-screen border-b-8 border-[#0163be]">
-        {/* Left Image with White Overlay */}
         <div className="relative h-full w-1/3">
           <img
             src="/Hero1Image.png"
@@ -14,7 +13,6 @@ const Hero = () => {
           <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-r from-white to-transparent pointer-events-none"></div>
         </div>
 
-        {/* Right Image */}
         <div className="relative h-full w-3/4">
           <img
             src="/HeroImage.png"
@@ -24,7 +22,6 @@ const Hero = () => {
           <div className="absolute top-0 left-0 h-full w-1/2 bg-gradient-to-r from-cyan-50 to-transparent pointer-events-none"></div>
         </div>
 
-        {/* Heading and Paragraph */}
         <div className="absolute top-28 left-32 z-10 ">
           <h1 className="text-5xl font-bold text-gray-900">
             Precision <span className="text-[#0163BE]">Estimating</span> <br />{" "}
@@ -46,6 +43,15 @@ const Hero = () => {
               <ArrowRight className=" mt-1 " />
             </div>
           </div>
+        </div>
+        <div>
+          <img
+            src="/Hero-Vector.webp"
+            className=" absolute left-0  bottom-0"
+            alt=""
+            height={300}
+            width={300}
+          />
         </div>
       </div>
     </div>
