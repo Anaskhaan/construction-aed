@@ -7,6 +7,8 @@ import Blogs from "./pages/Blogs";
 import Terms from "./pages/Terms";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import GetQuote from "./pages/GetQuote";
+import ExistingConditions from "./pages/trades/ExistingsConditions";
+import FurnishingEstimating from "./pages/services/FurnishingEstimating";
 import { Toaster } from "react-hot-toast";
 
 function App() {
@@ -22,6 +24,11 @@ function App() {
             <Route path="terms" element={<Terms />} />
             <Route path="privacypolicy" element={<PrivacyPolicy />} />
             <Route path="getquote" element={<GetQuote />} />
+            <Route path="existingconditions" element={<ExistingConditions />} />
+            <Route
+              path="furnishingestimating"
+              element={<FurnishingEstimating />}
+            />
           </Route>
         </Routes>
       </Router>

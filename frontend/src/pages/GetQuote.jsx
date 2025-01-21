@@ -60,7 +60,7 @@ const GetQuote = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-6 bg-white shadow-md rounded">
+    <div className="max-w-3xl mx-auto p-6 bg-white shadow-md rounded my-4">
       <Toaster />
       <h2 className=" text-4xl tracking-wider  font-bold text-center mb-6">
         Get Estimate Within <span className="text-[#0163BE]">24/48 Hours</span>

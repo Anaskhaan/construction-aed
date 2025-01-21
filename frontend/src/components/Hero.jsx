@@ -26,7 +26,7 @@ const Hero = () => {
 
         {/* Heading and Paragraph */}
         <div className="absolute top-28 left-32 z-10 ">
-          <h1 className="text-5xl font-bold leading-tight   text-gray-900">
+          <h1 className="text-5xl font-bold text-gray-900">
             Precision <span className="text-[#0163BE]">Estimating</span> <br />{" "}
             Services for Seamless <br /> Project Success
           </h1>
