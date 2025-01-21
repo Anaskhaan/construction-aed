@@ -9,10 +9,9 @@ export default function Home() {
     <>
       <Hero />
       <About />
-      <Quote/>
-      <FAQs/>
-      <BlogSection/>
-      
+      <Quote />
+      <FAQs />
+      <BlogSection />
     </>
   );
 }
