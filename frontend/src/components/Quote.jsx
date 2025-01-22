@@ -153,7 +153,7 @@ const Quote = () => {
       
         <div className="relative flex items-center justify-center">
   
-        <div className="absolute w-[65%] h-[90%]  border-t-2 border-r-2 border-b-2 border-l-2 border-[#0163BE] rounded-tl-[2%] rounded-tr-[30%] right-28 bottom-4 top-8"></div>
+        <div className="absolute w-[65%] h-[90%]  border-t-2 border-r-2 border-b-2 border-l-2 border-[#0163BE] rounded-tl-[2%] rounded-br-[2%] rounded-tr-[30%] right-20 bottom-6 top-8"></div>
        <div className="absolute w-[65%] h-[90%] bg-[#0163BE]  rounded-tl-[2%] rounded-tr-[30%] bottom-0"></div>
        
  <img
