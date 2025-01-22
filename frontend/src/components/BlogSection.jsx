@@ -26,22 +26,22 @@ const blogPosts = [
 ];
 
  const BlogSection = () => (
-  <section className="py-12 px-4 max-w-6xl mx-auto">
+  <section className="py-12 px-4 w-11/12 mx-auto">
     <div className="flex justify-between items-center mb-10">
       <div>
-        <h2 className="text-3xl font-semibold text-gray-900">
+        <h2 className="text-4xl font-semibold text-gray-900">
           Check Our <span className="text-blue-600">Latest Blogs</span>
         </h2>
         <p className="text-gray-600 mt-3">
           Stay informed with our latest blogs, covering insights, tips, and trends in construction estimating.
         </p>
       </div>
-      <div className=" flex items-center justify-center rounded-3xl  border border-[#0163BE]">
+      <div className=" flex items-center justify-center rounded-full  border border-[#0163BE]">
           <Link
             to="/Blogs"
-            className="bg-transparent text-black px-6 py-1    transition duration-300"
+            className="bg-transparent text-2xl   text-black px-7 py-3    transition duration-300"
           >
-           Explore More
+           Explore All Blogs
           </Link>
           <ArrowRight className=" text-black mr-2" />
         </div>
