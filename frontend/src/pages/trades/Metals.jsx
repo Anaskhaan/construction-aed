@@ -1,6 +1,6 @@
 import { ArrowRight, MoveRight } from "lucide-react";
 
-export default function ExistingsConditions() {
+export default function Metals() {
   return (
     <div>
       <div className="w-full h-48 relative">
@@ -16,10 +16,10 @@ export default function ExistingsConditions() {
 
         {/* Text Content */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4">
-          <h1 className="text-3xl font-bold">Existing Condition Estimating</h1>
+          <h1 className="text-3xl font-bold">Metals Estimating Services</h1>
           <span className="text-lg flex  justify-center items-center gap-4">
             Home <MoveRight />
-            Existing Condition Estimating
+            Metals Estimating Services
           </span>
         </div>
       </div>
@@ -28,36 +28,30 @@ export default function ExistingsConditions() {
           <div className="col-span-2  p-4">
             {/* Content for the first section */}
             <img
-              src="/twoarchi.png"
-              alt="Description of image"
+              src="/male-engineer-reading-documents-while-checking-quality-manufactured-steel-rood-industrial-building.webp"
+              alt="male engineer reading documents while checking quality manufactured steel rood industrial building"
               className="w-full h-auto rounded-lg"
             />
             <div className="py-4  text-gray-700">
               <h1 className="text-2xl font-bold text-gray-900">
-                Existing Conditions{" "}
+                Metal{" "}
                 <span className="text-[#0163BE]"> Estimating Services</span>
               </h1>
 
               <p className="mt-4">
-                Existing Conditions estimating services from{" "}
-                <strong className="font-semibold text-[#0163BE]">
-                  BidWorks Estimating
-                </strong>{" "}
-                focus on assessing and costing all pre-existing conditions at a
-                construction site, including environmental hazards, structural
-                challenges, and other site-specific factors. These services are
-                essential for understanding the unique challenges posed by the
-                site and accounting for any pre-construction activities such as
-                demolition, hazardous material handling, or site remediation.
+                Metals estimating services from BidWorks Estimating offer a
+                comprehensive breakdown of the costs associated with metal
+                fabrication and installation, including structural and
+                decorative metalwork. Whether it’s structural steel, aluminum
+                framing, or ornamental railings, BidWorks Estimating provides
+                accurate estimates to ensure efficient budgeting for
+                metal-related components of your construction project.
               </p>
               <p className="mt-4">
-                With{" "}
-                <strong className="font-semibold text-[#0163BE]">
-                  BidWorks Estimating
-                </strong>
-                , you&apos;ll have a clear picture of the costs associated with
-                addressing these conditions, minimizing risks, and reducing the
-                chances of unexpected expenses during construction.
+                Metals Estimating Services cover everything from the procurement
+                of raw materials to the costs of custom metalwork and finishing.
+                With BidWorks Estimating, you’ll receive reliable estimates that
+                allow for precise cost control and project planning.
               </p>
               <h2 className="mt-6 text-xl font-bold text-[#202020]">
                 Cost Factors
@@ -65,51 +59,56 @@ export default function ExistingsConditions() {
               <ul className="mt-4 list-disc pl-6">
                 <li>
                   <strong className="font-semibold text-[#202020]">
-                    Site Assessments:
+                    Materials:
                   </strong>{" "}
-                  Costs for environmental assessments, geotechnical surveys, and
-                  structural evaluations.{" "}
-                  <strong className="font-semibold text-[#0163BE]">
-                    BidWorks Estimating
-                  </strong>{" "}
-                  helps project managers plan for soil testing, ground stability
-                  checks, and hazard evaluations.
-                </li>
-                <li className="mt-2">
-                  <strong className="font-semibold text-[#202020]">
-                    Demolition:
-                  </strong>{" "}
-                  Costs for removing existing structures, handling debris, and
-                  managing hazardous materials such as asbestos or lead.{" "}
-                  <strong className="font-semibold text-[#0163BE]">
-                    BidWorks Estimating
-                  </strong>{" "}
-                  includes both labor and equipment costs for safe, efficient
-                  demolition.
-                </li>
-                <li className="mt-2">
-                  <strong className="font-semibold text-[#202020]">
-                    Remediation:
-                  </strong>{" "}
-                  Costs for environmental remediation processes, such as soil
-                  decontamination, water treatment, or air quality control.{" "}
-                  <strong className="font-semibold text-[#0163BE]">
-                    BidWorks Estimating
-                  </strong>{" "}
-                  ensures accurate cost projection for these critical safety
-                  measures.
-                </li>
-                <li className="mt-2">
-                  <strong className="font-semibold text-[#202020]">
-                    Soil and Geotechnical Conditions:
-                  </strong>{" "}
-                  Costs related to soil stabilization, foundation reinforcement,
-                  and other necessary groundwork.{" "}
-                  <strong className="font-semibold text-[#0163BE]">
-                    BidWorks Estimating
-                  </strong>{" "}
-                  assesses these variables to ensure a solid foundation for your
+                  Structural steel, aluminum, copper, and other metal
+                  components. BidWorks Estimating ensures that you select the
+                  most cost-effective and structurally sound metals for your
                   project.
+                </li>
+                <li className="mt-2">
+                  <strong className="font-semibold text-[#202020]">
+                    Labor:
+                  </strong>{" "}
+                  Skilled labor costs for welding, installation, and assembly of
+                  metal components.{" "}
+                  <strong className="font-semibold text-[#0163BE]">
+                    BidWorks Estimating
+                  </strong>{" "}
+                  includes wage rates, productivity expectations, and complexity
+                  to ensure accurate labor cost projections.
+                </li>
+                <li className="mt-2">
+                  <strong className="font-semibold text-[#202020]">
+                    Fabrication:
+                  </strong>{" "}
+                  Costs for cutting, welding, shaping, and assembling metal
+                  elements. BidWorks Estimating factors in fabrication
+                  complexity to provide accurate, transparent pricing.
+                </li>
+                <li className="mt-2">
+                  <strong className="font-semibold text-[#202020]">
+                    Transportation:
+                  </strong>{" "}
+                  Costs for transporting heavy or large metal components to the
+                  site.{" "}
+                  <strong className="font-semibold text-[#0163BE]">
+                    BidWorks Estimating
+                  </strong>{" "}
+                  evaluates transportation logistics to avoid unexpected
+                  delivery costs.
+                </li>
+                <li className="mt-2">
+                  <strong className="font-semibold text-[#202020]">
+                    Finishing:
+                  </strong>{" "}
+                  Expenses for coatings, painting, or surface treatments to
+                  protect metal surfaces.{" "}
+                  <strong className="font-semibold text-[#0163BE]">
+                    BidWorks Estimating
+                  </strong>{" "}
+                  accounts for all necessary finishes to ensure long-term
+                  durability and aesthetic appeal.
                 </li>
               </ul>
             </div>
@@ -119,13 +118,14 @@ export default function ExistingsConditions() {
               </h1>
 
               <p className="mt-4">
-                Our Existing Conditions Takeoff Services provide a comprehensive
-                review of the site’s structural, environmental, and physical
-                elements, ensuring accurate estimates for demolition,
-                remediation, and site preparation. BidWorks Estimating takes
-                into account factors such as hazardous material removal and
-                environmental impact, ensuring that the site is prepared for
-                safe and efficient construction.
+                Our Metals Takeoff Services provide detailed measurements of
+                metal components such as beams, columns, railings, and other
+                structural or decorative elements. BidWorks Estimating ensures
+                that material quantities are calculated accurately, factoring in
+                the exact specifications required for your project. We deliver
+                comprehensive estimates that include metal fabrication,
+                transportation, labor, and finishing costs, ensuring you have
+                complete control over your metalwork expenses.
               </p>
             </div>
             <h1 className="text-2xl font-bold">

@@ -17,7 +17,7 @@ const trades = [
   { name: "Existing Condition", path: "/existingconditions" },
   { name: "Concrete Estimating", path: "/concrete" },
   { name: "Masonary Estimating", path: "/masonary" },
-  { name: "Metal Estimating", path: "/metal" },
+  { name: "Metal Estimating", path: "/metals" },
   { name: "Wood, Plastic & Composities", path: "/wood" },
   { name: "Thermal & Moisture Protection", path: "/thermal" },
   { name: "Finishes Estimating", path: "/finishes" },
