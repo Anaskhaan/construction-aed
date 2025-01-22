@@ -34,9 +34,9 @@ const FAQs = () => {
   ];
 
   return (
-    <div className="max-w-3xl mx-auto p-6">
+    <div className="max-w-3xl max-h-7xl  mx-auto p-6">
       <div className="mb-8 text-center">
-        <h2 className="text-2xl font-extrabold">
+        <h2 className="text-3xl font-extrabold">
           Your <span className="text-[#0163BE]">Constructed</span> Question Answers
         </h2>
         <p className="text-gray-600 mt-2">
