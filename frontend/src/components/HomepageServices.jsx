@@ -69,7 +69,8 @@ const HomepageServices = () => {
     ];  
 
   return (
-    <div className=" bg-[#ebebeb] pt-20 pb-20 h-auto">
+    <>
+    <div className=" bg-[#ebebeb] pt-20 pb-10 h-auto">
         <div className="service-content">
 <h2 className="font-semibold text-center text-4xl">Our Bidworks Estimating <span className="text-blue-500">Services</span> </h2>
 <p className="text-center pt-5">Our comprehensive construction estimating and takeoff services cover every trade and project type, <br /> ensuring precision and reliability from start to finish. </p>
@@ -85,7 +86,17 @@ const HomepageServices = () => {
         </div>
       ))}
     </div>
+      {/* FAQ Link */}
+    
     </div>
+    <div className="text-sm text-gray-600 mb-4 text-center">
+        Have specific questions about our services? Check out our{' '}
+        <a href="#" className="text-blue-600 hover:text-blue-800">
+          FAQs
+        </a>{' '}
+        for detailed answers and get started with confidence.
+      </div>
+    </>
   );
 };
 
