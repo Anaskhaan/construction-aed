@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ChevronDown } from "lucide-react";
 import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const trades = [
   { name: "Existing Condition", path: "/existingconditions" },
   { name: "Concrete Estimating", path: "/concrete" },
   { name: "Masonary Estimating", path: "/masonary" },
-  { name: "Metal Estimating", path: "/metal" },
+  { name: "Metal Estimating", path: "/metals" },
   { name: "Wood, Plastic & Composities", path: "/wood" },
   { name: "Thermal & Moisture Protection", path: "/thermal" },
   { name: "Finishes Estimating", path: "/finishes" },
@@ -92,8 +92,8 @@ const Navbar = () => {
           onMouseEnter={handleMouseEnterServices}
           onMouseLeave={handleMouseLeaveServices}
         >
-          <button className="hover:text-[#0163BE] transition duration-300">
-            Our Services
+          <button className="hover:text-[#0163BE] transition duration-300 flex items-center gap-1">
+            Our Services <ChevronDown />
           </button>
           {servicesDropdown && (
             <div
@@ -118,8 +118,8 @@ const Navbar = () => {
           onMouseEnter={handleMouseEnterTrades}
           onMouseLeave={handleMouseLeaveTrades}
         >
-          <button className="hover:text-[#0163BE] transition duration-300">
-            Trades
+          <button className="hover:text-[#0163BE] transition duration-300 flex gap-1 items-center">
+            Trades <ChevronDown />
           </button>
           {tradesDropdown && (
             <div
