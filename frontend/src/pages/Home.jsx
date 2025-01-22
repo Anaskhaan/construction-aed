@@ -8,19 +8,22 @@ import HomepageServices from "../components/HomepageServices";
 import TradesPreview from "../components/TradesPreview";
 
 import ConstructionBanner from "../components/ConstrutionBanner";
-
+import Quote from "../components/Quote";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <About />
-      <HomepageServices />
-      <ConstructionBanner />
-      <WhyHire />
-      <TradesPreview />
-      <FAQs />
-      <BlogSection />
+      <div className=" px-16">
+        <HomepageServices />
+        <ConstructionBanner />
+        <WhyHire />
+        <TradesPreview />
+        <Quote />
+        <FAQs />
+        <BlogSection />
+      </div>
     </>
   );
 }
