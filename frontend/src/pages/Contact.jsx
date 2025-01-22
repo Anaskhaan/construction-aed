@@ -4,7 +4,6 @@ export default function Contact() {
   return (
     <div>
       <div className="w-full h-48 relative">
-        {/* Black Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
 
         {/* Image */}
