@@ -1,6 +1,6 @@
 import { ArrowRight, MoveRight } from "lucide-react";
 
-export default function ExistingsConditions() {
+export default function Masonary() {
   return (
     <div>
       <div className="w-full h-48 relative">
@@ -16,10 +16,10 @@ export default function ExistingsConditions() {
 
         {/* Text Content */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4">
-          <h1 className="text-3xl font-bold">Existing Condition Estimating</h1>
+          <h1 className="text-3xl font-bold">Masonary Estimating Services</h1>
           <span className="text-lg flex  justify-center items-center gap-4">
             Home <MoveRight />
-            Existing Condition Estimating
+            Masonary Estimating Services
           </span>
         </div>
       </div>
@@ -28,36 +28,30 @@ export default function ExistingsConditions() {
           <div className="col-span-2  p-4">
             {/* Content for the first section */}
             <img
-              src="/twoarchi.png"
-              alt="Description of image"
+              src="/close-up-men-looking-plan.webp"
+              alt="close up men looking plan"
               className="w-full h-auto rounded-lg"
             />
             <div className="py-4  text-gray-700">
               <h1 className="text-2xl font-bold text-gray-900">
-                Existing Conditions{" "}
+                Masonary{" "}
                 <span className="text-[#0163BE]"> Estimating Services</span>
               </h1>
 
               <p className="mt-4">
-                Existing Conditions estimating services from{" "}
-                <strong className="font-semibold text-[#0163BE]">
-                  BidWorks Estimating
-                </strong>{" "}
-                focus on assessing and costing all pre-existing conditions at a
-                construction site, including environmental hazards, structural
-                challenges, and other site-specific factors. These services are
-                essential for understanding the unique challenges posed by the
-                site and accounting for any pre-construction activities such as
-                demolition, hazardous material handling, or site remediation.
+                Masonry estimating services from BidWorks Estimating provide
+                project managers with detailed cost projections for all
+                masonry-related work, including brick, block, stone, and mortar.
+                Whether you’re building walls, facades, or decorative elements,
+                BidWorks Estimating ensures that both material and labor costs
+                are meticulously planned, reducing the risk of budget overruns.
               </p>
               <p className="mt-4">
-                With{" "}
-                <strong className="font-semibold text-[#0163BE]">
-                  BidWorks Estimating
-                </strong>
-                , you&apos;ll have a clear picture of the costs associated with
-                addressing these conditions, minimizing risks, and reducing the
-                chances of unexpected expenses during construction.
+                Masonry Estimating Services cover everything from the selection
+                of masonry materials to the calculation of installation labor.
+                With BidWorks Estimating, you can be confident that your masonry
+                work is thoroughly accounted for, ensuring that your project
+                stays on schedule and within budget.
               </p>
               <h2 className="mt-6 text-xl font-bold text-[#202020]">
                 Cost Factors
@@ -65,51 +59,43 @@ export default function ExistingsConditions() {
               <ul className="mt-4 list-disc pl-6">
                 <li>
                   <strong className="font-semibold text-[#202020]">
-                    Site Assessments:
+                    Materials:
                   </strong>{" "}
-                  Costs for environmental assessments, geotechnical surveys, and
-                  structural evaluations.{" "}
+                  Bricks, blocks, stone, mortar, and reinforcement materials.{" "}
                   <strong className="font-semibold text-[#0163BE]">
                     BidWorks Estimating
                   </strong>{" "}
-                  helps project managers plan for soil testing, ground stability
-                  checks, and hazard evaluations.
+                  helps you choose the right materials based on your project’s
+                  aesthetic and structural requirements.
                 </li>
                 <li className="mt-2">
                   <strong className="font-semibold text-[#202020]">
-                    Demolition:
+                    Labor:
                   </strong>{" "}
-                  Costs for removing existing structures, handling debris, and
-                  managing hazardous materials such as asbestos or lead.{" "}
+                  Skilled labor costs for masonry installation, which depend on
+                  local wage rates and the complexity of the project.{" "}
                   <strong className="font-semibold text-[#0163BE]">
                     BidWorks Estimating
                   </strong>{" "}
-                  includes both labor and equipment costs for safe, efficient
-                  demolition.
+                  ensures accurate labor cost projections, accounting for
+                  project size and design intricacies
                 </li>
                 <li className="mt-2">
                   <strong className="font-semibold text-[#202020]">
-                    Remediation:
+                    Waste Minimization:
                   </strong>{" "}
-                  Costs for environmental remediation processes, such as soil
-                  decontamination, water treatment, or air quality control.{" "}
-                  <strong className="font-semibold text-[#0163BE]">
-                    BidWorks Estimating
-                  </strong>{" "}
-                  ensures accurate cost projection for these critical safety
-                  measures.
+                  Accurate material estimates reduce waste and unnecessary
+                  spending. BidWorks Estimating calculates exact material needs,
+                  reducing excess and promoting cost savings.
                 </li>
                 <li className="mt-2">
                   <strong className="font-semibold text-[#202020]">
-                    Soil and Geotechnical Conditions:
+                    Project Complexity:
                   </strong>{" "}
-                  Costs related to soil stabilization, foundation reinforcement,
-                  and other necessary groundwork.{" "}
-                  <strong className="font-semibold text-[#0163BE]">
-                    BidWorks Estimating
-                  </strong>{" "}
-                  assesses these variables to ensure a solid foundation for your
-                  project.
+                  Ornate masonry work or projects requiring custom designs may
+                  increase labor and material costs. BidWorks Estimating
+                  incorporates complexity into its detailed estimates, ensuring
+                  a comprehensive understanding of potential costs
                 </li>
               </ul>
             </div>
@@ -119,13 +105,13 @@ export default function ExistingsConditions() {
               </h1>
 
               <p className="mt-4">
-                Our Existing Conditions Takeoff Services provide a comprehensive
-                review of the site’s structural, environmental, and physical
-                elements, ensuring accurate estimates for demolition,
-                remediation, and site preparation. BidWorks Estimating takes
-                into account factors such as hazardous material removal and
-                environmental impact, ensuring that the site is prepared for
-                safe and efficient construction.
+                Our Masonry Takeoff Services include precise quantity
+                measurements for all masonry components, including bricks,
+                blocks, and stone. BidWorks Estimating evaluates the type and
+                quality of masonry materials to ensure you get accurate,
+                cost-effective estimates that include material specifications,
+                waste minimization, and labor requirements. We work closely with
+                you to deliver a reliable financial plan for your masonry needs.
               </p>
             </div>
             <h1 className="text-2xl font-bold">
