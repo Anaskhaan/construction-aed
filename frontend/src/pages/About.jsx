@@ -59,7 +59,7 @@ export default function About() {
   ];
   return (
     <div>
-      <div className="w-full h-48 relative">
+      <div className="w-full  h-48 relative">
         {/* Black Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
 
@@ -87,22 +87,31 @@ export default function About() {
             className="rounded-md z-50 w-11/12 "
           />
           <div
-            className="absolute w-[520px] h-[475px] top-4 left-10 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
+            className="absolute w-[520px] h-[550px] top-8 left-12 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
             style={{
               background: "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
             }}
           ></div>
         </div>
-        <div className="flex flex-col justify-center space-y-10 h-full">
-          <h2 className="text-4xl font-bold  text-black">
-            Your Trusted Partner in Construction{" "}
+        <div className="flex relative  flex-col justify-center space-y-10 h-full">
+          <div>
+            <img
+              src="/ABOUT-VECTOR.webp"
+              height={200}
+              width={200}
+              className=" absolute -top-12 text-[#0163BE] right-0"
+              alt=""
+            />
+          </div>
+          <h2 className="text-4xl  font-bold  text-black">
+            Your Trusted Partner in <br /> Construction{" "}
             <span className="text-[#0163BE]"> Estimating</span>
           </h2>
-          <p className="text-gray-600 mt-4 ">
-            At BidWorks Estimating, we combine precision, expertise, and
-            cutting-edge technology to help your projects succeed. From planning
-            to completion, we’re here to support your vision every step of the
-            way
+          <p className="text-gray-600 mt-4  ">
+            At BidWorks Estimating, we combine precision, expertise, <br /> and
+            cutting-edge technology to help your projects succeed. <br /> From
+            planning to completion, we&apos;re here to support your <br />{" "}
+            vision every step of the way
           </p>
 
           <div className=" grid grid-cols-2 grid-rows-4 ">
@@ -127,7 +136,16 @@ export default function About() {
         </div>
       </section>
       <section>
-        <div className="py-12 bg-[#F8F8F8]">
+        <div className="py-12 relative bg-[#F8F8F8]">
+          <div>
+            <img
+              src="/ABOUT-VECTORR2.webp"
+              height={250}
+              width={250}
+              className=" absolute top-0 left-0"
+              alt=""
+            />
+          </div>
           <div className="container mx-auto text-center">
             {/* Heading Section */}
             <h2 className="text-4xl font-bold text-gray-800">
@@ -238,7 +256,7 @@ export default function About() {
                 />
               </div>
               <div className="absolute top-[-20px] right-[-20px] w-32 h-32 bg-blue-100 rounded-full z-0"></div>
-              <div className="absolute top-72 right-[-20px] w-64 h-16  bg-blue-600 rounded-full z-0 transform -translate-x-20"></div>
+              <div className="absolute top-52 left-44 w-[28rem] h-36  bg-[#0163be] rounded-[100%] rotate-12 z-0 transform -translate-x-36 "></div>
             </div>
           </div>
         </div>
