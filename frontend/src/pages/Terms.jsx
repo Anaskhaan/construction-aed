@@ -60,17 +60,17 @@ export default function Terms() {
           </p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
             <li>
-              &quotClient&quot, &quotYou&quot and &quotYour&quot refers to you,
-              the person accessing this website and accepting the Company&quots
-              terms and conditions.
+              &quot;Client&quot;, &quot;You&quot; and &quot;Your&quot; refers to
+              you, the person accessing this website and accepting the
+              Company&quot;s terms and conditions.
             </li>
             <li>
-              &quotThe Company&quot, &quotOurselves&quot, &quotWe&quot,
-              &quotOur&quot and &quotUs&quot refers to our Company.
+              &quot;The Company&quot;, &quot;Ourselves&quot;, &quot;We&quot;,
+              &quot;Our&quot; and &quot;Us&quot; refers to our Company.
             </li>
             <li>
-              &quotParty&quot, &quotParties&quot, or&quotUs&quot refers to both
-              the Client and ourselves, or either the Client or ourselves.
+              &quot;Party&quot;, &quot;Parties&quot;, or&quot;Us&quot; refers to
+              both the Client and ourselves, or either the Client or ourselves.
             </li>
           </ul>
           <p className="text-gray-700 mb-4">
@@ -121,8 +121,8 @@ export default function Terms() {
           <p className="text-gray-700 mb-4">
             Certain parts of this website offer the opportunity for users to
             post and exchange opinions, information, material, and comments
-            (&quot Comments &quot). Bid Works Estimating does not screen, edit,
-            publish, or review Comments prior to their appearance on the
+            (&quot; Comments &quot;). Bid Works Estimating does not screen,
+            edit, publish, or review Comments prior to their appearance on the
             website, and Comments do not reflect the views or opinions of Bid
             Works Estimating, its agents, or affiliates.
           </p>
@@ -253,7 +253,7 @@ export default function Terms() {
                 in any way misleading; (b) does not falsely imply sponsorship,
                 endorsement, or approval of the linking party and its products
                 or services; and (c) fits within the context of the linking
-                party&aposs site.
+                party&apos;s site.
               </p>
             </div>
 
@@ -270,7 +270,7 @@ export default function Terms() {
               <li>
                 By use of any other description of our website or material being
                 linked to that makes sense within the context and format of
-                content on the linking party&aposs site.
+                content on the linking party&apos;s site.
               </li>
             </ul>
           </div>
@@ -463,7 +463,7 @@ export default function Terms() {
             There are no overnight services after 2 pm EST. (The overnight time
             limit is 2 pm) We do not take offs through the Weekends. For urgent
             requirements and want us to do weekend shifts, Additional cost may
-            be incurred and can&apost be paid on business day.
+            be incurred and can&apos;t be paid on business day.
           </p>
         </section>
 
@@ -477,13 +477,13 @@ export default function Terms() {
             turn after the refund option until You have opened the file and
             verified the scope of work. We are working to make sure we can
             provide the best service possible, and we hope that we will correct
-            it. Once it&aposs all set to call. We simply respond to any concerns
-            made on support tickets, via emails, or phone calls. By accepting
-            your estimate you agree to our service and you also acknowledge the
-            terms of service of refunds. If for any reason you are not satisfied
-            with our services. We reserve the right to issue or deny the refund.
-            For technical assistance or email us all service and revision
-            inquiries at{" "}
+            it. Once it&apos;s all set to call. We simply respond to any
+            concerns made on support tickets, via emails, or phone calls. By
+            accepting your estimate you agree to our service and you also
+            acknowledge the terms of service of refunds. If for any reason you
+            are not satisfied with our services. We reserve the right to issue
+            or deny the refund. For technical assistance or email us all service
+            and revision inquiries at{" "}
             <a
               href="mailto:info@bidworksestimating.com"
               className="text-blue-600 hover:underline"
@@ -497,7 +497,7 @@ export default function Terms() {
           <h2 className="text-lg font-semibold mb-4">Assumption Policy:</h2>
           <p className="text-gray-700 mb-4">
             The Cost estimate take-off estimates will be based on the plans
-            provided. We don&apost make to include any quantities we do not do
+            provided. We don&apos;t make to include any quantities we do not do
             shop engineering. The information in your results will be found
             solely on the plans/schedules provided at the time of ordering. As
             we may make some assumptions where needed at our discretion, but we
@@ -564,14 +564,14 @@ export default function Terms() {
             you take our procurement services. Please make all necessary custom
             overhead adjustments, as we do not know your company bidding and
             requirements. Our cost pricing is set after depending on your
-            company&aposs specific overhead cost factors, requirements, or
+            company&apos;s specific overhead cost factors, requirements, or
             circumstances. If you are using this estimate to bid a project, you
             must make adjustments outside this take-off to reflect your company
             cost Final overhead is available, as you can also make adjustments
             on your company pricing and requirements. The average-market
             materials prices is also based on your overhead and needs. Due to
             the volatile overhead of materials costs, we cannot verify the
-            manufacturer&aposs current costs. Current market overhead cost can
+            manufacturer&apos;s current costs. Current market overhead cost can
             vary from our standard estimating costs you use it. You can email us
             at{" "}
             <a

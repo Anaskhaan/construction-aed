@@ -110,13 +110,13 @@ export default function Footer() {
             Copyright © SICHERES-HAUS.AT. All Rights Reserved
           </p>
           <div className="flex flex-wrap justify-center sm:justify-end space-x-8">
-            <Link href="/terms" className="text-white underline">
+            <Link to="/terms" className="text-white underline">
               Website Policies
             </Link>
-            <Link href="/privacypolicy" className="text-white underline">
+            <Link to="/privacypolicy" className="text-white underline">
               Privacy Policies
             </Link>
-            <Link href="#" className="text-white underline">
+            <Link to="#" className="text-white underline">
               Cookies Policies
             </Link>
           </div>
