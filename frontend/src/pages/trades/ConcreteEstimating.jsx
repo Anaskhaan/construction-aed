@@ -1,5 +1,5 @@
 import { ArrowRight, MoveRight } from "lucide-react";
-
+import SearchTrades from "../../components/SearchingTrades/SearchTrades";
 export default function ConcreteEstimating() {
   return (
     <div>
@@ -206,8 +206,9 @@ export default function ConcreteEstimating() {
               <ArrowRight className=" mt-1 text-[#0163BE]" />
             </div>
           </div>
-          <div className="col-span-1 bg-gray-300 p-4">
+          <div className="col-span-1 bg-white  p-4">
             {/* Content for the second section */}
+            <SearchTrades/>
           </div>
         </div>
       </div>
