@@ -1,10 +1,8 @@
 import { useState } from "react";
 
-
 import { Search } from "lucide-react";
 
-
-const allTrades =  [
+const allTrades = [
   { id: 1, name: "Existing Condition", path: "/existingconditions" },
   { id: 2, name: "Concrete Estimating", path: "/concrete" },
   { id: 3, name: "Masonary Estimating", path: "/masonary" },
@@ -52,25 +50,26 @@ export default function SearchTrades() {
   return (
     <div className="flex flex-col gap-8 w-full max-w-4xl mx-auto px-4">
       {/* Search and Trades Section */}
-      <div className="w-full">
-        {/* Search Section */}
-        <div className="mb-8">
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="Search....."
-              value={searchQuery}
-              onChange={(e) => handleSearch(e.target.value)}
-              className="w-full px-4 py-3 border border-blue-500 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-            <button className="absolute right-0 top-0 h-full px-4 bg-blue-500 text-white rounded-r-md">
-            <Search className="w-6 h-6 text-white" />
-            </button>
+      <div className="bg-white rounded-lg shadow-xl p-6 mb-8">
+        <div className="w-full">
+          {/* Search Section */}
+          <div className="mb-8">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Search....."
+                value={searchQuery}
+                onChange={(e) => handleSearch(e.target.value)}
+                className="w-full px-4 py-3 border border-blue-500 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              <button className="absolute right-0 top-0 h-full px-4 bg-blue-500 text-white rounded-r-md">
+                <Search className="w-6 h-6 text-white" />
+              </button>
+            </div>
           </div>
-        </div>
-       <div className="bg-gray-300 h-[1px] w-full "></div>
-        {/* Popular Trades Section */}
-        <div className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <div className="bg-gray-300 h-[1px] w-full "></div>
+          {/* Popular Trades Section */}
+
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">
             {searchQuery ? "Search Results" : "Popular Trades"}
           </h2>
@@ -98,20 +97,16 @@ export default function SearchTrades() {
             )}
           </div>
         </div>
-
-   
-        <div className="bg-blue-40 rounded-lg shadow-sm p-6 text-center mt-8">
-          <h3 className="text-xl font-semibold text-gray-800 mb-6">
-            Experience The Construction Estimate with{" "}
-            <span className="text-blue-500">Bidworks Estimating</span>
-          </h3>
-          <p className="text-xl italic text-gray-600 mb-8">
-            Within 24/48 Hours
-          </p>
-          <button className="bg-blue-500 text-white px-10 py-3 rounded-full hover:bg-blue-600 transition-colors">
-            Contact Now →
-          </button>
-        </div>
+      </div>
+      <div className="bg-[#F4FAFF] rounded-lg shadow-sm py-2 text-center mt-8">
+        <h3 className="text-xl font-semibold text-gray-800 mb-6">
+          Experience The Construction Estimate with{" "}
+          <span className="text-blue-500">Bidworks Estimating</span>
+        </h3>
+        <p className="text-xl italic text-gray-600 mb-8">Within 24/48 Hours</p>
+        <button className="bg-blue-500 text-white px-10 py-3 rounded-full hover:bg-blue-600 transition-colors">
+          Contact Now →
+        </button>
       </div>
     </div>
   );
