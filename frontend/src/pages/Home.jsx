@@ -5,6 +5,7 @@ import WhyHire from "../components/WhyHire";
 import HomepageServices from "../components/HomepageServices";
 import Quote from "../components/Quote";
 import GetStarted from "../components/GetStarted";
+import About from "../components/About";
 
 export default function Home() {
   return (
