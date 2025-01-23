@@ -1,4 +1,5 @@
 import { ArrowRight, MoveRight, Phone } from "lucide-react";
+import Testimonials from "../components/Testimonials";
 
 export default function About() {
   const About = [
@@ -300,6 +301,7 @@ export default function About() {
         </div>
       </section>
       <section></section>
+      <Testimonials/>
     </div>
   );
 }
