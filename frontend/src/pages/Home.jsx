@@ -1,8 +1,23 @@
+import Hero from "../components/Hero";
+import BlogSection from "../components/BlogSection";
+import FAQs from "../components/FAQs";
+import WhyHire from "../components/WhyHire";
+import HomepageServices from "../components/HomepageServices";
+import Quote from "../components/Quote";
+import GetStarted from "../components/GetStarted";
+import About from "../components/About";
+
 export default function Home() {
   return (
     <>
-      <div>Home</div>
-      <p>Welcome to the home page of your app!</p>
+      <Hero />
+      <About />
+      <HomepageServices />
+      <WhyHire />
+      <GetStarted/>
+      <Quote />
+      <FAQs />
+      <BlogSection />
     </>
   );
 }
