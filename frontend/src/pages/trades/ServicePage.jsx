@@ -68,27 +68,19 @@ const ServicePage = ({ route }) => {
               </h2>
               <ul className="mt-4 list-disc pl-6">
                 <li>
-                  <strong className="font-semibold text-[#202020]">
-                    Materials:
-                  </strong>{" "}
-                  {li1}
+                 
+                  {li1()}
                 </li>
                 <li className="mt-2">
-                  <strong className="font-semibold text-[#202020]">
-                    Labor:
-                  </strong>{" "}
+                
                   {li2}
                 </li>
                 <li className="mt-2">
-                  <strong className="font-semibold text-[#202020]">
-                    Project Size and Complexity:
-                  </strong>{" "}
+                 
                   {li3}
                 </li>
                 <li className="mt-2">
-                  <strong className="font-semibold text-[#202020]">
-                    Site Conditions:
-                  </strong>{" "}
+                
                   {li4}
                 </li>
               </ul>
