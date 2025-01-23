@@ -1,7 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
-import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Blogs from "./pages/Blogs";
 import Terms from "./pages/Terms";
@@ -13,6 +11,8 @@ import MEP from "./pages/services/MEP";
 import ConcreteEstimating from "./pages/trades/ConcreteEstimating";
 import Masonary from "./pages/trades/Masonary";
 import Metals from "./pages/trades/Metals";
+import Home from "./components/HOMESECTIONS/Home";
+import About from "./pages/About";
 
 function App() {
   return (

@@ -1,10 +1,17 @@
-import { Clock, House, Link, Mail, MoveRight, Phone } from "lucide-react";
+import {
+  ArrowRight,
+  Clock,
+  House,
+  Link,
+  Mail,
+  MoveRight,
+  Phone,
+} from "lucide-react";
 
 export default function Contact() {
   return (
     <div>
       <div className="w-full h-48 relative">
-        {/* Black Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
 
         {/* Image */}
@@ -107,9 +114,9 @@ export default function Contact() {
                 {" "}
                 <button
                   type="submit"
-                  className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center "
+                  className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center gap-2"
                 >
-                  Submit &rarr;
+                  Submit <ArrowRight />
                 </button>
               </div>
             </form>
