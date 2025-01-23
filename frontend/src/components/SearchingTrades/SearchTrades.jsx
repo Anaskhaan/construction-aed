@@ -98,7 +98,7 @@ export default function SearchTrades() {
           </div>
         </div>
       </div>
-      <div className="bg-[#F4FAFF] rounded-lg shadow-sm py-2 text-center mt-8">
+      <div className="bg-[#F4FAFF] rounded-lg shadow-lg p-6 text-center ">
         <h3 className="text-xl font-semibold text-gray-800 mb-6">
           Experience The Construction Estimate with{" "}
           <span className="text-blue-500">Bidworks Estimating</span>
