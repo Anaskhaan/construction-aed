@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Facebook, Apple, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="w-full  bg-[#131313] text-white">
+    <footer className="w-full  bg-[#1E1E1E] text-white">
       <div className="container mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
           <div className="space-y-6 text-center sm:text-left">
@@ -110,15 +110,15 @@ export default function Footer() {
             Copyright © SICHERES-HAUS.AT. All Rights Reserved
           </p>
           <div className="flex flex-wrap justify-center sm:justify-end space-x-8">
-            <a href="#" className="text-white underline">
+            <Link to="/terms" className="text-white underline">
               Website Policies
-            </a>
-            <a href="#" className="text-white underline">
+            </Link>
+            <Link to="/privacypolicy" className="text-white underline">
               Privacy Policies
-            </a>
-            <a href="#" className="text-white underline">
+            </Link>
+            <Link to="#" className="text-white underline">
               Cookies Policies
-            </a>
+            </Link>
           </div>
         </div>
       </div>
