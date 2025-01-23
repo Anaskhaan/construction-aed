@@ -31,6 +31,7 @@ function App() {
             <Route path="concrete" element={<ServicePage route="concrete" />} />
             <Route path="masonary" element={<ServicePage route="masonary" />} />
             <Route path="metals" element={<ServicePage route="metals" />} />
+            <Route path="ConveyEquip" element={<ServicePage route="ConveyEquip" />} />
             <Route path="mep" element={<MEP />} />
           </Route>
         </Routes>
