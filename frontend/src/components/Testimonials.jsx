@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronLeft, ChevronRight ,Quote} from "lucide-react";
+import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import ReactStars from "react-rating-stars-component";
 
 const Testimonials = () => {
@@ -102,12 +102,21 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-2 p-2">
- 
-  <p className="text-gray-700 italic text-sm"> <Quote className="text-gray-400 mb-3 transform rotate-180" fill="gray-500" size={14} />{feedback.feedback}  </p>
-
-  
-</div>
-<Quote className="text-gray-400 ml-52 mt-0 " fill="gray-500" size={14} />
+                  <p className="text-gray-700 italic text-sm">
+                    {" "}
+                    <Quote
+                      className="text-gray-400 mb-3 transform rotate-180"
+                      fill="gray-500"
+                      size={14}
+                    />
+                    {feedback.feedback}{" "}
+                  </p>
+                </div>
+                <Quote
+                  className="text-gray-400 ml-52 mt-0 "
+                  fill="gray-500"
+                  size={14}
+                />
                 <div className="flex items-center justify-center">
                   <ReactStars
                     count={5}
@@ -139,9 +148,7 @@ const Testimonials = () => {
                 key={index}
                 onClick={() => setCurrentSlide(index)}
                 className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                  currentSlide === index
-                    ? "bg-[#0163BE] w-6"
-                    : "bg-gray-300"
+                  currentSlide === index ? "bg-[#0163BE] w-6" : "bg-gray-300"
                 }`}
               />
             )
