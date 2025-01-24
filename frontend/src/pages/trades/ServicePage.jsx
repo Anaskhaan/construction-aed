@@ -1,4 +1,3 @@
-import React from "react";
 import { MoveRight } from "lucide-react";
 import { data } from "../../Helpers/Data";
 import WhyChooseBidworks from "./WhyChooseBidworks";
@@ -21,6 +20,7 @@ const ServicePage = ({ route }) => {
     li2,
     li3,
     li4,
+    li5,
     title3,
     Des3,
   } = serviceData;
@@ -73,16 +73,20 @@ const ServicePage = ({ route }) => {
                 </li>
                 <li className="mt-2">
                 
-                  {li2}
+                  {li2()}
                 </li>
                 <li className="mt-2">
                  
-                  {li3}
+                  {li3()}
                 </li>
                 <li className="mt-2">
                 
-                  {li4}
+                  {li4()}
                 </li>
+                <li className="mt-2">
+                
+                {li5()}
+              </li>
               </ul>
             </div>
             <div className="py-6">
