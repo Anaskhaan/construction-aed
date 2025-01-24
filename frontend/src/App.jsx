@@ -10,7 +10,7 @@ import MEP from "./pages/services/MEP";
 
 import Home from "./components/HOMESECTIONS/Home";
 import About from "./pages/About";
-import ServicePage from "./pages/trades/ServicePage";
+import TradesPage from "./pages/trades/TradesPage";
 function App() {
   return (
     <>
@@ -26,12 +26,12 @@ function App() {
             <Route path="getquote" element={<GetQuote />} />
             <Route
               path="existingconditions"
-              element={<ServicePage route="existingconditions" />}
+              element={<TradesPage route="existingconditions" />}
             />
-            <Route path="concrete" element={<ServicePage route="concrete" />} />
-            <Route path="masonary" element={<ServicePage route="masonary" />} />
-            <Route path="metals" element={<ServicePage route="metals" />} />
-            <Route path="ConveyEquip" element={<ServicePage route="ConveyEquip" />} />
+            <Route path="concrete" element={<TradesPage route="concrete" />} />
+            <Route path="masonary" element={<TradesPage route="masonary" />} />
+            <Route path="metals" element={<TradesPage route="metals" />} />
+            <Route path="ConveyEquip" element={<TradesPage route="ConveyEquip" />} />
             <Route path="mep" element={<MEP />} />
           </Route>
         </Routes>

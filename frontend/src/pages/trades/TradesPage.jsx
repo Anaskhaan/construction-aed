@@ -3,7 +3,7 @@ import { data } from "../../Helpers/Data";
 import WhyChooseBidworks from "./WhyChooseBidworks";
 import SearchTrades from "../../components/SearchingTrades/SearchTrades";
 
-const ServicePage = ({ route }) => {
+const TradesPage = ({ route }) => {
   const serviceData = data.find((item) => item.route === route);
 
   if (!serviceData) {
@@ -85,7 +85,7 @@ const ServicePage = ({ route }) => {
                 </li>
                 <li className="mt-2">
                 
-                {li5()}
+                { li5 && (li5())  }
               </li>
               </ul>
             </div>
@@ -107,4 +107,4 @@ const ServicePage = ({ route }) => {
   );
 };
 
-export default ServicePage;
+export default TradesPage;
