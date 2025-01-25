@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 const services = [
   { name: "MEP Estimating", path: "/mep" },
-  { name: "Concrete Estimating", path: "/concreteestimating" },
-  { name: "Painting Estimating", path: "/paintingestimating" },
-  { name: "Steel Estimating", path: "/steelestimating" },
-  { name: "Massonary Takeoff", path: "/massonarytakeoff" },
-  { name: "Drywall Takeoff", path: "/drywalltakeoff" },
-  { name: "Lumber Takeoff", path: "/lumbertakeoff" },
-  { name: "Sitework & Earthquake", path: "/siteworkandearthquake" },
+  { name: "Concrete Estimating", path: "/CES" },
+  { name: "Painting Estimating", path: "/PES" },
+  { name: "Steel Estimating", path: "/DS" },
+  { name: "Massonary Takeoff", path: "/MTS" },
+  { name: "Drywall Takeoff", path: "/DTS" },
+  { name: "Lumber Takeoff", path: "/LTS" },
+  { name: "Sitework & Earthquake", path: "/SET" },
 ];
 
 const trades = [

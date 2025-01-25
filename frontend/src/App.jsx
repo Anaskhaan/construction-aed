@@ -42,6 +42,14 @@ function App() {
             <Route path="special" element={<TradesPage route="special" />} />
             <Route path="conveying" element={<TradesPage route="conveying" />} />
             <Route path="mep" element={<MEP />} />
+            <Route path="mep" element={<ServicesPage route="mep" />} />
+            <Route path="CES" element={<ServicesPage route="CES" />} />
+            <Route path="PES" element={<ServicesPage route="PES" />} />
+            <Route path="DS" element={<ServicesPage route="DS" />} />
+            <Route path="MTS" element={<ServicesPage route="MTS" />} />
+            <Route path="DTS" element={<ServicesPage route="DTS" />} />
+            <Route path="LTS" element={<ServicesPage route="LTS" />} />
+            <Route path="SET" element={<ServicesPage route="SET" />} />
           </Route>
         </Routes>
       </Router>
