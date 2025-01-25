@@ -13,9 +13,8 @@ const TradesPage = ({ route }) => {
   const {
     src2,
     title,
-    title1,
-    description,
-    Des1,
+
+    description,  
     image,
     title1,
     title2,
