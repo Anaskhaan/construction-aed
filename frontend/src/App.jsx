@@ -32,6 +32,8 @@ function App() {
             <Route path="masonary" element={<TradesPage route="masonary" />} />
             <Route path="metals" element={<TradesPage route="metals" />} />
             <Route path="ConveyEquip" element={<TradesPage route="ConveyEquip" />} />
+            <Route path="Wpc" element={<TradesPage route="Wpc" />} />
+            <Route path="Tmp" element={<TradesPage route="Tmp" />} />
             <Route path="mep" element={<MEP />} />
           </Route>
         </Routes>
