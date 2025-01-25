@@ -6,11 +6,11 @@ import Terms from "./pages/Terms";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import GetQuote from "./pages/GetQuote";
 import { Toaster } from "react-hot-toast";
-import MEP from "./pages/services/MEP";
 
 import Home from "./components/HOMESECTIONS/Home";
 import About from "./pages/About";
 import TradesPage from "./pages/trades/TradesPage";
+import ServicesPage from './pages/services/ServicesPage'
 function App() {
   return (
     <>
@@ -41,7 +41,7 @@ function App() {
             <Route path="furnishies" element={<TradesPage route="furnishies" />} />
             <Route path="special" element={<TradesPage route="special" />} />
             <Route path="conveying" element={<TradesPage route="conveying" />} />
-            <Route path="mep" element={<MEP />} />
+            {/* <Route path="mep" element={<MEP />} /> */}
             <Route path="mep" element={<ServicesPage route="mep" />} />
             <Route path="CES" element={<ServicesPage route="CES" />} />
             <Route path="PES" element={<ServicesPage route="PES" />} />

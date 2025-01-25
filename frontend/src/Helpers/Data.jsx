@@ -423,7 +423,6 @@ export const data = [
     route: "special",
   },
 ];
-
 export const ServicesData = [
   {
     src2: "/ServicesBanner1.webp",
@@ -872,5 +871,3 @@ With BidWorks Estimating, you can ensure precise budgeting and seamless planning
     ) ,
   },
 ];
-
-

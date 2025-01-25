@@ -13,6 +13,7 @@ const TradesPage = ({ route }) => {
   const {
     src2,
     title,
+    title1,
     description,
     Des1,
     image,
@@ -25,6 +26,7 @@ const TradesPage = ({ route }) => {
     li5,
     title3,
     Des3,
+    Des1,
   } = serviceData;
 
   return (
