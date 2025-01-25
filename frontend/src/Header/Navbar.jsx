@@ -7,10 +7,10 @@ const services = [
   { name: "Concrete Estimating", path: "/CES" },
   { name: "Painting Estimating", path: "/PES" },
   { name: "Steel Estimating", path: "/DS" },
-  { name: "Massonary Takeoff", path: "/massonarytakeoff" },
-  { name: "Drywall Takeoff", path: "/drywalltakeoff" },
-  { name: "Lumber Takeoff", path: "/lumbertakeoff" },
-  { name: "Sitework & Earthquake", path: "/siteworkandearthquake" },
+  { name: "Massonary Takeoff", path: "/MTS" },
+  { name: "Drywall Takeoff", path: "/DTS" },
+  { name: "Lumber Takeoff", path: "/LTS" },
+  { name: "Sitework & Earthquake", path: "/SET" },
 ];
 
 const trades = [

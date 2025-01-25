@@ -19,6 +19,9 @@ const TradesPage = ({ route }) => {
     li3,
     li4,
     li5,
+    li6,
+    li7,
+    li8,
     title3,
     Des3,
   } = serviceData;
@@ -83,10 +86,12 @@ const TradesPage = ({ route }) => {
                 
                   {li4()}
                 </li>
-                <li className="mt-2">
+                {li5 && (<li className="mt-2"> {li5()}</li>)}
+              {li6 && (<li className="mt-2"> {li6()}</li>)}
                 
-                { li5 && (li5())  }
-              </li>
+                
+                {li7 && (<li className="mt-2"> {li7()}</li>)}
+              {li8 && (<li className="mt-2"> {li8()}</li>)}
               </ul>
             </div>
             <div className="py-6">
@@ -98,7 +103,6 @@ const TradesPage = ({ route }) => {
             <WhyChooseBidworks />
           </div>
           <div className="col-span-1 bg-white p-4">
-            {/* Content for the second section */}
             <SearchTrades />
           </div>
         </div>
