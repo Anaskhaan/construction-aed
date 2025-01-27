@@ -6,11 +6,11 @@ import Terms from "./pages/Terms";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import GetQuote from "./pages/GetQuote";
 import { Toaster } from "react-hot-toast";
-import MEP from "./pages/services/MEP";
 
 import Home from "./components/HOMESECTIONS/Home";
 import About from "./pages/About";
 import TradesPage from "./pages/trades/TradesPage";
+import ServicesPage from './pages/services/ServicesPage'
 function App() {
   return (
     <>
@@ -32,7 +32,24 @@ function App() {
             <Route path="masonary" element={<TradesPage route="masonary" />} />
             <Route path="metals" element={<TradesPage route="metals" />} />
             <Route path="ConveyEquip" element={<TradesPage route="ConveyEquip" />} />
-            <Route path="mep" element={<MEP />} />
+            <Route path="Wpc" element={<TradesPage route="Wpc" />} />
+            <Route path="Tmp" element={<TradesPage route="Tmp" />} />
+            <Route path="Opening" element={<TradesPage route="Opening" />} />
+            <Route path="finishes" element={<TradesPage route="finishes" />} />
+            <Route path="specialities" element={<TradesPage route="specialities" />} />
+            <Route path="equipment" element={<TradesPage route="equipment" />} />
+            <Route path="furnishies" element={<TradesPage route="furnishies" />} />
+            <Route path="special" element={<TradesPage route="special" />} />
+            <Route path="conveying" element={<TradesPage route="conveying" />} />
+            {/* <Route path="mep" element={<MEP />} /> */}
+            <Route path="mep" element={<ServicesPage route="mep" />} />
+            <Route path="CES" element={<ServicesPage route="CES" />} />
+            <Route path="PES" element={<ServicesPage route="PES" />} />
+            <Route path="DS" element={<ServicesPage route="DS" />} />
+            <Route path="MTS" element={<ServicesPage route="MTS" />} />
+            <Route path="DTS" element={<ServicesPage route="DTS" />} />
+            <Route path="LTS" element={<ServicesPage route="LTS" />} />
+            <Route path="SET" element={<ServicesPage route="SET" />} />
           </Route>
         </Routes>
       </Router>
