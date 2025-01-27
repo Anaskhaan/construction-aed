@@ -62,31 +62,15 @@ const TradesPage = ({ route }) => {
                 <span className="text-[#0163BE]"> Estimating Services</span>
               </h1>
               <p className="mt-4">{description}</p>
-
               <h2 className="mt-6 text-xl font-bold text-[#202020]">
                 {title2}
               </h2>
               <ul className="mt-4 list-disc pl-6">
-                <li>
-                 
-                  {li1()}
-                </li>
-                <li className="mt-2">
-                
-                  {li2()}
-                </li>
-                <li className="mt-2">
-                 
-                  {li3()}
-                </li>
-                <li className="mt-2">
-                
-                  {li4()}
-                </li>
-                <li className="mt-2">
-                
-                { li5 && (li5())  }
-              </li>
+                <li>{li1()}</li>
+                <li className="mt-2">{li2()}</li>
+                <li className="mt-2">{li3()}</li>
+                <li className="mt-2">{li4()}</li>
+                <li className="mt-2">{li5 && li5()}</li>
               </ul>
             </div>
             <div className="py-6">
