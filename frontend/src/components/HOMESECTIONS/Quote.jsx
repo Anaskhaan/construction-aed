@@ -63,7 +63,6 @@ const Quote = () => {
     <div className="w-auto mx-auto p-6 bg-white shadow-md rounded my-4">
       <Toaster />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-       
         <div className="p-6 ml-5">
           <h2 className="text-5xl tracking-wider font-bold mb-4">
             Get A <span className="text-[#0163BE]">Free Quote</span> Now
@@ -150,23 +149,20 @@ const Quote = () => {
             </div>
           </form>
         </div>
-      
-        <div className="relative flex items-center justify-center">
-  
-        <div className="absolute w-[65%] h-[90%]  border-t-2 border-r-2 border-b-2 border-l-2 border-[#0163BE] rounded-tl-[2%] rounded-br-[2%] rounded-tr-[30%] right-20 bottom-6 top-8"></div>
-       <div className="absolute w-[65%] h-[90%] bg-[#0163BE]  rounded-tl-[2%] rounded-tr-[30%] bottom-0"></div>
-       
- <img
-    src="/builder.webp"
-    alt="Construction Worker"
-   className="relative z-10 w-[100%] object-contain -ml-20 -mt-6"
-  />
-</div>
 
+        <div className="relative flex items-center justify-center">
+          <div className="absolute w-[65%] h-[90%]  border-t-2 border-r-2 border-b-2 border-l-2 border-[#0163BE] rounded-tl-[2%] rounded-br-[2%] rounded-tr-[30%] right-20 bottom-6 top-8"></div>
+          <div className="absolute w-[65%] h-[90%] bg-[#0163BE]  rounded-tl-[2%] rounded-tr-[30%] bottom-0"></div>
+
+          <img
+            src="/builder.webp"
+            alt="Construction Worker"
+            className="relative z-10 w-[100%] object-contain -ml-20 -mt-6"
+          />
+        </div>
       </div>
     </div>
   );
 };
 
 export default Quote;
-

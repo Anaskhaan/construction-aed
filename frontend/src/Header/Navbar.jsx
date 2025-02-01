@@ -1,5 +1,4 @@
-
- import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight, ChevronDown } from "lucide-react";
 import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 

@@ -15,7 +15,6 @@ const TradesPage = ({ route }) => {
     title,
 
     description,
-
     image,
     title1,
     title2,
@@ -72,26 +71,11 @@ const TradesPage = ({ route }) => {
                 {title2}
               </h2>
               <ul className="mt-4 list-disc pl-6">
-                <li>
-                 
-                  {li1()}
-                </li>
-                <li className="mt-2">
-                
-                  {li2()}
-                </li>
-                <li className="mt-2">
-                 
-                  {li3()}
-                </li>
-                <li className="mt-2">
-                
-                  {li4()}
-                </li>
-                <li className="mt-2">
-                
-                { li5 && (li5())  }
-              </li>
+                <li>{li1()}</li>
+                <li className="mt-2">{li2()}</li>
+                <li className="mt-2">{li3()}</li>
+                <li className="mt-2">{li4()}</li>
+                <li className="mt-2">{li5 && li5()}</li>
               </ul>
             </div>
             <div className="py-6">
