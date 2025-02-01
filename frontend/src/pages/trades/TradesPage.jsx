@@ -13,8 +13,11 @@ const TradesPage = ({ route }) => {
   const {
     src2,
     title,
+    title1,
     description,
+    Des1,
     image,
+    title1,
     title2,
     li1,
     li2,
@@ -23,6 +26,7 @@ const TradesPage = ({ route }) => {
     li5,
     title3,
     Des3,
+    Des1,
   } = serviceData;
 
   return (
@@ -58,10 +62,11 @@ const TradesPage = ({ route }) => {
             />
             <div className="py-4 text-gray-700">
               <h1 className="text-2xl font-bold text-gray-900">
-                {title}{" "}
+                {title1}{" "}
                 <span className="text-[#0163BE]"> Estimating Services</span>
               </h1>
               <p className="mt-4">{description}</p>
+              <p className="mt-4">{Des1}</p>
 
               <h2 className="mt-6 text-xl font-bold text-[#202020]">
                 {title2}
