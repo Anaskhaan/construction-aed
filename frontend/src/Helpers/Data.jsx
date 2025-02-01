@@ -822,7 +822,7 @@ With BidWorks Estimating, you can ensure precise budgeting and seamless planning
     ),
     li2: () => (
       <h1>
-        <span className="font-bold">Trenching and Foundations: </span>   Estimating the costs of trenching for utilities and foundations, including water, sewer, electrical, and gas lines  <span className="text-[#0163be] font-bold"> BidWorks Estimating </span>calculates the required labor and materials for trench digging, backfilling, and foundation preparation, including any reinforcement or stabilization needed.   </h1>
+        <span className="font-bold">Trenching and Foundation: </span>   Estimating the costs of trenching for utilities and foundations, including water, sewer, electrical, and gas lines  <span className="text-[#0163be] font-bold"> BidWorks Estimating </span>calculates the required labor and materials for trench digging, backfilling, and foundation preparation, including any reinforcement or stabilization needed.   </h1>
     ),
     li3: () => (
       <h1>
