@@ -21,9 +21,9 @@ export default function Home() {
         <WhyHire />
         <TradesPreview />
         <Quote />
-        {/* 
+
         <FAQs />
-        <BlogSection /> */}
+        <BlogSection />
       </div>
     </>
   );
