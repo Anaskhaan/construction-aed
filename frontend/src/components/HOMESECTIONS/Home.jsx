@@ -14,16 +14,17 @@ export default function Home() {
   return (
     <>
       <Hero />
-      {/* <About />
-      <div className=" px-16">
+      <About />
+      <div className=" ">
         <HomepageServices />
         <ConstructionBanner />
         <WhyHire />
         <TradesPreview />
         <Quote />
+        {/* 
         <FAQs />
-        <BlogSection />
-      </div> */}
+        <BlogSection /> */}
+      </div>
     </>
   );
 }
