@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <About />
+      {/* <About />
       <div className=" px-16">
         <HomepageServices />
         <ConstructionBanner />
@@ -23,7 +23,7 @@ export default function Home() {
         <Quote />
         <FAQs />
         <BlogSection />
-      </div>
+      </div> */}
     </>
   );
 }

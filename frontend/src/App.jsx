@@ -10,7 +10,7 @@ import { Toaster } from "react-hot-toast";
 import Home from "./components/HOMESECTIONS/Home";
 import About from "./pages/About";
 import TradesPage from "./pages/trades/TradesPage";
-import ServicesPage from './pages/services/ServicesPage'
+import ServicesPage from "./pages/services/ServicesPage";
 function App() {
   return (
     <>
@@ -31,16 +31,31 @@ function App() {
             <Route path="concrete" element={<TradesPage route="concrete" />} />
             <Route path="masonary" element={<TradesPage route="masonary" />} />
             <Route path="metals" element={<TradesPage route="metals" />} />
-            <Route path="ConveyEquip" element={<TradesPage route="ConveyEquip" />} />
+            <Route
+              path="ConveyEquip"
+              element={<TradesPage route="ConveyEquip" />}
+            />
             <Route path="Wpc" element={<TradesPage route="Wpc" />} />
             <Route path="Tmp" element={<TradesPage route="Tmp" />} />
             <Route path="Opening" element={<TradesPage route="Opening" />} />
             <Route path="finishes" element={<TradesPage route="finishes" />} />
-            <Route path="specialities" element={<TradesPage route="specialities" />} />
-            <Route path="equipment" element={<TradesPage route="equipment" />} />
-            <Route path="furnishies" element={<TradesPage route="furnishies" />} />
+            <Route
+              path="specialities"
+              element={<TradesPage route="specialities" />}
+            />
+            <Route
+              path="equipment"
+              element={<TradesPage route="equipment" />}
+            />
+            <Route
+              path="furnishies"
+              element={<TradesPage route="furnishies" />}
+            />
             <Route path="special" element={<TradesPage route="special" />} />
-            <Route path="conveying" element={<TradesPage route="conveying" />} />
+            <Route
+              path="conveying"
+              element={<TradesPage route="conveying" />}
+            />
             {/* <Route path="mep" element={<MEP />} /> */}
             <Route path="mep" element={<ServicesPage route="mep" />} />
             <Route path="CES" element={<ServicesPage route="CES" />} />
