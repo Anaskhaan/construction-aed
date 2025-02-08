@@ -3,10 +3,8 @@ import WhyChooseBidworks from "../trades/WhyChooseBidworks";
 import SearchTrades from "../../components/SearchingTrades/SearchTrades";
 import { ServicesData } from "../../Helpers/Data";
 
-
 const TradesPage = ({ route }) => {
   const serviceData = ServicesData.find((item) => item.route === route);
-
 
   const {
     src2,
@@ -25,11 +23,9 @@ const TradesPage = ({ route }) => {
     title3,
     Des3,
   } = serviceData;
-  
 
   return (
     <div>
-      
       <div className="w-full h-48 relative">
         {/* Black Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
@@ -42,56 +38,49 @@ const TradesPage = ({ route }) => {
         />
 
         {/* Text Content */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4">
-          <h1 className="text-4xl font-bold">{title} <span >Services</span></h1>
-          <span className="text-lg flex justify-center items-center gap-4">
-            Home <MoveRight /> {title}<span className=" -ml-3">Services</span>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4 w-full px-4">
+          <h1 className="lg:text-3xl text-xl font-bold">
+            {title} <span>Services</span>
+          </h1>
+          <span className="lg:text-lg text-sm flex justify-center items-center gap-4">
+            Home <MoveRight /> {title}
+            <span className=" -ml-3">Services</span>
           </span>
         </div>
       </div>
 
       <div className="flex justify-center items-center">
-        <div className="grid grid-cols-3 gap-4 w-[90%] my-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] my-8">
           <div className="col-span-2 p-4">
             {/* Content for the first section */}
             <img
               src={image}
               alt="service image"
-              className="w-full h-auto rounded-lg"
+              className="w-full hidden lg:block h-auto rounded-lg"
             />
             <div className="py-4 text-gray-700">
               <h1 className="text-2xl font-bold text-gray-900">
-                {title}{" "}
-                <span className="text-[#0163BE]">  Services</span>
+                {title} <span className="text-[#0163BE]"> Services</span>
               </h1>
               <p className="mt-4">{description()}</p>
-
+              <img
+                src={image}
+                alt="service image"
+                className="w-full md:hidden mt-1  h-auto rounded-lg"
+              />
               <h2 className="mt-6 text-xl font-bold text-[#202020]">
                 {title2}
               </h2>
               <ul className="mt-4 list-disc pl-6">
-                <li>
-                 
-                  {li1()}
-                </li>
-                <li className="mt-2">
-                
-                  {li2()}
-                </li>
-                <li className="mt-2">
-                 
-                  {li3()}
-                </li>
-                <li className="mt-2">
-                
-                  {li4()}
-                </li>
-                {li5 && (<li className="mt-2"> {li5()}</li>)}
-              {li6 && (<li className="mt-2"> {li6()}</li>)}
-                
-                
-                {li7 && (<li className="mt-2"> {li7()}</li>)}
-              {li8 && (<li className="mt-2"> {li8()}</li>)}
+                <li>{li1()}</li>
+                <li className="mt-2">{li2()}</li>
+                <li className="mt-2">{li3()}</li>
+                <li className="mt-2">{li4()}</li>
+                {li5 && <li className="mt-2"> {li5()}</li>}
+                {li6 && <li className="mt-2"> {li6()}</li>}
+
+                {li7 && <li className="mt-2"> {li7()}</li>}
+                {li8 && <li className="mt-2"> {li8()}</li>}
               </ul>
             </div>
             <div className="py-6">
