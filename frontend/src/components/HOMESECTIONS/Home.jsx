@@ -9,6 +9,7 @@ import TradesPreview from "../HOMESECTIONS/TradesPreview";
 import ConstructionBanner from "./ConstrutionBanner";
 import Quote from "../HOMESECTIONS/Quote";
 import WhyHire from "../HOMESECTIONS/WhyHire";
+import GetStarted from "../GetStarted";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <ConstructionBanner />
         <WhyHire />
         <TradesPreview />
+        <GetStarted />
         <Quote />
 
         <FAQs />

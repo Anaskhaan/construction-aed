@@ -11,6 +11,8 @@ import Home from "./components/HOMESECTIONS/Home";
 import About from "./pages/About";
 import TradesPage from "./pages/trades/TradesPage";
 import ServicesPage from "./pages/services/ServicesPage";
+import BlogList from "./pages/BlogList";
+import BlogDetail from "./pages/BlogDetail";
 function App() {
   return (
     <>
@@ -18,6 +20,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+
+            {/* blogs */}
+            <Route path="blogslist" element={<BlogList />} />
+            <Route path="blogsdetail/:id" element={<BlogDetail />} />
+            {/* / */}
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="blogs" element={<Blogs />} />
