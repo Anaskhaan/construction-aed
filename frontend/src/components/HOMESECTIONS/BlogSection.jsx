@@ -53,7 +53,7 @@ const BlogSection = () => {
         {/* Button - Hidden on Mobile, Visible on Desktop */}
         <div className="hidden md:flex items-center justify-center rounded-full border border-[#0163BE]">
           <Link
-            to="/Blogs"
+            to="/blogslist"
             className="bg-transparent text-2xl text-black px-7 py-3 transition duration-300"
           >
             Explore All Blogs

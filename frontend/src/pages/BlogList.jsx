@@ -1,19 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { blogsData } from "../Helpers/Data";
 import BlogSidebar from "../components/BlogSidebar";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const BlogList = () => {
-  // State for pagination (current page and blogs per page)
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [currentPage, setCurrentPage] = useState(1);
   const blogsPerPage = 2;
 
-  // Get the index of the first and last blog for the current page
   const indexOfLastBlog = currentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
 
-  // Slice the blogsData array to only show the relevant blogs for the current page
   const currentBlogs = blogsData.slice(indexOfFirstBlog, indexOfLastBlog);
 
   // Pagination handler to go to the next or previous page
