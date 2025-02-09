@@ -1430,6 +1430,7 @@ export const ServicesData = [
 ];
 export const blogsData = [
   {
+    comments: [],
     id: 1,
     title: "Top 5 Tools To Streamline Your Construction Estimation",
     date: "February 5, 2025",
@@ -1440,6 +1441,7 @@ export const blogsData = [
     additionalImages: ["/S3.webp", "/S4.webp"], // Additional images for the detailed blog
   },
   {
+    comments: [],
     id: 2,
     title: "Understanding The Key Components Of A Estimate",
     date: "February 3, 2025",
@@ -1450,6 +1452,7 @@ export const blogsData = [
     additionalImages: ["/S5.webp", "/S6.webp"], // Additional images for the detailed blog
   },
   {
+    comments: [],
     id: 3,
     title: "Common Mistakes In Construction Estimation",
     date: "February 1, 2025",
