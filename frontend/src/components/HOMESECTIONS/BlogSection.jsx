@@ -1,30 +1,7 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-
-const blogPosts = [
-  {
-    date: "15 Dec 2024",
-    title: "The Importance Of Accurate Construction Estimates In Win Bids",
-    description:
-      "Explore why precision in cost estimation is vital for project success. Learn how accurate estimates not only help secure more bids but also ensure seamless project execution.",
-    image: "B1.webp",
-  },
-  {
-    date: "15 Dec 2024",
-    title: "5 Essential Software Tools For Streamlined Construction Takeoffs",
-    description:
-      "Discover the top tools that professional estimators use to simplify and enhance the takeoff process. Get insights into how these tools save time and reduce errors.",
-    image: "B2.webp",
-  },
-  {
-    date: "15 Dec 2024",
-    title: "How To Optimize Your Bidding Process For Maximum Success",
-    description:
-      "Learn strategies to refine your bidding approach and improve your win rate. Understand the key factors that contractors and clients value most in estimates.",
-    image: "B3.webp",
-  },
-];
+import { blogsData } from "../../Helpers/Data";
 
 const BlogSection = () => {
   const carouselRef = useRef(null);
@@ -68,20 +45,24 @@ const BlogSection = () => {
         className="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 overflow-x-auto md:overflow-hidden snap-x snap-mandatory scrollbar-hide"
         onTouchMove={handleTouchMove}
       >
-        {blogPosts.map(({ date, title, description, image }, index) => (
+        {blogsData.slice(0, 3).map(({ id, date, title, excerpt, imageUrl }) => (
           <article
-            key={index}
+            key={id}
             className="bg-white rounded-xl overflow-hidden shadow min-w-[90%] md:min-w-0 snap-center"
           >
-            <img src={image} alt={title} className="w-full h-58 object-cover" />
+            <img
+              src={imageUrl}
+              alt={title}
+              className="w-full h-58 object-cover"
+            />
             <div className="p-6">
               <time className="text-blue-600 text-sm font-medium">{date}</time>
               <h3 className="mt-2 text-lg font-semibold text-gray-900">
                 {title}
               </h3>
-              <p className="mt-2 text-gray-600 text-sm">{description}</p>
+              <p className="mt-2 text-gray-600 text-sm">{excerpt}</p>
               <Link
-                to="#"
+                to={`/blogsdetail/${id}`}
                 className="text-blue-600 mt-4 inline-block font-medium hover:underline"
               >
                 Learn More →
