@@ -14,7 +14,7 @@ const TradesPage = ({ route }) => {
     src2,
     title,
 
-    description,  
+    description,
     image,
     title1,
     title2,
@@ -42,22 +42,23 @@ const TradesPage = ({ route }) => {
         />
 
         {/* Text Content */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4">
-          <h1 className="text-3xl font-bold">{title}</h1>
-          <span className="text-lg flex justify-center items-center gap-4">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4 w-full px-4">
+          <h1 className="lg:text-3xl text-xl font-bold">{title}</h1>
+          <span className="lg:text-lg text-sm flex justify-center items-center gap-4">
             Home <MoveRight /> {title}
           </span>
         </div>
       </div>
 
       <div className="flex justify-center items-center">
-        <div className="grid grid-cols-3 gap-4 w-[90%] my-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] my-8">
           <div className="col-span-2 p-4">
             {/* Content for the first section */}
+
             <img
               src={image}
               alt="service image"
-              className="w-full h-auto rounded-lg"
+              className="w-full hidden lg:block  h-auto rounded-lg"
             />
             <div className="py-4 text-gray-700">
               <h1 className="text-2xl font-bold text-gray-900">
@@ -66,31 +67,21 @@ const TradesPage = ({ route }) => {
               </h1>
               <p className="mt-4">{description}</p>
               <p className="mt-4">{Des1}</p>
+              <img
+                src={image}
+                alt="service image"
+                className="w-full md:hidden h-auto rounded-lg"
+              />
 
               <h2 className="mt-6 text-xl font-bold text-[#202020]">
                 {title2}
               </h2>
               <ul className="mt-4 list-disc pl-6">
-                <li>
-                 
-                  {li1()}
-                </li>
-                <li className="mt-2">
-                
-                  {li2()}
-                </li>
-                <li className="mt-2">
-                 
-                  {li3()}
-                </li>
-                <li className="mt-2">
-                
-                  {li4()}
-                </li>
-                <li className="mt-2">
-                
-                { li5 && (li5())  }
-              </li>
+                <li>{li1()}</li>
+                <li className="mt-2">{li2()}</li>
+                <li className="mt-2">{li3()}</li>
+                <li className="mt-2">{li4()}</li>
+                <li className="mt-2">{li5 && li5()}</li>
               </ul>
             </div>
             <div className="py-6">

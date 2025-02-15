@@ -9,18 +9,21 @@ import TradesPreview from "../HOMESECTIONS/TradesPreview";
 import ConstructionBanner from "./ConstrutionBanner";
 import Quote from "../HOMESECTIONS/Quote";
 import WhyHire from "../HOMESECTIONS/WhyHire";
+import GetStarted from "../GetStarted";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <About />
-      <div className=" px-16">
+      <div className=" ">
         <HomepageServices />
         <ConstructionBanner />
         <WhyHire />
         <TradesPreview />
+        <GetStarted />
         <Quote />
+
         <FAQs />
         <BlogSection />
       </div>

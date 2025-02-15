@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Upload } from "lucide-react";
 
 const Quote = () => {
   const [formData, setFormData] = useState({
@@ -62,13 +62,13 @@ const Quote = () => {
   return (
     <div className="w-auto mx-auto p-6 bg-white shadow-md rounded my-4">
       <Toaster />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-       
+      <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-8 items-center">
+        {/* Left Side - Form */}
         <div className="p-6 ml-5">
-          <h2 className="text-5xl tracking-wider font-bold mb-4">
+          <h2 className="lg:text-5xl text-xl tracking-wider font-bold mb-4">
             Get A <span className="text-[#0163BE]">Free Quote</span> Now
           </h2>
-          <p className="text-lg text-[#565656] mb-6">
+          <p className="lg:text-lg text-sm text-[#565656] mb-6">
             Ready to take your projects to the next level? Request a free quote
             today and let our expert estimators deliver reliability you can
             trust!
@@ -119,14 +119,30 @@ const Quote = () => {
                 <span className="mb-2 text-[#2F2F2F] font-medium">
                   Upload File
                 </span>
-                <input
-                  type="file"
-                  name="file"
-                  onChange={handleFileChange}
-                  accept=".pdf"
-                  required
-                  className="border p-3 rounded-lg w-full"
-                />
+
+                <div className="flex items-center space-x-3">
+                  <input
+                    type="file"
+                    name="file"
+                    id="file-upload"
+                    onChange={handleFileChange}
+                    accept=".pdf"
+                    required
+                    className="hidden"
+                  />
+
+                  <label
+                    htmlFor="file-upload"
+                    className="cursor-pointer bg-[#0163BE] text-white px-4 py-2 rounded-lg flex items-center space-x-2 hover:scale-105 transition duration-300"
+                  >
+                    <Upload className="w-5 h-5" />
+                    <span>Upload File</span>
+                  </label>
+
+                  {formData.file && (
+                    <span className="text-gray-600">{formData.file.name}</span>
+                  )}
+                </div>
               </div>
             </div>
             <div className="flex flex-col">
@@ -150,23 +166,21 @@ const Quote = () => {
             </div>
           </form>
         </div>
-      
-        <div className="relative flex items-center justify-center">
-  
-        <div className="absolute w-[65%] h-[90%]  border-t-2 border-r-2 border-b-2 border-l-2 border-[#0163BE] rounded-tl-[2%] rounded-br-[2%] rounded-tr-[30%] right-20 bottom-6 top-8"></div>
-       <div className="absolute w-[65%] h-[90%] bg-[#0163BE]  rounded-tl-[2%] rounded-tr-[30%] bottom-0"></div>
-       
- <img
-    src="/builder.webp"
-    alt="Construction Worker"
-   className="relative z-10 w-[100%] object-contain -ml-20 -mt-6"
-  />
-</div>
 
+        {/* Right Side - Image */}
+        <div className="relative flex items-center justify-center">
+          <div className="absolute w-[65%] h-[90%] border-t-2 border-r-2 border-b-2 border-l-2 border-[#0163BE] rounded-tl-[2%] rounded-br-[2%] rounded-tr-[30%] right-20 bottom-6 top-8"></div>
+          <div className="absolute w-[65%] h-[90%] bg-[#0163BE] rounded-tl-[2%] rounded-tr-[30%] bottom-0"></div>
+
+          <img
+            src="/builder.webp"
+            alt="Construction Worker"
+            className="relative z-10 w-[100%] object-contain -ml-20 -mt-6"
+          />
+        </div>
       </div>
     </div>
   );
 };
 
 export default Quote;
-

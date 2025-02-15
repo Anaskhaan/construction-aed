@@ -39,10 +39,10 @@ export default function Terms() {
             use of Bid Works Estimating Website. Bid Works Estimating is located
             at: Questions or Concerns? Contact:
             <a
-              href="Info@bidworksestimating.com"
+              href="info@swifttakeoffs.com"
               className="text-blue-600 hover:underline"
             >
-              Info@bidworksestimating.com
+              info@swifttakeoffs.com
             </a>
             .
             <br />
@@ -485,10 +485,10 @@ export default function Terms() {
             or deny the refund. For technical assistance or email us all service
             and revision inquiries at{" "}
             <a
-              href="mailto:info@bidworksestimating.com"
+              href="mailto:info@swifttakeoffs.com"
               className="text-blue-600 hover:underline"
             >
-              info@bidworksestimating.com
+              info@swifttakeoffs.com
             </a>{" "}
             we monitor this address constantly.
           </p>
@@ -575,10 +575,10 @@ export default function Terms() {
             vary from our standard estimating costs you use it. You can email us
             at{" "}
             <a
-              href="mailto:info@bidworksestimating.com"
+              href="mailto:info@swifttakeoffs.com"
               className="text-blue-600 hover:underline"
             >
-              info@bidworksestimating.com
+              info@swifttakeoffs.com
             </a>{" "}
             if you have any revision requests or questions.
           </p>

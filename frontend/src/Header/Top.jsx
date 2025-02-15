@@ -3,7 +3,7 @@ import { Mail, Phone } from "lucide-react";
 const Top = () => {
   return (
     <div>
-      <div className="bg-[#0163BE] pr-12 pl-12">
+      <div className="bg-[#0163BE] hidden lg:block pr-12 pl-12">
         <div className=" flex items-center justify-between">
           <div className="flex p-2 text-white items-center justify-center">
             <span className=" flex items-center mr-2 justify-center">
@@ -12,7 +12,7 @@ const Top = () => {
             </span>
             <span className=" flex items-center mr-2 justify-center">
               <Mail className=" size-4 mr-2" />
-              <p>info@bidworksestimating.com</p>
+              <p>info@swifttakeoffs.com</p>
             </span>
           </div>
 

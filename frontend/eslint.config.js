@@ -23,6 +23,14 @@ export default [
       "react-hooks": reactHooks,
       "react-refresh": reactRefresh,
     },
+    overrides: [
+      {
+        files: ["*.js", "*.jsx", "*.ts", "*.tsx"],
+        rules: {
+          "react/prop-types": "off",
+        },
+      },
+    ],
     rules: {
       "react/prop-types": "off",
       ...js.configs.recommended.rules,

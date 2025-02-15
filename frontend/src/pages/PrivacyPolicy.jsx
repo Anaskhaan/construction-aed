@@ -32,10 +32,10 @@ export default function PrivacyPolicy() {
         {/* Header Section */}
         <div className="mb-8">
           <h1 className="text-xl font-semibold mb-4">
-            Bidworks Estimating Privacy Policy
+            Swift Takeoffs Privacy Policy
           </h1>
           <p className="text-gray-600 mb-4">
-            BidWorks Estimating values the privacy and security of your personal
+            Swift Takeoffs values the privacy and security of your personal
             data. This policy explains how we handle your personal information
             when you interact with our website{" "}
             <a
