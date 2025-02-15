@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
 
         <div className="absolute lg:top-28 top-96 lg:left-32 left-6 z-10 ">
-          <h1 className="lg:text-5xl  text-2xl font-bold text-gray-900">
+          <h1 className="lg:text-5xl w-full lg:w-3/6 xl:w-3/6 2xl:w-3/6  text-2xl font-bold text-gray-900">
             Precision <span className="text-[#0163BE]">Estimating</span>{" "}
             Services for Seamless Project Success
           </h1>
