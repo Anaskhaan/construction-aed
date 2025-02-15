@@ -1,5 +1,4 @@
 export const data = [
-  // sharoon
   {
     src2: "/businesswoman.webp",
     title1: "Existing Conditions",
