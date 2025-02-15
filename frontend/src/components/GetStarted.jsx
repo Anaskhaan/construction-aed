@@ -4,7 +4,7 @@ export default function GetStarted() {
       title: "Send Us Your Plans",
       icon: "/Send.webp",
       description:
-        "Upload your plans or email them to info@bidworksestimating.com. Include details about your project and scope of work.",
+        "Upload your plans or email them to info@swifttakeoffs.com. Include details about your project and scope of work.",
     },
     {
       title: "Receive a Quote",
@@ -28,7 +28,8 @@ export default function GetStarted() {
           How To <span className="text-blue-600">Get Started</span> With Us
         </h2>
         <p className="mt-6 text-gray-600 max-w-4xl mx-auto">
-          Share your project plans, and we'll handle the rest—from providing a detailed quote to delivering precise cost estimates.
+          Share your project plans, and we'll handle the rest—from providing a
+          detailed quote to delivering precise cost estimates.
         </p>
       </div>
 
@@ -50,7 +51,6 @@ export default function GetStarted() {
             <h3 className="text-xl font-bold mt-6 mb-4">{title}</h3>
             <p className="text-gray-600">{description}</p>
 
-           
             {index === 0 && (
               <img
                 src="/Vector 9.webp"
@@ -59,7 +59,6 @@ export default function GetStarted() {
               />
             )}
 
-            
             {index === 2 && (
               <img
                 src="/Vector 9.webp"
@@ -73,6 +72,3 @@ export default function GetStarted() {
     </div>
   );
 }
-
-
-

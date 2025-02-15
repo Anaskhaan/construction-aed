@@ -152,7 +152,7 @@ export default function Contact() {
                 <li className="flex items-center gap-4">
                   <i className="fas fa-envelope text-[#0056D2]"></i>
                   <Mail />
-                  Info@Bidworksestimating.Com
+                  info@swifttakeoffs.com
                 </li>
                 <li className="flex items-center gap-4">
                   <i className="fas fa-globe text-[#0056D2]"></i>

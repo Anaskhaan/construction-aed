@@ -4,7 +4,7 @@ const WhyChooseBidworks = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold">
-        Why Choose <span className="text-[#0163BE]">BIDWORKS Estimating</span>
+        Why Choose <span className="text-[#0163BE]">Swift Takeoffs</span>
       </h1>
       <div>
         <div className="flex flex-col lg:flex-row items-center gap-6 py-4">
@@ -68,8 +68,8 @@ const WhyChooseBidworks = () => {
       </div>
       <div className="py-6">
         <span className="text-[#333] mt-4">
-          In summary, BidWorks Estimating can streamline your project management
-          by delivering accurate, collaborative, and efficient estimating
+          In summary, Swift Takeoffs can streamline your project management by
+          delivering accurate, collaborative, and efficient estimating
           solutions.
         </span>
       </div>

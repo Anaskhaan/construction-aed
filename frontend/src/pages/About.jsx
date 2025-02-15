@@ -50,7 +50,7 @@ export default function About() {
     {
       title: "Proactive Risk Mitigation",
       description:
-        "With BidWorks Estimating, you're not just receiving numbers. Our team proactively identifies potential risks up front and flags.",
+        "With Swift Takeoffs, you're not just receiving numbers. Our team proactively identifies potential risks up front and flags.",
     },
     {
       title: "Technology-Driven Accuracy",
@@ -112,7 +112,7 @@ export default function About() {
             <span className="text-[#0163BE]"> Estimating</span>
           </h2>
           <p className="text-gray-600 mt-4  ">
-            At BidWorks Estimating, we combine precision, expertise, <br /> and
+            At Swift Takeoffs, we combine precision, expertise, <br /> and
             cutting-edge technology to help your projects succeed. <br /> From
             planning to completion, we&apos;re here to support your <br />{" "}
             vision every step of the way
@@ -156,8 +156,8 @@ export default function About() {
               Milestones And <span className="text-blue-600">Achievements</span>
             </h2>
             <p className="text-gray-600 mt-4 max-w-4xl mx-auto">
-              At BidWorks Estimating, we’re proud of the journey that has shaped
-              us into a trusted name in construction cost estimation. Each
+              At Swift Takeoffs, we’re proud of the journey that has shaped us
+              into a trusted name in construction cost estimation. Each
               milestone reflects our commitment to excellence.
             </p>
 
@@ -301,7 +301,7 @@ export default function About() {
         </div>
       </section>
       <section></section>
-      <Testimonials/>
+      <Testimonials />
     </div>
   );
 }

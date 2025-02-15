@@ -101,7 +101,7 @@ export default function SearchTrades() {
       <div className="bg-[#F4FAFF] rounded-lg shadow-lg p-6 text-center ">
         <h3 className="text-xl font-semibold text-gray-800 mb-6">
           Experience The Construction Estimate with{" "}
-          <span className="text-blue-500">Bidworks Estimating</span>
+          <span className="text-blue-500">Swift Takeoffs</span>
         </h3>
         <p className="text-xl italic text-gray-600 mb-8">Within 24/48 Hours</p>
         <button className="bg-blue-500 text-white px-10 py-3 rounded-full hover:bg-blue-600 transition-colors">

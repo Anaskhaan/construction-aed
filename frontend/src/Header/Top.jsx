@@ -12,7 +12,7 @@ const Top = () => {
             </span>
             <span className=" flex items-center mr-2 justify-center">
               <Mail className=" size-4 mr-2" />
-              <p>info@bidworksestimating.com</p>
+              <p>info@swifttakeoffs.com</p>
             </span>
           </div>
 

@@ -23,13 +23,13 @@ const Hero = () => {
         </div>
 
         <div className="absolute lg:top-28 top-96 lg:left-32 left-6 z-10 ">
-          <h1 className="lg:text-5xl text-2xl font-bold text-gray-900">
+          <h1 className="lg:text-5xl w-full lg:w-3/6 xl:w-3/6 2xl:w-3/6  text-2xl font-bold text-gray-900">
             Precision <span className="text-[#0163BE]">Estimating</span>{" "}
             Services for Seamless Project Success
           </h1>
           <p className="mt-4 lg:text-md text-sm  text-[#444444]">
-            At BidWorks Estimating, we deliver accurate, data-driven cost
-            estimates that keep your projects on time and within budget.
+            At Swift Takeoffs, we deliver accurate, data-driven cost estimates
+            that keep your projects on time and within budget.
           </p>
         </div>
         <div className="absolute lg:bottom-44 bottom-36  left-2  lg:left-32 z-10 ">
