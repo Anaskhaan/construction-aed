@@ -1,5 +1,4 @@
 export const data = [
-  // sharoon
   {
     src2: "/businesswoman.webp",
     title1: "Existing Conditions",
@@ -325,7 +324,10 @@ export const data = [
       <h1>
         <span className="font-bold">Customization:</span> Custom doors, windows,
         or skylights may require additional fabrication costs.
-        <span className="text-[#0163be] font-bold"> BidWorks Estimating </span>{" "}
+        <span className="text-[#0163be] font-bold">
+          {" "}
+          BidWorks Estimating{" "}
+        </span>{" "}
         accounts for these factors to ensure comprehensive budgeting
       </h1>
     ),
@@ -346,7 +348,10 @@ export const data = [
       <h1>
         <span className="font-bold">Materials:</span> Paints, coatings, flooring
         materials, tiles, wall coverings, and finishes.
-        <span className="text-[#0163be] font-bold"> BidWorks Estimating </span>{" "}
+        <span className="text-[#0163be] font-bold">
+          {" "}
+          BidWorks Estimating{" "}
+        </span>{" "}
         BidWorks Estimating ensures that the right materials are selected for
         durability, appearance, and cost-effectiveness.
       </h1>
@@ -394,7 +399,10 @@ export const data = [
       <h1>
         <span className="font-bold">Materials:</span> Paints, coatings, flooring
         materials, tiles, wall coverings, and finishes.
-        <span className="text-[#0163be] font-bold"> BidWorks Estimating </span>{" "}
+        <span className="text-[#0163be] font-bold">
+          {" "}
+          BidWorks Estimating{" "}
+        </span>{" "}
         BidWorks Estimating ensures that the right materials are selected for
         durability, appearance, and cost-effectiveness.
       </h1>
@@ -443,7 +451,10 @@ export const data = [
         <span className="font-bold">Equipment:</span> HVAC units, electrical
         systems, kitchen appliances, industrial equipment, and mechanical
         devices.
-        <span className="text-[#0163be] font-bold"> BidWorks Estimating </span>{" "}
+        <span className="text-[#0163be] font-bold">
+          {" "}
+          BidWorks Estimating{" "}
+        </span>{" "}
         helps you select the right equipment based on performance, durability,
         and cost-effectiveness.
       </h1>
@@ -653,7 +664,10 @@ export const ServicesData = [
         electrical wiring, lighting systems, power distribution, and associated
         components such as circuit breakers, transformers, and fire alarm
         systems.
-        <span className=" text-[#0163be] font-bold"> BidWorks Estimating </span>{" "}
+        <span className=" text-[#0163be] font-bold">
+          {" "}
+          BidWorks Estimating{" "}
+        </span>{" "}
         ensures comprehensive cost analysis for all electrical requirements,
         including energy-efficient solutions.
       </h1>
@@ -729,7 +743,10 @@ export const ServicesData = [
         <span className="font-bold">Foundation Work:</span>Costs for pouring
         concrete foundations, including excavation, formwork, reinforcement
         (rebar), and the concrete mix itself.
-        <span className=" text-[#0163be] font-bold"> BidWorks Estimating </span>{" "}
+        <span className=" text-[#0163be] font-bold">
+          {" "}
+          BidWorks Estimating{" "}
+        </span>{" "}
         ensures all factors are accounted for, including labor and materials.
       </h1>
     ),
@@ -828,7 +845,10 @@ export const ServicesData = [
       <h1>
         <span className="font-bold">Interior Painting:</span> Costs for painting
         interior walls, ceilings, trim, and other surfaces.
-        <span className="text-[#0163be] font-bold"> BidWorks Estimating </span>{" "}
+        <span className="text-[#0163be] font-bold">
+          {" "}
+          BidWorks Estimating{" "}
+        </span>{" "}
         covers the cost of materials (paints, primers, finishes) and labor
         (application, taping, and cleanup) for all types of interior spaces.
       </h1>
@@ -944,7 +964,10 @@ export const ServicesData = [
         <span className="font-bold">Miscellaneous Steel Estimating: </span>{" "}
         Costs for miscellaneous steel components such as stairs, handrails,
         ladders, and frames.
-        <span className="text-[#0163be] font-bold"> BidWorks Estimating </span>{" "}
+        <span className="text-[#0163be] font-bold">
+          {" "}
+          BidWorks Estimating{" "}
+        </span>{" "}
         provides cost projections for all these smaller, yet vital, steel
         elements that contribute to the overall construction.{" "}
       </h1>
@@ -1011,7 +1034,10 @@ export const ServicesData = [
         <span className="font-bold">Material Quantities: </span> Estimating the
         quantities of masonry materials such as bricks, blocks, mortar, stone,
         and grout
-        <span className="text-[#0163be] font-bold"> BidWorks Estimating </span>{" "}
+        <span className="text-[#0163be] font-bold">
+          {" "}
+          BidWorks Estimating{" "}
+        </span>{" "}
         ensures precise calculations based on project specifications, including
         wall dimensions, material type, and desired finish.
       </h1>
@@ -1041,7 +1067,10 @@ export const ServicesData = [
         <span className="font-bold">Specialty Masonry Work: </span> Costs for
         specialized masonry elements such as decorative brickwork, stone
         facades, and custom designs
-        <span className="text-[#0163be] font-bold"> BidWorks Estimating </span>{" "}
+        <span className="text-[#0163be] font-bold">
+          {" "}
+          BidWorks Estimating{" "}
+        </span>{" "}
         includes estimates for unique or high-end masonry work, ensuring that
         all materials, labor, and finishes are considered.{" "}
       </h1>
@@ -1105,7 +1134,10 @@ export const ServicesData = [
         <span className="font-bold">Material Quantities: </span> : Estimating
         the quantities of drywall sheets, joint compounds, tapes, screws, and
         insulation needed.
-        <span className="text-[#0163be] font-bold"> BidWorks Estimating </span>{" "}
+        <span className="text-[#0163be] font-bold">
+          {" "}
+          BidWorks Estimating{" "}
+        </span>{" "}
         calculates the exact amount of drywall required based on wall
         dimensions, ceiling areas, and project specifications, ensuring that no
         material is over- or under-ordered.{" "}
