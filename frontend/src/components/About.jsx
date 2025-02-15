@@ -87,9 +87,9 @@ const About = () => {
             <span className="text-[#0163BE]">Takeoff Services</span>
           </h2>
           <p className="text-gray-600 mt-4 leading-relaxed lg:text-sm text-xs ">
-            At BidWorks Estimating, we are passionate about providing
-            unparalleled construction estimating and takeoff services. With over
-            7 years of industry experience, we combine precision, expertise, and
+            At Swift Takeoffs, we are passionate about providing unparalleled
+            construction estimating and takeoff services. With over 7 years of
+            industry experience, we combine precision, expertise, and
             cutting-edge technology to deliver accurate cost estimates and
             comprehensive takeoff solutions tailored to your unique needs.
           </p>

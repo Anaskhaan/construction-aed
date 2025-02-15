@@ -106,8 +106,7 @@ const HomepageServices = () => {
       <div className=" bg-[#ebebeb] pt-20 pb-10 h-auto">
         <div className="service-content">
           <h2 className="font-semibold text-center  lg:text-4xl text-2xl">
-            Our Bidworks Estimating{" "}
-            <span className="text-blue-500">Services</span>{" "}
+            Our Swift Takeoffs <span className="text-blue-500">Services</span>{" "}
           </h2>
           <p className=" flex items-center justify-center text-center lg:text-sm text-sm pt-5">
             Our comprehensive construction estimating and takeoff services cover

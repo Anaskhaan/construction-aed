@@ -12,23 +12,23 @@ export default function Footer() {
               <div className="flex items-center space-x-2">
                 <img
                   src="Main-logo.webp"
-                  alt="BidWorks Estimating Logo"
+                  alt="Swift Takeoffs Logo"
                   width={75}
                   height={73}
                   className="mb-6"
                 />
                 <div>
-                  <h1 className="text-lg font-bold text-white">BidWorks</h1>
-                  <span className="text-md text-gray-400">Estimating</span>
+                  <h1 className="text-lg font-bold text-white">Swift</h1>
+                  <span className="text-md text-gray-400">Takeoffs</span>
                 </div>
               </div>
             </div>
             <p className="text-sm text-gray-300 max-w-[320px]">
-              BidWorks Estimating is a dedicated team of 300 seasoned
-              professionals specializing in construction cost estimation. Our
-              experts include highly skilled quantity surveyors and estimators
-              who are committed to supporting clients through every phase of
-              their construction projects.
+              Swift Takeoffs is a dedicated team of 300 seasoned professionals
+              specializing in construction cost estimation. Our experts include
+              highly skilled quantity surveyors and estimators who are committed
+              to supporting clients through every phase of their construction
+              projects.
             </p>
             <div className="flex justify-start space-x-4">
               <Link
@@ -71,19 +71,14 @@ export default function Footer() {
                 </div>
               </div>
               <nav className="flex font-semibold flex-col space-y-3">
-                <Link to="#" className="text-gray-300 hover:text-white">
+                <Link to="/about" className="text-gray-300 hover:text-white">
                   About Us
                 </Link>
-                <Link to="#" className="text-gray-300 hover:text-white">
-                  Services
-                </Link>
-                <Link to="#" className="text-gray-300 hover:text-white">
-                  Trades
-                </Link>
-                <Link to="#" className="text-gray-300 hover:text-white">
+
+                <Link to="/blogs" className="text-gray-300 hover:text-white">
                   Blog
                 </Link>
-                <Link to="#" className="text-gray-300 hover:text-white">
+                <Link to="/contact" className="text-gray-300 hover:text-white">
                   Contact Us
                 </Link>
               </nav>

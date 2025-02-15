@@ -12,12 +12,7 @@ const WhyHire = () => {
       imgUrl: "/onscreentakeoff.svg",
       className: "w-40",
     },
-    {
-      id: 3,
-      name: "Xactimate",
-      imgUrl: "/xcitemate.svg",
-      className: "w-40",
-    },
+
     {
       id: 4,
       name: "RSMeans data",
@@ -79,11 +74,10 @@ const WhyHire = () => {
         {/* Text Section */}
         <div className="flex-1  ">
           <h2 className="lg:text-2xl text-xl  font-bold text-[#202020]">
-            Why Hire <span className="text-[#0163BE]">BidWorks</span>{" "}
-            Estimating?
+            Why Hire <span className="text-[#0163BE]">Swift</span> Takeoffs?
           </h2>
           <p className="text-gray-600 mt-4 text-lg leading-relaxed">
-            At BidWorks Estimating, we understand that accurate, reliable cost
+            At Swift Takeoffs, we understand that accurate, reliable cost
             estimates are the foundation of any successful construction project.
             Whether you&apos;re managing a large-scale commercial development or
             a residential build, our expert team is here to ensure that your
@@ -133,8 +127,8 @@ const WhyHire = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="service-content mb-16 relative">
             <h2 className="font-semibold text-center text-4xl">
-              Software&apos;s <span className="text-blue-500">Bidworks</span>{" "}
-              Use
+              Software&apos;s{" "}
+              <span className="text-blue-500">Swift Takeoffs </span> Use
             </h2>
             <div className="w-36 h-12 border-t-4 rounded-[100%] border-blue-500 border-b-transparent border-l-transparent border-r-transparent mx-auto lg:mt-3 mt-1 absolute lg:left-[48%] left-10"></div>
           </div>

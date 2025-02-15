@@ -16,7 +16,7 @@ const servicesData = [
     ),
 
     content:
-      " Concrete estimating services from BidWorks Estimating are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, BidWorks Estimating provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
     image: "tradespreview-1.webp",
     link: "#concrete-service",
   },
@@ -34,7 +34,7 @@ const servicesData = [
       </h1>
     ),
     content:
-      " Concrete estimating services from BidWorks Estimating are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, BidWorks Estimating provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
     image: "tradespreview-1.webp",
     link: "#masonry-service",
   },
@@ -52,7 +52,7 @@ const servicesData = [
       </h1>
     ),
     content:
-      " Concrete estimating services from BidWorks Estimating are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, BidWorks Estimating provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
     image: "tradespreview-1.webp",
     link: "#plumbing-service",
   },
@@ -124,8 +124,8 @@ const TradesPreview = () => {
           </h3>
           <div className=" absolute lg:top-8 top-2 lg:left-8 left-2 lg:w-24 w-36 h-36 lg:h-24 bg-white rounded-full opacity-35"></div>
           <p className="lg:text-md text-xs  lg:w-9/12 w-full  lg:mb-0 mb-4">
-            Leave The Stress Of Managing Bids Behind! With BidWorks Estimating,{" "}
-            Our Precise And Reliable Services Empower You To Win More Projects
+            Leave The Stress Of Managing Bids Behind! With Swift Takeoffs, Our
+            Precise And Reliable Services Empower You To Win More Projects
             Effortlessly.
           </p>
         </div>
