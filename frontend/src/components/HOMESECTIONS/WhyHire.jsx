@@ -75,10 +75,10 @@ const WhyHire = () => {
 
   return (
     <>
-      <section className="flex flex-col md:flex-row items-center gap-8 px-6 md:px-16 py-12 bg-white">
+      <section className="flex flex-col-reverse md:flex-row items-center gap-8 px-6 md:px-16 py-12 bg-white">
         {/* Text Section */}
         <div className="flex-1  ">
-          <h2 className="text-2xl md:text-2xl font-bold text-[#202020]">
+          <h2 className="lg:text-2xl text-xl  font-bold text-[#202020]">
             Why Hire <span className="text-[#0163BE]">BidWorks</span>{" "}
             Estimating?
           </h2>
@@ -90,7 +90,7 @@ const WhyHire = () => {
             project stays on track, on budget, and within scope.
           </p>
 
-          <div className="mt-6 w-3/4 grid grid-cols-1 gap-4">
+          <div className="mt-6 lg:w-3/4 w-full grid grid-cols-1 gap-4">
             {features.map((feature, index) => (
               <div key={index} className="flex items-start gap-4">
                 <img src="/shield-check.png" alt="" />
@@ -108,12 +108,12 @@ const WhyHire = () => {
         </div>
 
         {/* Image Section */}
-        <div className="flex relative">
+        <div className="flex relative mb-24">
           <div className=" absolute -top-3 -left-3 border border-l-2  border-t-2 border-b-transparent border-r-transparent border-[#0163be] h-44 w-64"></div>
           <img
             src="/group-architect.webp"
             alt="Team Collaboration"
-            className="   absolute bottom-0 right-1/2 z-20 transform  translate-y-32"
+            className="   absolute bottom-0 lg:-left-32  -left-12 z-20 transform  translate-y-32"
           />
           <img
             src="/group-smiling-engineers.webp"
@@ -136,16 +136,17 @@ const WhyHire = () => {
               Software&apos;s <span className="text-blue-500">Bidworks</span>{" "}
               Use
             </h2>
-            <div className="w-36 h-12 border-t-4 rounded-[100%] border-blue-500 border-b-transparent border-l-transparent border-r-transparent mx-auto mt-3 absolute left-[48%]"></div>
+            <div className="w-36 h-12 border-t-4 rounded-[100%] border-blue-500 border-b-transparent border-l-transparent border-r-transparent mx-auto lg:mt-3 mt-1 absolute lg:left-[48%] left-10"></div>
           </div>
 
-          <div className="grid grid-cols-5 grid-rows-2 mx-auto  gap-4">
+          <div className="grid grid-cols-4 grid-rows-3 lg:grid-cols-5 lg:grid-rows-2 mx-auto  gap-4">
             {LOGOS.map((logo, index) => (
               <div
                 key={logo.id}
-                className={`p-2 ${
-                  index > 4 &&
-                  " flex flex-col text-center items-center justify-center transform translate-x-full "
+                className={`lg:p-2 ${
+                  index > 4
+                    ? "lg::flex lg::flex-col lg:text-center lg:items-center lg:justify-center lg:transform lg:translate-x-full"
+                    : ""
                 }`}
               >
                 <img
