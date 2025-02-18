@@ -580,6 +580,56 @@ export const data = [
   },
   {
     src2: "/businesswoman.webp",
+    title1: "Mechanical Support Estimating Services",
+    Des1: "Mechanical Support Estimating Services include a detailed breakdown of costs for materials, labor, and installation of mechanical support systems. With BidWorks Estimating, you can rest assured that all brackets, mounts, and structural supports are accounted for in the project’s financial plan.",
+    image: "/Convey.webp",
+    title2: "Cost Factors",
+    li1: () => (
+      <h1>
+        <span className="font-bold">Material:</span> Material: Brackets, mounts,
+        support frames, and other structural components required for securing
+        mechanical systems.
+        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
+        ensures that the right materials are selected for strength, durability,
+        and cost-effectiveness.
+      </h1>
+    ),
+    li2: () => (
+      <h1>
+        <span className="font-bold"> Labor:</span> Labor: Installation and setup
+        costs for mechanical support systems, based on project complexity.
+        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
+        includes labor costs for all aspects of the installation process,
+        ensuring accurate projections.
+      </h1>
+    ),
+    li3: () => (
+      <h1>
+        <span className="font-bold">Maintenance: </span> Project Complexity:
+        Larger or more complex mechanical systems may require additional
+        supports, increasing material and labor costs. Swift Takeoffs accounts
+        for these factors to ensure comprehensive budgeting.
+      </h1>
+    ),
+    li4: () => (
+      <h1>
+        <span className="font-bold">Building Size and Layout:</span> Project
+        Complexity: Larger or more complex mechanical systems may require
+        additional supports, increasing material and labor costs.
+        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
+        accounts for these factors to ensure comprehensive budgeting.
+      </h1>
+    ),
+    title3: "Takeoff Services",
+    Des3: "Our Mechanical Support Takeoff Services provide detailed measurements and specifications for all brackets, mounts, and support systems required for your project’s mechanical equipment. BidWorks Estimating ensures that every component is accounted for in the financial plan, allowing for secure installation and efficient operation.",
+    title: "Mechanical Support Estimating Services",
+    description:
+      "Mechanical Support estimating services from BidWorks Estimating provide accurate cost projections for the installation of support systems required for mechanical equipment, such as HVAC systems, industrial piping, and large machinery. These services ensure that all support systems are included in the project budget, allowing for efficient installation and secure operation.",
+
+    route: "MS",
+  },
+  {
+    src2: "/businesswoman.webp",
     title1: "Conveying Equipment",
     Des1: "Conveying Equipment Estimating Services include a comprehensive breakdown of costs for purchasing, installing, and maintaining conveying systems such as elevators and escalators. Swift Takeoffs ensures that all conveying equipment-related costs are fully integrated into your project budget.",
     image: "/Convey.webp",
@@ -626,7 +676,160 @@ export const data = [
     title: "Conveying Equipment Estimating Services",
     description:
       "Conveying Equipment estimating services from Swift Takeoffs provide detailed cost projections for the installation and maintenance of elevators, escalators, and other mechanical systems for vertical transportation. These services ensure that all mechanical systems are accounted for in the project’s financial plan, allowing for efficient planning and operation.",
-    route: "special",
+    route: "conveying",
+  },
+  {
+    src2: "/businesswoman.webp",
+    title1: "Fire Suppression",
+    Des1: "Fire Suppression Estimating Services include a comprehensive breakdown of costs for fire protection systems, ensuring that all necessary components are included in the project’s financial plan. With BidWorks Estimating, you’ll receive accurate estimates that cover every aspect of fire suppression, from equipment procurement to long-term maintenance.",
+    image: "/Convey.webp",
+    title2: "Cost Factors",
+    li1: () => (
+      <h1>
+        <span className="font-bold">System Component:</span>
+        Sprinklers, alarms, fire extinguishers, and other fire suppression
+        equipment.
+        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
+        ensures that all system components are selected based on building
+        requirements and fire safety regulations.
+      </h1>
+    ),
+    li2: () => (
+      <h1>
+        <span className="font-bold"> Labor:</span> Labor: Installation and setup
+        costs for fire suppression systems, based on project complexity and
+        local safety codes.
+        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
+        includes detailed labor cost projections to ensure compliance with
+        safety standards.
+      </h1>
+    ),
+    li3: () => (
+      <h1>
+        <span className="font-bold">Maintenance: </span> Long-term operational
+        costs for maintaining and inspecting fire suppression systems. BidWorks
+        Estimating includes maintenance costs in the overall project budget to
+        help you plan for future servicing.
+      </h1>
+    ),
+    li4: () => (
+      <h1>
+        <span className="font-bold">Building Size and Layout:</span> Building
+        Size and Complexity: Larger or more complex buildings may require
+        additional fire suppression systems, increasing costs.
+        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
+        ensures that all system requirements are reflected in the financial
+        plan.
+      </h1>
+    ),
+    title3: "Takeoff Services",
+    Des3: "Our Fire Suppression Takeoff Services provide detailed measurements and material specifications for all fire protection systems in your project. BidWorks Estimating ensures that equipment, labor, and maintenance costs are accurately projected, helping you manage the installation and operation of fire suppression systems effectively.",
+    title: "Fire Suppression  Estimating Services",
+    description:
+      "Fire Suppression estimating services from BidWorks Estimating provide detailed cost projections for the installation and maintenance of fire protection systems, including sprinklers, alarms, extinguishers, and other safety equipment. These services ensure that all fire safety requirements are accounted for in the project budget, allowing for compliance with local building codes and safety regulations.",
+
+    route: "FSE",
+  },
+  {
+    src2: "/businesswoman.webp",
+    title1: "Plumbing Estimating Services",
+    Des1: "Plumbing Estimating Services include a comprehensive breakdown of costs for pipes, fixtures, valves, and connectors, ensuring that all plumbing materials and labor costs are included in the project’s financial plan. With BidWorks Estimating, you’ll receive accurate estimates for all aspects of plumbing work, from water supply installation to drainage system design.",
+    image: "/Convey.webp",
+    title2: "Cost Factors",
+    li1: () => (
+      <h1>
+        <span className="font-bold">Material:</span>
+        Materials: Pipes, fixtures, connectors, valves, and fittings for water
+        supply and drainage systems.
+        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
+        ensures that high-quality materials are selected based on the
+        building&apos;s specific plumbing requirements.
+      </h1>
+    ),
+    li2: () => (
+      <h1>
+        <span className="font-bold"> Labor:</span> Labor: Installation and setup
+        costs for plumbing systems, based on project complexity and local wage
+        rates.
+        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
+        provides accurate labor cost projections to ensure efficient
+        installation and operation
+      </h1>
+    ),
+    li3: () => (
+      <h1>
+        <span className="font-bold">Waste Minimization: </span>Waste
+        Minimization: Proper planning and material selection can reduce waste
+        and unnecessary costs. BidWorks Estimating optimizes material usage,
+        helping to reduce excess and control expenses.
+      </h1>
+    ),
+    li4: () => (
+      <h1>
+        <span className="font-bold">Site Condition:</span>Site Conditions:
+        Factors such as soil quality, water pressure, and building layout may
+        affect the installation of plumbing systems, impacting overall costs.
+        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
+        ensures that all site-specific variables are accounted for in the
+        budget.
+      </h1>
+    ),
+    title3: "Takeoff Services",
+    Des3: "Our Plumbing Takeoff Services provide detailed measurements and specifications for all water supply and drainage components in your project. BidWorks Estimating ensures that material quantities and labor requirements are accurately calculated, helping you achieve a seamless plumbing installation while staying on budget.",
+    title: "Plumbing   Estimating Services",
+    description:
+      "Plumbing estimating services from BidWorks Estimating provide detailed cost projections for the installation of water supply, drainage, and waste systems. These services ensure that all plumbing-related needs are included in the project budget, allowing for efficient installation and long-term operation of water systems.",
+    route: "PSE",
+  },
+  {
+    src2: "/businesswoman.webp",
+    title1: "Heating, Ventilating, and Air Conditioning Estimating Services",
+    Des1: "HVAC Estimating Services include a comprehensive breakdown of costs for HVAC units, ductwork, venting, and related labor, ensuring that all mechanical systems are accounted for in the project’s financial plan. With BidWorks Estimating, you’ll receive accurate estimates that help ensure efficient HVAC installation and energy-efficient operation.",
+    image: "/Convey.webp",
+    title2: "Cost Factors",
+    li1: () => (
+      <h1>
+        <span className="font-bold">Equipment:</span>
+        Equipment: HVAC units, ductwork, venting systems, and related climate
+        control devices.
+        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
+        helps you select the most cost-effective and energy-efficient equipment
+        for your project
+      </h1>
+    ),
+    li2: () => (
+      <h1>
+        <span className="font-bold"> Labor:</span> Labor: Installation and setup
+        costs for HVAC systems, based on local wage rates and project
+        complexity.
+        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
+        includes detailed labor cost projections to ensure proper installation
+        and efficient operation.
+      </h1>
+    ),
+    li3: () => (
+      <h1>
+        <span className="font-bold">Energy Efficiency: </span>Energy Efficiency:
+        High-performance HVAC systems may increase upfront costs but offer
+        long-term savings through reduced energy consumption. BidWorks
+        Estimating helps you balance initial investment with future energy
+        savings.
+      </h1>
+    ),
+    li4: () => (
+      <h1>
+        <span className="font-bold">Maintenance:</span>Maintenance: Ongoing
+        maintenance and inspection costs for HVAC systems. BidWorks Estimating
+        includes maintenance expenses in the overall budget to help you plan for
+        long-term operation.
+      </h1>
+    ),
+    title3: "Takeoff Services",
+    Des3: "Our HVAC Takeoff Services provide detailed assessments of your project’s climate control needs, including equipment specifications, ductwork layouts, and installation requirements. BidWorks Estimating ensures that all HVAC-related costs are accurately integrated into the overall project budget, helping you manage installation and energy-efficient operation. ",
+    title: "Heating, Ventilating, and Air Conditioning",
+    description:
+      "HVAC estimating services from BidWorks Estimating provide accurate cost projections for the installation, maintenance, and operation of heating, ventilation, and air conditioning systems. These services ensure that all HVAC-related needs are included in the project budget, allowing for efficient temperature control and air quality management.",
+    route: "HVAC",
   },
 ];
 export const ServicesData = [
