@@ -831,6 +831,147 @@ export const data = [
       "HVAC estimating services from BidWorks Estimating provide accurate cost projections for the installation, maintenance, and operation of heating, ventilation, and air conditioning systems. These services ensure that all HVAC-related needs are included in the project budget, allowing for efficient temperature control and air quality management.",
     route: "HVAC",
   },
+  {
+    src2: "/businesswoman.webp",
+    title1: "Electrical ",
+    Des1: "Electrical Estimating Services include a comprehensive breakdown of costs for wiring, fixtures, switches, and electrical panels, ensuring that all electrical components are accounted for in the project’s financial plan. With BidWorks Estimating, you’ll receive accurate estimates for all aspects of electrical work, from wiring installation to power distribution design.",
+    image: "/Convey.webp",
+    title2: "Cost Factors",
+    li1: () => (
+      <h1>
+        <span className="font-bold"> Material:</span>
+        Wiring, electrical panels, switches, outlets, and fixtures. BidWorks Estimating ensures that high-quality electrical components are selected to meet your project’s power needs and safety standards.
+       
+      </h1>
+    ),
+    li2: () => (
+      <h1>
+        <span className="font-bold"> Labor:</span>  Installation and setup costs for electrical systems, based on project complexity and local wage rates.  <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}includes accurate labor cost projections to ensure proper installation and compliance with electrical codes.
+       
+      </h1>
+    ),
+    li3: () => (
+      <h1>
+        <span className="font-bold">Project Size and Complexity:</span>Larger or more complex buildings may require additional electrical systems, increasing material and labor costs. BidWorks Estimating adjusts estimates to reflect the true scale and complexity of your project.
+      </h1>
+    ),
+    li4: () => (
+      <h1>
+        <span className="font-bold">Energy Efficiency:</span> Costs for energy-efficient lighting and power systems that reduce long-term energy consumption. <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "} helps you make informed decisions to balance upfront costs with future savings.
+      </h1>
+    ),
+    title3: "Takeoff Services",
+    Des3: "Our Electrical Takeoff Services provide detailed measurements and material specifications for all wiring, lighting, and power distribution components in your project. BidWorks Estimating ensures that material quantities and labor requirements are accurately calculated, helping you achieve efficient and safe electrical installation while staying on budget.",
+    title: "Electrical Estimating Services",
+    description:
+      "Electrical estimating services from BidWorks Estimating provide detailed cost projections for the installation of wiring, lighting, and power distribution systems. These services ensure that all electrical needs are included in the project budget, allowing for safe and efficient installation of electrical systems.",
+    route: "electrical",
+  },
+  {
+    src2: "/businesswoman.webp",
+    title1: "Earthwork",
+    Des1: "Earthwork Estimating Services include a comprehensive breakdown of costs for materials, labor, and equipment needed for excavation, grading, and site preparation. With BidWorks Estimating, you’ll receive accurate estimates that help ensure your site is properly prepared for construction, minimizing risks and avoiding delays.",
+    image: "/Convey.webp",
+    title2: "Cost Factors",
+    li1: () => (
+      <h1>
+        <span className="font-bold"> Material:</span>
+      Excavation and grading materials, such as fill dirt, gravel, and topsoil.  <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "} helps you source the correct materials based on site conditions and project requirements.
+       
+      </h1>
+    ),
+    li2: () => (
+      <h1>
+        <span className="font-bold"> Labor:</span>Excavation and grading labor costs, based on local wage rates and project size.<span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}provides accurate labor cost projections to ensure efficient site preparation. 
+      </h1>
+    ),
+    li3: () => (
+      <h1>
+        <span className="font-bold">Site Conditions:</span> Soil quality, terrain, and site accessibility may affect the cost of earthwork activities. BidWorks Estimating includes a thorough assessment of site conditions to adjust estimates accordingly.
+      </h1>
+    ),
+    li4: () => (
+      <h1>
+        <span className="font-bold">Energy Efficiency:</span>Costs for heavy equipment used in excavation and grading, such as bulldozers, backhoes, and graders. <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}ensures that equipment rental or purchase is included in the overall budget.  
+      </h1>
+    ),
+    title3: "Takeoff Services",
+    Des3: "Our Earthwork Takeoff Services provide detailed measurements and material specifications for excavation, grading, and site preparation. BidWorks Estimating ensures that all site preparation costs are accurately reflected in the budget, including labor, materials, and equipment requirements.",
+    title: "Earthwork Estimating Services",
+    description:
+      "Earthwork estimating services from BidWorks Estimating provide detailed cost projections for excavation, grading, and site preparation. These services ensure that all earthmoving activities are included in the project budget, allowing for efficient site preparation and foundation work.",
+    route: "earthwork",
+  },
+  {
+    src2: "/businesswoman.webp",
+    title1: "Exterior Improvements",
+    Des1: "Exterior Improvements Estimating Services include a comprehensive breakdown of costs for materials, labor, and equipment needed for landscaping, paving, fencing, and other exterior elements. With BidWorks Estimating, you’ll receive accurate estimates that ensure your project’s outdoor spaces complement the building and meet all functional requirements.",
+    image: "/Convey.webp",
+    title2: "Cost Factors",
+    li1: () => (
+      <h1>
+        <span className="font-bold"> Material:</span>
+      Paving materials, landscaping elements, fencing, and exterior fixtures. <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "} helps you select the most durable and cost-effective materials for outdoor improvements.
+       
+      </h1>
+    ),
+    li2: () => (
+      <h1>
+        <span className="font-bold"> Labor:</span>Installation and setup costs for landscaping, paving, and fencing work.<span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}ensures that labor costs are accurately reflected in the overall project budget, allowing for efficient outdoor construction.
+      </h1>
+    ),
+    li3: () => (
+      <h1>
+        <span className="font-bold">Site Conditions:</span>  Terrain, soil quality, and weather conditions may affect the cost of exterior improvements.<span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "} includes a thorough assessment of site conditions to provide accurate estimates.
+      </h1>
+    ),
+    li4: () => (
+      <h1>
+        <span className="font-bold">Customization: </span>Custom-designed outdoor features such as decorative paving patterns, water features, or specialty landscaping may require additional costs. BidWorks Estimating includes these factors to ensure full transparency.
+      </h1>
+    ),
+    title3: "Takeoff Services",
+    Des3: "Our Exterior Improvements Takeoff Services provide detailed measurements and material specifications for all outdoor elements, including landscaping, paving, and fencing. BidWorks Estimating ensures that material quantities, labor requirements, and site preparation costs are accurately calculated, helping you achieve a seamless transition from indoor to outdoor construction.",
+    title: "Exterior Improvements Estimating ",
+    description:
+      "Exterior Improvements estimating services from BidWorks Estimating provide detailed cost projections for landscaping, paving, and other outdoor elements of your construction project. These services ensure that all exterior features are included in the project budget, allowing for efficient planning and execution of outdoor spaces",
+    route: "exterior",
+  },
+  {
+    src2: "/businesswoman.webp",
+    title1: "Utilities",
+    Des1: "Utilities Estimating Services include a comprehensive breakdown of costs for materials, labor, and equipment needed to connect water, sewer, gas, and electrical systems to the building. With BidWorks Estimating, you’ll receive accurate estimates that help ensure all utility connections are properly planned and integrated into the overall project.",
+    image: "/Convey.webp",
+    title2: "Cost Factors",
+    li1: () => (
+      <h1>
+        <span className="font-bold"> Material:</span>
+         Pipes, cables, connectors, and valves for utility connections. <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}ensures that high-quality materials are selected based on the building’s utility needs and local codes. 
+       
+      </h1>
+    ),
+    li2: () => (
+      <h1>
+        <span className="font-bold"> Labor:</span>Installation and setup costs for utility systems, based on project complexity and local wage rates. <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "} includes accurate labor cost projections to ensure proper installation and connection of all utility systems.
+      </h1>
+    ),
+    li3: () => (
+      <h1>
+        <span className="font-bold">Project Size and Complexity:</span> Larger buildings or more complex utility layouts may require additional materials and labor, increasing overall costs. <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "} adjusts estimates to reflect the true scale and complexity of your project.
+      </h1>
+    ),
+    li4: () => (
+      <h1>
+        <span className="font-bold">Regulatory Compliance:</span> Costs for meeting local utility regulations, securing permits, and ensuring compliance with building codes. <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "} ensures that all regulatory requirements are factored into the project budget.
+      </h1>
+    ),
+    title3: "Takeoff Services",
+    Des3: "Our Utilities Takeoff Services provide detailed measurements and material specifications for water, sewer, gas, and electrical infrastructure in your project. BidWorks Estimating ensures that all utility system requirements are accurately reflected in the financial plan, allowing for efficient installation and long-term operation of essential building services.",
+    title: "Utilities Estimating Services",
+    description:
+      "Utilities estimating services from BidWorks Estimating provide detailed cost projections for the installation of water, sewer, gas, and electrical infrastructure. These services ensure that all necessary utility connections are included in the project budget, allowing for efficient planning and installation.",
+    route: "utilities",
+  },
 ];
 export const ServicesData = [
   {
