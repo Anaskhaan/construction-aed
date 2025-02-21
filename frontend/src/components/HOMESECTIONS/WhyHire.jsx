@@ -133,20 +133,16 @@ const WhyHire = () => {
             <div className="w-36 h-12 border-t-4 rounded-[100%] border-blue-500 border-b-transparent border-l-transparent border-r-transparent mx-auto lg:mt-3 mt-1 absolute lg:left-[48%] left-10"></div>
           </div>
 
-          <div className="grid grid-cols-4 grid-rows-3 lg:grid-cols-5 lg:grid-rows-2 mx-auto  gap-4">
-            {LOGOS.map((logo, index) => (
+          <div className="grid grid-cols-3 lg:grid-cols-4 gap-4 mx-auto">
+            {LOGOS.map((logo) => (
               <div
                 key={logo.id}
-                className={`lg:p-2 ${
-                  index > 4
-                    ? "lg::flex lg::flex-col lg:text-center lg:items-center lg:justify-center lg:transform lg:translate-x-full"
-                    : ""
-                }`}
+                className="lg:p-2 flex items-center justify-center"
               >
                 <img
                   src={logo.imgUrl}
                   alt={logo.name}
-                  className={`${logo.className} h-auto object-contain `}
+                  className={`${logo.className} h-auto object-contain`}
                 />
               </div>
             ))}

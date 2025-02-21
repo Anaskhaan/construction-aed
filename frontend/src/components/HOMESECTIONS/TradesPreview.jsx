@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 import TradesPreviewMobile from "./TradesPreviewMobile";
+import Link from "react-router-dom";
 
 const servicesData = [
   {
@@ -21,7 +22,7 @@ const servicesData = [
     link: "#concrete-service",
   },
   {
-    name: "Concrete Estimating Service",
+    name: "Masonry Estimating Service",
 
     alt: "icon2",
 
@@ -39,16 +40,93 @@ const servicesData = [
     link: "#masonry-service",
   },
   {
-    name: "Concrete Estimating Service",
+    name: "Plumbing Estimating Service",
 
     alt: "icon3",
 
     icon: "/tradeicon1.webp",
     title: () => (
-      <h1 className="text-2xl tracking-wider  font-bold text-black mb-4">
-        Concrete
-        <span className="text-[#0163be]">Estimating</span>
-        Service
+      <h1
+        className="text-2xl font-bold text-black mb-4"
+        style={{ wordSpacing: "1em" }}
+      >
+        Concrete <span className="text-[#0163be] ">Estimating </span> Service
+      </h1>
+    ),
+    content:
+      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+    image: "tradespreview-1.webp",
+    link: "#plumbing-service",
+  },
+  {
+    name: "Earthwork Estimating Service",
+
+    alt: "icon3",
+
+    icon: "/tradeicon1.webp",
+    title: () => (
+      <h1
+        className="text-2xl font-bold text-black mb-4"
+        style={{ wordSpacing: "1em" }}
+      >
+        Concrete <span className="text-[#0163be] ">Estimating </span> Service
+      </h1>
+    ),
+    content:
+      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+    image: "tradespreview-1.webp",
+    link: "#plumbing-service",
+  },
+  {
+    name: "Electrical Estimating Service",
+
+    alt: "icon3",
+
+    icon: "/tradeicon1.webp",
+    title: () => (
+      <h1
+        className="text-2xl font-bold text-black mb-4"
+        style={{ wordSpacing: "1em" }}
+      >
+        Concrete <span className="text-[#0163be] ">Estimating </span> Service
+      </h1>
+    ),
+    content:
+      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+    image: "tradespreview-1.webp",
+    link: "#plumbing-service",
+  },
+  {
+    name: "Utilities Estimating Service",
+
+    alt: "icon3",
+
+    icon: "/tradeicon1.webp",
+    title: () => (
+      <h1
+        className="text-2xl font-bold text-black mb-4"
+        style={{ wordSpacing: "1em" }}
+      >
+        Concrete <span className="text-[#0163be] ">Estimating </span> Service
+      </h1>
+    ),
+    content:
+      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+    image: "tradespreview-1.webp",
+    link: "#plumbing-service",
+  },
+  {
+    name: "Specialties Estimating Service",
+
+    alt: "icon3",
+
+    icon: "/tradeicon1.webp",
+    title: () => (
+      <h1
+        className="text-2xl font-bold text-black mb-4"
+        style={{ wordSpacing: "1em" }}
+      >
+        Concrete <span className="text-[#0163be] ">Estimating </span> Service
       </h1>
     ),
     content:
@@ -79,8 +157,10 @@ const TradesPreview = () => {
                 <div className=" mt-3 ml-3 space-x-3">{service.name}</div>
               </li>
             ))}
-            <li className="p-2 gap-2 text-center flex items-center justify-center text-white bg-[#0163be]  hover:underline cursor-pointer">
-              See All <ArrowRight />
+            <li className="p-2 gap-2 text-center flex items-center justify-center text-white bg-[#0163be] hover:underline cursor-pointer">
+              <Link to="/Trades" className="flex items-center gap-2">
+                See All <ArrowRight />
+              </Link>
             </li>
           </ul>
         </div>
@@ -120,8 +200,9 @@ const TradesPreview = () => {
       <div className="mt-10 relative bg-[#0163be] w-11/12 mx-auto text-white p-8 rounded-md flex items-center justify-between">
         <div className="flex flex-col gap-2">
           <h3 className="lg:text-3xl text-xl relative font-semibold">
-            Struggling To Stay Ahead With Your Bids?
+            Win More Bids with Accurate, Fast, and Professional Estimates!
           </h3>
+
           <div className=" absolute lg:top-8 top-2 lg:left-8 left-2 lg:w-24 w-36 h-36 lg:h-24 bg-white rounded-full opacity-35"></div>
           <p className="lg:text-md text-xs  lg:w-9/12 w-full  lg:mb-0 mb-4">
             Leave The Stress Of Managing Bids Behind! With Swift Takeoffs, Our

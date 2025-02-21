@@ -28,8 +28,9 @@ const Hero = () => {
             Services for Seamless Project Success
           </h1>
           <p className="mt-4 lg:text-md text-sm  text-[#444444]">
-            At Swift Takeoffs, we deliver accurate, data-driven cost estimates
-            that keep your projects on time and within budget.
+            At <span className="text-blue-600">Swift Takeoffs</span>, we deliver
+            accurate, data-driven cost estimates that keep your projects on time
+            and within budget.
           </p>
         </div>
         <div className="absolute lg:bottom-44 bottom-36  left-2  lg:left-32 z-10 ">
