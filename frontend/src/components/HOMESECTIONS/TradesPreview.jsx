@@ -1,7 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 import TradesPreviewMobile from "./TradesPreviewMobile";
-import Link from "react-router-dom";
 
 const servicesData = [
   {
@@ -158,9 +157,7 @@ const TradesPreview = () => {
               </li>
             ))}
             <li className="p-2 gap-2 text-center flex items-center justify-center text-white bg-[#0163be] hover:underline cursor-pointer">
-              <Link to="/Trades" className="flex items-center gap-2">
-                See All <ArrowRight />
-              </Link>
+              See All <ArrowRight />
             </li>
           </ul>
         </div>

@@ -89,7 +89,7 @@ const Navbar = () => {
       />
 
       {/* Desktop Navbar */}
-      <div className="hidden lg:flex items-center justify-between px-16 py-4 shadow-md">
+      <div className="hidden lg:flex items-center justify-between px-16 py-4 shadow-md ">
         <div className="w-1/4">
           <img src="/Main-logo.webp" alt="Bidworks-logo" />
         </div>
