@@ -1,5 +1,13 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Facebook, Apple, Linkedin } from "lucide-react";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Facebook,
+  Apple,
+  Linkedin,
+  Instagram,
+} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -11,20 +19,16 @@ export default function Footer() {
             <div className="flex items-center space-x-3">
               <div className="flex items-center space-x-2">
                 <img
-                  src="Main-logo.webp"
+                  src="logofooter.webp "
                   alt="Swift Takeoffs Logo"
                   width={75}
                   height={73}
-                  className="mb-6"
+                  className="mb-6 w-20 h-auto"
                 />
-                <div>
-                  <h1 className="text-lg font-bold text-white">Swift</h1>
-                  <span className="text-md text-gray-400">Takeoffs</span>
-                </div>
               </div>
             </div>
             <p className="text-sm text-gray-300 max-w-[320px]">
-              Swift Takeoffs is a dedicated team of 300 seasoned professionals
+              Swift Takeoffs is a dedicated team of 50 seasoned professionals
               specializing in construction cost estimation. Our experts include
               highly skilled quantity surveyors and estimators who are committed
               to supporting clients through every phase of their construction
@@ -37,17 +41,18 @@ export default function Footer() {
               >
                 <Facebook className="w-5 h-5 text-[#0066FF]" />
               </Link>
+
               <Link
                 to="#"
-                className="bg-white rounded-sm p-2 hover:bg-gray-100 shadow"
+                className="bg-white rounded-full p-2 hover:bg-gray-100 shadow"
               >
-                <Linkedin className="w-5 h-5 text-[#0066FF]" />
+                <Instagram className="w-5 h-5 text-[#0066FF]" />
               </Link>
               <Link
                 to="#"
                 className="bg-white rounded-full p-2 hover:bg-gray-100 shadow"
               >
-                <Apple className="w-5 h-5 text-[#0066FF]" />
+                <Linkedin className="w-5 h-5 text-[#0066FF]" />
               </Link>
             </div>
           </div>
@@ -87,18 +92,14 @@ export default function Footer() {
 
           {/* Contact Details */}
           <div className="space-y-6 text-left">
-            <h3 className="text-xl font-bold">Contact Detail</h3>
-            <p className="text-gray-300 max-w-[320px]">
-              Lorem Ipsum Dolor Sit Amet Consectetur, Parturient Aliquam Ipsum
-              Etiam Eget.
-            </p>
+            <h3 className="text-xl font-bold">Contact Details</h3>
 
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="bg-white rounded-full p-2">
                   <Mail className="w-5 h-5 text-[#0066FF]" />
                 </div>
-                <span className="text-gray-300">Carrie.on91@Yahoo.Com</span>
+                <span className="text-gray-300">info@swifttakeoffs.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="bg-white rounded-full p-2">
@@ -111,7 +112,9 @@ export default function Footer() {
                   <MapPin className="w-5 h-5 text-[#0066FF]" />
                 </div>
                 <span className="text-gray-300">
-                  City Town Near Cardsfre Austdert
+                  8 The Green #6092
+                  <br />
+                  Dover, DE, 19901
                 </span>
               </div>
             </div>
