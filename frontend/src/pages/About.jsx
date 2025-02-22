@@ -75,7 +75,7 @@ export default function About() {
 
           {/* Text Content */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4">
-            <h1 className="text-5xl font-bold">About Us</h1>
+            <h1 className="lg:text-5xl text-3xl font-bold">About Us</h1>
             <span className="text-lg flex  justify-center items-center gap-4">
               Home <MoveRight />
               Contact Us
@@ -88,10 +88,10 @@ export default function About() {
           <img
             src="/group-male-architect-preparing-blueprint-office.webp"
             alt="group male architect preparing blueprint office"
-            className="rounded-md z-50 w-11/12 "
+            className="rounded-md z-20 w-11/12 "
           />
           <div
-            className="absolute w-[520px] h-[550px] top-8 left-12 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
+            className="absolute lg:w-[520px] w-[20rem] lg:h-[550px] h-[20rem] lg:top-8 top-1 lg:left-12 left-3 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
             style={{
               background: "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
             }}
@@ -103,22 +103,22 @@ export default function About() {
               src="/ABOUT-VECTOR.webp"
               height={200}
               width={200}
-              className=" absolute -top-12 text-[#0163BE] right-0"
-              alt=""
+              className=" hidden lg:block  absolute  -top-12 text-[#0163BE] right-0"
+              alt="about-pic"
             />
           </div>
-          <h2 className="text-4xl  font-bold  text-black">
+          <h2 className="lg:text-4xl text-2xl lg:text-left text-center font-bold  text-black">
             Your Trusted Partner in <br /> Construction{" "}
             <span className="text-[#0163BE]"> Estimating</span>
           </h2>
-          <p className="text-gray-600 mt-4  ">
+          <p className="text-gray-600 mt-4 px-3 lg:px-0  ">
             At Swift Takeoffs, we combine precision, expertise, <br /> and
             cutting-edge technology to help your projects succeed. <br /> From
             planning to completion, we&apos;re here to support your <br />{" "}
             vision every step of the way
           </p>
 
-          <div className=" grid grid-cols-2 grid-rows-4 ">
+          <div className=" grid grid-cols-2 grid-rows-4 lg:px-0 px-3">
             {About.map((feature, index) => (
               <div
                 key={index}
@@ -133,10 +133,11 @@ export default function About() {
               </div>
             ))}
           </div>
-
-          <button className="mt-6 py-2 w-64 bg-transparent font-medium rounded-3xl shadow-md border border-[#0163BE] text-black transition">
-            Learn More About us →
-          </button>
+          <div className="px-3 lg:px-0">
+            <button className="mt-6  py-2 w-64 bg-transparent font-medium rounded-3xl shadow-md border border-[#0163BE] text-black transition">
+              Learn More About us →
+            </button>
+          </div>
         </div>
       </section>
       <section>
@@ -259,47 +260,45 @@ export default function About() {
                   className="w-full h-auto "
                 />
               </div>
-              <div className="absolute top-[-20px] right-[-20px] w-32 h-32 bg-blue-100 rounded-full z-0"></div>
-              <div className="absolute top-52 left-44 w-[28rem] h-36  bg-[#0163be] rounded-[100%] rotate-12 z-0 transform -translate-x-36 "></div>
+              <div className="absolute top-[-20px] lg:right-[-20px] right-[-16px] w-32 h-32 bg-blue-100 rounded-full z-0"></div>
+              <div className="absolute lg:top-52 top-32 lg:left-44 left-28 lg:w-[28rem] w-[20rem] h-36  bg-[#0163be] rounded-[100%] rotate-12 z-0 transform -translate-x-36 "></div>
             </div>
           </div>
         </div>
       </section>
-      <section className="flex justify-center items-center py-12">
-        <div className="w-[90%] bg-[#0163BE]   relative">
-          <div className="flex justify-center items-center py-12 flex-col">
-            <h1 className="text-4xl text-white font-bold ">
+      <section className="flex justify-center items-center py-12 px-4">
+        <div className="w-full lg:w-[90%] bg-[#0163BE] relative p-6 md:p-12 rounded-lg">
+          <div className="flex flex-col items-center text-center">
+            <h1 className="text-2xl md:text-4xl text-white font-bold">
               Call Us Today For A Quick Quote
             </h1>
-            <span className="text-4xl text-white flex py-8 gap-2 justify-center items-center mt-10">
-              <Phone size={32} />
-              123 456 7890
+            <span className="text-lg md:text-4xl text-white flex py-4 md:py-8 gap-2 justify-center items-center">
+              <Phone size={24} md:size={32} /> 123 456 7890
             </span>
-            <div className="flex justify-center items-start py-2">
-              <button className="py-2 px-4 text-lg border-4 rounded-full bg-white flex justify-center items-center gap-2">
-                Contact Us Now <ArrowRight />
-              </button>
-            </div>
+            <button className="py-2 px-4 text-lg border-4 rounded-full bg-white flex justify-center items-center gap-2">
+              Contact Us Now <ArrowRight />
+            </button>
           </div>
-          <div className="absolute p-20 rounded-full bg-[#5BA5EA] top-3 right-4 opacity-50"></div>
 
+          <div className="hidden lg:block absolute p-20 rounded-full bg-[#5BA5EA] top-3 right-4 opacity-50"></div>
           <img
             src="/Vector 2.webp"
             alt="vector image"
             height={75}
             width={212}
-            className=" absolute right-52 top-10 transform translate-x-6 translate-y-20"
+            className="hidden lg:block absolute right-52 top-10 transform translate-x-6 translate-y-20"
           />
-          <div className="absolute p-20 rounded-full bg-[#5BA5EA] -bottom-4 left-8 opacity-50"></div>
+          <div className="hidden lg:block absolute p-20 rounded-full bg-[#5BA5EA] -bottom-4 left-8 opacity-50"></div>
           <img
             src="/Vector 2.webp"
             alt="vector image"
             height={75}
             width={212}
-            className=" absolute left-36 top-24 transform translate-x-8 translate-y-12"
+            className="hidden lg:block absolute left-36 top-24 transform translate-x-8 translate-y-12"
           />
         </div>
       </section>
+
       <section></section>
       <Testimonials />
     </div>
