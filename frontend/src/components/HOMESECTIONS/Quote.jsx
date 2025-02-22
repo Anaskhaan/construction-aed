@@ -173,7 +173,7 @@ const Quote = () => {
           <div className="absolute w-[65%] h-[90%] bg-[#0163BE] rounded-tl-[2%] rounded-tr-[30%] bottom-0"></div>
 
           <img
-            src="/builder.webp"
+            src="/builder.png"
             alt="Construction Worker"
             className="relative z-10 w-[100%] object-contain -ml-20 -mt-6"
           />

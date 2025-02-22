@@ -13,7 +13,7 @@ const servicesData = [
 
     content:
       " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
-    image: "tradespreview-1.webp",
+    image: "tradespreview-1.svg",
     // link: "#concrete-service",
   },
   {
@@ -28,7 +28,7 @@ const servicesData = [
       </h1>
     ),
     content:
-      "Masonry takeoff services from Swift Takeoffs provide accurate and detailed assessments of all masonry-related work in a construction project. These services are essential for estimating the quantities and costs of materials, labor, and equipment required for masonry work, including brick, block, stone, and other masonry materials.With Swift Takeoffs, you can ensure precise budgeting and seamless planning for masonry construction, minimizing the risk of over or underestimation and helping your project stay on track.",
+      "Masonry estimating services from Swift Takeoffs provide project managers with detailed cost projections for all masonry-related work, including brick, block, stone, and mortar. Whether you’re building walls, facades, or decorative elements, Swift Takeoffs ensures that both material and labor costs are meticulously planned, reducing the risk of budget overruns.Masonry Estimating Services cover everything from the selection of masonry materials to the calculation of installation labor. With Swift Takeoffs, you can be confident that your masonry work is thoroughly accounted for, ensuring that your project stays on schedule and within budget.",
     image: "tradespreview-1.webp",
     // link: "#masonry-service",
   },
@@ -44,7 +44,7 @@ const servicesData = [
       </h1>
     ),
     content:
-      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+      "Plumbing estimating services from Swift Takeoffs provide detailed cost projections for the installation of water supply, drainage, and waste systems. These services ensure that all plumbing-related needs are included in the project budget, allowing for efficient installation and long-term operation of water systems.Plumbing Estimating Services include a comprehensive breakdown of costs for pipes, fixtures, valves, and connectors, ensuring that all plumbing materials and labor costs are included in the project’s financial plan. With Swift Takeoffs, you’ll receive accurate estimates for all aspects of plumbing work, from water supply installation to drainage system design.",
     image: "tradespreview-1.webp",
     // link: "#plumbing-service",
   },
@@ -60,8 +60,8 @@ const servicesData = [
       </h1>
     ),
     content:
-      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
-    image: "tradespreview-1.webp",
+      "Earthwork estimating services from Swift Takeoffs provide detailed cost projections for excavation, grading, and site preparation. These services ensure that all earthmoving activities are included in the project budget, allowing for efficient site preparation and foundation work.Earthwork Estimating Services include a comprehensive breakdown of costs for materials, labor, and equipment needed for excavation, grading, and site preparation. With Swift Takeoffs, you’ll receive accurate estimates that help ensure your site is properly prepared for construction, minimizing risks and avoiding delays.",
+    image: "tradespreview-1.png",
     // link: "#plumbing-service",
   },
   {
@@ -76,7 +76,7 @@ const servicesData = [
       </h1>
     ),
     content:
-      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+      "Electrical estimating services from Swift Takeoffs provide detailed cost projections for the installation of wiring, lighting, and power distribution systems. These services ensure that all electrical needs are included in the project budget, allowing for safe and efficient installation of electrical systems.Electrical Estimating Services include a comprehensive breakdown of costs for wiring, fixtures, switches, and electrical panels, ensuring that all electrical components are accounted for in the project’s financial plan. With Swift Takeoffs, you’ll receive accurate estimates for all aspects of electrical work, from wiring installation to power distribution design.",
     image: "tradespreview-1.webp",
     // link: "#plumbing-service",
   },
@@ -92,7 +92,7 @@ const servicesData = [
       </h1>
     ),
     content:
-      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+      "Utilities estimating services from Swift Takeoffs provide detailed cost projections for the installation of water, sewer, gas, and electrical infrastructure. These services ensure that all necessary utility connections are included in the project budget, allowing for efficient planning and installation.Utilities Estimating Services include a comprehensive breakdown of costs for materials, labor, and equipment needed to connect water, sewer, gas, and electrical systems to the building. With Swift Takeoffs, you’ll receive accurate estimates that help ensure all utility connections are properly planned and integrated into the overall project.",
     image: "tradespreview-1.webp",
     // link: "#plumbing-service",
   },
@@ -108,7 +108,23 @@ const servicesData = [
       </h1>
     ),
     content:
-      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+      "Specialties estimating services from Swift Takeoffs cover a wide range of non-standard construction elements such as partitions, signage, and built-in furnishings. These services ensure that specialized materials and labor are accounted for in the project budget, preventing costly oversights or delays.Specialties Estimating Services provide accurate cost projections for customized or specialized project components that fall outside the usual scope of construction, ensuring that your project stays on budget while meeting specific functional and aesthetic needs. Swift Takeoffs ensures that every specialty item is fully integrated into the project’s financial plan.",
+    image: "tradespreview-1.webp",
+    // link: "/plumbing-service",
+  },
+  {
+    name: "Finishes Estimating Services",
+
+    alt: "icon3",
+
+    icon: "/tradeicon1.webp",
+    title: () => (
+      <h1 className="text-2xl font-bold text-black mb-4">
+        Finishes Estimating Services
+      </h1>
+    ),
+    content:
+      "Finishes estimating services from Swift Takeoffs are essential for projecting the costs related to the aesthetic and functional finishing components of your project, such as painting, flooring, and wall coverings. These services help you ensure that the final stages of construction are completed efficiently and within budget, delivering the desired look and feel of the finished space.Finishes Estimating Services include detailed cost projections for interior and exterior finishes, ensuring that all aesthetic and functional elements are accounted for in the financial plan. With Swift Takeoffs, you’ll receive accurate estimates for all finishing work, helping you deliver a high-quality project on time and within budget.",
     image: "tradespreview-1.webp",
     // link: "/plumbing-service",
   },
@@ -131,13 +147,13 @@ const TradesPreview = () => {
                   activeIndex === index ? "bg-blue-50 font-semibold" : ""
                 } hover:bg-blue-50`}
               >
-                <img src={service.icon} alt={service.alt} />
+                {/* <img src={service.icon} alt={service.alt} /> */}
                 <div className=" mt-3 ml-3 space-x-3">{service.name}</div>
               </li>
             ))}
-            <li className="p-2 gap-2 text-center flex items-center justify-center text-white bg-[#0163be] hover:underline cursor-pointer">
+            {/* <li className="p-2 gap-2 text-center flex items-center justify-center text-white bg-[#0163be] hover:underline cursor-pointer">
               See All <ArrowRight />
-            </li>
+            </li> */}
           </ul>
         </div>
 

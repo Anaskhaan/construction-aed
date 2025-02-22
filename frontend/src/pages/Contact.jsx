@@ -110,11 +110,20 @@ export default function Contact() {
                 ></textarea>
               </div>
 
+// <<<<<<< anas
+//               {/* Submit Button */}
+//               <div className="flex justify-center">
+//                 {" "}
+//                 <button
+//                   type="submit"
+//                   className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center gap-2 "
+// =======
               {/* Submit Button (Fixed for Mobile) */}
               <div className="flex justify-center lg:absolute lg:bottom-14 lg:right-64">
                 <button
                   type="submit"
                   className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center gap-2 w-full lg:w-auto"
+
                 >
                   Submit <ArrowRight />
                 </button>
@@ -152,21 +161,18 @@ export default function Contact() {
                   info@swifttakeoffs.com
                 </li>
                 <li className="flex items-center gap-4">
-                  <Link />
-                  www.bidworksestimating.com
-                </li>
-                <li className="flex items-center gap-4">
                   <Clock />
                   Monday To Friday 8:00 AM To 10:00 PM
                 </li>
               </ul>
-              <div className="absolute top-24 right-8 h-32 w-32">
+              <div className="absolute top-16 right-8 h-32 w-32 ">
+
                 <img
-                  src="/Main-logo.webp"
+                  src="/logo.webp"
                   height={200}
                   width={200}
                   alt="logo image"
-                  className="w-full h-full opacity-20"
+                  className="w-full h-full opacity-40"
                 />
               </div>
             </div>
