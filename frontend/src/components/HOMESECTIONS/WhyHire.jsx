@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const WhyHire = () => {
   const LOGOS = [
     {
@@ -74,7 +76,7 @@ const WhyHire = () => {
         {/* Text Section */}
         <div className="flex-1  ">
           <h2 className="lg:text-2xl text-xl  font-bold text-[#202020]">
-            Why Hire <span className="text-[#0163BE]">Swift</span> Takeoffs?
+            Why Hire <span className="text-[#0163BE]">Swift Takeoffs?</span>
           </h2>
           <p className="text-gray-600 mt-4 text-lg leading-relaxed">
             At Swift Takeoffs, we understand that accurate, reliable cost
@@ -96,9 +98,9 @@ const WhyHire = () => {
             ))}
           </div>
 
-          <button className="mt-6 px-6 py-2 bg-[#0163BE] text-white font-medium rounded-3xl ">
+          <Link className="mt-6 px-6 py-2 bg-[#0163BE] text-white font-medium rounded-3xl ">
             Contact Now →
-          </button>
+          </Link>
         </div>
 
         {/* Image Section */}

@@ -110,20 +110,17 @@ export default function Contact() {
                 ></textarea>
               </div>
 
-// <<<<<<< anas
-//               {/* Submit Button */}
-//               <div className="flex justify-center">
-//                 {" "}
-//                 <button
-//                   type="submit"
-//                   className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center gap-2 "
-// =======
+              {/* //               Submit Button */}
+              {/* //               <div className="flex justify-center"> */}
+              {/* //                 {" "} */}
+              {/* //                 <button */}
+              {/* //                   type="submit" */}
+              {/* //                   className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center gap-2 " */}
               {/* Submit Button (Fixed for Mobile) */}
               <div className="flex justify-center lg:absolute lg:bottom-14 lg:right-64">
                 <button
                   type="submit"
                   className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center gap-2 w-full lg:w-auto"
-
                 >
                   Submit <ArrowRight />
                 </button>
@@ -149,8 +146,8 @@ export default function Contact() {
             <div className="p-6 relative">
               <ul className="space-y-4 text-[#333]">
                 <li className="flex items-center gap-4">
-                  <House />
-                  7443 FOXLEIGH WAY ALEXANDRIA, VA 22315
+                  <House />8 The Green #6092 <br />
+                  Dover, DE, 19901
                 </li>
                 <li className="flex items-center gap-4">
                   <Phone />
@@ -166,7 +163,6 @@ export default function Contact() {
                 </li>
               </ul>
               <div className="absolute top-16 right-8 h-32 w-32 ">
-
                 <img
                   src="/logo.webp"
                   height={200}
