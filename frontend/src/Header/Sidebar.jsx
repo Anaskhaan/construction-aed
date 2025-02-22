@@ -26,10 +26,18 @@ const Sidebar = ({
 
       <div className="h-full flex flex-col">
         <div className="mt-16 p-4 space-y-6 flex-grow overflow-y-auto">
-          <Link to="/" className="block py-2 hover:text-[#0163BE]">
+          <Link
+            to="/"
+            className="block py-2 hover:text-[#0163BE]"
+            onClick={toggleSidebar}
+          >
             Home
           </Link>
-          <Link to="/about" className="block py-2 hover:text-[#0163BE]">
+          <Link
+            to="/about"
+            className="block py-2 hover:text-[#0163BE]"
+            onClick={toggleSidebar}
+          >
             About Us
           </Link>
 
@@ -37,7 +45,7 @@ const Sidebar = ({
           <div className="relative">
             <button
               className="flex gap-1 items-center py-2 w-full text-left hover:text-[#0163BE]"
-              onClick={() => setServicesDropdown(!servicesDropdown)} // Toggle on click
+              onClick={() => setServicesDropdown(!servicesDropdown)}
             >
               Our Services <ChevronDown />
             </button>
@@ -48,6 +56,7 @@ const Sidebar = ({
                     key={index}
                     to={service.path}
                     className="block py-1 hover:bg-blue-100"
+                    onClick={toggleSidebar}
                   >
                     {service.name}
                   </Link>
@@ -60,7 +69,7 @@ const Sidebar = ({
           <div className="relative">
             <button
               className="flex gap-1 items-center py-2 w-full text-left hover:text-[#0163BE]"
-              onClick={() => setTradesDropdown(!tradesDropdown)} // Toggle on click
+              onClick={() => setTradesDropdown(!tradesDropdown)}
             >
               Trades <ChevronDown />
             </button>
@@ -71,6 +80,7 @@ const Sidebar = ({
                     key={index}
                     to={trade.path}
                     className="block py-1 hover:bg-blue-100"
+                    onClick={toggleSidebar}
                   >
                     {trade.name}
                   </Link>
@@ -79,7 +89,11 @@ const Sidebar = ({
             )}
           </div>
 
-          <Link to="/contact" className="block py-2 hover:text-[#0163BE]">
+          <Link
+            to="/contact"
+            className="block py-2 hover:text-[#0163BE]"
+            onClick={toggleSidebar}
+          >
             Contact Us
           </Link>
         </div>
