@@ -7,7 +7,6 @@ import {
   MoveRight,
   Phone,
 } from "lucide-react";
-
 export default function Contact() {
   return (
     <div>
@@ -23,16 +22,17 @@ export default function Contact() {
 
         {/* Text Content */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4">
-          <h1 className="text-5xl font-bold">Contact Us</h1>
-          <span className="text-lg flex  justify-center items-center gap-4">
+          <h1 className="lg:text-5xl text-3xl font-bold">Contact Us</h1>
+          <span className="text-lg flex justify-center items-center gap-4">
             Home <MoveRight />
             Contact Us
           </span>
         </div>
       </div>
+
       <div className="container flex justify-center items-center flex-col mx-auto py-10 space-y-4">
         <h1 className="text-5xl font-bold text-center">
-          We’d Love to Hear<span className="text-[#0163BE]"> From You!</span>
+          We’d Love to Hear <span className="text-[#0163BE]">From You!</span>
         </h1>
         <p className="text-lg text-center w-[80%]">
           Have questions? Need a quote? Or just want to discuss your upcoming
@@ -40,8 +40,9 @@ export default function Contact() {
           you every step of the way.
         </p>
       </div>
+
       <div className="pb-10">
-        <div className="bg-[#F2F9FF]  rounded-lg shadow-lg max-w-6xl mx-auto flex flex-col lg:flex-row ">
+        <div className="bg-[#F2F9FF] rounded-lg shadow-lg max-w-6xl mx-auto flex flex-col lg:flex-row p-6">
           {/* Contact Form Section */}
           <div className="relative flex-1 bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold mb-6">Contact Form</h2>
@@ -109,12 +110,20 @@ export default function Contact() {
                 ></textarea>
               </div>
 
-              {/* Submit Button */}
-              <div className="flex justify-center">
-                {" "}
+// <<<<<<< anas
+//               {/* Submit Button */}
+//               <div className="flex justify-center">
+//                 {" "}
+//                 <button
+//                   type="submit"
+//                   className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center gap-2 "
+// =======
+              {/* Submit Button (Fixed for Mobile) */}
+              <div className="flex justify-center lg:absolute lg:bottom-14 lg:right-64">
                 <button
                   type="submit"
-                  className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center gap-2 "
+                  className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center gap-2 w-full lg:w-auto"
+
                 >
                   Submit <ArrowRight />
                 </button>
@@ -123,7 +132,7 @@ export default function Contact() {
           </div>
 
           {/* Map and Contact Details Section */}
-          <div className="flex-1 flex flex-col gap-6">
+          <div className="flex-1 flex flex-col gap-6 mt-6 lg:mt-0">
             {/* Map */}
             <div className="w-full h-96">
               <iframe
@@ -138,30 +147,26 @@ export default function Contact() {
 
             {/* Contact Details */}
             <div className="p-6 relative">
-              <ul className="space-y-4 text-[#333] ">
+              <ul className="space-y-4 text-[#333]">
                 <li className="flex items-center gap-4">
-                  <i className="fas fa-map-marker-alt text-[#0056D2]"></i>
                   <House />
                   7443 FOXLEIGH WAY ALEXANDRIA, VA 22315
                 </li>
                 <li className="flex items-center gap-4">
-                  <i className="fas fa-phone text-[#0056D2]"></i>
                   <Phone />
                   571-384-4490
                 </li>
                 <li className="flex items-center gap-4">
-                  <i className="fas fa-envelope text-[#0056D2]"></i>
                   <Mail />
                   info@swifttakeoffs.com
                 </li>
-
                 <li className="flex items-center gap-4">
-                  <i className="fas fa-clock text-[#0056D2]"></i>
                   <Clock />
                   Monday To Friday 8:00 AM To 10:00 PM
                 </li>
               </ul>
               <div className="absolute top-16 right-8 h-32 w-32 ">
+
                 <img
                   src="/logo.webp"
                   height={200}

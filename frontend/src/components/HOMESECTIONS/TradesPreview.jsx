@@ -170,13 +170,6 @@ const TradesPreview = () => {
                 .slice(1)
                 .join(". ")}
             </p>
-
-            {/* <a
-              href={servicesData[activeIndex].link}
-              className=" absolute  lg:top-[135.5px] lg:left-[360px] left-0 underline px-6 py-2  text-[#0163be] font-medium rounded "
-            >
-              View More
-            </a> */}
           </div>
           <img
             src={servicesData[activeIndex].image}
