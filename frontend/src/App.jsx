@@ -67,6 +67,10 @@ function App() {
             <Route path="PSE" element={<TradesPage route="PSE" />} />
             <Route path="MS" element={<TradesPage route="MS" />} />
             <Route path="HVAC" element={<TradesPage route="HVAC" />} />
+            <Route path="electrical" element={<TradesPage route="electrical" />} />
+            <Route path="earthwork" element={<TradesPage route="earthwork" />} />
+            <Route path="exterior" element={<TradesPage route="exterior" />} />
+            <Route path="utilities" element={<TradesPage route="utilities" />} />
             {/* <Route path="mep" element={<MEP />} /> */}
             <Route path="mep" element={<ServicesPage route="mep" />} />
             <Route path="CES" element={<ServicesPage route="CES" />} />
