@@ -29,12 +29,12 @@ const TradesPreviewMobile = ({ servicesData }) => {
               <div className="bg-white p-4 text-black">
                 <h2 className="text-xl font-bold mb-2">{service.title()}</h2>
                 <p className="text-gray-600 mb-4">{service.content}</p>
-                <a
+                {/* <a
                   href={service.link}
                   className="underline text-[#0163be] font-medium"
                 >
                   View More
-                </a>
+                </a> */}
                 <img
                   src={service.image}
                   alt={service.name}

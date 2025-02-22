@@ -103,7 +103,7 @@ export default function About() {
               src="/ABOUT-VECTOR.webp"
               height={200}
               width={200}
-              className=" absolute -top-12 text-[#0163BE] right-0"
+              className=" absolute -top-12 text-[#0163BE] right-0 z-10"
               alt=""
             />
           </div>

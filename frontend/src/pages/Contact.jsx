@@ -110,11 +110,11 @@ export default function Contact() {
               </div>
 
               {/* Submit Button */}
-              <div className="absolute  bottom-14 right-64">
+              <div className="flex justify-center">
                 {" "}
                 <button
                   type="submit"
-                  className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center gap-2"
+                  className="bg-[#0056D2] text-white px-6 py-2 rounded-lg flex items-center justify-center gap-2 "
                 >
                   Submit <ArrowRight />
                 </button>
@@ -154,24 +154,20 @@ export default function Contact() {
                   <Mail />
                   info@swifttakeoffs.com
                 </li>
-                <li className="flex items-center gap-4">
-                  <i className="fas fa-globe text-[#0056D2]"></i>
-                  <Link />
-                  www.bidworksestimating.com
-                </li>
+
                 <li className="flex items-center gap-4">
                   <i className="fas fa-clock text-[#0056D2]"></i>
                   <Clock />
                   Monday To Friday 8:00 AM To 10:00 PM
                 </li>
               </ul>
-              <div className="absolute top-24 right-8 h-32 w-32 ">
+              <div className="absolute top-16 right-8 h-32 w-32 ">
                 <img
-                  src="/Main-logo.webp"
+                  src="/logo.webp"
                   height={200}
                   width={200}
                   alt="logo image"
-                  className="w-full h-full opacity-20"
+                  className="w-full h-full opacity-40"
                 />
               </div>
             </div>

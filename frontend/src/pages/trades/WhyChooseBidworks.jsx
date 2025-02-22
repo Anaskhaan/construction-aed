@@ -12,9 +12,9 @@ const WhyChooseBidworks = () => {
           <div className="flex-1">
             <ul className="list-disc pl-6 text-[#333]">
               <li className="mb-4">
-                <strong>Efficiency:</strong> BidWorks simplifies the process of
-                generating accurate estimates, saving time compared to manual
-                methods.
+                <strong>Efficiency:</strong> Swift Takeoffs simplifies the
+                process of generating accurate estimates, saving time compared
+                to manual methods.
               </li>
               <li className="mb-4">
                 <strong>Accuracy:</strong> It helps ensure that every estimate
@@ -54,7 +54,7 @@ const WhyChooseBidworks = () => {
               simultaneously.
             </li>
             <li className="mb-4">
-              <strong>Cost-Effectiveness:</strong> BidWorks helps prevent
+              <strong>Cost-Effectiveness:</strong> Swift Takeoffs helps prevent
               unnecessary costs by providing clear and accurate cost projections
               from the start.
             </li>
