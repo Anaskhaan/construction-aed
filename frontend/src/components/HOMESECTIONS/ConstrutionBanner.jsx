@@ -8,11 +8,11 @@ const ConstructionBanner = () => {
         <div className="bg-blue-400 w-24 h-24 rounded-full absolute top-24 left-10"></div>
         <div className="text-white z-10 max-w-xl">
           <h2 className="text-3xl font-bold mb-4">
-            Are You Ready To Take The Next Step?
+            Join Thousands of Contractors Who Trust Our Estimates!
           </h2>
           <p className="mb-6 text-blue-50">
-            Contact Us Today To Get Started On Your Construction Projects And
-            Experience The Difference Of Working With Construct Estimates.
+            Stay ahead of the competition with fast, precise, and professional
+            estimates—maximize your success today!
           </p>
           <button className="bg-white text-blue-600 px-6 py-2 rounded-3xl inline-flex items-center gap-2 hover:bg-blue-50 transition-colors">
             Request now for Bid

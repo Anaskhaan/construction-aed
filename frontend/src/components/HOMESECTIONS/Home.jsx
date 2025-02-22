@@ -23,7 +23,6 @@ export default function Home() {
         <TradesPreview />
         <GetStarted />
         <Quote />
-
         <FAQs />
         <BlogSection />
       </div>

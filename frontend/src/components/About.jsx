@@ -1,31 +1,32 @@
-import { ArrowRight } from "lucide-react";
-
+import {
+  ShieldCheck,
+  Timer,
+  Headphones,
+  BadgeDollarSign,
+  ArrowRight,
+} from "lucide-react";
 const About = () => {
   const cards = [
     {
-      src: "/about-vector1.webp",
-      alt: "about-vector1",
+      icon: <ShieldCheck size={40} className="text-[#0163BE]" />,
       title: "Registered",
       description:
         "We are a registered company in the USA, operating for the past 7 years.",
     },
     {
-      src: "/about-vector2.webp",
-      alt: "about-vector2",
+      icon: <Timer size={40} className="text-[#0163BE]" />,
       title: "Fast Turnaround",
       description:
         "Our rapid turnaround ensures you have ample time before the bid deadline.",
     },
     {
-      src: "/about-vector3.webp",
-      alt: "about-vector3",
+      icon: <Headphones size={40} className="text-[#0163BE]" />,
       title: "Technical Support",
       description:
         "Our team is fully equipped to address and resolve any inquiries you may have.",
     },
     {
-      src: "/about-vector4.webp",
-      alt: "about-vector4",
+      icon: <BadgeDollarSign size={40} className="text-[#0163BE]" />,
       title: "Accurate Pricing",
       description:
         "We consider current market volatility and price fluctuations to provide estimates.",
@@ -34,12 +35,6 @@ const About = () => {
 
   return (
     <div className="relative">
-      <img
-        src="/About-Design.webp"
-        alt="design decoration"
-        className="absolute -top-24 -z-30 h-96 object-contain "
-      />
-
       {/* Cards Grid */}
       <div className="grid grid-cols-2 z-20 md:grid-cols-2 lg:grid-cols-4 gap-4 p-6 md:p-24 md:ml-24">
         {cards.map((card, index) => (
@@ -47,14 +42,15 @@ const About = () => {
             key={index}
             className="flex flex-col bg-white items-center border border-[#0163BE] shadow-md rounded-lg p-4 text-center"
           >
-            <img
-              src={card.src}
-              alt={card.alt}
-              className="w-12 h-12 md:w-auto md:h-auto"
-            />
+            {/* Icon */}
+            <div>{card.icon}</div>
+
+            {/* Title */}
             <h3 className="text-lg font-bold text-[#0163BE] my-2">
               {card.title}
             </h3>
+
+            {/* Description */}
             <p className="text-gray-600 text-sm md:text-xs">
               {card.description}
             </p>
@@ -105,9 +101,9 @@ const About = () => {
                 <p className="text-lg md:text-xl font-bold text-[#0163BE]">
                   {stat.value}
                 </p>
-                <p className="text-[#0163BE] text-xs md:text-sm">
+                {/* <p className="text-[#0163BE] text-xs md:text-sm">
                   {stat.label}
-                </p>
+                </p> */}
               </div>
             ))}
           </div>
