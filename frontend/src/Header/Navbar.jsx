@@ -182,7 +182,7 @@ const Navbar = () => {
       {/* Mobile Toggle Button */}
       <div className="lg:hidden flex justify-between items-center p-4">
         <div>
-          <img src="/Main-logo.webp" alt="Bidworks-logo" />
+          <img src="/logo.webp" alt="Bidworks-logo" className="w-20 h-auto" />
         </div>
         <button onClick={toggleSidebar}>
           <Menu size={30} />

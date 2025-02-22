@@ -8,17 +8,13 @@ const servicesData = [
     icon: "/tradeicon1.webp",
     alt: "icon1",
     title: () => (
-      <h1 className="text-2xl tracking-wider  font-bold text-black mb-4">
-        Concrete
-        <span className="text-[#0163be]">Estimating</span>
-        Service
-      </h1>
+      <h1 className="text-2xl font-bold mb-4">Concrete Estimating Service</h1>
     ),
 
     content:
       " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
     image: "tradespreview-1.webp",
-    link: "#concrete-service",
+    // link: "#concrete-service",
   },
   {
     name: "Masonry Estimating Service",
@@ -27,16 +23,14 @@ const servicesData = [
 
     icon: "/tradeicon1.webp",
     title: () => (
-      <h1 className="text-2xl  tracking-wider font-bold text-black mb-4">
-        Concrete
-        <span className="text-[#0163be]">Estimating</span>
-        Service
+      <h1 className="text-2xl   font-bold text-black mb-4">
+        Masonary Estimating Service
       </h1>
     ),
     content:
-      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
+      "Masonry takeoff services from Swift Takeoffs provide accurate and detailed assessments of all masonry-related work in a construction project. These services are essential for estimating the quantities and costs of materials, labor, and equipment required for masonry work, including brick, block, stone, and other masonry materials.With Swift Takeoffs, you can ensure precise budgeting and seamless planning for masonry construction, minimizing the risk of over or underestimation and helping your project stay on track.",
     image: "tradespreview-1.webp",
-    link: "#masonry-service",
+    // link: "#masonry-service",
   },
   {
     name: "Plumbing Estimating Service",
@@ -45,17 +39,14 @@ const servicesData = [
 
     icon: "/tradeicon1.webp",
     title: () => (
-      <h1
-        className="text-2xl font-bold text-black mb-4"
-        style={{ wordSpacing: "1em" }}
-      >
-        Concrete <span className="text-[#0163be] ">Estimating </span> Service
+      <h1 className="text-2xl font-bold  text-black mb-4">
+        Plumbing Estimating Service
       </h1>
     ),
     content:
       " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
     image: "tradespreview-1.webp",
-    link: "#plumbing-service",
+    // link: "#plumbing-service",
   },
   {
     name: "Earthwork Estimating Service",
@@ -64,17 +55,14 @@ const servicesData = [
 
     icon: "/tradeicon1.webp",
     title: () => (
-      <h1
-        className="text-2xl font-bold text-black mb-4"
-        style={{ wordSpacing: "1em" }}
-      >
-        Concrete <span className="text-[#0163be] ">Estimating </span> Service
+      <h1 className="text-2xl font-bold text-black mb-4">
+        Earthwork Estimating Service
       </h1>
     ),
     content:
       " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
     image: "tradespreview-1.webp",
-    link: "#plumbing-service",
+    // link: "#plumbing-service",
   },
   {
     name: "Electrical Estimating Service",
@@ -83,17 +71,14 @@ const servicesData = [
 
     icon: "/tradeicon1.webp",
     title: () => (
-      <h1
-        className="text-2xl font-bold text-black mb-4"
-        style={{ wordSpacing: "1em" }}
-      >
-        Concrete <span className="text-[#0163be] ">Estimating </span> Service
+      <h1 className="text-2xl font-bold text-black mb-4">
+        Electrical Estimating Service
       </h1>
     ),
     content:
       " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
     image: "tradespreview-1.webp",
-    link: "#plumbing-service",
+    // link: "#plumbing-service",
   },
   {
     name: "Utilities Estimating Service",
@@ -102,17 +87,14 @@ const servicesData = [
 
     icon: "/tradeicon1.webp",
     title: () => (
-      <h1
-        className="text-2xl font-bold text-black mb-4"
-        style={{ wordSpacing: "1em" }}
-      >
-        Concrete <span className="text-[#0163be] ">Estimating </span> Service
+      <h1 className="text-2xl font-bold text-black mb-4">
+        Utilities Estimating Service
       </h1>
     ),
     content:
       " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
     image: "tradespreview-1.webp",
-    link: "#plumbing-service",
+    // link: "#plumbing-service",
   },
   {
     name: "Specialties Estimating Service",
@@ -121,17 +103,14 @@ const servicesData = [
 
     icon: "/tradeicon1.webp",
     title: () => (
-      <h1
-        className="text-2xl font-bold text-black mb-4"
-        style={{ wordSpacing: "1em" }}
-      >
-        Concrete <span className="text-[#0163be] ">Estimating </span> Service
+      <h1 className="text-2xl font-bold text-black mb-4">
+        Specialties Estimating Service
       </h1>
     ),
     content:
       " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
     image: "tradespreview-1.webp",
-    link: "#plumbing-service",
+    // link: "/plumbing-service",
   },
 ];
 
@@ -164,7 +143,7 @@ const TradesPreview = () => {
 
         {/* Content */}
         <div className="w lg:w-2/3 bg-[#EEF7FF] shadow-md rounded-md p-6">
-          <h2 className=" ">{servicesData[activeIndex].title()}</h2>
+          <h2 className="">{servicesData[activeIndex].title()}</h2>
           <div className=" relative">
             <p className="text-gray-600 mb-4">
               {servicesData[activeIndex].content.split(". ")[2]}.
@@ -176,12 +155,12 @@ const TradesPreview = () => {
                 .join(". ")}
             </p>
 
-            <a
+            {/* <a
               href={servicesData[activeIndex].link}
               className=" absolute  lg:top-[135.5px] lg:left-[360px] left-0 underline px-6 py-2  text-[#0163be] font-medium rounded "
             >
               View More
-            </a>
+            </a> */}
           </div>
           <img
             src={servicesData[activeIndex].image}

@@ -90,14 +90,16 @@ const HomepageServices = () => {
       title: () => (
         <p>
           {" "}
-          <span className="text-[#0163be]">Sitework and Earthwork </span>Takeoff
+          <span className="text-[#0163be]">
+            Sitework and Earthwork Takeoff{" "}
+          </span>
           Service
         </p>
       ),
       description:
         "WeOur experienced estimators provide comprehensive sitework takeoffs, including cut and fill dirt takeoffs, earthwork estimates, and site utility assessments for excavators and contractors.",
 
-      img: "/earthworkicon.svg",
+      img: "/tradeicon7.svg",
     },
   ];
 
