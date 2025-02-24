@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "axios": "^1.7.9",
     "construction-agency2": "file:",
     "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
     "framer-motion": "^12.4.1",
     "lucide-react": "^0.473.0",
     "react": "^18.3.1",
