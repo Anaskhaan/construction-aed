@@ -61,20 +61,8 @@ export default function Footer() {
           <div className="space-y-6 text-left">
             <h3 className="text-xl font-bold">Quick Links</h3>
 
-            <div className=" flex flex-row-reverse justify-between">
-              <div>
-                <div className=" lg:hidden flex flex-col items-center justify-center space-y-10 space-x-8 mt-3 sm:mt-0">
-                  <Link to="/terms" className="text-white -mr-4 underline">
-                    Website Policies
-                  </Link>
-                  <Link to="/privacypolicy" className="text-white underline">
-                    Privacy Policies
-                  </Link>
-                  <Link to="#" className="text-white underline">
-                    Cookies Policies
-                  </Link>
-                </div>
-              </div>
+          
+             
               <nav className="flex font-semibold flex-col space-y-3">
                 <Link to="/about" className="text-gray-300 hover:text-white">
                   About Us
@@ -87,7 +75,7 @@ export default function Footer() {
                   Contact Us
                 </Link>
               </nav>
-            </div>
+           
           </div>
 
           {/* Contact Details */}
@@ -121,6 +109,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
+         
 
       {/* Footer Bottom */}
       <div className="mt-10 bg-[#0163BE] border-t border-gray-800">
@@ -128,16 +117,14 @@ export default function Footer() {
           <p className="text-sm text-white">
             Copyright © SICHERES-HAUS.AT. All Rights Reserved
           </p>
-          <div className="lg:flex hidden flex-wrap justify-start sm:justify-end space-x-8 mt-3 sm:mt-0">
+          <div className="lg:flex gap-x-3 hidden items-start ml-4 justify-start ">
             <Link to="/terms" className="text-white underline">
               Website Policies
             </Link>
             <Link to="/privacypolicy" className="text-white underline">
               Privacy Policies
             </Link>
-            <Link to="#" className="text-white underline">
-              Cookies Policies
-            </Link>
+         
           </div>
         </div>
       </div>

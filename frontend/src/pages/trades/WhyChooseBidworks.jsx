@@ -37,7 +37,7 @@ const WhyChooseBidworks = () => {
                 className="rounded-md z-20  mr-2"
               />
               <div
-                className="absolute lg:w-[95%] lg:h-[95%] w-[100%] h-[100%]  lg:-top-4 -top-5 lg:-left-5 -left-6 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
+                className="absolute lg:w-[95%] lg:h-[95%] 2xl:w-[65%] 2xl:left-16 2xl:h-[100%] w-[100%] h-[100%]  lg:-top-4 -top-5 lg:-left-5 -left-6 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
                 style={{
                   background:
                     "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",

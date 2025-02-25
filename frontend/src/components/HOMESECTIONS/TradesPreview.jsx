@@ -198,13 +198,13 @@ const TradesPreview = () => {
         </div>
         <Link
           to="contact"
-          className="flex text-sm bg-white  absolute lg:right-32 lg:bottom-16 bottom-2 text-black lg:px-8 px-2 py-1  rounded-3xl  hover:bg-gray-200"
+          className="flex text-sm bg-white  absolute lg:right-32 2xl:right-96 lg:bottom-16 bottom-2 text-black lg:px-8 px-2 py-1  rounded-3xl  hover:bg-gray-200"
         >
           Get A Free Quote <ArrowRight className="ml-2" />
         </Link>
         <div className="relative w-full flex justify-center">
           <svg
-            className="lg:w-[200px] w-[180px] h-[40px]   absolute lg:left-56 lg:top-4 top-6  lg:rotate-[340deg] rotate-[130deg]"
+            className="lg:w-[200px] w-[180px] h-[40px]   absolute lg:left-56 2xl:left-96 lg:top-4 top-6  lg:rotate-[340deg] rotate-[130deg]"
             viewBox="0 0 100 40"
             preserveAspectRatio="none"
             fill="none"
