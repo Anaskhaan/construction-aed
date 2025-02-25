@@ -223,7 +223,7 @@ export default function Contact() {
       console.error("EmailJS Error:", error);
       setErrorMessage("An error occurred. Please try again later.");
     } finally {
-      setIsSending(false);
+      setIsSending(false);    
     }
   };
 
