@@ -9,8 +9,8 @@ const TradesPreview = () => {
 
   return (
     <>
-      <h1 className="flex items-center justify-center lg:text-3xl text-lg font-semibold py-3">
-        Our Construction trade <span className="text-blue-600"> Services</span>
+      <h1 className="flex items-center justify-center font-bold lg:text-3xl text-2xl text-[#0163BE] py-3">
+        Our Trades
       </h1>
       <div className="w-full flex justify-center">
         <span className="text-sm text-center w-3/2 lg:w-1/2 ">

@@ -1,6 +1,6 @@
 import { ArrowBigDown, LucideArrowBigDownDash } from "lucide-react";
 
-export default function   GetStarted() {
+export default function GetStarted() {
   const steps = [
     {
       title: "Send Us Your Plans",
@@ -23,20 +23,20 @@ export default function   GetStarted() {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-24 h-full">
+    <div className="max-w-6xl mx-auto px-4 py-10 h-full">
       {/* Heading Section */}
-      <div className="text-center mb-8">
-        <h2 className="text-4xl font-bold">
-          How To <span className="text-blue-600">Get Started</span> With Us
+      <div className="text-center mb-4">
+        <h2 className="lg:text-4xl text-xl font-bold">
+          How To <span className="text-[#0163BE]">Get Started</span> With Us
         </h2>
-        <p className="mt-6 text-gray-600 max-w-4xl mx-auto">
+        <p className=" text-gray-600 max-w-4xl mx-auto">
           Share your project plans, and we'll handle the rest—from providing a
           detailed quote to delivering precise cost estimates.
         </p>
       </div>
 
       {/* Steps Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-20 relative">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10 relative">
         {steps.map(({ title, icon, description }, index) => (
           <div
             key={index}
@@ -48,17 +48,9 @@ export default function   GetStarted() {
             <div className="w-28 h-28 mx-auto flex items-center justify-center relative">
               <img src={icon} alt={`${title} icon`} className="w-44 h-34" />
             </div>
-            <div className="flex flex-col items-center lg:hidden">
-  {/* Dashed Vertical Line */}
-  <div className="border-l-2 border-dashed border-blue-600 mt-2 h-16" />
-  
-  {/* Downward Arrow Icon */}
-  <span className="text-blue-600 w-6 h-6 ml-[13.1px] -mt-1 rotate-90 font-bold text-2xl" >&gt;</span>
-
-</div>
 
             {/* Title and Description */}
-            <h3 className="text-xl font-bold  mb-4">{title}</h3>
+            <h3 className="text-xl font-bold">{title}</h3>
             <p className="text-gray-600">{description}</p>
 
             {index === 0 && (

@@ -105,12 +105,12 @@ const HomepageServices = () => {
 
   return (
     <>
-      <div className=" bg-[#ebebeb] pt-20 pb-10 h-auto">
+      <div className=" bg-[#ebebeb] pt-10 pb-10 h-auto">
         <div className="service-content">
           <h2 className="font-semibold text-center  lg:text-4xl text-2xl">
-            <span className="text-blue-500">Swift Takeoffs</span> Services
+            <span className="text-[#0163BE]">Swift Takeoffs</span> Services
           </h2>
-          <p className=" flex items-center justify-center text-center lg:text-sm text-sm pt-5">
+          <p className=" flex items-center justify-center text-center lg:text-sm text-sm px-5 lg:p-5">
             Our comprehensive construction estimating and takeoff services cover
             every trade and project type, <br /> ensuring precision and
             reliability from start to finish.{" "}
@@ -137,13 +137,13 @@ const HomepageServices = () => {
         </div>
         {/* FAQ Link */}
       </div>
-      <div className="text-sm text-gray-600 mb-4 text-center">
+      {/* <div className="text-sm text-gray-600 mb-4 text-center">
         Have specific questions about our services? Check out our{" "}
         <a href="#" className="text-blue-600 hover:text-blue-800">
           FAQs
         </a>{" "}
         for detailed answers and get started with confidence.
-      </div>
+      </div> */}
     </>
   );
 };

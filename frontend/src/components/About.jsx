@@ -43,7 +43,7 @@ const About = () => {
           height={100}
           width={100}
           alt="design"
-          className="h-full w-auto  "
+          className="h-full w-auto"
         />
       </div>
       <div className="grid grid-cols-2 z-20  md:grid-cols-2 lg:grid-cols-4 gap-4 p-6 md:p-24 md:ml-24">
@@ -111,9 +111,7 @@ const About = () => {
                 <p className="text-lg md:text-xl font-bold text-[#0163BE]">
                   {stat.value}
                 </p>
-                {/* <p className="text-[#0163BE] text-xs md:text-sm">
-                  {stat.label}
-                </p> */}
+                <p className="text-gray-600 text-xs md:text-sm">{stat.label}</p>
               </div>
             ))}
           </div>

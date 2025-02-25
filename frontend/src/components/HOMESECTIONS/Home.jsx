@@ -4,7 +4,7 @@ import BlogSection from "./BlogSection";
 import FAQs from "./FAQs";
 import HomepageServices from "./HomepageServices";
 
-import TradesPreview from "../HOMESECTIONS/TradesPreview";
+// import TradesPreview from "../HOMESECTIONS/TradesPreview";
 
 import ConstructionBanner from "./ConstrutionBanner";
 import Quote from "../HOMESECTIONS/Quote";
@@ -20,7 +20,7 @@ export default function Home() {
         <HomepageServices />
         <ConstructionBanner />
         <WhyHire />
-        <TradesPreview />
+        {/* <TradesPreview /> */}
         <GetStarted />
         <Quote />
         <FAQs />
