@@ -97,10 +97,14 @@ const WhyHire = () => {
               </div>
             ))}
           </div>
-
-          <Link className="mt-6 px-6 py-2 bg-[#0163BE] text-white font-medium rounded-3xl ">
-            Contact Now →
-          </Link>
+          <div className="lg:mt-12 mt-4">
+            <Link
+              to="contact"
+              className="px-6 py-2  bg-[#0163BE] text-white font-medium rounded-3xl  text-center "
+            >
+              Contact Now →
+            </Link>
+          </div>
         </div>
 
         {/* Image Section */}

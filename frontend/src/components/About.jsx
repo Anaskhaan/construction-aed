@@ -5,6 +5,7 @@ import {
   BadgeDollarSign,
   ArrowRight,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 const About = () => {
   const cards = [
     {
@@ -107,14 +108,15 @@ const About = () => {
               </div>
             ))}
           </div>
-
-          <button className="mt-6 py-2 flex items-center justify-center w-full md:w-64 bg-transparent font-medium rounded-3xl shadow-md border border-[#0163BE] text-black transition">
-            Learn More About us{" "}
-            <div>
-              {" "}
-              <ArrowRight className=" mt-1" />{" "}
-            </div>
-          </button>
+          <Link to="/about">
+            <button className="mt-6 py-2 flex items-center justify-center w-full md:w-64 bg-transparent font-medium rounded-3xl shadow-md border border-[#0163BE] text-black transition">
+              Learn More About us{" "}
+              <div>
+                {" "}
+                <ArrowRight className=" mt-1" />{" "}
+              </div>
+            </button>
+          </Link>
         </div>
       </section>
     </div>
