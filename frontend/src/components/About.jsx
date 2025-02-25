@@ -38,8 +38,13 @@ const About = () => {
     <div className="relative">
       {/* Cards Grid */}
       <div className=" absolute -top-32 -z-10 left-0">
-
-      <img src="/About-Design.webp" height={100} width={100} alt="design" className="h-full w-auto  " />
+        <img
+          src="/About-Design.webp"
+          height={100}
+          width={100}
+          alt="design"
+          className="h-full w-auto  "
+        />
       </div>
       <div className="grid grid-cols-2 z-20  md:grid-cols-2 lg:grid-cols-4 gap-4 p-6 md:p-24 md:ml-24">
         {cards.map((card, index) => (

@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const WhyChooseBidworks = () => {
   return (
@@ -73,12 +74,14 @@ const WhyChooseBidworks = () => {
           solutions.
         </span>
       </div>
-      <div className=" flex items-center text-[#333] rounded-3xl  justify-center py-1 px-2 border-2 border-[#0163BE] w-64">
-        <button className="flex justify-center items-center mr-2  ">
-          Request a Quote Now
-        </button>{" "}
-        <ArrowRight className=" mt-1 text-[#0163BE]" />
-      </div>
+      <Link to="/GetQuote">
+        <div className=" flex items-center text-[#333] rounded-3xl  justify-center py-1 px-2 border-2 border-[#0163BE] w-64">
+          <button className="flex justify-center items-center mr-2  ">
+            Request a Quote Now
+          </button>{" "}
+          <ArrowRight className=" mt-1 text-[#0163BE]" />
+        </div>
+      </Link>
     </div>
   );
 };
