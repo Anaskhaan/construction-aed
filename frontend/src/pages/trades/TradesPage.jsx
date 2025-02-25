@@ -1,4 +1,4 @@
-import { MoveRight } from "lucide-react";
+  import { MoveRight } from "lucide-react";
 import { data } from "../../Helpers/Data";
 import WhyChooseBidworks from "./WhyChooseBidworks";
 import SearchTrades from "../../components/SearchingTrades/SearchTrades";

@@ -37,7 +37,11 @@ const About = () => {
   return (
     <div className="relative">
       {/* Cards Grid */}
-      <div className="grid grid-cols-2 z-20 md:grid-cols-2 lg:grid-cols-4 gap-4 p-6 md:p-24 md:ml-24">
+      <div className=" absolute -top-32 -z-10 left-0">
+
+      <img src="/About-Design.webp" height={100} width={100} alt="design" className="h-full w-auto  " />
+      </div>
+      <div className="grid grid-cols-2 z-20  md:grid-cols-2 lg:grid-cols-4 gap-4 p-6 md:p-24 md:ml-24">
         {cards.map((card, index) => (
           <div
             key={index}
@@ -68,7 +72,7 @@ const About = () => {
             className="rounded-md w-full z-20 md:w-11/12"
           />
           <div
-            className="absolute lg:w-[520px] w-[280px] lg:h-[480px] h-[250px]   top-2 lg:top-4 lg:left-10 left-1 z-10 rounded-[5px] rotate-[176deg] translate-x-4 translate-y-4 md:translate-x-6 md:translate-y-6"
+            className="absolute lg:w-[520px] w-[280px] lg:h-[480px] h-[250px] 2xl:h-[680px] 2xl:w-[750px]  2xl:top-6 2xl:left-12 top-2 lg:top-4 lg:left-10 left-1 z-10 rounded-[5px] rotate-[176deg] translate-x-4 translate-y-4 md:translate-x-6 md:translate-y-6"
             style={{
               background: "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
             }}
