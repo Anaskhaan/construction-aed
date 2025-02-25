@@ -68,7 +68,7 @@ const About = () => {
             className="rounded-md w-full z-20 md:w-11/12"
           />
           <div
-            className="absolute lg:w-[520px] w-[280px] lg:h-[480px] h-[250px]   top-2 lg:top-4 lg:left-10 left-1 z-10 rounded-[5px] rotate-[176deg] translate-x-4 translate-y-4 md:translate-x-6 md:translate-y-6"
+            className="absolute lg:w-[520px] w-[300px] lg:h-[480px] h-[270px]   top-2 lg:top-4 lg:left-10 left-1 z-10 rounded-[5px] rotate-[176deg] translate-x-4 translate-y-4 md:translate-x-6 md:translate-y-6"
             style={{
               background: "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
             }}

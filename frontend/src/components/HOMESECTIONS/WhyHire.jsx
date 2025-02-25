@@ -97,7 +97,7 @@ const WhyHire = () => {
               </div>
             ))}
           </div>
-          <div className="lg:mt-12 mt-4">
+          <div className=" mt-12">
             <Link
               to="contact"
               className="px-6 py-2  bg-[#0163BE] text-white font-medium rounded-3xl  text-center "
@@ -113,14 +113,14 @@ const WhyHire = () => {
           <img
             src="/group-architect.webp"
             alt="Team Collaboration"
-            className="   absolute bottom-0 lg:-left-32  -left-12 z-20 transform  translate-y-32"
+            className="   absolute bottom-0 lg:-bottom-12 lg:-left-32 h-64 w-64 lg:h-96 lg:w-96 -left-12 z-20 transform  translate-y-32"
           />
           <img
             src="/group-smiling-engineers.webp"
             alt="Team"
             className="rounded-lg  w-full h-auto relative  z-10"
           />
-          <div className=" absolute -bottom-3 -right-3 border border-r-2  border-b-2 border-t-transparent border-l-transparent border-[#0163be] h-56 w-72"></div>
+          <div className=" absolute -bottom-3 -right-3 border border-r-2  border-b-2 border-t-transparent border-l-transparent border-[#0163be] h-56 lg:w-72  w-40"></div>
 
           <div
             className="absolute w-full h-full top-0 left-0 -z-10 rounded-lg border-2 border-[#0163BE]"

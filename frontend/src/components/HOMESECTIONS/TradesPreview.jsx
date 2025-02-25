@@ -136,6 +136,16 @@ const TradesPreview = () => {
 
   return (
     <>
+      <h1 className="flex items-center justify-center lg:text-3xl text-lg font-semibold py-3">
+        Our Construction trade <span className="text-blue-600"> Services</span>
+      </h1>
+      <div className="w-full flex justify-center">
+        <span className="text-sm text-center w-3/2 lg:w-1/2 ">
+          We specialize in providing construction takeoff services that support
+          contractors in accurately estimating costs and quantities.
+        </span>
+      </div>
+
       <div className="hidden lg:flex flex-col lg:flex-row items-start gap-6 p-6 ">
         {/* Tabs */}
         <div className="w-full lg:w-1/3">
@@ -152,9 +162,6 @@ const TradesPreview = () => {
                 <div className=" mt-3 ml-3 space-x-3">{service.name}</div>
               </li>
             ))}
-            {/* <li className="p-2 gap-2 text-center flex items-center justify-center text-white bg-[#0163be] hover:underline cursor-pointer">
-              See All <ArrowRight />
-            </li> */}
           </ul>
         </div>
 
