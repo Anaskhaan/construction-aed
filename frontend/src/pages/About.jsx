@@ -1,6 +1,6 @@
 import { ArrowRight, MoveRight, Phone } from "lucide-react";
 import Testimonials from "../components/Testimonials";
-
+import {Link} from "react-router-dom" 
 export default function About() {
   const About = [
     {
@@ -78,7 +78,7 @@ export default function About() {
             <h1 className="lg:text-5xl text-3xl font-bold">About Us</h1>
             <span className="text-lg flex  justify-center items-center gap-4">
               Home <MoveRight />
-              Contact Us
+              About Us
             </span>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function About() {
             className="rounded-md z-20 w-11/12 "
           />
           <div
-            className="absolute lg:w-[520px] w-[20rem] lg:h-[550px] h-[20rem] lg:top-8 top-1 lg:left-12 left-3 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
+            className="absolute lg:w-[520px] w-[20rem] 2xl:h-[800px] 2xl:w-[780px] lg:h-[550px] h-[20rem] lg:top-8 top-1 lg:left-12 left-3 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
             style={{
               background: "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
             }}
@@ -134,9 +134,11 @@ export default function About() {
             ))}
           </div>
           <div className="px-3 lg:px-0">
+            <Link to="/contact">
             <button className="mt-6  py-2 w-64 bg-transparent font-medium rounded-3xl shadow-md border border-[#0163BE] text-black transition">
               Learn More About us →
             </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -246,10 +248,11 @@ export default function About() {
                   </div>
                 ))}
               </div>
-
-              <button className="bg-white text-blue-600 border border-blue-600 px-4 py-2 rounded-full flex justify-center items-center gap-2">
+                <Link to="/GetQuote" >
+              <button className="bg-white text-blue-600 border mt-3 border-blue-600 px-4 py-2 rounded-full flex justify-center items-center gap-2">
                 Get a free quote <ArrowRight />
               </button>
+                </Link>
             </div>
 
             <div className="relative">
@@ -275,9 +278,11 @@ export default function About() {
             <span className="text-lg md:text-4xl text-white flex py-4 md:py-8 gap-2 justify-center items-center">
               <Phone size={24} md:size={32} /> 123 456 7890
             </span>
+            <Link to='/contact'>
             <button className="py-2 px-4 text-lg border-4 rounded-full bg-white flex justify-center items-center gap-2">
               Contact Us Now <ArrowRight />
             </button>
+            </Link>
           </div>
 
           <div className="hidden lg:block absolute p-20 rounded-full bg-[#5BA5EA] top-3 right-4 opacity-50"></div>
@@ -299,7 +304,6 @@ export default function About() {
         </div>
       </section>
 
-      <section></section>
       <Testimonials />
     </div>
   );

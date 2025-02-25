@@ -9,6 +9,16 @@ const TradesPreview = () => {
 
   return (
     <>
+      <h1 className="flex items-center justify-center lg:text-3xl text-lg font-semibold py-3">
+        Our Construction trade <span className="text-blue-600"> Services</span>
+      </h1>
+      <div className="w-full flex justify-center">
+        <span className="text-sm text-center w-3/2 lg:w-1/2 ">
+          We specialize in providing construction takeoff services that support
+          contractors in accurately estimating costs and quantities.
+        </span>
+      </div>
+
       <div className="hidden lg:flex flex-col lg:flex-row items-start gap-6 p-6 ">
         {/* Tabs */}
         <div className="w-full lg:w-1/3">
@@ -25,9 +35,6 @@ const TradesPreview = () => {
                 <div className=" mt-3 ml-3 space-x-3">{service.name}</div>
               </li>
             ))}
-            {/* <li className="p-2 gap-2 text-center flex items-center justify-center text-white bg-[#0163be] hover:underline cursor-pointer">
-              See All <ArrowRight />
-            </li> */}
           </ul>
         </div>
 
@@ -71,13 +78,13 @@ const TradesPreview = () => {
         </div>
         <Link
           to="contact"
-          className="flex text-sm bg-white  absolute lg:right-32 lg:bottom-16 bottom-2 text-black lg:px-8 px-2 py-1  rounded-3xl  hover:bg-gray-200"
+          className="flex text-sm bg-white  absolute lg:right-32 2xl:right-96 lg:bottom-16 bottom-2 text-black lg:px-8 px-2 py-1  rounded-3xl  hover:bg-gray-200"
         >
           Get A Free Quote <ArrowRight className="ml-2" />
         </Link>
         <div className="relative w-full flex justify-center">
           <svg
-            className="lg:w-[200px] w-[180px] h-[40px]   absolute lg:left-56 lg:top-4 top-6  lg:rotate-[340deg] rotate-[130deg]"
+            className="lg:w-[200px] w-[180px] h-[40px]   absolute lg:left-56 2xl:left-96 lg:top-4 top-6  lg:rotate-[340deg] rotate-[130deg]"
             viewBox="0 0 100 40"
             preserveAspectRatio="none"
             fill="none"

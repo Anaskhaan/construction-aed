@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import { Search } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const allTrades = [
   { id: 1, name: "Existing Condition", path: "/existingconditions" },
@@ -104,9 +105,11 @@ export default function SearchTrades() {
           <span className="text-blue-500">Swift Takeoffs</span>
         </h3>
         <p className="text-xl italic text-gray-600 mb-8">Within 24/48 Hours</p>
-        <button className="bg-blue-500 text-white px-10 py-3 rounded-full hover:bg-blue-600 transition-colors">
-          Contact Now →
-        </button>
+        <Link to="/contact">
+          <button className="bg-blue-500 text-white px-10 py-3 rounded-full hover:bg-blue-600 transition-colors">
+            Contact Now →
+          </button>
+        </Link>
       </div>
     </div>
   );

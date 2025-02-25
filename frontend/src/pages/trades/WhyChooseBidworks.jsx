@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const WhyChooseBidworks = () => {
   return (
@@ -37,7 +38,7 @@ const WhyChooseBidworks = () => {
                 className="rounded-md z-20  mr-2"
               />
               <div
-                className="absolute lg:w-[95%] lg:h-[95%] w-[100%] h-[100%]  lg:-top-4 -top-5 lg:-left-5 -left-6 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
+                className="absolute lg:w-[95%] lg:h-[95%] 2xl:w-[65%] 2xl:left-16 2xl:h-[100%] w-[100%] h-[100%]  lg:-top-4 -top-5 lg:-left-5 -left-6 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
                 style={{
                   background:
                     "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
@@ -73,12 +74,14 @@ const WhyChooseBidworks = () => {
           solutions.
         </span>
       </div>
-      <div className=" flex items-center text-[#333] rounded-3xl  justify-center py-1 px-2 border-2 border-[#0163BE] w-64">
-        <button className="flex justify-center items-center mr-2  ">
-          Request a Quote Now
-        </button>{" "}
-        <ArrowRight className=" mt-1 text-[#0163BE]" />
-      </div>
+      <Link to="/GetQuote">
+        <div className=" flex items-center text-[#333] rounded-3xl  justify-center py-1 px-2 border-2 border-[#0163BE] w-64">
+          <button className="flex justify-center items-center mr-2  ">
+            Request a Quote Now
+          </button>{" "}
+          <ArrowRight className=" mt-1 text-[#0163BE]" />
+        </div>
+      </Link>
     </div>
   );
 };

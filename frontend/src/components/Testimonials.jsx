@@ -66,13 +66,13 @@ const Testimonials = () => {
         <div className="hidden lg:flex items-center justify-between absolute top-1/2 w-full px-2">
           <button
             onClick={() => changeSlide(-1)}
-            className="p-3 rounded-full bg-gray-300 shadow-lg hover:bg-[#0163BE]"
+            className="p-3 rounded-full absolute -left-6 bg-gray-300 shadow-lg  hover:bg-[#0163BE]"
           >
             <ChevronLeft size={24} className="text-white" />
           </button>
           <button
             onClick={() => changeSlide(1)}
-            className="p-3 rounded-full bg-gray-300 shadow-lg hover:bg-[#0163BE]"
+            className="p-3 rounded-full absolute -right-0 bg-gray-300 shadow-lg hover:bg-[#0163BE]"
           >
             <ChevronRight size={24} className="text-white" />
           </button>
