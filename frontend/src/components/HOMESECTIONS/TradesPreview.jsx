@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 import TradesPreviewMobile from "./TradesPreviewMobile";
+import { Link } from "react-router-dom";
 
 const servicesData = [
   {
@@ -195,12 +196,12 @@ const TradesPreview = () => {
             Effortlessly.
           </p>
         </div>
-        <a
-          href="#"
+        <Link
+          to="contact"
           className="flex text-sm bg-white  absolute lg:right-32 lg:bottom-16 bottom-2 text-black lg:px-8 px-2 py-1  rounded-3xl  hover:bg-gray-200"
         >
           Get A Free Quote <ArrowRight className="ml-2" />
-        </a>
+        </Link>
         <div className="relative w-full flex justify-center">
           <svg
             className="lg:w-[200px] w-[180px] h-[40px]   absolute lg:left-56 lg:top-4 top-6  lg:rotate-[340deg] rotate-[130deg]"
