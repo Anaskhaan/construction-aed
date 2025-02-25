@@ -13,6 +13,7 @@ import TradesPage from "./pages/trades/TradesPage";
 import ServicesPage from "./pages/services/ServicesPage";
 import BlogList from "./pages/BlogList";
 import BlogDetail from "./pages/BlogDetail";
+import Trades from "./pages/Trades";
 function App() {
   return (
     <>
@@ -31,6 +32,7 @@ function App() {
             <Route path="terms" element={<Terms />} />
             <Route path="privacypolicy" element={<PrivacyPolicy />} />
             <Route path="getquote" element={<GetQuote />} />
+            <Route path="trades" element={<Trades />} />
             <Route
               path="existingconditions"
               element={<TradesPage route="existingconditions" />}
