@@ -83,7 +83,7 @@ export default function Contact() {
       </div>
 
       <div className="pb-10">
-        <div className="bg-[#F2F9FF] rounded-lg shadow-lg max-w-6xl mx-auto flex flex-col lg:flex-row p-6">
+        <div className="  max-w-6xl mx-auto flex flex-col lg:flex-row p-6">
           {/* Contact Form Section */}
           <div className="relative flex-1 bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold mb-6">Contact Form</h2>
