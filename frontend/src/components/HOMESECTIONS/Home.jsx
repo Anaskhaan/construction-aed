@@ -20,7 +20,7 @@ export default function Home() {
         <HomepageServices />
         <ConstructionBanner />
         <WhyHire />
-        <TradesPreview />
+        <Trades Preview />
         <GetStarted />
         <Quote />
         <FAQs />

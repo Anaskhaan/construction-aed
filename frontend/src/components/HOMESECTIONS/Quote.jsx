@@ -60,7 +60,10 @@ const Quote = () => {
   };
 
   return (
-    <div className="w-auto mx-auto p-6 bg-white shadow-md rounded my-4">
+    <div
+      id="GetQuote"
+      className="w-auto mx-auto p-6 bg-white shadow-md rounded my-4"
+    >
       <Toaster />
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-8 items-center">
         {/* Left Side - Form */}

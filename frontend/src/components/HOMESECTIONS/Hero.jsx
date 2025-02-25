@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -36,15 +37,28 @@ const Hero = () => {
         <div className="absolute lg:bottom-44 bottom-36  left-2  lg:left-32 z-10 ">
           <div className=" flex items-center  justify-center ">
             <div className=" flex items-center text-white rounded-3xl  justify-center px-3  py-1 lg:px-6 bg-[#0163BE]">
-              <button className="   mr-2 lg:text-lg text-sm  ">
+              <button
+                onClick={() => {
+                  const element = document.getElementById("GetQuote");
+                  if (element) {
+                    element.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
+                  }
+                }}
+                className="   mr-2 lg:text-lg text-sm  "
+              >
                 Get a Free Quote
               </button>{" "}
               <ArrowRight className=" mt-1 " />
             </div>
-            <div className=" flex ml-4 items-center text-black rounded-3xl  justify-center py-1 px-6 bg-transparent  border border-[#0163BE]">
-              <button className="   mr-2  ">Contact Us</button>{" "}
-              <ArrowRight className=" mt-1 " />
-            </div>
+            <Link to="contact">
+              <div className=" flex ml-4 items-center text-black rounded-3xl  justify-center py-1 px-6 bg-transparent  border border-[#0163BE]">
+                <button className="   mr-2  ">Contact Us</button>{" "}
+                <ArrowRight className=" mt-1 " />
+              </div>
+            </Link>
           </div>
         </div>
         <div>
