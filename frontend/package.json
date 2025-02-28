@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@fontsource/inter": "^5.1.1",
     "axios": "^1.7.9",
     "construction-agency2": "file:",
     "date-fns": "^4.1.0",

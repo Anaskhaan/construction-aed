@@ -65,7 +65,7 @@ export default function GetStarted() {
               <img
                 src="/Vector 9.webp"
                 alt="Left arrow"
-                className="hidden md:block absolute bottom-24 -left-32 transform -rotate-36 w-50 h-28"
+                className="hidden md:block absolute bottom-10 -left-32 transform -rotate-36 w-50 h-28"
               />
             )}
           </div>

@@ -31,7 +31,7 @@ const TradesPreview = () => {
                   activeIndex === index ? "bg-blue-50 font-semibold" : ""
                 } hover:bg-blue-50`}
               >
-                {/* <img src={service.icon} alt={service.alt} /> */}
+                <img src={service.icon} alt={service.alt} />
                 <div className=" mt-3 ml-3 space-x-3">{service.name}</div>
               </li>
             ))}
@@ -39,7 +39,7 @@ const TradesPreview = () => {
         </div>
 
         {/* Content */}
-        <div className="w lg:w-2/3 bg-[#EEF7FF] shadow-md rounded-md p-6">
+        <div className="w lg:w-2/3 bg-[#EEF7FF] shadow-md rounded-md p-6 h-[43rem]">
           <h2 className="">{servicesData[activeIndex].title()}</h2>
           <div className=" relative">
             <p className="text-gray-600 mb-4">
@@ -52,6 +52,7 @@ const TradesPreview = () => {
                 .join(". ")}
             </p>
           </div>
+
           <img
             src={servicesData[activeIndex].image}
             alt={servicesData[activeIndex].title}

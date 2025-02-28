@@ -48,7 +48,7 @@ const Navbar = () => {
     { name: "Massonary Takeoff", path: "/MTS" },
     { name: "Drywall Takeoff", path: "/DTS" },
     { name: "Lumber Takeoff", path: "/LTS" },
-    { name: "Sitework & Earthquake", path: "/SET" },
+    { name: "Sitework & Earthworke", path: "/SET" },
   ];
 
   const trades = [

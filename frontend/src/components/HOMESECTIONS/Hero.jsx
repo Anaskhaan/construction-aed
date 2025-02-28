@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return (
     <div>
-      <div className="relative flex lg:flex-row  flex-col-reverse h-screen border-b-8 border-[#0163be]">
+      <div className="relative flex lg:flex-row  flex-col-reverse h-screen ">
         <div className="relative h-full   lg:w-1/3">
           <img
             src="/Hero1Image.png"
@@ -54,7 +54,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div>
+        {/* <div>
           <img
             src="/Hero-Vector.webp"
             className=" absolute left-0  bottom-0"
@@ -62,7 +62,7 @@ const Hero = () => {
             height={300}
             width={300}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

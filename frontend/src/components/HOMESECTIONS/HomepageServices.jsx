@@ -1,150 +1,108 @@
+import { useNavigate } from "react-router-dom";
+
 const HomepageServices = () => {
+  const navigate = useNavigate();
+
   const services = [
     {
       id: 1,
-      title: () => (
-        <p>
-          {" "}
-          <span className="text-[#0163be]">MEP Estimating </span> Service
-        </p>
-      ),
+      title: "GC Estimating Services",
+      route: "/mep",
       description:
-        "We provide comprehensive MEP estimating and construction takeoff services tailored for contractors. Our MEP services encompass mechanical, electrical, and plumbing systems, handled by a dedicated team of expert MEP estimators.",
-      img: "/mepIcon.svg",
+        "Swift Takeoffs delivers accurate, detailed estimates for general contractors, ensuring efficient budgeting, competitive bids, and cost optimization for successful projects.",
+      img: "/mesonicon.svg",
     },
     {
       id: 2,
-      title: () => (
-        <p>
-          {" "}
-          <span className="text-[#0163be]">Concrete Estimating</span> Service
-        </p>
-      ),
+      title: "Sub-Contractor Estimating Services",
+      route: "/concrete",
       description:
-        "We offer comprehensive and reliable concrete estimating services for contractors. Our concrete takeoffs and estimates cover a wide range of elements, including foundations, footings, slabs, blocks, pavers, driveways, garages, basements, and parking lots.",
+        "Swift Takeoffs provides precise, trade-specific estimates for subcontractors, helping with accurate bids, cost control, and resource optimization to maximize profitability.",
       img: "/troyicon.svg",
     },
     {
       id: 3,
-      title: () => (
-        <p>
-          {" "}
-          <span className="text-[#0163be]">Painting Estimating </span> Service
-        </p>
-      ),
+      title: "Cost Estimating Services",
+      route: "/PES",
       description:
-        "We offer comprehensive and reliable concrete estimating services for contractors. Our concrete takeoffs and estimates cover a wide range of elements, including foundations, footings, slabs, blocks, pavers, driveways, garages, basements, and parking lots.",
-
-      img: "/painticon.svg",
+        "Swift Takeoffs offers accurate and detailed cost estimates, helping contractors and developers budget effectively, minimize risks, and optimize project costs for successful execution.",
+      img: "/cost.svg",
     },
     {
       id: 4,
-      title: () => (
-        <p>
-          {" "}
-          <span className="text-[#0163be]">Steel Estimating </span> Service
-        </p>
-      ),
+      title: "Material Takeoff Services",
+      route: "/DS",
       description:
-        "We provide accurate and cost-effective steel estimating and takeoff services for detailing and steel contractors, framers, distributors, and fabricators. Our structural and miscellaneous steel takeoffs encompass a wide range of quantities.",
-      img: "/Steelicon.svg",
+        "Swift Takeoffs provides precise material quantity calculations, ensuring accurate budgeting, reduced waste, and efficient procurement for construction projects.",
+      img: "/material.svg",
     },
     {
       id: 5,
-      title: () => (
-        <p>
-          {" "}
-          <span className="text-[#0163be]">Masonry Takeoff </span> Service
-        </p>
-      ),
+      title: "Residential Estimating Services",
+      route: "/MTS",
       description:
-        "We offer comprehensive masonry takeoff services for contractors engaged in both residential and commercial projects. Our takeoffs meticulously quantify every aspect of the masonry trade, providing detailed descriptions that include concrete blocks,.",
-      img: "/mesonicon.svg",
+        "Swift Takeoffs delivers accurate cost estimates for residential projects, ensuring efficient budgeting, competitive bids, and cost-effective resource planning for builders and contractors.",
+      img: "/residential.svg",
     },
     {
       id: 6,
-      title: () => (
-        <p>
-          {" "}
-          <span className="text-[#0163be]">Drywall Takeoff </span> Service
-        </p>
-      ),
+      title: "Commercial Estimating Services",
+      route: "/DTS",
       description:
-        "We regularly serve drywall contractors who require accurate estimates and takeoffs for pricing quotes to general contractors and suppliers. Our diverse client base includes general contractors, drywall installation service providers, homeowners.",
-      img: "/drywallicon.svg",
+        "Swift Takeoffs provides detailed and accurate cost estimates for commercial projects, helping contractors budget efficiently, optimize costs, and submit competitive bids for successful project execution.",
+      img: "/commercial.svg",
     },
     {
       id: 7,
-      title: () => (
-        <p>
-          {" "}
-          <span className="text-[#0163be]">Lumber Takeoff</span> Service
-        </p>
-      ),
+      title: "Industrial Estimating Services",
+      route: "/lumber",
       description:
-        "We assist framing contractors, millwork contractors, commercial contractors, and builders by providing precise millwork estimates and lumber takeoffs. Our comprehensive takeoffs include rough and finish carpentry, wood trusses, drywall.",
-      img: "/lumbericon.svg",
+        "Swift Takeoffs delivers precise and comprehensive cost estimates for industrial projects, ensuring accurate budgeting, resource allocation, and competitive bidding for contractors and developers.",
+      img: "/industrial.svg",
     },
     {
       id: 8,
-      title: () => (
-        <p>
-          {" "}
-          <span className="text-[#0163be]">
-            Sitework and Earthwork Takeoff{" "}
-          </span>
-          Service
-        </p>
-      ),
+      title: "Preliminary Estimating Services",
+      route: "/earthwork",
       description:
-        "WeOur experienced estimators provide comprehensive sitework takeoffs, including cut and fill dirt takeoffs, earthwork estimates, and site utility assessments for excavators and contractors.",
-
-      img: "/tradeicon7.svg",
+        "Swift Takeoffs provides early-stage cost assessments, helping contractors and developers plan budgets, evaluate feasibility, and minimize financial risks before project execution.",
+      img: "/preliminary.svg",
     },
   ];
 
   return (
-    <>
-      <div className=" bg-[#ebebeb] pt-10 pb-10 h-auto">
-        <div className="service-content">
-          <h2 className="font-semibold text-center  lg:text-4xl text-2xl">
-            <span className="text-[#0163BE]">Swift Takeoffs</span> Services
-          </h2>
-          <p className=" flex items-center justify-center text-center lg:text-sm text-sm px-5 lg:p-5">
-            Our comprehensive construction estimating and takeoff services cover
-            every trade and project type, <br /> ensuring precision and
-            reliability from start to finish.{" "}
-          </p>
-        </div>
-        <div className="grid lg:grid-cols-4 lg:grid-rows-2 grid-cols-1 p-12 gap-4">
-          {services.map((service) => (
-            <div
-              key={service.id}
-              className=" p-4 border-b-8 border-[#0163be] rounded-lg shadow-md  bg-white"
-            >
-              <img
-                src={service.img}
-                alt={service.title}
-                className="w-15 h-15 mb-2"
-              />
-              <h3 className="text-xl font-semibold">{service.title()}</h3>
-              <p className="text-gray-600">
-                {service.description}{" "}
-                <button className="text-blue-600 underline">View More</button>
-              </p>
-            </div>
-          ))}
-        </div>
-        {/* FAQ Link */}
+    <div className="bg-[#ebebeb] py-10  h-auto">
+      <div className="service-content text-center">
+        <h2 className="font-semibold lg:text-4xl text-2xl">
+          <span className="text-[#0163BE]">Swift Takeoffs</span> Services
+        </h2>
+        <p className="text-sm lg:text-lg  px-5 lg:p-5">
+          Swift Takeoffs provides accurate and reliable estimates for General
+          Contractors, Subcontractors, Lenders, Builders, Architects,
+          Engineering Firms, and Vendors, ensuring efficient budgeting, cost
+          control, and competitive bidding for all construction projects.
+        </p>
       </div>
-      {/* <div className="text-sm text-gray-600 mb-4 text-center">
-        Have specific questions about our services? Check out our{" "}
-        <a href="#" className="text-blue-600 hover:text-blue-800">
-          FAQs
-        </a>{" "}
-        for detailed answers and get started with confidence.
-      </div> */}
-    </>
+      <div className="grid lg:grid-cols-4 grid-cols-1 p-8 gap-4">
+        {services.map((service) => (
+          <div
+            key={service.id}
+            onClick={() => navigate(service.route)}
+            className="p-4 border-b-8 border-[#0163be] rounded-lg shadow-md bg-white hover:cursor-pointer hover:shadow-lg hover:bg-[#3482cb] hover:border-white hover:text-white"
+          >
+            <img
+              src={service.img}
+              alt={service.title}
+              className="w-12 h-auto p-1 "
+            />
+            <div>
+              <h3 className="text-xl font-semibold">{service.title}</h3>
+              <p className="leading-tight">{service.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 

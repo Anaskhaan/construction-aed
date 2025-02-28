@@ -1,3 +1,4 @@
+import { ShieldCheck } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const WhyHire = () => {
@@ -96,7 +97,7 @@ const WhyHire = () => {
           <div className="mt-6 lg:w-3/4 w-full grid grid-cols-1 gap-4">
             {features.map((feature, index) => (
               <div key={index} className="flex items-start gap-4">
-                <img src="/shield-check.png" alt="" />
+                <ShieldCheck className="text-[#0163BE] lg:w-8 font-extrabold h-auto w-14 mt-1 lg:mt-0" />
                 <div>
                   <h4 className="font-bold text-[#202020]">{feature.title}</h4>
                   <p className="text-gray-600">{feature.description}</p>

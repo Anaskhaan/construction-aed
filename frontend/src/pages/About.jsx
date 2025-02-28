@@ -1,39 +1,58 @@
-import { ArrowRight, MoveRight, Phone } from "lucide-react";
+import {
+  AlarmClockCheck,
+  ArrowRight,
+  BrickWall,
+  CircleCheckBig,
+  CircleDollarSign,
+  ClipboardCheck,
+  FileText,
+  HandHeart,
+  Handshake,
+  Hourglass,
+  MonitorCog,
+  MoveRight,
+  Phone,
+  ShieldCheck,
+  Trophy,
+  Users,
+} from "lucide-react";
 import Testimonials from "../components/Testimonials";
-import {Link} from "react-router-dom" 
+import { Link } from "react-router-dom";
 export default function About() {
   const About = [
     {
       label: "Fast Turnaround Times",
-      icon: "/shield-check.png",
+      icon: <AlarmClockCheck className="text-[#0163BE] w-8 font-bold h-auto" />,
     },
     {
       label: "Accurate Material Estimates",
-      icon: "/shield-check.png",
+      icon: <ClipboardCheck className="text-[#0163BE] w-8 font-bold h-auto" />,
     },
     {
       label: "On-Time Project Delivery",
-      icon: "/shield-check.png",
+      icon: <Hourglass className="text-[#0163BE] w-8 font-bold h-auto" />,
     },
     {
       label: "Reduce Material Waste",
-      icon: "/shield-check.png",
+      icon: <BrickWall className="text-[#0163BE] w-8 font-bold h-auto" />,
     },
     {
       label: "Budget-Friendly Solutions",
-      icon: "/shield-check.png",
+      icon: (
+        <CircleDollarSign className="text-[#0163BE] w-8 font-bold h-auto" />
+      ),
     },
     {
       label: "Comprehensive Data Analysis",
-      icon: "/shield-check.png",
+      icon: <FileText className="text-[#0163BE] w-8 font-bold h-auto" />,
     },
     {
       label: "Your All-in-One Partner",
-      icon: "/shield-check.png",
+      icon: <Handshake className="text-[#0163BE] w-8 font-bold h-auto" />,
     },
     {
       label: "Expert Support and Guidance",
-      icon: "/shield-check.png",
+      icon: <Users className="text-[#0163BE] w-8 font-bold h-auto" />,
     },
   ];
   const features = [
@@ -91,13 +110,13 @@ export default function About() {
             className="rounded-md z-20 w-11/12 "
           />
           <div
-            className="absolute lg:w-[520px] w-[20rem] 2xl:h-[800px] 2xl:w-[780px] lg:h-[550px] h-[20rem] lg:top-8 top-1 lg:left-12 left-3 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
+            className="absolute lg:w-[500px] w-[18rem] 2xl:h-[800px] 2xl:w-[780px] lg:h-[520px] h-[19rem] lg:top-8 top-1 lg:left-12 left-3 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
             style={{
               background: "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
             }}
           ></div>
         </div>
-        <div className="flex relative  flex-col justify-center space-y-10 h-full">
+        <div className="flex relative  flex-col justify-center space-y-5 h-full">
           <div>
             <img
               src="/ABOUT-VECTOR.webp"
@@ -108,14 +127,21 @@ export default function About() {
             />
           </div>
           <h2 className="lg:text-4xl text-2xl lg:text-left text-center font-bold  text-black">
-            Your Trusted Partner in <br /> Construction{" "}
-            <span className="text-[#0163BE]"> Estimating</span>
+            Your Trusted Partner in{" "}
+            <span className="text-[#0163BE]">Construction Estimating</span>
           </h2>
-          <p className="text-gray-600 mt-4 px-3 lg:px-0  ">
-            At Swift Takeoffs, we combine precision, expertise, <br /> and
-            cutting-edge technology to help your projects succeed. <br /> From
-            planning to completion, we&apos;re here to support your <br />{" "}
-            vision every step of the way
+          <p className="text-gray-600 px-3 lg:px-0  ">
+            At Swift Takeoffs, we specialize in accurate and efficient
+            construction estimating services, helping contractors, builders, and
+            developers streamline their project planning. With over 7 years of
+            industry experience, we have successfully delivered detailed
+            material takeoffs and cost estimates for projects across all 50
+            states.
+            <br />{" "}
+            <span className="font-bold">
+              Build smarter. Estimate with confidence. Choose  {""}
+              <span className="text-[#0163BE]">Swift Takeoffs</span>.
+            </span>
           </p>
 
           <div className=" grid grid-cols-2 grid-rows-4 lg:px-0 px-3">
@@ -124,20 +150,16 @@ export default function About() {
                 key={index}
                 className=" flex items-center justify-start py-2 gap-2"
               >
-                <img
-                  src={feature.icon}
-                  alt={feature.label}
-                  className="w-6 h-6"
-                />
+                {feature.icon}
                 <p className="text-lg ">{feature.label}</p>
               </div>
             ))}
           </div>
           <div className="px-3 lg:px-0">
             <Link to="/contact">
-            <button className="mt-6  py-2 w-64 bg-transparent font-medium rounded-3xl shadow-md border border-[#0163BE] text-black transition">
-              Learn More About us →
-            </button>
+              <button className="mt-6  py-2 w-64 bg-transparent font-medium rounded-3xl shadow-md border border-[#0163BE] text-black transition">
+                Get in Touch →
+              </button>
             </Link>
           </div>
         </div>
@@ -156,7 +178,8 @@ export default function About() {
           <div className="container mx-auto text-center">
             {/* Heading Section */}
             <h2 className="text-4xl font-bold text-gray-800">
-              Milestones And <span className="text-blue-600">Achievements</span>
+              Milestones And{" "}
+              <span className="text-[#0163BE]">Achievements</span>
             </h2>
             <p className="text-gray-600 mt-4 max-w-4xl mx-auto">
               At Swift Takeoffs, we’re proud of the journey that has shaped us
@@ -168,25 +191,25 @@ export default function About() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 relative">
               {[
                 {
-                  icon: "/trophy-fill.webp",
+                  icon: <Trophy className="text-[#0163BE] h-8 w-8" />,
                   title: "98% Bid-Winning Rate",
                   description:
                     "Our clients consistently secure project opportunities thanks to the accuracy and efficiency of our estimates.",
                 },
                 {
-                  icon: "/checkbox-circle-fill.webp",
+                  icon: <CircleCheckBig className="text-[#0163BE] h-8 w-8" />,
                   title: "Hundreds Of Projects Done",
                   description:
                     "From residential to commercial, industrial to infrastructure, we’ve tailored solutions to meet the unique needs of each project.",
                 },
                 {
-                  icon: "/computer-fill.webp",
+                  icon: <MonitorCog className="text-[#0163BE] h-8 w-8" />,
                   title: "Advanced Technology",
                   description:
                     "We leverage cutting-edge software tools like PlanSwift, Bluebeam, and OST to deliver accurate estimating solutions.",
                 },
                 {
-                  icon: "/service-fill.webp",
+                  icon: <HandHeart className="text-[#0163BE] h-8 w-8" />,
                   title: "Trusted By Clients Nationwide",
                   description:
                     "We’re helping construction experts across the nation win bids with accurate, reliable estimating solutions.",
@@ -199,11 +222,7 @@ export default function About() {
                   }`}
                 >
                   <div className="bg-[#FFFFFF] rounded-full p-6 absolute -top-8 shadow-lg">
-                    <img
-                      src={milestone.icon}
-                      alt={milestone.title}
-                      className="w-8 h-8"
-                    />
+                    {milestone.icon}
                   </div>
                   <h3 className="text-lg font-bold text-gray-800 mt-4">
                     {milestone.title}
@@ -223,7 +242,7 @@ export default function About() {
             <div className="space-y-6">
               <div className="space-y-2">
                 <h2 className="text-2xl font-bold">
-                  Why <span className="text-blue-600">Choose Us</span>?
+                  Why <span className="text-[#0163BE]">Choose Us</span>?
                 </h2>
               </div>
 
@@ -231,13 +250,7 @@ export default function About() {
                 {features.map((feature, index) => (
                   <div key={index} className="flex items-start space-x-3">
                     <div className="flex-shrink-0 w-5 h-5 mt-1">
-                      <img
-                        src="shield-check.png"
-                        alt="shield image"
-                        height={70}
-                        width={70}
-                        className="h-full w-full"
-                      />
+                      <ShieldCheck className="text-[#0163BE] mr-2 font-extrabold h-auto w-6" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg">{feature.title}</h3>
@@ -248,14 +261,14 @@ export default function About() {
                   </div>
                 ))}
               </div>
-                <Link to="/GetQuote" >
-              <button className="bg-white text-blue-600 border mt-3 border-blue-600 px-4 py-2 rounded-full flex justify-center items-center gap-2">
-                Get a free quote <ArrowRight />
-              </button>
-                </Link>
+              <Link to="/GetQuote">
+                <button className="bg-white text-blue-600 border mt-3 border-blue-600 px-4 py-2 rounded-full flex justify-center items-center gap-2">
+                  Get a free quote <ArrowRight />
+                </button>
+              </Link>
             </div>
 
-            <div className="relative">
+            <div className="relative lg:block hidden">
               <div className="relative z-10">
                 <img
                   src="/wmremove-transformed 4.webp"
@@ -278,10 +291,10 @@ export default function About() {
             <span className="text-lg md:text-4xl text-white flex py-4 md:py-8 gap-2 justify-center items-center">
               <Phone size={24} md:size={32} /> 123 456 7890
             </span>
-            <Link to='/contact'>
-            <button className="py-2 px-4 text-lg border-4 rounded-full bg-white flex justify-center items-center gap-2">
-              Contact Us Now <ArrowRight />
-            </button>
+            <Link to="/contact">
+              <button className="py-2 px-4 text-lg border-4 rounded-full bg-white flex justify-center items-center gap-2">
+                Contact Us Now <ArrowRight />
+              </button>
             </Link>
           </div>
 
