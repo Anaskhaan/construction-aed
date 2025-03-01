@@ -10,15 +10,13 @@ const TradesPreviewMobile = ({ servicesData }) => {
         {servicesData.map((service, index) => (
           <div
             key={index}
-            className={`border rounded-lg overflow-hidden ${
-              openIndex === index ? "bg-[#0163BE] text-white" : "bg-white"
-            }`}
+            className={`border rounded-lg overflow-hidden  bg-white`}
           >
             <button
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
               className="w-full p-4 text-left flex justify-between items-center"
             >
-              {/* <img src={servicesData.icon} alt={servicesData.alt} /> */}
+                              {service.icon}
               <span>{service.name}</span>
               <ChevronDown
                 className={`w-5 h-5 transition-transform duration-300 ${

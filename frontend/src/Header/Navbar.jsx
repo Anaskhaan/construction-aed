@@ -1,197 +1,157 @@
-import { ArrowRight, ChevronDown, Menu } from "lucide-react";
-import { useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import Sidebar from "./Sidebar";
+import { motion } from "framer-motion";
+import { Home, Briefcase, Info, Mail, ArrowRight, Menu } from "lucide-react";
+
+const tabs = [
+  { name: "Home", path: "/", icon: <Home size={25} /> },
+  { name: "Who We Are", path: "/about", icon: <Info size={25} /> },
+  { name: "What We Do", path: "/services", icon: <Briefcase size={25} /> },
+  { name: " Our Trades", path: "/trades", icon: <Briefcase size={25} /> },
+  { name: "Contact Us", path: "/contact", icon: <Mail size={25} /> },
+];
 
 const Navbar = () => {
-  const [servicesDropdown, setServicesDropdown] = useState(false);
-  const [tradesDropdown, setTradesDropdown] = useState(false);
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  const servicesTimeoutRef = useRef(null);
-  const tradesTimeoutRef = useRef(null);
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+  const [bgColor, setBgColor] = useState("bg-[#0163be]");
+  const [logoPosition, setLogoPosition] = useState("flex-1");
+  const [color, setCOlor] = useState("text-white");
+  const [logoImage, setLogoImage] = useState("/ST.webp");
 
-  const handleMouseEnterServices = () => {
-    if (servicesTimeoutRef.current) {
-      clearTimeout(servicesTimeoutRef.current);
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setLogoPosition("justify-start");
+      
+    } else {
+      setLogoPosition("lg:justify-center sm:justify-start");
+
     }
-    setServicesDropdown(true);
   };
 
-  const handleMouseLeaveServices = () => {
-    servicesTimeoutRef.current = setTimeout(() => {
-      setServicesDropdown(false);
-    }, 100);
-  };
-
-  const handleMouseEnterTrades = () => {
-    if (tradesTimeoutRef.current) {
-      clearTimeout(tradesTimeoutRef.current);
-    }
-    setTradesDropdown(true);
-  };
-
-  const handleMouseLeaveTrades = () => {
-    tradesTimeoutRef.current = setTimeout(() => {
-      setTradesDropdown(false);
-    }, 100);
-  };
+  useEffect(() => {
+    handleScroll();
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const toggleSidebar = () => {
-    setSidebarOpen(!sidebarOpen);
+    setSidebarOpen(!isSidebarOpen);
   };
 
-  const services = [
-    { name: "MEP Estimating", path: "/mep" },
-    { name: "Concrete Estimating", path: "/CES" },
-    { name: "Painting Estimating", path: "/PES" },
-    { name: "Steel Estimating", path: "/DS" },
-    { name: "Massonary Takeoff", path: "/MTS" },
-    { name: "Drywall Takeoff", path: "/DTS" },
-    { name: "Lumber Takeoff", path: "/LTS" },
-    { name: "Sitework & Earthworke", path: "/SET" },
-  ];
-
-  const trades = [
-    { name: "Existing Condition", path: "/existingconditions" },
-    { name: "Concrete Estimating", path: "/concrete" },
-    { name: "Masonary Estimating", path: "/masonary" },
-    { name: "Metal Estimating", path: "/metals" },
-    { name: "Wood, Plastic & Composities", path: "/Wpc" },
-    { name: "Thermal & Moisture Protection", path: "/Tmp" },
-    { name: "Openings Estimating Services", path: "/Opening" },
-    { name: "Finishes Estimating", path: "/finishes" },
-    { name: "Specialities Estimating", path: "/specialities" },
-    { name: "Equipment Estimating", path: "/equipment" },
-    { name: "Furnishies Estimating", path: "/furnishies" },
-    { name: "Special Constuction", path: "/special" },
-    { name: "Conveying Equipment", path: "/conveying" },
-    { name: "Mechanical Support", path: "/MS" },
-    { name: "Fire Suppression", path: "/FSE" },
-    { name: "Plumbing Estimating", path: "/PSE" },
-    { name: "Heating Ventilation", path: "/HVAC" },
-    { name: "Electrical Estimating", path: "/electrical" },
-    { name: "Earthwork Estimating", path: "/earthwork" },
-    { name: "Exterior Improvements", path: "/exterior" },
-    { name: "Utilities Estimating", path: "/utilities" },
-  ];
+  const handleTabClick = () => {
+    setSidebarOpen(false);
+  };
 
   return (
-    <div>
-      <Sidebar
-        isOpen={sidebarOpen}
-        toggleSidebar={toggleSidebar}
-        servicesDropdown={servicesDropdown}
-        setServicesDropdown={setServicesDropdown}
-        tradesDropdown={tradesDropdown}
-        setTradesDropdown={setTradesDropdown}
-        services={services}
-        trades={trades}
-      />
-
-      {/* Desktop Navbar */}
-      <div className="hidden lg:flex items-center justify-between px-16 py-4 shadow-md ">
-        <div className="w-1/4">
-          <Link
-            to="/"
-            onClick={(() => window.scrollTo(0, 0), { behavior: "smooth" })}
-          >
-            <img src="/logo.webp" alt="Bidworks-logo" className="w-20 h-auto" />
+    <div className="relative">
+      <div
+        className={`fixed top-0 left-0 right-0 flex justify-between items-center px-6 py-2 z-50 ${bgColor} duration-300 ease-in-out`}
+      >
+        <div className={`flex ${logoPosition} w-full transition-all duration-300`}>
+          <Link to="/">
+            <img src={logoImage} alt="Logo" className="w-24 h-auto" />
           </Link>
         </div>
-
-        <div className="flex space-x-6 text-gray-700 font-medium">
-          <Link to="/" className="hover:text-[#0163BE] transition duration-300">
-            Home
-          </Link>
-          <Link
-            to="/about"
-            className="hover:text-[#0163BE] transition duration-300"
-          >
-            About Us
-          </Link>
+        <button
+          onClick={toggleSidebar}
+          className={`bg-transparent focus:outline-none relative z-50 `}
+        >
           <div
-            className="relative"
-            onMouseEnter={handleMouseEnterServices}
-            onMouseLeave={handleMouseLeaveServices}
+            className={`hamburger flex flex-col  justify-between w-8 h-5 transition-all duration-300 ease-in-out ${
+              isSidebarOpen ? "open" : ""
+            }`}
           >
-            <button className="hover:text-[#0163BE] transition duration-300 flex items-center gap-1">
-              Our Services <ChevronDown />
-            </button>
-            {servicesDropdown && (
-              <div
-                className="absolute left-0 bg-white shadow-md mt-2 rounded z-50 w-48"
-                onMouseEnter={handleMouseEnterServices}
-                onMouseLeave={handleMouseLeaveServices}
-              >
-                {services.map((service, index) => (
-                  <Link
-                    key={index}
-                    to={service.path}
-                    className="block px-4 py-2 hover:bg-blue-100"
-                  >
-                    {service.name}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
-          <div
-            className="relative"
-            onMouseEnter={handleMouseEnterTrades}
-            onMouseLeave={handleMouseLeaveTrades}
-          >
-            <button className="hover:text-[#0163BE] transition duration-300 flex gap-1 items-center">
-              Trades <ChevronDown />
-            </button>
-            {tradesDropdown && (
-              <div
-                className="absolute -right-80 top-8 bg-white shadow-md rounded z-50 w-[70vw] max-w-[1200px]"
-                onMouseEnter={handleMouseEnterTrades}
-                onMouseLeave={handleMouseLeaveTrades}
-              >
-                <div className="grid grid-cols-4 gap-4 p-4">
-                  {trades.map((trade, index) => (
-                    <Link
-                      key={index}
-                      to={trade.path}
-                      className="p-2 hover:bg-blue-100"
-                    >
-                      {trade.name}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
-          <Link
-            to="/contact"
-            className="hover:text-[#0163BE] transition duration-300"
-          >
-            Contact Us
-          </Link>
-        </div>
+            {/* Top Line */}
+            <div
+              className={`h-[2px] mb-1 ${
+                color.split("-")[1] === "black" ? "bg-black" : "bg-white"
+              } transition-all duration-300 ease-in-out ${
+                isSidebarOpen ? "scale-x-0" : "scale-x-100"
+              } origin-right`}
+            ></div>
 
-        <div>
-          <div className="flex items-center justify-center rounded-3xl border border-[#0163BE]">
-            <Link
-              to="/GetQuote"
-              className="bg-transparent text-black px-6 py-1 transition duration-300"
-            >
-              Get a Quote
-            </Link>
-            <ArrowRight className="text-[#0163BE] mr-2" />
+            {/* Middle Line */}
+            <div
+              className={`h-[2px] mb-1 ${
+                color.split("-")[1] === "black" ? "bg-black" : "bg-white"
+              } transition-all duration-500 ease-in-out ${
+                isSidebarOpen ? "scale-x-0" : "scale-x-100"
+              } origin-right`}
+            ></div>
+            <div
+              className={`h-[2px] ${
+                color.split("-")[1] === "black" ? "bg-black" : "bg-white"
+              } transition-all duration-500 ease-in-out ${
+                isSidebarOpen ? "scale-x-0" : "scale-x-90"
+              } origin-right`}
+            ></div>
+
+            {/* Bottom Line 1 (forming the top part of the cross) */}
+            <div
+              className={`h-[2px] ${
+                color.split("-")[1] === "black" ? "bg-black" : "bg-white"
+              } transition-all duration-500 ease-in-out ${
+                isSidebarOpen
+                  ? "rotate-[45deg] translate-y-[8.2px] scale-x-100"
+                  : "scale-x-0"
+              } origin-right`}
+            ></div>
+
+            {/* Bottom Line 2 (forming the bottom part of the cross) */}
+            <div
+              className={`h-[2px] ${
+                color.split("-")[1] === "black" ? "bg-black" : "bg-white"
+              } transition-all duration-500 ease-in-out ${
+                isSidebarOpen
+                  ? "rotate-[-45deg] translate-y-[6px] translate-x-2 scale-x-100"
+                  : "scale-x-0"
+              } origin-left`}
+            ></div>
           </div>
-        </div>
+        </button>
       </div>
 
-      {/* Mobile Toggle Button */}
-      <div className="lg:hidden flex justify-between items-center p-4">
-        <div>
-          <img src="/logo.webp" alt="Bidworks-logo" className="w-20 h-auto" />
+      <div
+        className={`fixed top-0 left-0 w-full h-full bg-[#0163be] text-white z-40 transform transition-transform duration-500 ${
+          isSidebarOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
+        }`}
+        style={{ transition: "all 0.5s ease-in-out" }}
+      >
+        <div className="flex flex-col justify-center items-center h-full space-y-5">
+          {tabs.map((tab, index) => (
+            <Link key={index} to={tab.path} className="lg:text-6xl text-3xl hover:text-[#56bafc]" onClick={handleTabClick}>
+              <motion.div
+                className="flex items-center group space-x-2"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                initial={{ opacity: 0, y: 100 }}
+                animate={
+                  isSidebarOpen
+                    ? {
+                        opacity: 1,
+                        y: 0,
+                        transition: { delay: 0.2 + index * 0.1, duration: 0.4 },
+                      }
+                    : { opacity: 0, y: 100 }
+                }
+              >
+                {tab.icon}
+                <h1 className="relative 2xl:text-4xl xl:text-3xl lg:text-2xl text-xl font-semibold duration-300 group">
+                  {tab.name}
+                  <span className="absolute bottom-0 left-0 h-0.5 bg-[#56bafc] w-0 group-hover:w-full duration-300"></span>
+                </h1>
+              </motion.div>
+            </Link>
+          ))}
+          <div className="flex items-center justify-center rounded-3xl border border-white px-6 py-2">
+            <Link to="/GetQuote" className="bg-transparent text-white px-1 py-1 transition duration-300">
+              Get a Quote
+            </Link>
+            <ArrowRight className="text-[#56bafc]" />
+          </div>
         </div>
-        <button onClick={toggleSidebar}>
-          <Menu size={30} />
-        </button>
       </div>
     </div>
   );

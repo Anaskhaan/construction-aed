@@ -23,7 +23,7 @@ export default function Header() {
   return (
     <>
       <div className="bg-white fixed top-0 left-0 w-full z-50 transition-all duration-300 ">
-        <Top />
+        {/* <Top /> */}
         <Navbar />
       </div>
     </>

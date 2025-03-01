@@ -1,3 +1,17 @@
+import {
+  Building2,
+  Plug,
+  Droplet,
+  TreePine,
+  DoorOpen,
+  Layers,
+  Paintbrush,
+  ShieldHalf,
+  
+} from "lucide-react";
+
+
+
 export const data = [
   {
     src2: "/businesswoman.webp",
@@ -1914,7 +1928,7 @@ export const latestPostsData = [
 export const servicesData = [
   {
     name: "Concrete Estimating Service",
-    icon: "/tradeicon1.webp",
+    icon: <Building2 className="w-6 h-6 text-blue-600" />,
     alt: "icon1",
     title: () => (
       <h1 className="text-2xl font-bold mb-4">Concrete Estimating Service</h1>
@@ -1930,7 +1944,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/tradeicon1.webp",
+    icon: <Plug className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Electrical Estimating Service
@@ -1946,7 +1960,7 @@ export const servicesData = [
 
     alt: "icon2",
 
-    icon: "/tradeicon1.webp",
+    icon: <Plug className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl   font-bold text-black mb-4">
         Masonary Estimating Service
@@ -1962,7 +1976,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/tradeicon1.webp",
+    icon: <Droplet className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold  text-black mb-4">
         Plumbing Estimating Service
@@ -1978,7 +1992,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/tradeicon1.webp",
+    icon: <TreePine className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Wood, Plastic & Composities
@@ -1995,7 +2009,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/tradeicon1.webp",
+    icon: <DoorOpen className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Openings Estimating Service
@@ -2011,7 +2025,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/tradeicon1.webp",
+    icon: <Layers className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Specialties Estimating Service
@@ -2027,7 +2041,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/tradeicon1.webp",
+    icon: <Paintbrush className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Finishes Estimating Services
@@ -2043,7 +2057,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/tradeicon1.webp",
+    icon: <ShieldHalf className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Thermal & Moisture Protection
@@ -2059,7 +2073,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/tradeicon1.webp",
+    icon: <Plug className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Conveying Equipment
