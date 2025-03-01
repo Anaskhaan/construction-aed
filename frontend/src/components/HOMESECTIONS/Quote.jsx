@@ -62,13 +62,13 @@ const Quote = () => {
   return (
     <div
       id="GetQuote"
-      className="w-auto mx-auto p-6 bg-white shadow-md rounded my-4"
+      className="w-auto mx-auto py-6 bg-white shadow-md rounded my-4"
     >
       <Toaster />
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-8 items-center">
         {/* Left Side - Form */}
         <div className="p-6 ml-5">
-          <h2 className="lg:text-5xl text-xl tracking-wider font-bold mb-4">
+          <h2 className="lg:text-5xl text-xl tracking-wider font-bold ">
             Get A <span className="text-[#0163BE]">Free Quote</span> Now
           </h2>
           <p className="lg:text-lg text-sm text-[#565656] mb-6">
@@ -178,7 +178,7 @@ const Quote = () => {
           <img
             src="/builder.png"
             alt="Construction Worker"
-            className="relative z-10 w-[100%] object-contain -ml-20 -mt-6"
+            className="relative z-10 w-[100%] object-contain -ml-4 -mt-6"
           />
         </div>
       </div>

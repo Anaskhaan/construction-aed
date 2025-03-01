@@ -7,6 +7,8 @@ import {
   Apple,
   Linkedin,
   Instagram,
+  Factory,
+  FacebookIcon,
 } from "lucide-react";
 
 export default function Footer() {
@@ -35,24 +37,15 @@ export default function Footer() {
               projects.
             </p>
             <div className="flex justify-start space-x-4">
-              <Link
-                to="#"
-                className="bg-white rounded-full p-2 hover:bg-gray-100 shadow"
-              >
-                <Facebook className="w-5 h-5 text-[#0066FF]" />
+              <Link to="#" className="">
+                <Facebook className="w-6 h-auto text-white" />
               </Link>
 
-              <Link
-                to="#"
-                className="bg-white rounded-full p-2 hover:bg-gray-100 shadow"
-              >
-                <Instagram className="w-5 h-5 text-[#0066FF]" />
+              <Link to="#" className="">
+                <Instagram className="w-6 h-auto text-white" />
               </Link>
-              <Link
-                to="#"
-                className="bg-white rounded-full p-2 hover:bg-gray-100 shadow"
-              >
-                <Linkedin className="w-5 h-5 text-[#0066FF]" />
+              <Link to="#" className="">
+                <Linkedin className="w-6 h-auto text-white" />
               </Link>
             </div>
           </div>
@@ -61,21 +54,18 @@ export default function Footer() {
           <div className="space-y-6 text-left">
             <h3 className="text-xl font-bold">Quick Links</h3>
 
-          
-             
-              <nav className="flex font-semibold flex-col space-y-3">
-                <Link to="/about" className="text-gray-300 hover:text-white">
-                  About Us
-                </Link>
+            <nav className="flex font-semibold flex-col space-y-3">
+              <Link to="/about" className="text-gray-300 hover:text-white">
+                About Us
+              </Link>
 
-                <Link to="/blogs" className="text-gray-300 hover:text-white">
-                  Blog
-                </Link>
-                <Link to="/contact" className="text-gray-300 hover:text-white">
-                  Contact Us
-                </Link>
-              </nav>
-           
+              <Link to="/blogs" className="text-gray-300 hover:text-white">
+                Blog
+              </Link>
+              <Link to="/contact" className="text-gray-300 hover:text-white">
+                Contact Us
+              </Link>
+            </nav>
           </div>
 
           {/* Contact Details */}
@@ -84,20 +74,27 @@ export default function Footer() {
 
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <div className="bg-white rounded-full p-2">
-                  <Mail className="w-5 h-5 text-[#0066FF]" />
+                <div className="">
+                  <Mail className="w-6 h-auto text-white" />
                 </div>
-                <span className="text-gray-300">info@swifttakeoffs.com</span>
+                <a
+                  href="mailto:info@swifttakeoffs.com"
+                  className="text-gray-300"
+                >
+                  info@swifttakeoffs.com
+                </a>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="bg-white rounded-full p-2">
-                  <Phone className="w-5 h-5 text-[#0066FF]" />
+                <div className="">
+                  <Phone className="w-6 h-auto text-white" />
                 </div>
-                <span className="text-gray-300">878.501.4074 X312</span>
+                <a href="tel:" className="text-gray-300">
+                  878.501.4074 X312
+                </a>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="bg-white rounded-full p-2">
-                  <MapPin className="w-5 h-5 text-[#0066FF]" />
+                <div className="">
+                  <MapPin className="w-6 h-auto text-white" />
                 </div>
                 <span className="text-gray-300">
                   8 The Green #6092
@@ -109,7 +106,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-         
 
       {/* Footer Bottom */}
       <div className="mt-10 bg-[#0163BE] border-t border-gray-800">
@@ -124,7 +120,6 @@ export default function Footer() {
             <Link to="/privacypolicy" className="text-white underline">
               Privacy Policies
             </Link>
-         
           </div>
         </div>
       </div>

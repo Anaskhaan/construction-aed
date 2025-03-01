@@ -3,9 +3,7 @@ import Hero from "./Hero";
 import BlogSection from "./BlogSection";
 import FAQs from "./FAQs";
 import HomepageServices from "./HomepageServices";
-
 import TradesPreview from "../HOMESECTIONS/TradesPreview";
-
 import ConstructionBanner from "./ConstrutionBanner";
 import Quote from "../HOMESECTIONS/Quote";
 import WhyHire from "../HOMESECTIONS/WhyHire";
@@ -20,7 +18,9 @@ export default function Home() {
         <HomepageServices />
         <ConstructionBanner />
         <WhyHire />
-        <TradesPreview />
+        <div className="">
+          <TradesPreview />
+        </div>
         <GetStarted />
         <Quote />
         <FAQs />

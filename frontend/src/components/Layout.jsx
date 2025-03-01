@@ -13,7 +13,7 @@ export default function Layout() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="mt-32">
+      <main className="mt-20">
         <Outlet />
       </main>
       <Footer />
