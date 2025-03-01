@@ -14,6 +14,7 @@ import ServicesPage from "./pages/services/ServicesPage";
 import BlogList from "./pages/BlogList";
 import BlogDetail from "./pages/BlogDetail";
 import Trades from "./pages/Trades";
+import Services from "./pages/services/Services";
 function App() {
   return (
     <>
@@ -27,6 +28,9 @@ function App() {
             <Route path="blogsdetail/:id" element={<BlogDetail />} />
             {/* / */}
             <Route path="about" element={<About />} />
+            <Route path="/Services" element={<Services />} />
+    
+
             <Route path="contact" element={<Contact />} />
             <Route path="blogs" element={<Blogs />} />
             <Route path="terms" element={<Terms />} />

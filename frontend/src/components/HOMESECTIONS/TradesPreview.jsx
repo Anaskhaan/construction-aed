@@ -19,19 +19,17 @@ const TradesPreview = () => {
         </span>
       </div>
 
-      <div className="hidden lg:flex flex-col lg:flex-row items-start gap-6 p-6 ">
+      <div className="hidden lg:flex flex-col lg:flex-row items-center  justify-center gap-6 p-6 ">
         {/* Tabs */}
-        <div className="w-full lg:w-1/3">
-          <ul className="bg-[white] shadow-md rounded-md overflow-hidden">
+        <div className="w-full lg:w-1/4">
+          <ul className="  overflow-hidden">
             {servicesData.map((service, index) => (
               <li
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`cursor-pointer flex items-center   p-4 border-b border-gray-200 ${
-                  activeIndex === index ? "bg-blue-50 font-semibold" : ""
-                } hover:bg-blue-50`}
+                className={`cursor-pointer flex items-center ${activeIndex === index  ? " shadow-xl" : ""}  p-4  hover:bg-blue-50`}
               >
-                <img src={service.icon} alt={service.alt} />
+                {service.icon}
                 <div className=" mt-3 ml-3 space-x-3">{service.name}</div>
               </li>
             ))}
@@ -39,25 +37,23 @@ const TradesPreview = () => {
         </div>
 
         {/* Content */}
-        <div className="w lg:w-2/3 bg-[#EEF7FF] shadow-md rounded-md p-6 h-[43rem]">
+        <div className=" lg:w-2/4 bg-[#EEF7FF] shadow-md rounded-md p-6 mt-6 h-[41rem]">
           <h2 className="">{servicesData[activeIndex].title()}</h2>
-          <div className=" relative">
-            <p className="text-gray-600 mb-4">
-              {servicesData[activeIndex].content.split(". ")[2]}.
-            </p>
-            <p className="text-gray-600 mb-6">
-              {servicesData[activeIndex].content
-                .split(". ")
-                .slice(1)
-                .join(". ")}
-            </p>
-          </div>
+          <div className="relative h-full">
+  <p className="text-gray-600 mb-4">
+    {servicesData[activeIndex].content}.
+  </p>
+  <p className="text-gray-600 mb-6">
+    {servicesData[activeIndex].content.split(". ").slice(1).join(". ")}
+  </p>
 
-          <img
-            src={servicesData[activeIndex].image}
-            alt={servicesData[activeIndex].title}
-            className="w-full h-64 object-cover rounded-md mb-6"
-          />
+  <img
+    src={servicesData[activeIndex].image}
+    alt={servicesData[activeIndex].title}
+    className="absolute bottom-8 left-0 w-full h-64 object-cover rounded-md"
+  />
+</div>
+
         </div>
       </div>
       <div className="block lg:hidden">
