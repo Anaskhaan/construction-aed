@@ -13,23 +13,25 @@ const tabs = [
 
 const Navbar = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
-  const [bgColor, setBgColor] = useState("bg-[#0163be]");
+  const [bgColor, setBgColor] = useState("bg-white");
   const [logoPosition, setLogoPosition] = useState("flex-1");
-  const [color, setCOlor] = useState("text-white");
-  const [logoImage, setLogoImage] = useState("/ST.webp");
+  const [color, setCOlor] = useState("text-black");
+  const [logoImage, setLogoImage] = useState("/logo.webp");
 
   const handleScroll = () => {
     if (window.scrollY > 50) {
-      setLogoPosition("justify-start");
-      
+      setBgColor("bg-white shadow-md");
+      setCOlor("text-black");
+      setLogoPosition("justify-start"); // Move logo to the left
     } else {
-      setLogoPosition("lg:justify-center sm:justify-start");
-
+      setBgColor("bg-transparent");
+      setCOlor("text-black");
+      setLogoPosition("lg:justify-center sm:justify-start"); // Center logo by default
     }
   };
 
   useEffect(() => {
-    handleScroll();
+    handleScroll(); // Initialize on mount
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -49,7 +51,9 @@ const Navbar = () => {
       <div
         className={`fixed top-0 left-0 right-0 flex justify-between items-center px-6 py-2 z-50 ${bgColor} duration-300 ease-in-out`}
       >
-        <div className={`flex ${logoPosition} w-full transition-all duration-300`}>
+        <div
+          className={`flex ${logoPosition} w-full transition-all duration-300`}
+        >
           <Link to="/">
             <img src={logoImage} alt="Logo" className="w-24 h-auto" />
           </Link>
@@ -115,13 +119,20 @@ const Navbar = () => {
 
       <div
         className={`fixed top-0 left-0 w-full h-full bg-[#0163be] text-white z-40 transform transition-transform duration-500 ${
-          isSidebarOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
+          isSidebarOpen
+            ? "translate-y-0 opacity-100"
+            : "-translate-y-full opacity-0"
         }`}
         style={{ transition: "all 0.5s ease-in-out" }}
       >
         <div className="flex flex-col justify-center items-center h-full space-y-5">
           {tabs.map((tab, index) => (
-            <Link key={index} to={tab.path} className="lg:text-6xl text-3xl hover:text-[#56bafc]" onClick={handleTabClick}>
+            <Link
+              key={index}
+              to={tab.path}
+              className="lg:text-6xl text-3xl hover:text-[#56bafc]"
+              onClick={handleTabClick}
+            >
               <motion.div
                 className="flex items-center group space-x-2"
                 whileHover={{ scale: 1.1 }}
@@ -146,7 +157,10 @@ const Navbar = () => {
             </Link>
           ))}
           <div className="flex items-center justify-center rounded-3xl border border-white px-6 py-2">
-            <Link to="/GetQuote" className="bg-transparent text-white px-1 py-1 transition duration-300">
+            <Link
+              to="/GetQuote"
+              className="bg-transparent text-white px-1 py-1 transition duration-300"
+            >
               Get a Quote
             </Link>
             <ArrowRight className="text-[#56bafc]" />

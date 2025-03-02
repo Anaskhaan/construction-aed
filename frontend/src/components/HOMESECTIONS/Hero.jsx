@@ -22,7 +22,7 @@ const Hero = () => {
           <div className="absolute top-0 left-0  h-full w-full lg:w-1/2 bg-gradient-to-t lg:bg-gradient-to-r from-cyan-50 to-transparent pointer-events-none"></div>
         </div>
 
-        <div className="absolute lg:top-28 top-96 lg:left-32 left-6 z-10 ">
+        <div className="absolute lg:top-44 top-96 lg:left-32 left-6 z-10 ">
           <h1 className="lg:text-5xl w-full lg:w-3/6 xl:w-3/6 2xl:w-3/6  text-2xl font-bold text-gray-900 leading-tight">
             Precision <span className="text-[#0163BE]">Estimating</span> for
             Confident Bidding.
@@ -33,7 +33,7 @@ const Hero = () => {
             contractors and developers submit competitive bids with confidence.
           </p>
         </div>
-        <div className="absolute lg:bottom-64 bottom-32  left-4  lg:left-32 z-10 ">
+        <div className="absolute lg:bottom-52 bottom-32  left-4  lg:left-32 z-10 ">
           <div className=" flex items-center  justify-center ">
             <div className=" flex items-center text-white rounded-3xl  justify-center px-3  py-1 lg:px-6 bg-[#0163BE]">
               <button

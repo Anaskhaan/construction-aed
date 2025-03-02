@@ -50,27 +50,7 @@ export default function Contact() {
   };
 
   return (
-    <div>
-      <div className="w-full h-48 relative">
-        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
-
-        {/* Image */}
-        <img
-          src="/man-checking-his-phone-job.webp"
-          alt="man checking his phone job"
-          className="w-full h-full object-cover"
-        />
-
-        {/* Text Content */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4">
-          <h1 className="lg:text-5xl text-3xl font-bold">Contact Us</h1>
-          <span className="text-lg flex justify-center items-center gap-4">
-            Home <MoveRight />
-            Contact Us
-          </span>
-        </div>
-      </div>
-
+    <div className="py-24">
       <div className="container flex justify-center items-center flex-col mx-auto py-10 space-y-4">
         <h1 className="text-5xl font-bold text-center">
           We’d Love to Hear <span className="text-[#0163BE]">From You!</span>

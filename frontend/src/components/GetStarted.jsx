@@ -1,77 +1,125 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Check, ChevronRight, Sparkles, Zap, Shield, Settings } from 'lucide-react';
+import React, { useState } from "react";
+import {
+  ChevronDown,
+  ChevronUp,
+  FileText,
+  Search,
+  DollarSign,
+  ClipboardCheck,
+} from "lucide-react";
+import { Link } from "react-router-dom";
 
-const GetStarted = ({ theme = 'light', animationDuration = 0.5 }) => {
+function GetStarted() {
+  const [openTab, setOpenTab] = useState(1);
+
+  const toggleTab = (tabIndex) => {
+    setOpenTab(tabIndex === openTab ? null : tabIndex);
+  };
+
   const steps = [
     {
-      id: 'account',
-      title: 'Create your account',
-      description: 'Set up your personal profile with a secure password and verify your email address to get started.',
-      icon: <Zap size={20} />,
+      id: 1,
+      title: "Submit Your Drawing Plans",
+      icon: <FileText className="text-white" size={20} />,
+      content:
+        "You can easily upload your drawing plans in various formats. Simply email your construction drawings to info@swifttakeoffs.com We value your convenience, so feel free to choose the method that works best for you. Our team will review your project scope and any specific details for filing out the form.",
     },
     {
-      id: 'security',
-      title: 'Set up security',
-      description: 'Enable two-factor authentication and set up recovery options to keep your account secure.',
-      icon: <Shield size={20} />,
+      id: 2,
+      title: "We Review The Plans",
+      icon: <Search className="text-white" size={20} />,
+      content:
+        "Our expert team carefully reviews all submitted plans and documents to understand your project requirements. We analyze every detail to ensure accurate estimation.",
     },
     {
-      id: 'preferences',
-      title: 'Customize preferences',
-      description: 'Tailor the experience to your needs by adjusting notification settings and display options.',
-      icon: <Settings size={20} />,
+      id: 3,
+      title: "Get A Quote",
+      icon: <DollarSign className="text-white" size={20} />,
+      content:
+        "Based on our thorough review, we prepare a detailed quote for your project. Our quotes are comprehensive and transparent, with no hidden costs.",
     },
     {
-      id: 'explore',
-      title: 'Explore features',
-      description: 'Discover all the powerful tools and features available to help you make the most of our platform.',
-      icon: <Sparkles size={20} />,
+      id: 4,
+      title: "Receive an Estimate",
+      icon: <ClipboardCheck className="text-white" size={20} />,
+      content:
+        "You'll receive a complete estimate document that breaks down all costs and quantities for your construction project. This detailed estimate helps you plan your budget effectively.",
     },
   ];
 
-  const [activeTab, setActiveTab] = useState(steps[0].id);
-
   return (
-    <div className="min-h-screen bg-gray-100 p-4 md:p-8 lg:p-12">
-      <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-900 mb-2">Welcome to Our Platform</h1>
-        <p className="text-gray-600 mb-8">Follow these steps to get started with your new account.</p>
-        
-        <div className="rounded-xl shadow-xl bg-white p-8">
-          <div className="space-y-4 mb-8">
-            {steps.map((step) => (
-              <button
-                key={step.id}
-                onClick={() => setActiveTab(step.id)}
-                className={`w-full text-left p-4 rounded-lg border transition-all duration-200 flex items-start gap-4 ${activeTab === step.id ? 'bg-indigo-50 border-indigo-600' : 'bg-white border-gray-200 hover:bg-gray-50'}`}
-              >
-                <div className={`p-2 rounded-lg ${activeTab === step.id ? 'bg-indigo-100 text-indigo-600' : 'bg-gray-100 text-gray-500'}`}>{step.icon}</div>
-                <div>
-                  <h3 className="font-medium">{step.title}</h3>
-                  {activeTab === step.id && <p className="mt-2 text-sm text-gray-600">{step.description}</p>}
-                </div>
-                <ChevronRight size={18} className="ml-auto text-gray-400" />
-              </button>
-            ))}
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center ">
+      <div className="w-full bg-white  overflow-hidden">
+        <div className="p-6 md:p-8">
+          <h1 className="text-2xl md:text-3xl font-bold text-center mb-8">
+            How to Begin{" "}
+            <span className="text-[#0163be]">Construction Estimation &</span>
+            <br />
+            <span className="text-[#0163be]">Quantity Takeoffs</span> with Us
+          </h1>
+
+          <div className="flex flex-col md:flex-row gap-6">
+            {/* Left side - Images */}
+            <div className="md:w-2/5">
+              <div className="grid  h-full">
+                <img
+                  src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                  alt="Construction plans"
+                  className="rounded-lg object-cover h-full w-full col-span-2"
+                />
+              </div>
+            </div>
+
+            {/* Right side - Steps */}
+            <div className="md:w-3/5">
+              <div className="space-y-4">
+                {steps.map((step) => (
+                  <div
+                    key={step.id}
+                    className="border border-gray-200 rounded-lg overflow-hidden"
+                  >
+                    <button
+                      className="w-full flex items-center p-4 text-left focus:outline-none"
+                      onClick={() => toggleTab(step.id)}
+                    >
+                      <div className="flex items-center">
+                        <div className="bg-[#0163be] rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                          <span className="text-white font-medium">
+                            {step.id}
+                          </span>
+                        </div>
+                        <h3 className="font-semibold text-lg">{step.title}</h3>
+                      </div>
+                      <div className="ml-auto">
+                        {openTab === step.id ? (
+                          <ChevronUp className="text-gray-500" size={20} />
+                        ) : (
+                          <ChevronDown className="text-gray-500" size={20} />
+                        )}
+                      </div>
+                    </button>
+
+                    {openTab === step.id && (
+                      <div className="px-4 pb-4 pt-1">
+                        <p className="text-gray-600">{step.content}</p>
+                        {step.id === 1 && (
+                          <Link to="/getquote">
+                            <button className="mt-3 bg-[#0163be] text-white px-4 py-2 rounded-md text-sm hover:bg-[#0163be] transition-colors">
+                              Upload Plans Here
+                            </button>
+                          </Link>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
-          
-          <motion.div key={activeTab} className="h-full flex flex-col">
-            <h3 className="text-xl font-semibold mb-2">{steps.find(step => step.id === activeTab)?.title}</h3>
-            <p className="text-gray-600 mb-4">{steps.find(step => step.id === activeTab)?.description}</p>
-            <motion.button
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium flex items-center justify-center transition-all duration-200 mt-auto"
-            >
-              Continue
-              <ArrowRight size={18} className="ml-2" />
-            </motion.button>
-          </motion.div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default GetStarted;
