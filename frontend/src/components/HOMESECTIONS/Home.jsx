@@ -22,9 +22,9 @@ export default function Home() {
           <TradesPreview />
         </div>
         <GetStarted />
-        <Quote />
         <FAQs />
         <BlogSection />
+        <Quote />
       </div>
     </>
   );

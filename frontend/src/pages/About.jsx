@@ -80,29 +80,7 @@ export default function About() {
 
   return (
     <div>
-      <section>
-        <div className="w-full  h-48 relative">
-          {/* Black Overlay */}
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
-
-          {/* Image */}
-          <img
-            src="/image.webp"
-            alt="about page top image"
-            className="w-full h-full object-cover"
-          />
-
-          {/* Text Content */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4">
-            <h1 className="lg:text-5xl text-3xl font-bold">About Us</h1>
-            <span className="text-lg flex  justify-center items-center gap-4">
-              Home <MoveRight />
-              About Us
-            </span>
-          </div>
-        </div>
-      </section>
-      <section className="grid grid-cols-1 md:grid-cols-2 items-center py-12 bg-gray-50">
+      <section className="grid grid-cols-1 md:grid-cols-2 items-center py-24 bg-gray-50">
         <div className="relative flex justify-center items-center h-full">
           <img
             src="/group-male-architect-preparing-blueprint-office.webp"

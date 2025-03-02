@@ -150,8 +150,8 @@ const trades = [
 const TradeCard = ({ trade }) => {
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 ">
-       <img src={trade.icon}  />
-    <h2 className="text-xl font-bold text-black">{trade.title}</h2>
+      <img src={trade.icon} />
+      <h2 className="text-xl font-bold text-black">{trade.title}</h2>
       <p className="text-gray-600 mt-2">{trade.description}</p>
       <button className="mt-4 px-4 py-2 bg-[#0163be] text-white rounded-lg hover:bg-gray-800">
         See More
@@ -162,10 +162,17 @@ const TradeCard = ({ trade }) => {
 
 const TradesPage = () => {
   return (
-    <div className="min-h-screen bg-gray-100 p-8 ">
-      <h1 className="text-3xl font-bold text-center mb-8 text-black">
-        Our Trades
-      </h1>
+    <div className="min-h-screen bg-gray-100 px-8 py-28">
+      <div className="max-w-3xl mx-auto text-center mb-12">
+        <h1 className="text-3xl font-bold text-center  text-[#0163be]">
+          Our Trades
+        </h1>
+        <p>
+          From foundation to finish, we deliver fast and accurate takeoffs for
+          all trades—concrete, framing, drywall, roofing, MEP, and more—helping
+          you bid smarter and build better!
+        </p>
+      </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {trades.map((trade) => (
           <TradeCard key={trade.id} trade={trade} />

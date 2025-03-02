@@ -7,10 +7,8 @@ import {
   Layers,
   Paintbrush,
   ShieldHalf,
-  
+  CloudRainWind,
 } from "lucide-react";
-
-
 
 export const data = [
   {
@@ -1976,7 +1974,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: <Droplet className="w-6 h-6 text-blue-600" />,
+    icon: "plumbing",
     title: () => (
       <h1 className="text-2xl font-bold  text-black mb-4">
         Plumbing Estimating Service
@@ -2057,7 +2055,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: <ShieldHalf className="w-6 h-6 text-blue-600" />,
+    icon: <CloudRainWind className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Thermal & Moisture Protection

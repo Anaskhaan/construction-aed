@@ -2,7 +2,7 @@ import React from "react";
 import { servicesData } from "../../Helpers/Data";
 
 const ServiceCard = ({ service }) => {
-    const reducedContent = service.content.split(". ")[0];
+  const reducedContent = service.content.split(". ")[0];
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6">
       <img src={service.icon} alt={service.alt} className="w-16 h-16 mb-4" />
@@ -17,10 +17,16 @@ const ServiceCard = ({ service }) => {
 
 const Services = () => {
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
-      <h1 className="text-3xl font-bold text-center mb-8 text-black">
-        Our Services
-      </h1>
+    <div className="min-h-screen bg-gray-100 px-4 py-28">
+      <div className="py-4 max-w-3xl mx-auto">
+        <h1 className="text-3xl font-bold text-center text-[#0163be]">
+          Our Services
+        </h1>
+        <p className="px-4 max-w-3xl text-center">
+          Enhance your bid success rate with our accurate and efficient
+          construction takeoff services.
+        </p>
+      </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {servicesData.map((service, index) => (
           <ServiceCard key={index} service={service} />
