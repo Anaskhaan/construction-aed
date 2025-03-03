@@ -19,8 +19,26 @@ const GetQuote = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleFileChange = (e) => {
-    setFormData({ ...formData, file: e.target.files[0] });
+  const handleFileChange = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    const formData = new FormData();
+    formData.append("file", file);
+    formData.append("upload_preset", "sqhpvpek");
+
+    try {
+      const response = await axios.post(
+        "https://api.cloudinary.com/v1_1/drirmbeo0/upload",
+        formData
+      );
+
+      setFormData({ ...formData, file: response.data.secure_url });
+      toast.success("File uploaded successfully!");
+    } catch (error) {
+      console.error("File upload error:", error);
+      toast.error("Failed to upload file.");
+    }
   };
 
   const handleLevelChange = (e) => {
