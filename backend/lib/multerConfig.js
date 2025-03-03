@@ -1,18 +1,22 @@
+require("dotenv").config();
+const cloudinary = require("cloudinary").v2;
+const { CloudinaryStorage } = require("multer-storage-cloudinary");
 const multer = require("multer");
 
-const storage = multer.memoryStorage();
-const filteFilter = (req, file, cb) => {
-  if (file.mimetype === "application/pdf") {
-    cb(null, true);
-  } else {
-    cb(new Error("Invalid file type"), false);
-  }
-};
-
-const upload = multer({
-  storage: storage,
-  filteFilter: filteFilter,
-  limits: { fileSize: 10 * 1024 * 1024 },
+cloudinary.config({
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET,
 });
+const maxSize = 50 * 1024 * 1024;
+const storage = new CloudinaryStorage({
+  cloudinary: cloudinary,
+  params: {
+    folder: "uploads",
+    allowed_formats: ["pdf", "png", "jpg", "jpeg", "docx", "doc"],
+  },
+});
+
+const upload = multer({ storage, limits: { fileSize: maxSize } });
 
 module.exports = upload;
