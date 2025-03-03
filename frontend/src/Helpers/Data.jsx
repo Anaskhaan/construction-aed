@@ -1934,7 +1934,7 @@ export const servicesData = [
 
     content:
       " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
-    image: "tradespreview-1.svg",
+    image: "/tradesimages/concrete.webp",
     // link: "#concrete-service",
   },
   {
@@ -1950,7 +1950,7 @@ export const servicesData = [
     ),
     content:
       "Electrical estimating services from Swift Takeoffs provide detailed cost projections for the installation of wiring, lighting, and power distribution systems. These services ensure that all electrical needs are included in the project budget, allowing for safe and efficient installation of electrical systems.Electrical Estimating Services include a comprehensive breakdown of costs for wiring, fixtures, switches, and electrical panels, ensuring that all electrical components are accounted for in the project’s financial plan. With Swift Takeoffs, you’ll receive accurate estimates for all aspects of electrical work, from wiring installation to power distribution design.",
-    image: "tradespreview-1.webp",
+    image: "/tradesimages/electrical.webp",
     // link: "#plumbing-service",
   },
   {
@@ -1966,7 +1966,7 @@ export const servicesData = [
     ),
     content:
       "Masonry estimating services from Swift Takeoffs provide project managers with detailed cost projections for all masonry-related work, including brick, block, stone, and mortar. Whether you’re building walls, facades, or decorative elements, Swift Takeoffs ensures that both material and labor costs are meticulously planned, reducing the risk of budget overruns.Masonry Estimating Services cover everything from the selection of masonry materials to the calculation of installation labor. With Swift Takeoffs, you can be confident that your masonry work is thoroughly accounted for, ensuring that your project stays on schedule and within budget.",
-    image: "tradespreview-1.webp",
+    image: "/tradesimages/masonry.webp",
     // link: "#masonry-service",
   },
   {
@@ -1982,7 +1982,7 @@ export const servicesData = [
     ),
     content:
       "Plumbing estimating services from Swift Takeoffs provide detailed cost projections for the installation of water supply, drainage, and waste systems. These services ensure that all plumbing-related needs are included in the project budget, allowing for efficient installation and long-term operation of water systems.Plumbing Estimating Services include a comprehensive breakdown of costs for pipes, fixtures, valves, and connectors, ensuring that all plumbing materials and labor costs are included in the project’s financial plan. With Swift Takeoffs, you’ll receive accurate estimates for all aspects of plumbing work, from water supply installation to drainage system design.",
-    image: "tradespreview-1.webp",
+    image: "/tradesimages/plumbing.webp",
     // link: "#plumbing-service",
   },
   {
@@ -1998,7 +1998,7 @@ export const servicesData = [
     ),
     content:
       "Wood, Plastics, and Composites estimating services from Swift Takeoffs provide precise cost projections for projects requiring wood framing, millwork, plastic components, and composite materials. These services cover both structural and aesthetic applications, ensuring that all elements are accounted for in the project budget.Wood, Plastics, and Composites Estimating Services offer a detailed breakdown of material costs, labor, and installation needs for various wood and composite applications. Whether it’s framing, cabinetry, or decorative features, Swift Takeoffs helps you budget accurately and efficiently.",
-    image: "tradespreview-1.png",
+    image: "/tradesimages/wood.webp",
     // link: "#plumbing-service",
   },
 
@@ -2015,7 +2015,7 @@ export const servicesData = [
     ),
     content:
       "Openings Estimating Services cover a wide range of materials and labor costs associated with the installation of doors, windows, and other openings. Swift Takeoffs ensures that you receive accurate estimates, reducing the risk of costly errors during installation.Openings estimating services from Swift Takeoffs provide accurate cost projections for doors, windows, skylights, and other openings in a building. These services help ensure that all fenestration and access points are included in the project’s financial plan, enabling efficient resource allocation and installation.",
-    image: "tradespreview-1.webp",
+    image: "/tradesimages/opening.webp",
     // link: "#plumbing-service",
   },
   {
@@ -2031,7 +2031,7 @@ export const servicesData = [
     ),
     content:
       "Specialties estimating services from Swift Takeoffs cover a wide range of non-standard construction elements such as partitions, signage, and built-in furnishings. These services ensure that specialized materials and labor are accounted for in the project budget, preventing costly oversights or delays.Specialties Estimating Services provide accurate cost projections for customized or specialized project components that fall outside the usual scope of construction, ensuring that your project stays on budget while meeting specific functional and aesthetic needs. Swift Takeoffs ensures that every specialty item is fully integrated into the project’s financial plan.",
-    image: "tradespreview-1.webp",
+    image: "/tradesimages/existing.webp",
     // link: "/plumbing-service",
   },
   {
@@ -2047,7 +2047,7 @@ export const servicesData = [
     ),
     content:
       "Finishes estimating services from Swift Takeoffs are essential for projecting the costs related to the aesthetic and functional finishing components of your project, such as painting, flooring, and wall coverings. These services help you ensure that the final stages of construction are completed efficiently and within budget, delivering the desired look and feel of the finished space.Finishes Estimating Services include detailed cost projections for interior and exterior finishes, ensuring that all aesthetic and functional elements are accounted for in the financial plan. With Swift Takeoffs, you’ll receive accurate estimates for all finishing work, helping you deliver a high-quality project on time and within budget.",
-    image: "tradespreview-1.webp",
+    image: "/tradesimages/finieshes.webp",
     // link: "/plumbing-service",
   },
   {
@@ -2063,7 +2063,7 @@ export const servicesData = [
     ),
     content:
       "Thermal and Moisture Protection estimating services from Swift Takeoffs are crucial for predicting the costs associated with insulation, waterproofing, and weatherproofing. These services ensure that your project is protected from moisture, air infiltration, and temperature fluctuations while meeting energy efficiency standards. Thermal and Moisture Protection Estimating Services provide detailed cost projections for the materials and labor required to install insulation, vapor barriers, waterproofing membranes, and other protective systems. With Swift Takeoffs, you can rest assured that all protective elements are included in the project budget, ensuring long-term building performance.",
-    image: "tradespreview-1.webp",
+    image: "/tradesimages/thermal.webp",
     // link: "/plumbing-service",
   },
   {
@@ -2079,7 +2079,7 @@ export const servicesData = [
     ),
     content:
       "Conveying Equipment estimating services from Swift Takeoffs provide detailed cost projections for the installation and maintenance of elevators, escalators, and other mechanical systems for vertical transportation. These services ensure that all mechanical systems are accounted for in the project’s financial plan, allowing for efficient planning and operation. Conveying Equipment Estimating Services include a comprehensive breakdown of costs for purchasing, installing, and maintaining conveying systems such as elevators and escalators. Swift Takeoffs ensures that all conveying equipment-related costs are fully integrated into your project budget.",
-    image: "tradespreview-1.webp",
+    image: "/tradesimages/conveying.webp",
     // link: "/plumbing-service",
   },
 ];
