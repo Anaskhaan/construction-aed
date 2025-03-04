@@ -31,7 +31,7 @@ const TradesPreview = () => {
                   activeIndex === index ? " shadow-xl" : ""
                 }  p-4  hover:bg-blue-50`}
               >
-                {service.icon}
+                <img src={service.icon} className="w-5 h-auto" alt="icons" />
                 <div className=" mt-3 ml-3 space-x-3">{service.name}</div>
               </li>
             ))}
@@ -55,7 +55,7 @@ const TradesPreview = () => {
             <img
               src={servicesData[activeIndex].image}
               alt={servicesData[activeIndex].title}
-              className="absolute bottom-8 left-0 w-full h-64 object-cover rounded-md"
+              className="absolute bottom-8 left-0 w-full lg:h-72 h-20 object-cover rounded-md"
             />
           </div>
         </div>

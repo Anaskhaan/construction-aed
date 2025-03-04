@@ -2,144 +2,145 @@ import React from "react";
 
 const trades = [
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/1.existingconditions.svg",
     id: 1,
     title: "Existing Condition",
     description:
       "Assessment of current site conditions for accurate project planning.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/2.concrete.svg",
     id: 2,
     title: "Concrete Estimating",
     description:
       "Accurate cost estimation for concrete structures and foundations.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/3.masonry.svg",
     id: 3,
     title: "Masonry",
     description:
       "Brick, block, and stone construction for durable building structures.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/4.metal.svg",
     id: 4,
     title: "Metal",
     description:
       "Structural and decorative metalwork for construction projects.",
   },
   {
+    icon: "/icons/5.wood.svg",
     id: 5,
     title: "Woods, Plastics & Composites",
     description:
       "Materials selection and cost estimation for wood and plastic components.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/6.thermal&moisture.svg",
     id: 6,
     title: "Thermal & Moisture Protection",
     description:
       "Ensuring insulation and waterproofing for long-lasting structures.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/7.openings.svg",
     id: 7,
     title: "Opening Estimating",
     description:
       "Cost evaluation for doors, windows, and other building openings.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/8.finishes.svg",
     id: 8,
     title: "Finishes Estimating",
     description:
       "Accurate pricing for interior and exterior finishing materials.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/9.specialities.svg",
     id: 9,
     title: "Specialties Estimating",
     description:
       "Cost assessment for specialty construction elements and features.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/10.equipement.svg",
     id: 10,
     title: "Equipment Estimating",
     description:
       "Estimating costs for construction-related machinery and tools.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/11.furnishes.svg",
     id: 11,
     title: "Furnishings Estimating",
     description:
       "Budgeting for furniture and interior design elements in construction.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/12.specialconstruction.svg",
     id: 12,
     title: "Special Construction",
     description:
       "Unique or custom-built structures requiring specialized planning.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/13.conveyingequipements.svg",
     id: 13,
     title: "Conveying Equipment",
     description:
       "Estimating costs for elevators, escalators, and material handling systems.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/14.mechanicalsupport.svg",
     id: 14,
     title: "Mechanical Support",
     description:
       "Infrastructure support for HVAC, plumbing, and mechanical systems.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/15.firesuppression.svg",
     id: 15,
     title: "Fire Suppression",
     description: "Installation and cost assessment of fire protection systems.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/16.plumbing.svg",
     id: 16,
     title: "Plumbing Estimating",
     description: "Cost analysis for plumbing installations and fixtures.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/17.hvac.svg",
     id: 17,
     title: "Heating Ventilation",
     description:
       "Design and budgeting for heating, cooling, and ventilation systems.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/18.electrical.svg",
     id: 18,
     title: "Electrical Estimating",
     description:
       "Cost estimation for electrical installations and wiring systems.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/19.earthwork.svg",
     id: 19,
     title: "Earthwork Estimating",
     description:
       "Budget planning for excavation, grading, and site preparation.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/20.exterior.svg",
     id: 20,
     title: "Exterior Improvements",
     description:
       "Landscaping, paving, and other exterior construction enhancements.",
   },
   {
-    icon: "/tradeicon1.webp",
+    icon: "/icons/21.utilities.svg",
     id: 21,
     title: "Utilities Estimating",
     description:
@@ -150,8 +151,8 @@ const trades = [
 const TradeCard = ({ trade }) => {
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 ">
-      <img src={trade.icon} />
-      <h2 className="text-xl font-bold text-black">{trade.title}</h2>
+      <img src={trade.icon} alt="trades icon" className="w-10 h-auto" />
+      <h2 className="text-xl font-bold text-[#0163be]">{trade.title}</h2>
       <p className="text-gray-600 mt-2">{trade.description}</p>
       <button className="mt-4 px-4 py-2 bg-[#0163be] text-white rounded-lg hover:bg-gray-800">
         See More

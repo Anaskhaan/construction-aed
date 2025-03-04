@@ -16,7 +16,7 @@ const TradesPreviewMobile = ({ servicesData }) => {
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
               className="w-full p-4 text-left flex justify-between items-center"
             >
-                              {service.icon}
+              <img src={service.icon} className="w-5 h-auto" alt="icons" />
               <span>{service.name}</span>
               <ChevronDown
                 className={`w-5 h-5 transition-transform duration-300 ${
