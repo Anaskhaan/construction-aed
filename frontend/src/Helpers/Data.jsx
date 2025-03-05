@@ -894,8 +894,8 @@ export const data = [
   },
   {
     src2: "/businesswoman.webp",
-    title1: "Earthwork",
-    Des1: "Earthwork Estimating Services include a comprehensive breakdown of costs for materials, labor, and equipment needed for excavation, grading, and site preparation. With Swift Takeoffs, you’ll receive accurate estimates that help ensure your site is properly prepared for construction, minimizing risks and avoiding delays.",
+    title1: "Preliminary",
+    Des1: "At Swift Takeoffs, our preliminary estimating services provide early-stage cost assessments to help developers, contractors, and stakeholders make informed decisions before committing to full project execution. These estimates offer a high-level cost overview, assisting in budget planning, feasibility studies, and investment analysis.",
     image: "/Convey.webp",
     title2: "Cost Factors",
     li1: () => (
