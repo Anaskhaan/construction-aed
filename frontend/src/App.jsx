@@ -6,7 +6,6 @@ import Terms from "./pages/Terms";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import GetQuote from "./pages/GetQuote";
 import { Toaster } from "react-hot-toast";
-
 import Home from "./components/HOMESECTIONS/Home";
 import About from "./pages/About";
 import TradesPage from "./pages/trades/TradesPage";
@@ -15,6 +14,7 @@ import BlogList from "./pages/BlogList";
 import BlogDetail from "./pages/BlogDetail";
 import Trades from "./pages/Trades";
 import Services from "./pages/services/Services";
+
 function App() {
   return (
     <>
@@ -29,8 +29,6 @@ function App() {
             {/* / */}
             <Route path="about" element={<About />} />
             <Route path="/Services" element={<Services />} />
-    
-
             <Route path="contact" element={<Contact />} />
             <Route path="blogs" element={<Blogs />} />
             <Route path="terms" element={<Terms />} />
