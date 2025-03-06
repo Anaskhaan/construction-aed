@@ -27,9 +27,11 @@ const TradesPreview = () => {
               <li
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`cursor-pointer flex items-center ${activeIndex === index  ? " shadow-xl" : ""}  p-4  hover:bg-blue-50`}
+                className={`cursor-pointer flex items-center ${
+                  activeIndex === index ? " shadow-xl" : ""
+                }  p-4  hover:bg-blue-50`}
               >
-                {service.icon}
+                <img src={service.icon} className="w-5 h-auto" alt="icons" />
                 <div className=" mt-3 ml-3 space-x-3">{service.name}</div>
               </li>
             ))}
@@ -37,23 +39,25 @@ const TradesPreview = () => {
         </div>
 
         {/* Content */}
-        <div className=" lg:w-2/4 bg-[#EEF7FF] shadow-md rounded-md p-6 mt-6 h-[41rem]">
+        <div className=" lg:w-3/4 bg-[#EEF7FF] shadow-md rounded-md p-6 mt-6 h-[41rem]">
           <h2 className="">{servicesData[activeIndex].title()}</h2>
           <div className="relative h-full">
-  <p className="text-gray-600 mb-4">
-    {servicesData[activeIndex].content}.
-  </p>
-  <p className="text-gray-600 mb-6">
-    {servicesData[activeIndex].content.split(". ").slice(1).join(". ")}
-  </p>
+            <p className="text-gray-600 mb-4">
+              {servicesData[activeIndex].content}.
+            </p>
+            <p className="text-gray-600 mb-6">
+              {servicesData[activeIndex].content
+                .split(". ")
+                .slice(1)
+                .join(". ")}
+            </p>
 
-  <img
-    src={servicesData[activeIndex].image}
-    alt={servicesData[activeIndex].title}
-    className="absolute bottom-8 left-0 w-full h-64 object-cover rounded-md"
-  />
-</div>
-
+            <img
+              src={servicesData[activeIndex].image}
+              alt={servicesData[activeIndex].title}
+              className="absolute bottom-8 left-0 w-full lg:h-72 h-20 object-cover rounded-md"
+            />
+          </div>
         </div>
       </div>
       <div className="block lg:hidden">

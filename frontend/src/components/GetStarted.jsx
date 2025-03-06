@@ -61,11 +61,21 @@ function GetStarted() {
           <div className="flex flex-col md:flex-row gap-6">
             {/* Left side - Images */}
             <div className="md:w-2/5">
-              <div className="grid  h-full">
+              <div className="grid relative h-full">
+                {/* Background Div - Lower z-index */}
+                <div
+                  className="lg:block hidden absolute lg:w-[480px] w-[18rem] 2xl:h-[800px] 2xl:w-[780px] lg:h-[490px] h-[19rem] lg:-top-7 top-1 lg:-left-7 left-3 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6 z-0"
+                  style={{
+                    background:
+                      "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
+                  }}
+                ></div>
+
+                {/* Image - Higher z-index */}
                 <img
-                  src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                  src="eng.webp"
                   alt="Construction plans"
-                  className="rounded-lg object-cover h-full w-full col-span-2"
+                  className="rounded-lg object-cover lg:h-[30rem] h-[10rem] w-full col-span-2 relative z-10"
                 />
               </div>
             </div>

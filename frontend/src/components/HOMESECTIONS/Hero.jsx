@@ -33,7 +33,7 @@ const Hero = () => {
             contractors and developers submit competitive bids with confidence.
           </p>
         </div>
-        <div className="absolute lg:bottom-52 bottom-32  left-4  lg:left-32 z-10 ">
+        <div className="absolute lg:bottom-48 bottom-32  left-4  lg:left-32 z-10 ">
           <div className=" flex items-center  justify-center ">
             <div className=" flex items-center text-white rounded-3xl  justify-center px-3  py-1 lg:px-6 bg-[#0163BE]">
               <button

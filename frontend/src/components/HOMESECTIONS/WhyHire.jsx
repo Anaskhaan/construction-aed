@@ -117,7 +117,7 @@ const WhyHire = () => {
 
         {/* Image Section */}
         <div className="flex relative mb-24">
-          <div className=" absolute -top-3 -left-3 border border-l-2  border-t-2 border-b-transparent border-r-transparent border-[#0163be] h-44 w-64"></div>
+          <div className=" absolute -top-3 -left-3 border border-l-2  border-t-2 rounded-xl border-b-transparent border-r-transparent border-[#0163be] h-44 w-64"></div>
           <img
             src="/group-architect.webp"
             alt="Team Collaboration"
@@ -128,7 +128,7 @@ const WhyHire = () => {
             alt="Team"
             className="rounded-lg  w-full h-auto relative  z-10"
           />
-          <div className=" absolute -bottom-3 -right-3 border border-r-2  border-b-2 border-t-transparent border-l-transparent border-[#0163be] h-56 lg:w-72  w-40"></div>
+          <div className=" absolute -bottom-3 -right-3 border border-r-2  border-b-2 rounded-xl border-t-transparent border-l-transparent border-[#0163be] h-56 lg:w-72  w-40"></div>
 
           <div
             className="absolute w-full h-full top-0 left-0 -z-10 rounded-lg border-2 border-[#0163BE]"
