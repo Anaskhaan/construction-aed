@@ -1,4 +1,4 @@
-import { MoveRight } from "lucide-react";
+import { Check, MoveRight } from "lucide-react";
 import WhyChooseBidworks from "../trades/WhyChooseBidworks";
 import SearchTrades from "../../components/SearchingTrades/SearchTrades";
 import { ServicesData } from "../../Helpers/Data";
@@ -22,6 +22,8 @@ const TradesPage = ({ route }) => {
     li8,
     title3,
     Des3,
+    Q,
+    A,
   } = serviceData;
 
   return (
@@ -29,7 +31,6 @@ const TradesPage = ({ route }) => {
       <div className="flex justify-center items-center">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] my-8">
           <div className="col-span-2 p-4">
-            {/* Content for the first section */}
             <img
               src={image}
               alt="service image"
@@ -45,6 +46,13 @@ const TradesPage = ({ route }) => {
                 alt="service image"
                 className="w-full md:hidden mt-1  h-auto rounded-lg"
               />
+              {Q && (
+                <h1 className="text-black font-bold text-md lg:text-xl mt-4">
+                  {Q}
+                </h1>
+              )}
+              {A && <p className="mt-2 lg:text-md text-sm ">{A}</p>}
+
               <h2 className="mt-6 text-xl font-bold text-[#202020]">
                 {title2}
               </h2>
@@ -64,7 +72,9 @@ const TradesPage = ({ route }) => {
               <h1 className="text-2xl font-bold text-gray-900">
                 {title3} <span className="text-[#0163BE]"> Services</span>
               </h1>
-              <p className="mt-4">{Des3}</p>
+              <ul>
+                <li className="mt-4">{Des3()}</li>
+              </ul>
             </div>
             <WhyChooseBidworks />
           </div>

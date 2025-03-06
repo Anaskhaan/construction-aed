@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const WhyChooseBidworks = () => {
+const WhyChooseSwiftTakeoffs = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold">
@@ -13,19 +13,16 @@ const WhyChooseBidworks = () => {
           <div className="flex-1">
             <ul className="list-disc pl-6 text-[#333]">
               <li className="mb-4">
-                <strong>Efficiency:</strong> Swift Takeoffs simplifies the
-                process of generating accurate estimates, saving time compared
-                to manual methods.
+                <strong>Accuracy:</strong> Minimize errors and ensure reliable
+                cost projections.
               </li>
               <li className="mb-4">
-                <strong>Accuracy:</strong> It helps ensure that every estimate
-                is detailed and precise, reducing errors that can lead to budget
-                overruns.
+                <strong>Efficiency:</strong> Save time with automated,
+                data-driven estimating solutions.
               </li>
-              <li>
-                <strong>Customization:</strong> The platform offers customizable
-                templates and tools that can be tailored to fit the specific
-                needs of your project.
+              <li className="mb-4">
+                <strong>Customization:</strong> Tailor estimates to the unique
+                needs of each project.
               </li>
             </ul>
           </div>
@@ -50,28 +47,23 @@ const WhyChooseBidworks = () => {
         <div className="flex-1 ">
           <ul className="list-disc pl-6 text-[#333]">
             <li className="mb-4">
-              <strong>Collaboration:</strong> It supports team collaboration,
-              allowing multiple users to work on the same estimate
-              simultaneously.
+              <strong>Collaboration:</strong> Work seamlessly with teams using
+              cloud-based estimating tools.
             </li>
             <li className="mb-4">
-              <strong>Cost-Effectiveness:</strong> Swift Takeoffs helps prevent
-              unnecessary costs by providing clear and accurate cost projections
-              from the start.
-            </li>
-            <li>
-              <strong>Data Tracking:</strong> It tracks and stores historical
-              data, making it easier to benchmark and compare costs for future
-              projects.
+              <strong>Cost Control:</strong> Identify and eliminate unnecessary
+              expenses early in the planning stage.
             </li>
           </ul>
         </div>
       </div>
       <div className="py-6">
         <span className="text-[#333] mt-4">
-          In summary, Swift Takeoffs can streamline your project management by
-          delivering accurate, collaborative, and efficient estimating
-          solutions.
+          With Swift Takeoffs, you gain access to expert cost estimating
+          services that enhance project planning, reduce financial risks, and
+          ensure budget accuracy. Whether for residential, commercial, or
+          industrial construction, our precise estimates help you achieve a
+          successful and cost-effective project.
         </span>
       </div>
       <Link to="/GetQuote">
@@ -86,4 +78,4 @@ const WhyChooseBidworks = () => {
   );
 };
 
-export default WhyChooseBidworks;
+export default WhyChooseSwiftTakeoffs;
