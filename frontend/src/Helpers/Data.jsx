@@ -894,8 +894,8 @@ export const data = [
   },
   {
     src2: "/businesswoman.webp",
-    title1: "Preliminary",
-    Des1: "At Swift Takeoffs, our preliminary estimating services provide early-stage cost assessments to help developers, contractors, and stakeholders make informed decisions before committing to full project execution. These estimates offer a high-level cost overview, assisting in budget planning, feasibility studies, and investment analysis.",
+    title1: "Earthwork",
+    Des1: "Earthwork Estimating Services include a comprehensive breakdown of costs for materials, labor, and equipment needed for excavation, grading, and site preparation. With Swift Takeoffs, you’ll receive accurate estimates that help ensure your site is properly prepared for construction, minimizing risks and avoiding delays.",
     image: "/Convey.webp",
     title2: "Cost Factors",
     li1: () => (
@@ -1046,83 +1046,165 @@ export const data = [
 export const ServicesData = [
   {
     src2: "/ServicesBanner1.webp",
-    title1: " Conditions Estimating Services",
-    Des1: "Existing Conditions estimating services from Swift Takeoffs focus on assessing and costing all pre-existing conditions at a construction site, including environmental hazards, structural challenges, and other site-specific factors. These services are essential for understanding the unique challenges posed by the site and accounting for any pre-construction activities such as demolition, hazardous material handling, or site remediation. With Swift Takeoffs, you’ll have a clear picture of the costs associated with addressing these conditions, minimizing risks, and reducing the chances of unexpected expenses during construction.",
+    title1: " Cost Estimating Services",
+    Des1: "At Swift Takeoffs, we provide comprehensive and precise cost estimating services to help construction professionals plan and manage project budgets effectively. Our estimates cover all aspects of material costs, labor, equipment, subcontractor expenses, and overhead, ensuring financial accuracy and preventing unexpected overruns.",
     image: "/Service1.webp",
-    title2: "Cost Factors",
+    title2: "Key Components of Cost Estimating",
     li1: () => (
       <h1>
-        <span className="font-bold">Mechanical Estimating:</span>Costs related
-        to heating, ventilation, and air conditioning (HVAC) systems, including
-        ductwork, air handlers, pumps, chillers, and other equipment.{" "}
-        <span className=" text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        provides accurate projections for mechanical system components and
-        installation.
+        <span className="font-bold">Material Costs:</span> Material costs form
+        the foundation of every construction estimate. Our services include:
+        <ul>
+          <li>
+            Detailed Quantity Takeoffs – Accurately calculating materials such
+            as concrete, steel, wood, and finishing products.
+          </li>
+          <li>
+            Market Price Analysis – Incorporating up-to-date pricing for bulk
+            materials and factoring in regional price fluctuations.
+          </li>
+          <li>
+            Waste and Loss Factors – Estimating additional materials needed to
+            compensate for on-site waste and breakage.
+          </li>
+        </ul>
       </h1>
     ),
     li2: () => (
       <h1>
-        <span className="font-bold">Electrical Estimating:</span> Costs for
-        electrical wiring, lighting systems, power distribution, and associated
-        components such as circuit breakers, transformers, and fire alarm
-        systems.
-        <span className=" text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        ensures comprehensive cost analysis for all electrical requirements,
-        including energy-efficient solutions.
+        <span className="font-bold">Labor Costs:</span> Labor is one of the most
+        significant costs in construction. Our labor estimates consider:
+        <ul>
+          <li>
+            Trade-Specific Wage Rates – Calculating costs based on skilled,
+            semi-skilled, and general labor wages.
+          </li>
+          <li>
+            Crew Productivity Rates – Factoring in industry benchmarks for work
+            efficiency and project timelines.
+          </li>
+          <li>
+            Overtime and Union Requirements – Including additional labor costs
+            for overtime work or union-specific regulations.
+          </li>
+        </ul>
       </h1>
     ),
     li3: () => (
       <h1>
-        <span className="font-bold">Plumbing Estimating:</span> Costs for water
-        supply, drainage, waste systems, and plumbing fixtures. This includes
-        estimating the cost for water heaters, pipes, backflow prevention, and
-        associated installation work.{" "}
-        <span className=" text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        ensures that plumbing systems are priced accurately and meet safety
-        standards.
+        <span className="font-bold">Equipment and Machinery Costs:</span> Heavy
+        equipment and machinery play a vital role in construction. We estimate:
+        <ul>
+          <li>
+            Rental vs. Purchase Analysis – Determining the most cost-effective
+            approach for equipment use.
+          </li>
+          <li>
+            Operational Costs – Fuel, maintenance, and depreciation expenses for
+            owned or rented equipment.
+          </li>
+          <li>
+            Specialized Machinery Requirements – Estimating the cost of cranes,
+            concrete pumps, and earthmoving equipment.
+          </li>
+        </ul>
       </h1>
     ),
     li4: () => (
       <h1>
-        <span className="font-bold">Energy Efficiency & Sustainability: </span>
-        Swift Takeoffs includes provisions for energy-efficient systems like LED
-        lighting, solar power integration, and sustainable HVAC systems. These
-        cost factors ensure the systems are cost-effective and environmentally
-        friendly.
+        <span className="font-bold">
+          Subcontractor & Specialty Contractor Costs:
+        </span>{" "}
+        Construction projects often involve subcontracted work for specialized
+        tasks. We provide:
+        <ul>
+          <li>
+            Bid Evaluation Support – Assessing subcontractor bids to ensure
+            competitive pricing.
+          </li>
+          <li>
+            Scope of Work Costing – Breaking down subcontractor tasks and
+            related expenses.
+          </li>
+          <li>
+            Risk and Contingency Planning – Factoring in potential cost overruns
+            due to scope changes.
+          </li>
+        </ul>
       </h1>
     ),
     li5: () => (
       <h1>
-        <span className="font-bold">Mortar and Grouting:</span> Costs for
-        mortar, grout, and other binding materials required for masonry work.
-        Swift Takeoffs accurately calculates the amount of mortar or grout
-        needed based on the specific material and application method.{" "}
+        <span className="font-bold">Overhead and Indirect Costs:</span> Beyond
+        direct construction expenses, every project has indirect costs that
+        impact the total budget. We estimate:
+        <ul>
+          <li>
+            Administrative Expenses – Permits, legal fees, insurance, and office
+            overhead.
+          </li>
+          <li>
+            Project Management Costs – Supervision, safety compliance, and
+            quality control measures.
+          </li>
+          <li>
+            Contingency and Inflation Adjustments – Accounting for unforeseen
+            expenses and future price increases.
+          </li>
+        </ul>
       </h1>
     ),
     li6: () => (
       <h1>
-        <span className="font-bold">Waste Management:</span> Estimating the
-        costs associated with the disposal of excess materials, including broken
-        bricks, blocks, and waste mortar. Swift Takeoffs ensures that waste
-        management costs are included to prevent unexpected expenses.{" "}
+        <span className="font-bold">Waste Management and Disposal Costs:</span>{" "}
+        Proper disposal and recycling of construction materials can impact the
+        budget. Our estimates cover:
+        <ul>
+          <li>
+            Demolition and Site Clearing – Cost of removing debris and preparing
+            the site.
+          </li>
+          <li>
+            Recycling and Salvage Value – Identifying cost-saving opportunities
+            through material reuse.
+          </li>
+          <li>
+            Landfill and Hauling Fees – Budgeting for legal disposal of
+            construction waste.
+          </li>
+        </ul>
       </h1>
     ),
-    title3: "Takeoff ",
-    Des3: "Our MEP Takeoff Services provide a comprehensive review of the mechanical, electrical, and plumbing systems, ensuring accurate estimates for installation, equipment, materials, and labor. Swift Takeoffs assesses all elements of the MEP infrastructure to ensure efficient system integration and reliable performance throughout the life of the project.",
-    title: "MEP Estimating ",
+    title3: "Comprehensive Takeoff Services ",
+    Des3: () => (
+      <>
+        <span className="font-bold">
+          Our Cost Estimating and Takeoff Services include:
+        </span>
+        <ul>
+          <li>Material quantity calculations for procurement and budgeting.</li>
+          <li>
+            Detailed labor estimates to forecast workforce costs accurately.
+          </li>
+          <li>Equipment and tool costing for efficient project planning.</li>
+          <li>Project-specific contingencies to prevent budget overruns.</li>
+          <li>
+            Historical cost tracking to benchmark estimates against past
+            projects.
+          </li>
+        </ul>
+      </>
+    ),
+    title: "Cost Estimating ",
     description: () => (
       <>
         <h1>
-          MEP estimating services from Swift Takeoffs focus on assessing and
-          costing all mechanical, electrical, and plumbing (MEP) systems within
-          a construction project. These services are essential for accurately
-          understanding the costs of integrating vital infrastructure, ensuring
-          that the MEP systems are efficient, compliant, and fit for purpose.
-        </h1>
-        <h1 className=" mt-4">
-          By utilizing Swift Takeoffs, you gain a comprehensive view of the
-          costs involved in these essential systems, minimizing risks, and
-          avoiding unexpected expenses during construction.
+          At Swift Takeoffs, we provide comprehensive and precise cost
+          estimating services to help construction professionals plan and manage
+          project budgets effectively. Our estimates cover all aspects of
+          material costs, labor, equipment, subcontractor expenses, and
+          overhead, ensuring financial accuracy and preventing unexpected
+          overruns.
         </h1>
       </>
     ),
@@ -1130,672 +1212,87 @@ export const ServicesData = [
   },
 
   {
-    src2: "/businesswoman.webp",
-
-    title1: "Existing Conditions Estimating Services",
-    Des1: " Existing Conditions estimating services from Swift Takeoffs focus on assessing and costing all pre-existing conditions at a construction site, including environmental hazards, structural challenges, and other site-specific factors. These services are essential for understanding the unique challenges posed by the site and accounting for any pre-construction activities such as demolition, hazardous material handling, or site remediation.With Swift Takeoffs, you’ll have a clear picture of the costs associated with addressing these conditions, minimizing risks, and reducing the chances of unexpected expenses during construction.  ",
-    image: "/Service2.webp",
-    title2: "Cost Factors",
-    li1: () => (
-      <h1>
-        <span className="font-bold">Foundation Work:</span>Costs for pouring
-        concrete foundations, including excavation, formwork, reinforcement
-        (rebar), and the concrete mix itself.
-        <span className=" text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        ensures all factors are accounted for, including labor and materials.
-      </h1>
-    ),
-    li2: () => (
-      <h1>
-        <span className="font-bold">Slab and Floor Systems:</span> Costs for
-        structural components like beams, columns, and load-bearing walls.{" "}
-        <span className=" text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        considers the material quantities, reinforcement requirements, and any
-        specialized equipment needed for these heavy-duty components.{" "}
-      </h1>
-    ),
-    li3: () => (
-      <h1>
-        <span className="font-bold">Structural Concrete:</span>Costs for
-        structural components like beams, columns, and load-bearing walls. Swift
-        Takeoffs considers the material quantities, reinforcement requirements,
-        and any specialized equipment needed for these heavy-duty components.
-      </h1>
-    ),
-    li4: () => (
-      <h1>
-        <span className="font-bold">Concrete Finishing and Curing: </span> Costs
-        associated with finishing concrete surfaces, including polishing,
-        sealing, and curing methods to ensure the longevity and durability of
-        the poured concrete. Swift Takeoffs provides accurate projections for
-        all finishing and post-pour treatments.{" "}
-      </h1>
-    ),
-    li5: () => (
-      <h1>
-        <span className="font-bold">Formwork and Reinforcement:</span> :
-        Estimating the costs of formwork materials (wood, steel, plastic) and
-        the reinforcement needed to strengthen the concrete structure. Swift
-        Takeoffs Estimating includes material and labor costs for form
-        construction and rebar placement.{" "}
-      </h1>
-    ),
-    li6: () => (
-      <h1>
-        <span className="font-bold">Mortar and Grouting:</span> Costs for
-        mortar, grout, and other binding materials required for masonry work.
-        Swift Takeoffs accurately calculates the amount of mortar or grout
-        needed based on the specific material and application method.{" "}
-      </h1>
-    ),
-    li7: () => (
-      <h1>
-        <span className="font-bold">Waste Management:</span> Estimating the
-        costs associated with the disposal of excess materials, including broken
-        bricks, blocks, and waste mortar. Swift Takeoffs ensures that waste
-        management costs are included to prevent unexpected expenses.{" "}
-      </h1>
-    ),
-    title3: "Takeoff ",
-    Des3: "Our Concrete Takeoff Services provide a detailed review of all concrete-related elements within a project, including quantities of materials, labor requirements, and equipment needs. Swift Takeoffs ensures accurate estimates for all concrete work, including formwork, pouring, curing, and finishing, while considering site conditions and project specifications.",
-    title: "Concrete Estimating",
-    description: () => (
-      <>
-        <h1>
-          Concrete estimating services from Swift Takeoffs focus on providing
-          accurate cost assessments for all concrete-related aspects of a
-          construction project. These services are essential for estimating the
-          costs of concrete work, including foundations, slabs, walls, and
-          structural components.{" "}
-        </h1>
-        <h1 className=" mt-4">
-          By utilizing Swift Takeoffs, you can ensure that your concrete work is
-          planned and budgeted effectively, minimizing risks and avoiding
-          unexpected costs during the project.
-        </h1>
-      </>
-    ),
-    route: "CES",
-  },
-  {
+    Q: "What is a Material Takeoff?",
+    A: "A Material Takeoff (MTO) is a detailed quantification of materials needed for a construction project. This includes raw materials, prefabricated components, and consumables required for structural, architectural, mechanical, and electrical work.",
     src2: "/businesswoman.webp",
 
     route: "PES",
-    title1: "Existing Conditions Estimating Services",
-    Des1: " Existing Conditions estimating services from Swift Takeoffs focus on assessing and costing all pre-existing conditions at a construction site, including environmental hazards, structural challenges, and other site-specific factors. These services are essential for understanding the unique challenges posed by the site and accounting for any pre-construction activities such as demolition, hazardous material handling, or site remediation.With Swift Takeoffs, you’ll have a clear picture of the costs associated with addressing these conditions, minimizing risks, and reducing the chances of unexpected expenses during construction.  ",
+    title1: "Material Takeoff Services",
+    Des1: " At Swift Takeoffs, we specialize in providing precise and comprehensive material takeoff services to ensure accurate planning, budgeting, and procurement for construction projects. Our detailed takeoff reports help contractors, builders, and project managers estimate material quantities, reduce waste, and optimize project costs.",
     image: "/S3.webp",
     title2: "Cost Factors",
     li1: () => (
       <h1>
-        <span className="font-bold">Surface Preparation:</span> Costs for
-        preparing surfaces before painting, including cleaning, sanding,
-        priming, and patching.{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        ensures accurate projections for labor and materials needed for
-        effective surface preparation.
+        <span className="font-bold">Project Review:</span>Analyzing
+        architectural, structural, and MEP drawings to identify all material
+        requirements. Understanding project specifications to ensure accurate
+        takeoff calculations.
       </h1>
     ),
     li2: () => (
       <h1>
-        <span className="font-bold">Interior Painting:</span> Costs for painting
-        interior walls, ceilings, trim, and other surfaces.
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        covers the cost of materials (paints, primers, finishes) and labor
-        (application, taping, and cleanup) for all types of interior spaces.
+        <span className="font-bold">Quantity Extraction:</span>Using advanced
+        estimating software to extract precise material quantities. Identifying
+        required materials for structural, architectural, mechanical,
+        electrical, and plumbing components.
       </h1>
     ),
     li3: () => (
       <h1>
-        <span className="font-bold">Exterior Painting:</span> Estimating costs
-        for painting exterior surfaces, including walls, doors, windows, and
-        trim. <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        takes into account weatherproofing requirements, high-quality exterior
-        paints, and specialized coatings for durability.{" "}
+        <span className="font-bold">Cost Estimation:</span>Assigning unit prices
+        to materials for accurate budgeting and procurement planning.
+        Considering market fluctuations and regional pricing variations.
       </h1>
     ),
     li4: () => (
       <h1>
-        <span className="font-bold">Coatings and Special Finishes: </span> Costs
-        for applying specialized coatings such as textured finishes, epoxy,
-        anti-corrosion coatings, or fire-resistant finishes.{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        ensures the correct materials and labor are included for these unique
-        requirements.{" "}
+        <span className="font-bold">Quality Assurance:</span> Cross-verifying
+        takeoff data with industry standards and project specifications.
+        Eliminating errors, inconsistencies, and overestimations to improve
+        accuracy.
       </h1>
     ),
     li5: () => (
       <h1>
-        <span className="font-bold">Labor and Equipment:</span> : Estimating
-        labor costs for painters, including preparation, application, and
-        finishing. It also covers equipment costs for scaffolding, sprayers,
-        brushes, and rollers needed to complete the work efficiently.{" "}
+        <span className="font-bold">Final Reporting:</span> Delivering a
+        detailed, structured, and easy-to-read takeoff report. Providing
+        categorized material lists for procurement and cost control.
       </h1>
     ),
-    li6: () => (
-      <h1>
-        <span className="font-bold">Mortar and Grouting:</span> Costs for
-        mortar, grout, and other binding materials required for masonry work.
-        Swift Takeoffs accurately calculates the amount of mortar or grout
-        needed based on the specific material and application method.{" "}
-      </h1>
-    ),
-    li7: () => (
-      <h1>
-        <span className="font-bold">Waste Management:</span> Estimating the
-        costs associated with the disposal of excess materials, including broken
-        bricks, blocks, and waste mortar. Swift Takeoffs ensures that waste
-        management costs are included to prevent unexpected expenses.{" "}
-      </h1>
-    ),
+
     title3: "Takeoff ",
-    Des3: "Our Painting Takeoff Services provide a detailed review of all painting-related elements of a project, including surface areas, material requirements, and labor estimates. Swift Takeoffs ensures that all aspects of the painting scope, from prep work to final coats, are accounted for, allowing for accurate cost estimates for both interior and exterior painting.",
-    title: "Painting Estimating",
-    description: () => (
+    Des3: () => (
       <>
-        <h1>
-          Painting estimating services from Swift Takeoffs focus on providing
-          accurate cost assessments for all painting and coating work in a
-          construction project. These services are essential for estimating the
-          costs of interior and exterior painting, including surface
-          preparation, materials, labor, and finishing.{" "}
-        </h1>
-        <h1 className=" mt-4">
-          By utilizing{" "}
-          <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>,
-          you gain a comprehensive understanding of the costs associated with
-          painting, ensuring that the work is completed on time, within budget,
-          and to the highest standards.{" "}
-        </h1>
+        <span className="font-bold">
+          Our Cost Estimating and Takeoff Services include:
+        </span>
+        <ul>
+          <li>Material quantity calculations for procurement and budgeting.</li>
+          <li>
+            Detailed labor estimates to forecast workforce costs accurately.
+          </li>
+          <li>Equipment and tool costing for efficient project planning.</li>
+          <li>Project-specific contingencies to prevent budget overruns.</li>
+          <li>
+            Historical cost tracking to benchmark estimates against past
+            projects.
+          </li>
+        </ul>
       </>
     ),
-  },
-  // 4
-  {
-    src2: "/businesswoman.webp",
-
-    route: "DS",
-    title1: "Existing Conditions Estimating Services",
-    Des1: " Existing Conditions estimating services from Swift Takeoffs focus on assessing and costing all pre-existing conditions at a construction site, including environmental hazards, structural challenges, and other site-specific factors. These services are essential for understanding the unique challenges posed by the site and accounting for any pre-construction activities such as demolition, hazardous material handling, or site remediation.With Swift Takeoffs, you’ll have a clear picture of the costs associated with addressing these conditions, minimizing risks, and reducing the chances of unexpected expenses during construction.  ",
-    image: "/S4.webp",
-    title2: "Cost Factors",
-    li1: () => (
-      <h1>
-        <span className="font-bold">Structural Steel Estimating:</span> Costs
-        for structural steel components such as beams, columns, and braces
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
-        includes detailed projections for materials, fabrication, labor, and
-        delivery associated with the construction of the steel framework.
-      </h1>
-    ),
-    li2: () => (
-      <h1>
-        <span className="font-bold">Reinforcing Steel Estimating:</span> Costs
-        for reinforcing steel (rebar) used in concrete structures, including
-        material quantities, cutting, bending, and installation labor. Swift
-        Takeoffs Estimating ensures that the exact amount of rebar required for
-        the project is accurately calculated and priced.{" "}
-      </h1>
-    ),
-    li3: () => (
-      <h1>
-        <span className="font-bold">Miscellaneous Steel Estimating:</span>{" "}
-        Estimating costs for painting exterior surfaces, including walls, doors,
-        windows, and trim.{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span> takes
-        into account weatherproofing requirements, high-quality exterior paints,
-        and specialized coatings for durability.{" "}
-      </h1>
-    ),
-    li4: () => (
-      <h1>
-        <span className="font-bold">Miscellaneous Steel Estimating: </span>{" "}
-        Costs for miscellaneous steel components such as stairs, handrails,
-        ladders, and frames.
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        provides cost projections for all these smaller, yet vital, steel
-        elements that contribute to the overall construction.{" "}
-      </h1>
-    ),
-    li5: () => (
-      <h1>
-        <span className="font-bold">Fabrication Costs:</span> Estimating the
-        costs associated with the fabrication of steel components, including
-        cutting, welding, and coating{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
-        accounts for the complexity of fabrication, ensuring that all steps are
-        included for accurate cost projections.{" "}
-      </h1>
-    ),
-    li6: () => (
-      <h1>
-        <span className="font-bold">Mortar and Grouting:</span> Costs for
-        mortar, grout, and other binding materials required for masonry work.
-        Swift Takeoffs accurately calculates the amount of mortar or grout
-        needed based on the specific material and application method.{" "}
-      </h1>
-    ),
-    li7: () => (
-      <h1>
-        <span className="font-bold">Waste Management:</span> Estimating the
-        costs associated with the disposal of excess materials, including broken
-        bricks, blocks, and waste mortar. Swift Takeoffs ensures that waste
-        management costs are included to prevent unexpected expenses.{" "}
-      </h1>
-    ),
-    title3: "Takeoff ",
-    Des3: "Our Painting Takeoff Services provide a detailed review of all painting-related elements of a project, including surface areas, material requirements, and labor estimates. Swift Takeoffs ensures that all aspects of the painting scope, from prep work to final coats, are accounted for, allowing for accurate cost estimates for both interior and exterior painting.",
-    title: "Steel Estimating/Detailing",
+    title: "Material Takeoff ",
     description: () => (
       <>
         <h1>
-          Steel estimating and detailing services from Swift Takeoffs focus on
-          providing accurate cost assessments and detailed plans for steel
-          fabrication and installation in construction projects. These services
-          are crucial for estimating the costs of structural steel, reinforcing
-          steel, and miscellaneous steel components, while also ensuring that
-          the steel structures are detailed and aligned with project
-          specifications.{" "}
+          A Material Takeoff (MTO) is a detailed quantification of materials
+          needed for a construction project. This includes raw materials,
+          prefabricated components, and consumables required for structural,
+          architectural, mechanical, and electrical work.
         </h1>
         <h1 className=" mt-4">
-          By utilizing Swift Takeoffs, you can ensure precise budgeting,
-          seamless coordination, and adherence to structural integrity
-          throughout the construction process.{" "}
-        </h1>
-      </>
-    ),
-  },
-  //  5//
-  {
-    src2: "/businesswoman.webp",
-
-    route: "MTS",
-    title1: "Existing Conditions Estimating Services",
-    Des1: " Existing Conditions estimating services from Swift Takeoffs focus on assessing and costing all pre-existing conditions at a construction site, including environmental hazards, structural challenges, and other site-specific factors. These services are essential for understanding the unique challenges posed by the site and accounting for any pre-construction activities such as demolition, hazardous material handling, or site remediation.With Swift Takeoffs, you’ll have a clear picture of the costs associated with addressing these conditions, minimizing risks, and reducing the chances of unexpected expenses during construction.  ",
-    image: "/S5.webp",
-    title2: "Cost Factors",
-    li1: () => (
-      <h1>
-        <span className="font-bold">Material Quantities: </span> Estimating the
-        quantities of masonry materials such as bricks, blocks, mortar, stone,
-        and grout
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        ensures precise calculations based on project specifications, including
-        wall dimensions, material type, and desired finish.
-      </h1>
-    ),
-    li2: () => (
-      <h1>
-        <span className="font-bold">Labor Costs: </span> Estimating labor costs
-        for masonry work, including the installation of brickwork, blockwork,
-        and stonework.{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
-        accounts for the complexity of the design, site conditions, and the
-        number of masons required to complete the job.{" "}
-      </h1>
-    ),
-    li3: () => (
-      <h1>
-        <span className="font-bold">Masonry Foundation Work:</span> Costs for
-        laying the foundation for masonry structures, including excavation, base
-        preparation, and reinforcement.{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
-        considers all the required groundwork to ensure the masonry is securely
-        supported.{" "}
-      </h1>
-    ),
-    li4: () => (
-      <h1>
-        <span className="font-bold">Specialty Masonry Work: </span> Costs for
-        specialized masonry elements such as decorative brickwork, stone
-        facades, and custom designs
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        includes estimates for unique or high-end masonry work, ensuring that
-        all materials, labor, and finishes are considered.{" "}
-      </h1>
-    ),
-    li5: () => (
-      <h1>
-        <span className="font-bold">Scaffolding and Equipment:</span> Estimating
-        the costs for scaffolding, cranes, or other equipment needed to carry
-        out masonry work safely and efficiently. Swift Takeoffs takes into
-        account the equipment required for reaching higher elevations or
-        handling heavy masonry materials{" "}
-      </h1>
-    ),
-    li6: () => (
-      <h1>
-        <span className="font-bold">Mortar and Grouting:</span> Costs for
-        mortar, grout, and other binding materials required for masonry work.
-        Swift Takeoffs accurately calculates the amount of mortar or grout
-        needed based on the specific material and application method.{" "}
-      </h1>
-    ),
-    li7: () => (
-      <h1>
-        <span className="font-bold">Waste Management:</span> Estimating the
-        costs associated with the disposal of excess materials, including broken
-        bricks, blocks, and waste mortar. Swift Takeoffs ensures that waste
-        management costs are included to prevent unexpected expenses.{" "}
-      </h1>
-    ),
-    title3: "Takeoff ",
-    Des3: "Our Painting Takeoff Services provide a detailed review of all painting-related elements of a project, including surface areas, material requirements, and labor estimates. Swift Takeoffs ensures that all aspects of the painting scope, from prep work to final coats, are accounted for, allowing for accurate cost estimates for both interior and exterior painting.",
-    title: "Masonry Takeoff",
-    description: () => (
-      <>
-        <h1>
-          Masonry takeoff services from Swift Takeoffs provide accurate and
-          detailed assessments of all masonry-related work in a construction
-          project. These services are essential for estimating the quantities
-          and costs of materials, labor, and equipment required for masonry
-          work, including brick, block, stone, and other masonry materials.
-        </h1>
-        <h1 className=" mt-4">
-          With Swift Takeoffs, you can ensure precise budgeting and seamless
-          planning for masonry construction, minimizing the risk of over or
-          underestimation and helping your project stay on track.{" "}
-        </h1>
-      </>
-    ),
-  },
-  // 6
-  {
-    src2: "/businesswoman.webp",
-
-    route: "DTS",
-    title1: "Existing Conditions Estimating Services",
-    Des1: " Existing Conditions estimating services from Swift Takeoffs focus on assessing and costing all pre-existing conditions at a construction site, including environmental hazards, structural challenges, and other site-specific factors. These services are essential for understanding the unique challenges posed by the site and accounting for any pre-construction activities such as demolition, hazardous material handling, or site remediation.With Swift Takeoffs, you’ll have a clear picture of the costs associated with addressing these conditions, minimizing risks, and reducing the chances of unexpected expenses during construction.  ",
-    image: "/S6.webp",
-    title2: "Cost Factors",
-    li1: () => (
-      <h1>
-        <span className="font-bold">Material Quantities: </span> : Estimating
-        the quantities of drywall sheets, joint compounds, tapes, screws, and
-        insulation needed.
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        calculates the exact amount of drywall required based on wall
-        dimensions, ceiling areas, and project specifications, ensuring that no
-        material is over- or under-ordered.{" "}
-      </h1>
-    ),
-    li2: () => (
-      <h1>
-        <span className="font-bold">Labor Costs: </span> Estimating the labor
-        costs for drywall installation, including framing, hanging drywall
-        sheets, taping, mudding, sanding, and finishing.
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
-        factors in the complexity of the design, including curved walls or
-        ceilings, and any special finishes that may affect labor time.{" "}
-      </h1>
-    ),
-    li3: () => (
-      <h1>
-        <span className="font-bold">Framing and Support Structure:</span> :
-        Costs for framing and support structures needed to install drywall,
-        including metal or wood studs, tracks, and supports. Swift Takeoffs
-        accurately calculates the material quantities required for the framing
-        process.{" "}
-      </h1>
-    ),
-    li4: () => (
-      <h1>
-        <span className="font-bold">Insulation and Soundproofing: </span> Costs
-        for adding insulation or soundproofing materials within drywall systems{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        includes the cost of insulation material, installation, and labor to
-        enhance thermal or acoustic performance in the drywall installation.{" "}
-      </h1>
-    ),
-    li5: () => (
-      <h1>
-        <span className="font-bold">Ceiling Systems:</span> Estimating the cost
-        of drywall installation on ceilings, which may require additional
-        materials such as ceiling grids, supports, and suspension systems. Swift
-        Takeoffs ensures that all ceiling components are included in the overall
-        estimate.{" "}
-      </h1>
-    ),
-    li6: () => (
-      <h1>
-        <span className="font-bold">Finishing and Texturing:</span> Costs for
-        drywall finishing, including taping, joint compound application,
-        sanding, and any textured finishes (e.g., knockdown, orange peel, etc.).
-        Swift Takeoffs ensures that the right amount of finishing materials and
-        labor are accounted for based on the level of finish required.{" "}
-      </h1>
-    ),
-    li7: () => (
-      <h1>
-        <span className="font-bold">Waste Management:</span> Estimating the
-        costs associated with the disposal of drywall waste, including broken
-        sheets, scrap pieces, and other debris. Swift Takeoffs ensures that
-        these costs are accounted for, preventing unexpected expenses related to
-        waste removal.
-      </h1>
-    ),
-    title3: "Takeoff ",
-    Des3: "Our Painting Takeoff Services provide a detailed review of all painting-related elements of a project, including surface areas, material requirements, and labor estimates. Swift Takeoffs ensures that all aspects of the painting scope, from prep work to final coats, are accounted for, allowing for accurate cost estimates for both interior and exterior painting.",
-    title: "Drywall Takeoff",
-    description: () => (
-      <>
-        <h1>
-          Drywall takeoff services from Swift Takeoffs provide accurate and
-          detailed assessments for all drywall-related work in a construction
-          project. These services are essential for estimating the quantities
-          and costs of materials, labor, and equipment required for installing
-          and finishing drywall, including framing, insulation, drywall sheets,
-          joint compounds, and finishing.{" "}
-        </h1>
-        <h1 className=" mt-4">
-          By using Swift Takeoffs, you can ensure precise budgeting, minimize
-          material waste, and optimize labor costs for drywall work, keeping
-          your project on schedule and within budget.{" "}
-        </h1>
-      </>
-    ),
-  },
-  // 7
-  {
-    src2: "/businesswoman.webp",
-
-    route: "LTS",
-    title1: "Existing Conditions Estimating Services",
-    Des1: " Existing Conditions estimating services from Swift Takeoffs focus on assessing and costing all pre-existing conditions at a construction site, including environmental hazards, structural challenges, and other site-specific factors. These services are essential for understanding the unique challenges posed by the site and accounting for any pre-construction activities such as demolition, hazardous material handling, or site remediation.With Swift Takeoffs, you’ll have a clear picture of the costs associated with addressing these conditions, minimizing risks, and reducing the chances of unexpected expenses during construction.  ",
-    image: "/S7.webp",
-    title2: "Cost Factors",
-    li1: () => (
-      <h1>
-        <span className="font-bold">Material Quantities: </span> Estimating the
-        quantities of lumber materials required for framing, sheathing,
-        subfloors, and other wood components.{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        ensures that the exact amount of lumber is calculated based on project
-        specifications, dimensions, and material types (e.g., dimensional
-        lumber, plywood, OSB, etc.), reducing material waste.
-      </h1>
-    ),
-    li2: () => (
-      <h1>
-        <span className="font-bold">Labor Costs: </span> Estimating labor costs
-        for the installation of lumber components, including framing, sheathing,
-        and finishing woodwork.{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        accounts for labor based on the complexity of the design, site
-        conditions, and the size of the structure.{" "}
-      </h1>
-    ),
-    li3: () => (
-      <h1>
-        <span className="font-bold">Framing Materials:</span> Costs for lumber
-        used in structural framing, including studs, beams, headers, and joists.{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        provides accurate projections for the material quantities and labor
-        needed for framing walls, floors, and roofs.{" "}
-      </h1>
-    ),
-    li4: () => (
-      <h1>
-        <span className="font-bold">Sheathing and Subflooring </span> C
-        Estimating costs for materials such as plywood, OSB, and other sheathing
-        products used in exterior walls, roofs, and subflooring. Swift Takeoffs
-        Estimating ensures that all areas requiring sheathing and subflooring
-        are considered, with accurate material quantities and associated labor
-        costs.{" "}
-      </h1>
-    ),
-    li5: () => (
-      <h1>
-        <span className="font-bold">Roofing and Decking: </span> Costs for
-        lumber materials required for roof framing, decking, and exterior
-        features. This includes rafters, trusses, and decking boards. Swift
-        Takeoffs Estimating calculates the quantities of lumber and associated
-        costs for each roofing and decking component.{" "}
-      </h1>
-    ),
-    li6: () => (
-      <h1>
-        <span className="font-bold">Specialty Lumber:</span> Estimating costs
-        for specialty lumber such as treated wood, engineered wood products
-        (e.g., LVL, I-joists), and custom or decorative lumber.{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
-        includes detailed estimates for high-end or custom wood products,
-        ensuring that all material requirements are accounted for.{" "}
-      </h1>
-    ),
-    li7: () => (
-      <h1>
-        <span className="font-bold">Waste Management:</span> Estimating the
-        costs for handling lumber waste, such as cutoffs, scrap wood, and
-        packaging. Swift Takeoffs includes the costs associated with disposal or
-        recycling, ensuring the project stays clean and within budget.
-      </h1>
-    ),
-    title3: "Takeoff ",
-    Des3: "Our Painting Takeoff Services provide a detailed review of all painting-related elements of a project, including surface areas, material requirements, and labor estimates. Swift Takeoffs ensures that all aspects of the painting scope, from prep work to final coats, are accounted for, allowing for accurate cost estimates for both interior and exterior painting.",
-    title: "Lumber Takeoff",
-    description: () => (
-      <>
-        <h1>
-          Lumber takeoff services from Swift Takeoffs provide accurate and
-          detailed assessments for all lumber-related work in a construction
-          project. These services are crucial for estimating the quantities and
-          costs of materials, labor, and equipment required for framing,
-          sheathing, and other wood-based components of a structure.{" "}
-        </h1>
-        <h1 className=" mt-4">
-          By utilizing Swift Takeoffs, you ensure precise budgeting for lumber
-          materials and minimize waste, helping to keep your project on schedule
-          and within budget while meeting all structural requirements.{" "}
-        </h1>
-      </>
-    ),
-  },
-  // 8
-  {
-    src2: "/businesswoman.webp",
-
-    route: "SET",
-    title1: "Existing Conditions Estimating Services",
-    Des1: " Existing Conditions estimating services from Swift Takeoffs focus on assessing and costing all pre-existing conditions at a construction site, including environmental hazards, structural challenges, and other site-specific factors. These services are essential for understanding the unique challenges posed by the site and accounting for any pre-construction activities such as demolition, hazardous material handling, or site remediation.With Swift Takeoffs, you’ll have a clear picture of the costs associated with addressing these conditions, minimizing risks, and reducing the chances of unexpected expenses during construction.  ",
-    image: "/S8.webp",
-    title2: "Cost Factors",
-    li1: () => (
-      <h1>
-        <span className="font-bold">Excavation and Grading: </span> Estimating
-        the costs for excavation, trenching, and grading to prepare the site for
-        construction. This includes calculating the quantities of soil to be
-        removed, transported, or compacted, as well as labor and equipment
-        costs. Swift Takeoffs ensures accurate calculations based on site
-        conditions, soil types, and project requirements.
-      </h1>
-    ),
-    li2: () => (
-      <h1>
-        <span className="font-bold">Trenching and Foundation: </span> Estimating
-        the costs of trenching for utilities and foundations, including water,
-        sewer, electrical, and gas lines{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
-        calculates the required labor and materials for trench digging,
-        backfilling, and foundation preparation, including any reinforcement or
-        stabilization needed.{" "}
-      </h1>
-    ),
-    li3: () => (
-      <h1>
-        <span className="font-bold">Site Utilities:</span> Costs for the
-        installation of underground utilities, including water lines, sewer
-        systems, stormwater management, and electrical or communication
-        conduits.
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
-        accounts for all utility materials and installation labor, ensuring
-        accurate cost projections for utility installation and connectio{" "}
-      </h1>
-    ),
-    li4: () => (
-      <h1>
-        <span className="font-bold">Site Stabilization and Drainage: </span>{" "}
-        Estimating the costs of stabilizing the site, including erosion control,
-        soil stabilization, and drainage installation. Swift Takeoffs includes
-        materials like geotextiles, silt fences, drainage pipes, and labor costs
-        for implementing effective drainage systems and ensuring the stability
-        of the site.{" "}
-      </h1>
-    ),
-    li5: () => (
-      <h1>
-        <span className="font-bold">Backfilling and Compaction:</span>{" "}
-        Estimating the cost of drywall installation on ceilings, which may
-        require additional materials such as ceiling grids, supports, and
-        suspension systems. Swift Takeoffs ensures that all ceiling components
-        are included in the overall estimate.{" "}
-      </h1>
-    ),
-    li6: () => (
-      <h1>
-        <span className="font-bold">Landscape and Hardscape Preparation: </span>{" "}
-        Costs for preparing the site for landscaping or hardscaping features
-        such as walkways, patios, or retaining walls. Swift Takeoffs includes
-        material and labor costs for grading, soil preparation, and any
-        specialty landscaping materials required.{" "}
-      </h1>
-    ),
-    li7: () => (
-      <h1>
-        <span className="font-bold">Equipment and Labor Costs: </span>{" "}
-        Estimating the labor and equipment costs for excavation, grading,
-        trenching, and other sitework activities.{" "}
-        <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
-        calculates the hours of work required for different tasks and the
-        specific equipment needed, such as excavators, bulldozers, backhoes, and
-        compactors.{" "}
-      </h1>
-    ),
-    li8: () => (
-      <h1>
-        <span className="font-bold">Waste Disposal and Recycling:</span>{" "}
-        Estimating the costs associated with the disposal or recycling of excess
-        materials, such as soil, debris, or construction waste. Swift Takeoffs
-        Estimating ensures waste management costs are included to avoid
-        unexpected expenses.
-      </h1>
-    ),
-    title3: "Takeoff ",
-    Des3: "Our Painting Takeoff Services provide a detailed review of all painting-related elements of a project, including surface areas, material requirements, and labor estimates. Swift Takeoffs ensures that all aspects of the painting scope, from prep work to final coats, are accounted for, allowing for accurate cost estimates for both interior and exterior painting.",
-    title: "Sitework and Earthwork Takeoff",
-    description: () => (
-      <>
-        <h1>
-          Sitework and earthwork takeoff services from Swift Takeoffs provide
-          comprehensive and precise assessments of all site preparation and
-          excavation tasks required for a construction project. These services
-          are crucial for estimating the quantities and costs of materials,
-          labor, and equipment needed for tasks such as excavation, grading,
-          trenching, utilities installation, and site stabilization.
-        </h1>
-        <h1 className=" mt-4">
-          With Swift Takeoffs, you can ensure accurate budgeting for earthwork
-          and site preparation, minimizing risks of delays and unexpected costs
-          throughout the construction process.{" "}
+          By utilizing Swift Takeoffs, you ensure that every aspect of material
+          estimation is accurate, cost-effective, and aligned with project
+          specifications.
         </h1>
       </>
     ),
@@ -1925,24 +1422,23 @@ export const latestPostsData = [
 
 export const servicesData = [
   {
-    name: "Concrete Estimating Service",
-    icon: "/icons/2.concrete.svg",
+    name: "Cost Estimating Services",
+    icon: <Building2 className="w-6 h-6 text-blue-600" />,
     alt: "icon1",
     title: () => (
-      <h1 className="text-2xl font-bold mb-4">Concrete Estimating Service</h1>
+      <h1 className="text-2xl font-bold mb-4">Cost Estimating Services</h1>
     ),
 
     content:
-      " Concrete estimating services from Swift Takeoffs are crucial for accurately predicting the costs associated with concrete work, including materials, labor, and associated fees. Whether your project requires foundations, slabs, footings, or walls, Swift Takeoffs provides precise estimates to help you budget accurately, allocate resources effectively, and keep the project on track.  Concrete Estimating Services cover everything from calculating the volume of concrete needed to evaluating the costs of reinforcement materials, such as rebar and additives.  ",
-    image: "/tradespre/concrete.webp",
-    // link: "#concrete-service",
+      " At Swift Takeoffs, we provide comprehensive and precise cost estimating services to help construction professionals plan and manage project budgets effectively. Our estimates cover all aspects of material costs, labor, equipment, subcontractor expenses, and overhead, ensuring financial accuracy and preventing unexpected overruns.",
+    image: "tradespreview-1.svg",
   },
   {
     name: "Electrical Estimating Service",
 
     alt: "icon3",
 
-    icon: "/icons/18.electrical.svg",
+    icon: <Plug className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Electrical Estimating Service
@@ -1950,7 +1446,7 @@ export const servicesData = [
     ),
     content:
       "Electrical estimating services from Swift Takeoffs provide detailed cost projections for the installation of wiring, lighting, and power distribution systems. These services ensure that all electrical needs are included in the project budget, allowing for safe and efficient installation of electrical systems.Electrical Estimating Services include a comprehensive breakdown of costs for wiring, fixtures, switches, and electrical panels, ensuring that all electrical components are accounted for in the project’s financial plan. With Swift Takeoffs, you’ll receive accurate estimates for all aspects of electrical work, from wiring installation to power distribution design.",
-    image: "/tradespre/mep.webp",
+    image: "tradespreview-1.webp",
     // link: "#plumbing-service",
   },
   {
@@ -1958,7 +1454,7 @@ export const servicesData = [
 
     alt: "icon2",
 
-    icon: "/icons/3.masonry.svg",
+    icon: <Plug className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl   font-bold text-black mb-4">
         Masonary Estimating Service
@@ -1966,7 +1462,7 @@ export const servicesData = [
     ),
     content:
       "Masonry estimating services from Swift Takeoffs provide project managers with detailed cost projections for all masonry-related work, including brick, block, stone, and mortar. Whether you’re building walls, facades, or decorative elements, Swift Takeoffs ensures that both material and labor costs are meticulously planned, reducing the risk of budget overruns.Masonry Estimating Services cover everything from the selection of masonry materials to the calculation of installation labor. With Swift Takeoffs, you can be confident that your masonry work is thoroughly accounted for, ensuring that your project stays on schedule and within budget.",
-    image: "/tradespre/masonry.webp",
+    image: "tradespreview-1.webp",
     // link: "#masonry-service",
   },
   {
@@ -1974,7 +1470,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/icons/16.plumbing.svg",
+    icon: "plumbing",
     title: () => (
       <h1 className="text-2xl font-bold  text-black mb-4">
         Plumbing Estimating Service
@@ -1982,7 +1478,7 @@ export const servicesData = [
     ),
     content:
       "Plumbing estimating services from Swift Takeoffs provide detailed cost projections for the installation of water supply, drainage, and waste systems. These services ensure that all plumbing-related needs are included in the project budget, allowing for efficient installation and long-term operation of water systems.Plumbing Estimating Services include a comprehensive breakdown of costs for pipes, fixtures, valves, and connectors, ensuring that all plumbing materials and labor costs are included in the project’s financial plan. With Swift Takeoffs, you’ll receive accurate estimates for all aspects of plumbing work, from water supply installation to drainage system design.",
-    image: "/tradespre/plumbing.webp",
+    image: "tradespreview-1.webp",
     // link: "#plumbing-service",
   },
   {
@@ -1990,7 +1486,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/icons/5.wood.svg",
+    icon: <TreePine className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Wood, Plastic & Composities
@@ -1998,7 +1494,7 @@ export const servicesData = [
     ),
     content:
       "Wood, Plastics, and Composites estimating services from Swift Takeoffs provide precise cost projections for projects requiring wood framing, millwork, plastic components, and composite materials. These services cover both structural and aesthetic applications, ensuring that all elements are accounted for in the project budget.Wood, Plastics, and Composites Estimating Services offer a detailed breakdown of material costs, labor, and installation needs for various wood and composite applications. Whether it’s framing, cabinetry, or decorative features, Swift Takeoffs helps you budget accurately and efficiently.",
-    image: "/tradespre/wood.webp",
+    image: "tradespreview-1.png",
     // link: "#plumbing-service",
   },
 
@@ -2007,7 +1503,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/icons/7.openings.svg",
+    icon: <DoorOpen className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Openings Estimating Service
@@ -2015,7 +1511,7 @@ export const servicesData = [
     ),
     content:
       "Openings Estimating Services cover a wide range of materials and labor costs associated with the installation of doors, windows, and other openings. Swift Takeoffs ensures that you receive accurate estimates, reducing the risk of costly errors during installation.Openings estimating services from Swift Takeoffs provide accurate cost projections for doors, windows, skylights, and other openings in a building. These services help ensure that all fenestration and access points are included in the project’s financial plan, enabling efficient resource allocation and installation.",
-    image: "/tradespre/opening.webp",
+    image: "tradespreview-1.webp",
     // link: "#plumbing-service",
   },
   {
@@ -2023,7 +1519,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/icons/9.specialities.svg",
+    icon: <Layers className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Specialties Estimating Service
@@ -2031,7 +1527,7 @@ export const servicesData = [
     ),
     content:
       "Specialties estimating services from Swift Takeoffs cover a wide range of non-standard construction elements such as partitions, signage, and built-in furnishings. These services ensure that specialized materials and labor are accounted for in the project budget, preventing costly oversights or delays.Specialties Estimating Services provide accurate cost projections for customized or specialized project components that fall outside the usual scope of construction, ensuring that your project stays on budget while meeting specific functional and aesthetic needs. Swift Takeoffs ensures that every specialty item is fully integrated into the project’s financial plan.",
-    image: "/tradespre/specialities.webp",
+    image: "tradespreview-1.webp",
     // link: "/plumbing-service",
   },
   {
@@ -2039,7 +1535,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/icons/8.finishes.svg",
+    icon: <Paintbrush className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Finishes Estimating Services
@@ -2047,7 +1543,7 @@ export const servicesData = [
     ),
     content:
       "Finishes estimating services from Swift Takeoffs are essential for projecting the costs related to the aesthetic and functional finishing components of your project, such as painting, flooring, and wall coverings. These services help you ensure that the final stages of construction are completed efficiently and within budget, delivering the desired look and feel of the finished space.Finishes Estimating Services include detailed cost projections for interior and exterior finishes, ensuring that all aesthetic and functional elements are accounted for in the financial plan. With Swift Takeoffs, you’ll receive accurate estimates for all finishing work, helping you deliver a high-quality project on time and within budget.",
-    image: "/tradespre/finishes.webp",
+    image: "tradespreview-1.webp",
     // link: "/plumbing-service",
   },
   {
@@ -2055,7 +1551,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/icons/6.thermal&moisture.svg",
+    icon: <CloudRainWind className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Thermal & Moisture Protection
@@ -2063,7 +1559,7 @@ export const servicesData = [
     ),
     content:
       "Thermal and Moisture Protection estimating services from Swift Takeoffs are crucial for predicting the costs associated with insulation, waterproofing, and weatherproofing. These services ensure that your project is protected from moisture, air infiltration, and temperature fluctuations while meeting energy efficiency standards. Thermal and Moisture Protection Estimating Services provide detailed cost projections for the materials and labor required to install insulation, vapor barriers, waterproofing membranes, and other protective systems. With Swift Takeoffs, you can rest assured that all protective elements are included in the project budget, ensuring long-term building performance.",
-    image: "/tradespre/thermal.webp",
+    image: "tradespreview-1.webp",
     // link: "/plumbing-service",
   },
   {
@@ -2071,7 +1567,7 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/icons/13.conveyingequipements.svg",
+    icon: <Plug className="w-6 h-6 text-blue-600" />,
     title: () => (
       <h1 className="text-2xl font-bold text-black mb-4">
         Conveying Equipment
@@ -2079,7 +1575,7 @@ export const servicesData = [
     ),
     content:
       "Conveying Equipment estimating services from Swift Takeoffs provide detailed cost projections for the installation and maintenance of elevators, escalators, and other mechanical systems for vertical transportation. These services ensure that all mechanical systems are accounted for in the project’s financial plan, allowing for efficient planning and operation. Conveying Equipment Estimating Services include a comprehensive breakdown of costs for purchasing, installing, and maintaining conveying systems such as elevators and escalators. Swift Takeoffs ensures that all conveying equipment-related costs are fully integrated into your project budget.",
-    image: "/tradespre/conveying.webp",
+    image: "tradespreview-1.webp",
     // link: "/plumbing-service",
   },
 ];
