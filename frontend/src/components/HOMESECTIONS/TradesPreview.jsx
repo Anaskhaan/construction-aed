@@ -32,7 +32,7 @@ const TradesPreview = () => {
                 }  p-4  hover:bg-blue-50`}
               >
                 <img src={service.icon} className="w-5 h-auto" alt="icons" />
-                <div className=" mt-3 ml-3 space-x-3">{service.name}</div>
+                <div className=" mt-3 ml-3 space-x-3 ">{service.name}</div>
               </li>
             ))}
           </ul>
@@ -40,7 +40,9 @@ const TradesPreview = () => {
 
         {/* Content */}
         <div className=" lg:w-3/4 bg-[#EEF7FF] shadow-md rounded-md p-6 mt-6 h-[41rem]">
-          <h2 className="">{servicesData[activeIndex].title()}</h2>
+          <h2 className="text-[#0163be]">
+            {servicesData[activeIndex].title()}
+          </h2>
           <div className="relative h-full">
             <p className="text-gray-600 mb-4">
               {servicesData[activeIndex].content}.

@@ -55,7 +55,7 @@ const HomepageServices = () => {
     {
       id: 7,
       title: "Industrial Estimating Services",
-      route: "/lumber",
+      route: "/LTS",
       description:
         "Swift Takeoffs delivers precise and comprehensive cost estimates for industrial projects, ensuring accurate budgeting, resource allocation, and competitive bidding for contractors and developers.",
       img: "/industrial.svg",
@@ -96,7 +96,7 @@ const HomepageServices = () => {
               className="w-12 h-auto p-1 "
             />
             <div>
-              <h3 className="text-xl font-semibold">{service.title}</h3>
+              <h3 className="text-xl font-semibold ">{service.title}</h3>
               <p className="leading-tight">{service.description}</p>
             </div>
           </div>
