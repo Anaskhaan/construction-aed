@@ -42,10 +42,7 @@ function App() {
             <Route path="concrete" element={<TradesPage route="concrete" />} />
             <Route path="masonary" element={<TradesPage route="masonary" />} />
             <Route path="metals" element={<TradesPage route="metals" />} />
-            <Route
-              path="ConveyEquip"
-              element={<TradesPage route="ConveyEquip" />}
-            />
+
             <Route path="Wpc" element={<TradesPage route="Wpc" />} />
             <Route path="Tmp" element={<TradesPage route="Tmp" />} />
             <Route path="Opening" element={<TradesPage route="Opening" />} />
@@ -85,14 +82,14 @@ function App() {
               element={<TradesPage route="utilities" />}
             />
             {/* <Route path="mep" element={<MEP />} /> */}
-            <Route path="mep" element={<ServicesPage route="mep" />} />
             <Route path="CES" element={<ServicesPage route="CES" />} />
             <Route path="PES" element={<ServicesPage route="PES" />} />
-            <Route path="DS" element={<ServicesPage route="DS" />} />
-            <Route path="MTS" element={<ServicesPage route="MTS" />} />
-            <Route path="DTS" element={<ServicesPage route="DTS" />} />
-            <Route path="LTS" element={<ServicesPage route="LTS" />} />
-            <Route path="SET" element={<ServicesPage route="SET" />} />
+            <Route path="RES" element={<ServicesPage route="RES" />} />
+            <Route path="CoES" element={<ServicesPage route="CoES" />} />
+            <Route path="IES" element={<ServicesPage route="IES" />} />
+            <Route path="PRES" element={<ServicesPage route="PRES" />} />
+            <Route path="GCES" element={<ServicesPage route="GCES" />} />
+            <Route path="SES" element={<ServicesPage route="SES" />} />
           </Route>
         </Routes>
       </Router>

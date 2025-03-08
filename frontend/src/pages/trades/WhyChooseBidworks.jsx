@@ -58,13 +58,14 @@ const WhyChooseSwiftTakeoffs = () => {
         </div>
       </div>
       <div className="py-6">
-        <span className="text-[#333] mt-4">
-          With Swift Takeoffs, you gain access to expert cost estimating
-          services that enhance project planning, reduce financial risks, and
-          ensure budget accuracy. Whether for residential, commercial, or
-          industrial construction, our precise estimates help you achieve a
-          successful and cost-effective project.
-        </span>
+        <span className=" font-semibold">Conclusion</span>
+        <p>
+          Swift Takeoffs delivers reliable, accurate, and efficient industrial
+          estimating services for manufacturing plants, warehouses, processing
+          facilities, and heavy industrial projects. Our estimates ensure
+          financial transparency, risk reduction, and successful project
+          execution.
+        </p>
       </div>
       <Link to="/GetQuote">
         <div className=" flex items-center text-[#333] rounded-3xl  justify-center py-1 px-2 border-2 border-[#0163BE] w-64">
