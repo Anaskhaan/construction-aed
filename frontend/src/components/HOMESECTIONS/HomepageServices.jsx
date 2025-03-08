@@ -7,7 +7,7 @@ const HomepageServices = () => {
     {
       id: 1,
       title: "GC Estimating Services",
-      route: "/mep",
+      route: "/GCES",
       description:
         "Swift Takeoffs delivers accurate, detailed estimates for general contractors, ensuring efficient budgeting, competitive bids, and cost optimization for successful projects.",
       img: "/mesonicon.svg",
@@ -15,7 +15,7 @@ const HomepageServices = () => {
     {
       id: 2,
       title: "Sub-Contractor Estimating Services",
-      route: "/concrete",
+      route: "/SES",
       description:
         "Swift Takeoffs provides precise, trade-specific estimates for subcontractors, helping with accurate bids, cost control, and resource optimization to maximize profitability.",
       img: "/troyicon.svg",
@@ -23,7 +23,7 @@ const HomepageServices = () => {
     {
       id: 3,
       title: "Cost Estimating Services",
-      route: "/PES",
+      route: "/CES",
       description:
         "Swift Takeoffs offers accurate and detailed cost estimates, helping contractors and developers budget effectively, minimize risks, and optimize project costs for successful execution.",
       img: "/cost.svg",
@@ -31,7 +31,7 @@ const HomepageServices = () => {
     {
       id: 4,
       title: "Material Takeoff Services",
-      route: "/DS",
+      route: "/PES",
       description:
         "Swift Takeoffs provides precise material quantity calculations, ensuring accurate budgeting, reduced waste, and efficient procurement for construction projects.",
       img: "/material.svg",
@@ -39,7 +39,7 @@ const HomepageServices = () => {
     {
       id: 5,
       title: "Residential Estimating Services",
-      route: "/MTS",
+      route: "/RES",
       description:
         "Swift Takeoffs delivers accurate cost estimates for residential projects, ensuring efficient budgeting, competitive bids, and cost-effective resource planning for builders and contractors.",
       img: "/residential.svg",
@@ -47,7 +47,7 @@ const HomepageServices = () => {
     {
       id: 6,
       title: "Commercial Estimating Services",
-      route: "/DTS",
+      route: "/CoES",
       description:
         "Swift Takeoffs provides detailed and accurate cost estimates for commercial projects, helping contractors budget efficiently, optimize costs, and submit competitive bids for successful project execution.",
       img: "/commercial.svg",
@@ -55,7 +55,7 @@ const HomepageServices = () => {
     {
       id: 7,
       title: "Industrial Estimating Services",
-      route: "/LTS",
+      route: "/IES",
       description:
         "Swift Takeoffs delivers precise and comprehensive cost estimates for industrial projects, ensuring accurate budgeting, resource allocation, and competitive bidding for contractors and developers.",
       img: "/industrial.svg",
@@ -63,7 +63,7 @@ const HomepageServices = () => {
     {
       id: 8,
       title: "Preliminary Estimating Services",
-      route: "/earthwork",
+      route: "/PRES",
       description:
         "Swift Takeoffs provides early-stage cost assessments, helping contractors and developers plan budgets, evaluate feasibility, and minimize financial risks before project execution.",
       img: "/preliminary.svg",
