@@ -30,26 +30,7 @@ const TradesPage = ({ route }) => {
   } = serviceData;
 
   return (
-    <div>
-      <div className="w-full h-48 relative">
-        {/* Black Overlay */}
-        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
-
-        {/* Image */}
-        <img
-          src={src2}
-          alt="service image"
-          className="w-full h-full object-cover"
-        />
-
-        {/* Text Content */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-4 w-full px-4">
-          <h1 className="lg:text-3xl text-xl font-bold">{title}</h1>
-          <span className="lg:text-lg text-sm flex justify-center items-center gap-4">
-            Home <MoveRight /> {title}
-          </span>
-        </div>
-      </div>
+    <div className="py-24">
       <Link to="/trades">
         <button className="text-black hover:underline lg:mt-12 mt-24 lg:ml-20 ml-12  lg:text-xl text-md ">
           Back to Trades Page

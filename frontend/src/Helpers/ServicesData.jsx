@@ -7,7 +7,7 @@ export const ServicesData = [
     title2: "Key Components of Cost Estimating",
     li1: () => (
       <h1>
-        <span className="font-bold">Material Costs:</span> Material costs form
+        <span className="font-bold">Material Costs: </span> Material costs form
         the foundation of every construction estimate. Our services include:
         <ul>
           <li>
@@ -27,8 +27,8 @@ export const ServicesData = [
     ),
     li2: () => (
       <h1>
-        <span className="font-bold">Labor Costs:</span> Labor is one of the most
-        significant costs in construction. Our labor estimates consider:
+        <span className="font-bold">Labor Costs: </span> Labor is one of the
+        most significant costs in construction. Our labor estimates consider:
         <ul>
           <li>
             Trade-Specific Wage Rates – Calculating costs based on skilled,
@@ -178,7 +178,7 @@ export const ServicesData = [
     title2: "Cost Factors",
     li1: () => (
       <h1>
-        <span className="font-bold">Project Review:</span>Analyzing
+        <span className="font-bold">Project Review: </span>Analyzing
         architectural, structural, and MEP drawings to identify all material
         requirements. Understanding project specifications to ensure accurate
         takeoff calculations.
@@ -186,7 +186,7 @@ export const ServicesData = [
     ),
     li2: () => (
       <h1>
-        <span className="font-bold">Quantity Extraction:</span>Using advanced
+        <span className="font-bold">Quantity Extraction: </span>Using advanced
         estimating software to extract precise material quantities. Identifying
         required materials for structural, architectural, mechanical,
         electrical, and plumbing components.
@@ -194,14 +194,14 @@ export const ServicesData = [
     ),
     li3: () => (
       <h1>
-        <span className="font-bold">Cost Estimation:</span>Assigning unit prices
-        to materials for accurate budgeting and procurement planning.
+        <span className="font-bold">Cost Estimation: </span>Assigning unit
+        prices to materials for accurate budgeting and procurement planning.
         Considering market fluctuations and regional pricing variations.
       </h1>
     ),
     li4: () => (
       <h1>
-        <span className="font-bold">Quality Assurance:</span> Cross-verifying
+        <span className="font-bold">Quality Assurance: </span> Cross-verifying
         takeoff data with industry standards and project specifications.
         Eliminating errors, inconsistencies, and overestimations to improve
         accuracy.
@@ -529,23 +529,23 @@ export const ServicesData = [
       <>
         <ul>
           <li>
-            <span>1. Project Review</span>Analyzing architectural, structural,
+            <span>1. Project Review </span>Analyzing architectural, structural,
             and MEP drawings to determine cost factors.
           </li>
           <li>
-            <span>2. Quantity Takeoff</span>Utilizing advanced software to
+            <span>2. Quantity Takeoff </span>Utilizing advanced software to
             generate accurate material and labor estimates.
           </li>
           <li>
-            <span>3. Cost Estimation</span>Applying current market rates for
+            <span>3. Cost Estimation </span>Applying current market rates for
             materials, labor, and equipment costs.
           </li>
           <li>
-            <span>4. Quality Assurance</span>Reviewing takeoff data to eliminate
-            errors and ensure financial accuracy.
+            <span>4. Quality Assurance </span>Reviewing takeoff data to
+            eliminate errors and ensure financial accuracy.
           </li>
           <li>
-            <span>5 . Final Reporting</span>Delivering detailed, organized cost
+            <span>5 . Final Reporting </span>Delivering detailed, organized cost
             breakdowns to facilitate project planning.
           </li>
         </ul>
@@ -689,24 +689,24 @@ export const ServicesData = [
       <>
         <ul>
           <li>
-            <span>1. Project Review</span>Analyzing engineering drawings,
+            <span>1. Project Review </span>Analyzing engineering drawings,
             process flow diagrams, and structural blueprints to assess cost
             factors.
           </li>
           <li>
-            <span>2. Quantity Takeoff</span>Using advanced software to determine
-            accurate material, labor, and equipment needs
+            <span>2. Quantity Takeoff </span>Using advanced software to
+            determine accurate material, labor, and equipment needs
           </li>
           <li>
-            <span>3. Cost Estimation</span>Applying market-based pricing for
+            <span>3. Cost Estimation </span>Applying market-based pricing for
             materials, installation, and logistical considerations.
           </li>
           <li>
-            <span>4. Quality Assurance</span>Cross-verifying takeoff data to
+            <span>4. Quality Assurance </span>Cross-verifying takeoff data to
             ensure accuracy, compliance, and cost control.
           </li>
           <li>
-            <span>5 . Final Reporting</span>Providing detailed, structured cost
+            <span>5 . Final Reporting </span>Providing detailed, structured cost
             reports for budgeting, procurement, and project planning.
           </li>
         </ul>
@@ -735,71 +735,65 @@ export const ServicesData = [
 
     route: "PRES",
     title1: "Preliminary Estimating Services",
-    Des1: " At Swift Takeoffs, we specialize in providing precise and comprehensive material takeoff services to ensure accurate planning, budgeting, and procurement for construction projects. Our detailed takeoff reports help contractors, builders, and project managers estimate material quantities, reduce waste, and optimize project costs.",
+    Des1: " At Swift Takeoffs, our preliminary estimating services provide early-stage cost assessments to help developers, contractors, and stakeholders make informed decisions before committing to full project execution. These estimates offer a high-level cost overview, assisting in budget planning, feasibility studies, and investment analysis.",
     image: "/S3.webp",
-    title2: "Key Components of Industrial Estimating Services",
+    title2: "Key Components of Perlminary Estimating Services",
     li1: () => (
       <h1>
-        <span className="font-bold">
-          1. Site Preparation & Foundation Costs
-        </span>
+        <span className="font-bold">1. Conceptual Cost Estimation</span>
 
         <ul>
           <li>
-            Excavation & Earthwork – Costs for grading, soil stabilization, and
-            site clearing.
+            Early-Stage Budgeting – Rough cost projections based on project
+            scope, location, and historical data.
           </li>
           <li>
-            Heavy-Duty Foundations – Estimates for reinforced concrete slabs,
-            deep footings, and pile foundations.
+            Feasibility Studies – Evaluating whether a project is financially
+            and technically viable.
           </li>
           <li>
-            Drainage & Environmental Compliance – Costs for stormwater
-            management and erosion control.
+            Order of Magnitude Estimates – Quick assessments with approximate
+            cost ranges to guide decision-making.
           </li>
         </ul>
       </h1>
     ),
     li2: () => (
       <h1>
-        <span className="font-bold">
-          2. Structural Framework & Building Shell
-        </span>
+        <span className="font-bold">2. Material & Labor Cost Assessment</span>
 
         <ul>
           <li>
-            Steel Structures – Material takeoff for beams, columns, trusses, and
-            industrial-grade framing.
+            Rough Material Takeoff – Estimating major material categories
+            (concrete, steel, lumber, etc.).
           </li>
           <li>
-            Concrete & Precast Elements – Cost calculations for structural
-            walls, flooring, and precast panels.
+            Labor Requirements – Estimating workforce needs based on project
+            scale and complexity.
           </li>
           <li>
-            Roofing & Cladding – Estimates for high-durability roofing
-            materials, metal panels, and insulation.
+            Equipment Costs – Approximate projections for machinery, tools, and
+            rentals
           </li>
         </ul>
       </h1>
     ),
     li3: () => (
       <h1>
-        <span className="font-bold">
-          3. Mechanical, Electrical & Plumbing (MEP) Systems
-        </span>
+        <span className="font-bold">3. Site Conditions & External Factors</span>
 
         <ul>
           <li>
-            Industrial HVAC & Ventilation – Cost assessment for large-scale
-            climate control systems.
+            Location-Based Cost Adjustments – Estimating costs based on regional
+            material and labor rates.
           </li>
           <li>
-            Process Piping & Plumbing – Takeoff for water supply, chemical
-            pipelines, and waste systems.
+            Site-Specific Considerations – Factoring in topography, soil
+            conditions, and environmental constraints.
           </li>
           <li>
-            Power Distribution & Electrical Systems – Estimation of
-            transformers, switchgear, conduits, and high-voltage wiring.
+            Permitting & Regulatory Costs – Rough projections for
+            compliance-related expenses.
           </li>
         </ul>
       </h1>
@@ -807,83 +801,82 @@ export const ServicesData = [
     li4: () => (
       <h1>
         <span className="font-bold">
-          4. Specialized Industrial Equipment & Systems
+          4. Preliminary Design & Structural Analysis
         </span>{" "}
         <ul>
           <li>
-            Material Handling & Conveyance – Cost analysis for conveyor belts,
-            cranes, and hoists.
+            Building Type & Structural System – Cost estimates for different
+            construction methods (steel, concrete, wood).
           </li>
           <li>
-            Process Equipment & Machinery – Estimation of custom-built
-            industrial machinery and installations.{" "}
+            Square Footage & Unit Costs – Rough estimates based on cost per
+            square foot or unit.
           </li>
           <li>
-            Fire Protection & Safety Systems – Takeoff for sprinkler systems,
-            gas suppression, and emergency systems.
+            Future Cost Adjustments – Adjusting for inflation, supply chain
+            volatility, and market trends.
           </li>
         </ul>
       </h1>
     ),
-    li5: () => (
-      <h1>
-        <span className="font-bold">5. Exterior & Site Development</span>{" "}
-        <ul>
-          <li>
-            Roads, Parking & Paving – Estimation of concrete, asphalt, and
-            heavy-duty surfaces.
-          </li>
-          <li>
-            Security & Perimeter Fencing – Budgeting for gates, surveillance,
-            and access control.
-          </li>
-          <li>
-            Landscaping & Stormwater Management – Cost projections for green
-            spaces and retention ponds.
-          </li>
-        </ul>
-      </h1>
-    ),
+    // li5: () => (
+    //   <h1>
+    //     <span className="font-bold">5. Exterior & Site Development</span>{" "}
+    //     <ul>
+    //       <li>
+    //         Roads, Parking & Paving – Estimation of concrete, asphalt, and
+    //         heavy-duty surfaces.
+    //       </li>
+    //       <li>
+    //         Security & Perimeter Fencing – Budgeting for gates, surveillance,
+    //         and access control.
+    //       </li>
+    //       <li>
+    //         Landscaping & Stormwater Management – Cost projections for green
+    //         spaces and retention ponds.
+    //       </li>
+    //     </ul>
+    //   </h1>
+    // ),
 
-    title3: " Our Industrial Estimating   ",
+    title3: " Our Preliminary Estimating Process  ",
     Des3: () => (
       <>
         <ul>
           <li>
-            <span>1. Project Review</span>Analyzing engineering drawings,
-            process flow diagrams, and structural blueprints to assess cost
-            factors.
+            <span>1. Initial Project Review </span>Analyzing conceptual
+            drawings, sketches, and project descriptions to define cost drivers.
           </li>
           <li>
-            <span>2. Quantity Takeoff</span>Using advanced software to determine
-            accurate material, labor, and equipment needs
+            <span>2.Cost Data & Benchmarking </span>Using historical cost data,
+            industry standards, and regional pricing databases for accuracy.
           </li>
           <li>
-            <span>3. Cost Estimation</span>Applying market-based pricing for
-            materials, installation, and logistical considerations.
+            <span>3. High-Level Quantity Takeoff </span>AExtracting approximate
+            material, labor, and equipment requirements for key project
+            components.
           </li>
           <li>
-            <span>4. Quality Assurance</span>Cross-verifying takeoff data to
-            ensure accuracy, compliance, and cost control.
+            <span>4. Risk & Contingency Analysis </span>Factoring in potential
+            cost risks, unexpected expenses, and contingency allowances.
           </li>
           <li>
-            <span>5 . Final Reporting</span>Providing detailed, structured cost
-            reports for budgeting, procurement, and project planning.
+            <span>5 . Final Preliminary Report </span>Delivering a detailed, yet
+            flexible cost estimate to guide early decision-making.
           </li>
         </ul>
       </>
     ),
 
-    title: "Preliminary Estimating   ",
+    title: "Conclusion ",
     description: () => (
       <>
         <p>
-          At Swift Takeoffs, we provide comprehensive and precise industrial
-          estimating services to support contractors, engineers, and project
-          managers in budgeting and planning large-scale industrial projects.
-          Our detailed estimates cover materials, labor, equipment, and overhead
-          costs, ensuring cost efficiency, risk mitigation, and smooth project
-          execution.
+          Swift Takeoffs’ preliminary estimating services help clients make
+          strategic financial decisions before committing to full project
+          development. Whether you're assessing a commercial, residential, or
+          industrial project, our estimates provide a solid cost foundation for
+          planning and investment.
         </p>
       </>
     ),
@@ -895,49 +888,49 @@ export const ServicesData = [
 
     route: "GCES",
     title1: "General Contractor Estimating Services",
-    Des1: " At Swift Takeoffs, we specialize in providing precise and comprehensive material takeoff services to ensure accurate planning, budgeting, and procurement for construction projects. Our detailed takeoff reports help contractors, builders, and project managers estimate material quantities, reduce waste, and optimize project costs.",
+    Des1: " At Swift Takeoffs, we provide comprehensive and accurate estimating services tailored for general contractors. Our detailed cost assessments help contractors plan, budget, and bid competitively, ensuring profitability, cost control, and risk management across all types of construction projects.",
     image: "/S3.webp",
     title2: "Key Components of Industrial Estimating Services",
     li1: () => (
       <h1>
-        <span className="font-bold">
-          1. Site Preparation & Foundation Costs
-        </span>
+        <span className="font-bold">1. Full-Scope Cost Estimation</span>
 
         <ul>
           <li>
-            Excavation & Earthwork – Costs for grading, soil stabilization, and
-            site clearing.
+            Material Takeoffs – Detailed calculations of required materials,
+            including lumber, concrete, steel, and finishes.
           </li>
           <li>
-            Heavy-Duty Foundations – Estimates for reinforced concrete slabs,
-            deep footings, and pile foundations.
+            Labor Cost Analysis – Estimating labor hours and crew sizes based on
+            project complexity.
           </li>
           <li>
-            Drainage & Environmental Compliance – Costs for stormwater
-            management and erosion control.
+            Equipment & Machinery Costs – Factoring in rentals, fuel, and
+            operational expenses.
           </li>
         </ul>
       </h1>
     ),
     li2: () => (
       <h1>
-        <span className="font-bold">
-          2. Structural Framework & Building Shell
-        </span>
+        <span className="font-bold">2. Trade-Specific Cost Breakdown</span>
 
         <ul>
           <li>
-            Steel Structures – Material takeoff for beams, columns, trusses, and
-            industrial-grade framing.
+            Site Preparation & Earthwork – Costs for grading, excavation, and
+            utilities.
           </li>
           <li>
-            Concrete & Precast Elements – Cost calculations for structural
-            walls, flooring, and precast panels.
+            Structural & Framing Work – Budgeting for steel, wood, and concrete
+            structures.
           </li>
           <li>
-            Roofing & Cladding – Estimates for high-durability roofing
-            materials, metal panels, and insulation.
+            MEP (Mechanical, Electrical, Plumbing) Systems – Cost assessment for
+            HVAC, electrical, and plumbing installations.
+          </li>
+          <li>
+            Interior & Exterior Finishes – Estimates for flooring, drywall,
+            painting, and cladding.
           </li>
         </ul>
       </h1>
@@ -945,21 +938,21 @@ export const ServicesData = [
     li3: () => (
       <h1>
         <span className="font-bold">
-          3. Mechanical, Electrical & Plumbing (MEP) Systems
+          3. Bid Preparation & Competitive Analysis
         </span>
 
         <ul>
           <li>
-            Industrial HVAC & Ventilation – Cost assessment for large-scale
-            climate control systems.
+            Bid Proposal Development – Preparing detailed bid estimates for
+            competitive tendering.
           </li>
           <li>
-            Process Piping & Plumbing – Takeoff for water supply, chemical
-            pipelines, and waste systems.
+            Subcontractor Cost Analysis – Comparing subcontractor quotes for
+            cost-effective selection.
           </li>
           <li>
-            Power Distribution & Electrical Systems – Estimation of
-            transformers, switchgear, conduits, and high-voltage wiring.
+            Profit Margin & Overhead Calculation – Ensuring bids remain
+            competitive yet profitable.
           </li>
         </ul>
       </h1>
@@ -967,83 +960,82 @@ export const ServicesData = [
     li4: () => (
       <h1>
         <span className="font-bold">
-          4. Specialized Industrial Equipment & Systems
+          4.Value Engineering & Cost Optimization
         </span>{" "}
         <ul>
           <li>
-            Material Handling & Conveyance – Cost analysis for conveyor belts,
-            cranes, and hoists.
+            Alternative Material & Design Suggestions – Identifying cost-saving
+            options without compromising quality.
           </li>
           <li>
-            Process Equipment & Machinery – Estimation of custom-built
-            industrial machinery and installations.{" "}
+            Waste Reduction Strategies – Minimizing material waste to reduce
+            unnecessary expenses.
           </li>
           <li>
-            Fire Protection & Safety Systems – Takeoff for sprinkler systems,
-            gas suppression, and emergency systems.
+            Project Scheduling & Efficiency Planning – Aligning labor and
+            equipment use for optimal cost efficiency.
           </li>
         </ul>
       </h1>
     ),
     li5: () => (
       <h1>
-        <span className="font-bold">5. Exterior & Site Development</span>{" "}
+        <span className="font-bold">5. Risk & Contingency Planning</span>{" "}
         <ul>
           <li>
-            Roads, Parking & Paving – Estimation of concrete, asphalt, and
-            heavy-duty surfaces.
+            Market & Supply Chain Analysis – Factoring in material price
+            fluctuations and availability.
           </li>
           <li>
-            Security & Perimeter Fencing – Budgeting for gates, surveillance,
-            and access control.
+            Permit & Regulatory Cost Estimation – Accounting for legal, zoning,
+            and compliance-related expenses.
           </li>
           <li>
-            Landscaping & Stormwater Management – Cost projections for green
-            spaces and retention ponds.
+            Contingency Budgeting – Allocating reserves for unexpected cost
+            overruns.
           </li>
         </ul>
       </h1>
     ),
 
-    title3: " Our Industrial Estimating   ",
+    title3: "Our General Contractor Estimating Process ",
     Des3: () => (
       <>
         <ul>
           <li>
-            <span>1. Project Review</span>Analyzing engineering drawings,
-            process flow diagrams, and structural blueprints to assess cost
-            factors.
+            <span>1. Project Analysis </span>Reviewing plans, blueprints, and
+            specifications to assess project scope.
           </li>
           <li>
-            <span>2. Quantity Takeoff</span>Using advanced software to determine
-            accurate material, labor, and equipment needs
+            <span>2. Detailed Quantity Takeoff </span>Using advanced estimating
+            software to calculate materials, labor, and equipment needs.
           </li>
           <li>
-            <span>3. Cost Estimation</span>Applying market-based pricing for
-            materials, installation, and logistical considerations.
+            <span>3. Cost Database & Pricing Application </span>Applying
+            up-to-date regional pricing for materials, labor, and overhead
+            costs.
           </li>
           <li>
-            <span>4. Quality Assurance</span>Cross-verifying takeoff data to
-            ensure accuracy, compliance, and cost control.
+            <span>4. Quality Control & Cross-Verification </span>Reviewing
+            estimates for accuracy, compliance, and risk mitigation.
           </li>
           <li>
-            <span>5 . Final Reporting</span>Providing detailed, structured cost
-            reports for budgeting, procurement, and project planning.
+            <span>5 . Final Report & Estimate Delivery </span>Providing clear,
+            organized cost breakdowns for project budgeting and bidding.
           </li>
         </ul>
       </>
     ),
 
-    title: "General Contractor Estimating  ",
+    title: "Conclusion ",
     description: () => (
       <>
         <p>
-          At Swift Takeoffs, we provide comprehensive and precise industrial
-          estimating services to support contractors, engineers, and project
-          managers in budgeting and planning large-scale industrial projects.
-          Our detailed estimates cover materials, labor, equipment, and overhead
-          costs, ensuring cost efficiency, risk mitigation, and smooth project
-          execution.
+          Swift Takeoffs delivers professional, reliable, and efficient
+          estimating services tailored for general contractors. Whether you're
+          bidding on commercial, residential, or industrial projects, our
+          detailed cost analysis ensures you remain competitive, profitable, and
+          financially prepared.
         </p>
       </>
     ),
@@ -1056,27 +1048,33 @@ export const ServicesData = [
 
     route: "SES",
     title1: "Subcontractor Estimating Services",
-    Des1: " At Swift Takeoffs, we specialize in providing precise and comprehensive material takeoff services to ensure accurate planning, budgeting, and procurement for construction projects. Our detailed takeoff reports help contractors, builders, and project managers estimate material quantities, reduce waste, and optimize project costs.",
+    Des1: "At Swift Takeoffs, we provide precise and reliable estimating services tailored specifically for subcontractors. Our detailed cost assessments help subcontractors prepare accurate bids, manage budgets, and secure profitable contracts while minimizing financial risks.",
     image: "/S3.webp",
     title2: "Key Components of Industrial Estimating Services",
     li1: () => (
       <h1>
-        <span className="font-bold">
-          1. Site Preparation & Foundation Costs
-        </span>
+        <span className="font-bold">1. Trade-Specific Cost Estimation</span>
 
         <ul>
           <li>
-            Excavation & Earthwork – Costs for grading, soil stabilization, and
-            site clearing.
+            Concrete & Masonry – Estimating foundations, slabs, walls, rebar,
+            and finishing work.
           </li>
           <li>
-            Heavy-Duty Foundations – Estimates for reinforced concrete slabs,
-            deep footings, and pile foundations.
+            Framing & Carpentry – Cost assessments for lumber, steel framing,
+            and installation labor.
           </li>
           <li>
-            Drainage & Environmental Compliance – Costs for stormwater
-            management and erosion control.
+            Electrical & Plumbing – Estimating wiring, fixtures, piping, and
+            mechanical systems.
+          </li>
+          <li>
+            HVAC & Insulation – Cost breakdowns for ductwork, heating, cooling,
+            and insulation materials.
+          </li>
+          <li>
+            Painting & Finishing – Material and labor costs for coatings,
+            sealants, and decorative finishes.
           </li>
         </ul>
       </h1>
@@ -1084,127 +1082,121 @@ export const ServicesData = [
     li2: () => (
       <h1>
         <span className="font-bold">
-          2. Structural Framework & Building Shell
+          2. Material Takeoffs & Quantity Estimation
         </span>
 
         <ul>
           <li>
-            Steel Structures – Material takeoff for beams, columns, trusses, and
-            industrial-grade framing.
+            Precise Material Calculations – Ensuring accurate quantity takeoffs
+            for all required supplies.
           </li>
           <li>
-            Concrete & Precast Elements – Cost calculations for structural
-            walls, flooring, and precast panels.
+            Waste Reduction Strategies – Optimizing material usage to minimize
+            unnecessary costs.
           </li>
           <li>
-            Roofing & Cladding – Estimates for high-durability roofing
-            materials, metal panels, and insulation.
+            Supplier & Vendor Coordination – Assistance in sourcing
+            cost-effective materials.
           </li>
         </ul>
       </h1>
     ),
     li3: () => (
       <h1>
-        <span className="font-bold">
-          3. Mechanical, Electrical & Plumbing (MEP) Systems
-        </span>
+        <span className="font-bold">3. Labor & Equipment Cost Assessment</span>
 
         <ul>
           <li>
-            Industrial HVAC & Ventilation – Cost assessment for large-scale
-            climate control systems.
+            Workforce Estimation – Calculating required labor hours, crew sizes,
+            and wages.
           </li>
           <li>
-            Process Piping & Plumbing – Takeoff for water supply, chemical
-            pipelines, and waste systems.
+            Equipment Rental & Usage Costs – Factoring in heavy machinery,
+            tools, and operational expenses.
           </li>
           <li>
-            Power Distribution & Electrical Systems – Estimation of
-            transformers, switchgear, conduits, and high-voltage wiring.
+            Subcontractor Crew Coordination – Estimating costs for collaborating
+            with other trades.
           </li>
         </ul>
       </h1>
     ),
     li4: () => (
       <h1>
-        <span className="font-bold">
-          4. Specialized Industrial Equipment & Systems
-        </span>{" "}
+        <span className="font-bold">4. Competitive Bid Preparation</span>{" "}
         <ul>
           <li>
-            Material Handling & Conveyance – Cost analysis for conveyor belts,
-            cranes, and hoists.
+            Detailed Bid Proposals – Structuring accurate estimates for general
+            contractor bid submissions.
           </li>
           <li>
-            Process Equipment & Machinery – Estimation of custom-built
-            industrial machinery and installations.{" "}
+            Markup & Profit Analysis – Ensuring bids remain competitive while
+            maintaining profitability.
           </li>
           <li>
-            Fire Protection & Safety Systems – Takeoff for sprinkler systems,
-            gas suppression, and emergency systems.
+            Scope Clarification & Change Orders – Addressing potential scope
+            changes and cost impacts.
           </li>
         </ul>
       </h1>
     ),
     li5: () => (
       <h1>
-        <span className="font-bold">5. Exterior & Site Development</span>{" "}
+        <span className="font-bold">5. Risk & Contingency Planning</span>{" "}
         <ul>
           <li>
-            Roads, Parking & Paving – Estimation of concrete, asphalt, and
-            heavy-duty surfaces.
+            Material Price Fluctuation Analysis – Factoring in potential cost
+            increases for raw materials.
           </li>
           <li>
-            Security & Perimeter Fencing – Budgeting for gates, surveillance,
-            and access control.
+            Regulatory & Compliance Costs – Estimating permit fees and local
+            compliance expenses.
           </li>
           <li>
-            Landscaping & Stormwater Management – Cost projections for green
-            spaces and retention ponds.
+            Contingency Budgeting – Allocating reserves to cover unexpected cost
+            overruns.
           </li>
         </ul>
       </h1>
     ),
 
-    title3: " Our  Subcontractor Estimating   ",
+    title3: " Our Subcontractor Estimating Process  ",
     Des3: () => (
       <>
         <ul>
           <li>
-            <span>1. Project Review</span>Analyzing engineering drawings,
-            process flow diagrams, and structural blueprints to assess cost
-            factors.
+            <span>1. Blueprint & Specification Review </span>Analyzing plans,
+            drawings, and project documents to determine exact requirements.
           </li>
           <li>
-            <span>2. Quantity Takeoff</span>Using advanced software to determine
-            accurate material, labor, and equipment needs
+            <span>2. Quantity Takeoff & Cost Analysis </span>Using advanced
+            estimating software to calculate materials, labor, and equipment
+            needs.
           </li>
           <li>
-            <span>3. Cost Estimation</span>Applying market-based pricing for
-            materials, installation, and logistical considerations.
+            <span>3. Market Pricing & Cost Application </span>Applying current
+            industry rates to ensure accurate cost projections.
           </li>
           <li>
-            <span>4. Quality Assurance</span>Cross-verifying takeoff data to
-            ensure accuracy, compliance, and cost control.
+            <span>4. Quality Assurance & Cross-Verification </span>
+            Reviewing estimates for accuracy, compliance, and risk mitigation.
           </li>
           <li>
-            <span>5 . Final Reporting</span>Providing detailed, structured cost
-            reports for budgeting, procurement, and project planning.
+            <span>5 . Final Report & Estimate Delivery </span>Providing a clear,
+            organized cost breakdown for subcontractor bidding and budgeting.
           </li>
         </ul>
       </>
     ),
 
-    title: "Subcontractor Estimating  ",
+    title: "Conclusion",
     description: () => (
       <>
         <p>
-          At Swift Takeoffs, we provide comprehensive and precise industrial
-          estimating services to support contractors, engineers, and project
-          managers in budgeting and planning large-scale industrial projects.
-          Our detailed estimates cover materials, labor, equipment, and overhead
-          costs, ensuring cost efficiency, risk mitigation, and smooth project
-          execution.
+          Swift Takeoffs delivers specialized estimating services designed for
+          subcontractors across various trades. Our detailed, reliable, and
+          cost-effective estimates help you win more bids, optimize resources,
+          and maximize profitability on every project.
         </p>
       </>
     ),
