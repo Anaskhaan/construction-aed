@@ -868,15 +868,15 @@ export const ServicesData = [
       </>
     ),
 
-    title: "Conclusion ",
+    title: "Preliminary Estimating Services ",
     description: () => (
       <>
         <p>
-          Swift Takeoffs’ preliminary estimating services help clients make
-          strategic financial decisions before committing to full project
-          development. Whether you're assessing a commercial, residential, or
-          industrial project, our estimates provide a solid cost foundation for
-          planning and investment.
+          At Swift Takeoffs, our preliminary estimating services provide
+          early-stage cost assessments to help developers, contractors, and
+          stakeholders make informed decisions before committing to full project
+          execution. These estimates offer a high-level cost overview, assisting
+          in budget planning, feasibility studies, and investment analysis.
         </p>
       </>
     ),
@@ -890,7 +890,7 @@ export const ServicesData = [
     title1: "General Contractor Estimating Services",
     Des1: " At Swift Takeoffs, we provide comprehensive and accurate estimating services tailored for general contractors. Our detailed cost assessments help contractors plan, budget, and bid competitively, ensuring profitability, cost control, and risk management across all types of construction projects.",
     image: "/S3.webp",
-    title2: "Key Components of Industrial Estimating Services",
+    title2: "Key Components of General Contractor Estimating Services",
     li1: () => (
       <h1>
         <span className="font-bold">1. Full-Scope Cost Estimation</span>
@@ -1027,15 +1027,15 @@ export const ServicesData = [
       </>
     ),
 
-    title: "Conclusion ",
+    title: "General Contractor Estimating Services ",
     description: () => (
       <>
         <p>
-          Swift Takeoffs delivers professional, reliable, and efficient
-          estimating services tailored for general contractors. Whether you're
-          bidding on commercial, residential, or industrial projects, our
-          detailed cost analysis ensures you remain competitive, profitable, and
-          financially prepared.
+          At Swift Takeoffs, we provide comprehensive and accurate estimating
+          services tailored for general contractors. Our detailed cost
+          assessments help contractors plan, budget, and bid competitively,
+          ensuring profitability, cost control, and risk management across all
+          types of construction projects.
         </p>
       </>
     ),
@@ -1050,7 +1050,7 @@ export const ServicesData = [
     title1: "Subcontractor Estimating Services",
     Des1: "At Swift Takeoffs, we provide precise and reliable estimating services tailored specifically for subcontractors. Our detailed cost assessments help subcontractors prepare accurate bids, manage budgets, and secure profitable contracts while minimizing financial risks.",
     image: "/S3.webp",
-    title2: "Key Components of Industrial Estimating Services",
+    title2: "Key Components of Subcontractor Estimating Services",
     li1: () => (
       <h1>
         <span className="font-bold">1. Trade-Specific Cost Estimation</span>
@@ -1189,14 +1189,14 @@ export const ServicesData = [
       </>
     ),
 
-    title: "Conclusion",
+    title: "Subcontractor Estimating Services",
     description: () => (
       <>
         <p>
-          Swift Takeoffs delivers specialized estimating services designed for
-          subcontractors across various trades. Our detailed, reliable, and
-          cost-effective estimates help you win more bids, optimize resources,
-          and maximize profitability on every project.
+          At Swift Takeoffs, we provide precise and reliable estimating services
+          tailored specifically for subcontractors. Our detailed cost
+          assessments help subcontractors prepare accurate bids, manage budgets,
+          and secure profitable contracts while minimizing financial risks.
         </p>
       </>
     ),
