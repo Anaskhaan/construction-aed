@@ -1,7 +1,8 @@
 import { Check, MoveRight } from "lucide-react";
 import WhyChooseBidworks from "../trades/WhyChooseBidworks";
 import SearchTrades from "../../components/SearchingTrades/SearchTrades";
-import { ServicesData } from "../../Helpers/Data";
+import { ServicesData } from "../../Helpers/ServicesData";
+import { Link } from "react-router-dom";
 
 const TradesPage = ({ route }) => {
   const serviceData = ServicesData.find((item) => item.route === route);
@@ -27,9 +28,14 @@ const TradesPage = ({ route }) => {
   } = serviceData;
 
   return (
-    <div className="py-28">
+    <div className="py-12">
+      <Link to="/services">
+        <button className="text-black hover:underline lg:mt-12 mt-24 lg:ml-20 ml-12  lg:text-xl text-md ">
+          Back to Services Page
+        </button>
+      </Link>
       <div className="flex justify-center items-center">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] my-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] ">
           <div className="col-span-2 p-4">
             <img
               src={image}

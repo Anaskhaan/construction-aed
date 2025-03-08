@@ -1,7 +1,8 @@
-  import { MoveRight } from "lucide-react";
+import { MoveRight } from "lucide-react";
 import { data } from "../../Helpers/Data";
 import WhyChooseBidworks from "./WhyChooseBidworks";
 import SearchTrades from "../../components/SearchingTrades/SearchTrades";
+import { Link } from "react-router-dom";
 
 const TradesPage = ({ route }) => {
   const serviceData = data.find((item) => item.route === route);
@@ -49,7 +50,11 @@ const TradesPage = ({ route }) => {
           </span>
         </div>
       </div>
-
+      <Link to="/trades">
+        <button className="text-black hover:underline lg:mt-12 mt-24 lg:ml-20 ml-12  lg:text-xl text-md ">
+          Back to Trades Page
+        </button>
+      </Link>
       <div className="flex justify-center items-center">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] my-8">
           <div className="col-span-2 p-4">
