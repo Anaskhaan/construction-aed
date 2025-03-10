@@ -1,12 +1,11 @@
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
 
 const TradesPreviewMobile = ({ servicesData }) => {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <div className="lg:hidden p-6">
-      <div className="space-y-4">
+    <div className="lg:hidden px-2 py-2">
+      <div className="">
         {servicesData.map((service, index) => (
           <div
             key={index}
@@ -14,16 +13,16 @@ const TradesPreviewMobile = ({ servicesData }) => {
           >
             <button
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
-              className="w-full p-4 text-left flex justify-between items-center"
+              className={`w-full h-16 px-4 text-left flex items-center ${
+                openIndex === index
+                  ? "bg-blue-500 text-white rounded-lg"
+                  : "bg-blue-50"
+              }`}
             >
               <img src={service.icon} className="w-5 h-auto" alt="icons" />
-              <span>{service.name}</span>
-              <ChevronDown
-                className={`w-5 h-5 transition-transform duration-300 ${
-                  openIndex === index ? "rotate-180" : ""
-                }`}
-              />
+              <span className="px-4">{service.name}</span>
             </button>
+
             {openIndex === index && (
               <div className="bg-white p-4 text-black">
                 <h2 className="text-xl font-bold mb-2">{service.title()}</h2>

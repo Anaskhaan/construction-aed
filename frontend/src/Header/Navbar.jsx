@@ -1,12 +1,24 @@
 import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Home, Briefcase, Info, Mail, ArrowRight, Menu } from "lucide-react";
+import {
+  Home,
+  Briefcase,
+  Info,
+  Mail,
+  ArrowRight,
+  PanelTopClose,
+  SquarePlus,
+} from "lucide-react";
 
 const tabs = [
   { name: "Home", path: "/", icon: <Home size={25} /> },
-  { name: "Who We Are", path: "/about", icon: <Info size={25} /> },
-  { name: "What We Do", path: "/services", icon: <Briefcase size={25} /> },
+  { name: "About Us", path: "/about", icon: <Info size={25} /> },
+  {
+    name: "Our Services",
+    path: "/services",
+    icon: <SquarePlus size={25} />,
+  },
   { name: " Our Trades", path: "/trades", icon: <Briefcase size={25} /> },
   { name: "Contact Us", path: "/contact", icon: <Mail size={25} /> },
 ];

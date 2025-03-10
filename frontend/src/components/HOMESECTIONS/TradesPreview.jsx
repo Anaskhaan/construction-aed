@@ -8,31 +8,33 @@ const TradesPreview = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <>
-      <h1 className="flex items-center justify-center font-bold lg:text-3xl text-2xl text-[#0163BE] py-3">
+    <div className="mt-10">
+      <h1 className="flex items-center justify-center font-bold lg:text-3xl text-2xl text-[#0163BE] ">
         Our Trades
       </h1>
       <div className="w-full flex justify-center">
-        <span className="text-sm text-center w-3/2 lg:w-1/2 ">
+        <span className="text-sm text-center w-3/2 lg:w-1/2 text-gray-700">
           We specialize in providing construction takeoff services that support
           contractors in accurately estimating costs and quantities.
         </span>
       </div>
 
-      <div className="hidden lg:flex flex-col lg:flex-row items-center  justify-center gap-6 p-6 ">
+      <div className="hidden lg:flex flex-col lg:flex-row items-center justify-center gap-6 px-6 ">
         {/* Tabs */}
         <div className="w-full lg:w-1/4">
-          <ul className="  overflow-hidden">
+          <ul className="overflow-hidden ">
             {servicesData.map((service, index) => (
               <li
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`cursor-pointer flex items-center ${
-                  activeIndex === index ? " shadow-xl" : ""
-                }  p-4  hover:bg-blue-50`}
+                className={`cursor-pointer flex items-center h-20 border-2 border-white ${
+                  activeIndex === index
+                    ? "bg-[#0163be] text-white rounded-xl"
+                    : "bg-blue-50 rounded-lg"
+                }  p-4 `}
               >
                 <img src={service.icon} className="w-5 h-auto" alt="icons" />
-                <div className=" mt-3 ml-3 space-x-3 ">{service.name}</div>
+                <div className="ml-3 space-x-3 ">{service.name}</div>
               </li>
             ))}
           </ul>
@@ -108,7 +110,7 @@ const TradesPreview = () => {
 
         <div className=" absolute lg:bottom-2 lg:right-2 bottom-3 right-6 w-16  h-16 bg-white rounded-full opacity-35"></div>
       </div>
-    </>
+    </div>
   );
 };
 
