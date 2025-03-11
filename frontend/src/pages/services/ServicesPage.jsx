@@ -1,4 +1,3 @@
-import { Check, MoveRight } from "lucide-react";
 import WhyChooseBidworks from "../trades/WhyChooseBidworks";
 import SearchTrades from "../../components/SearchingTrades/SearchTrades";
 import { ServicesData } from "../../Helpers/ServicesData";
@@ -29,26 +28,26 @@ const TradesPage = ({ route }) => {
 
   return (
     <div className="py-12">
-      <Link to="/services">
-        <button className="text-black hover:underline lg:mt-12 mt-24 lg:ml-20 ml-12  lg:text-xl text-md ">
-          Back to Services Page
+      {/* <Link to="/services">
+        <button className=" hover:underline lg:mt-12 mt-24 lg:ml-20 ml-12  lg:text-xl text-md flex justify-center items-center gap-1 bg-[#0163be] text-white px-4 py-2 rounded-xl">
+          <ArrowLeft /> Services
         </button>
-      </Link>
-      <div className="flex justify-center items-center">
+      </Link> */}
+      <div className="flex justify-center items-center mt-20">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] ">
-          <div className="col-span-2 p-4">
+          <div className="col-span-2">
             <img
-              src={image}
+              src="/banner.svg"
               alt="service image"
               className="w-full hidden lg:block h-auto rounded-lg"
             />
             <div className="py-4 text-gray-700">
-              <h1 className="text-2xl font-bold text-gray-900">
+              <h1 className="lg:text-4xl text-2xl font-bold text-gray-900 text-center mb-2">
                 {title} <span className="text-[#0163BE]"> Services</span>
               </h1>
-              <p className="mt-4">{description()}</p>
+              <p className="mt-2">{description()}</p>
               <img
-                src={image}
+                src="/banner.svg"
                 alt="service image"
                 className="w-full md:hidden mt-1  h-auto rounded-lg"
               />

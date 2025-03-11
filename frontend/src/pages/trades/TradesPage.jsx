@@ -31,30 +31,25 @@ const TradesPage = ({ route }) => {
 
   return (
     <div className="py-24">
-      <Link to="/trades">
-        <button className="text-black hover:underline lg:mt-12 mt-24 lg:ml-20 ml-12  lg:text-xl text-md ">
-          Back to Trades Page
-        </button>
-      </Link>
       <div className="flex justify-center items-center">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] my-8">
           <div className="col-span-2 p-4">
             {/* Content for the first section */}
 
             <img
-              src={image}
+              src="/banner.svg"
               alt="service image"
               className="w-full hidden lg:block  h-auto rounded-lg"
             />
             <div className="py-4 text-gray-700">
-              <h1 className="text-2xl font-bold text-gray-900">
+              <h1 className="lg:text-4xl text-2xl font-bold text-gray-900 text-center">
                 {title1}{" "}
                 <span className="text-[#0163BE]"> Estimating Services</span>
               </h1>
               <p className="mt-4">{description}</p>
               <p className="mt-4">{Des1}</p>
               <img
-                src={image}
+                src="/banner.svg"
                 alt="service image"
                 className="w-full md:hidden h-auto rounded-lg"
               />

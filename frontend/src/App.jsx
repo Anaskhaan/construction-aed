@@ -1,3 +1,5 @@
+import "../src/assets/styles/fonts.css";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Contact from "./pages/Contact";

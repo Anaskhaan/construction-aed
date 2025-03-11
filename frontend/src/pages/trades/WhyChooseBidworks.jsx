@@ -8,7 +8,7 @@ const WhyChooseSwiftTakeoffs = () => {
         Why Choose <span className="text-[#0163BE]">Swift Takeoffs</span>
       </h1>
       <div>
-        <div className="flex flex-col lg:flex-row items-center gap-6 py-4">
+        <div className="flex flex-col lg:flex-row items-center gap-6 ">
           {/* Content Section */}
           <div className="flex-1">
             <ul className="list-disc pl-6 text-[#333]">
@@ -24,37 +24,26 @@ const WhyChooseSwiftTakeoffs = () => {
                 <strong>Customization:</strong> Tailor estimates to the unique
                 needs of each project.
               </li>
+              <li className="mb-4">
+                <strong>Collaboration:</strong> Work seamlessly with teams using
+                cloud-based estimating tools.
+              </li>
+              <li className="mb-4">
+                <strong>Cost Control:</strong> Identify and eliminate
+                unnecessary expenses early in the planning stage.
+              </li>
             </ul>
           </div>
           {/* Image Section */}
           <div className="flex-1 ">
-            <div className="relative flex justify-center items-center h-full">
+            <div className="relative  flex justify-center items-center h-full">
               <img
-                src="/meeting-young.webp"
+                src="/meeting-young.svg"
                 alt="About Us"
                 className="rounded-md z-20  mr-2"
               />
-              <div
-                className="absolute lg:w-[95%] lg:h-[95%] 2xl:w-[65%] 2xl:left-16 2xl:h-[100%] w-[100%] h-[100%]  lg:-top-4 -top-5 lg:-left-5 -left-6 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
-                }}
-              ></div>
             </div>
           </div>
-        </div>
-        <div className="flex-1 ">
-          <ul className="list-disc pl-6 text-[#333]">
-            <li className="mb-4">
-              <strong>Collaboration:</strong> Work seamlessly with teams using
-              cloud-based estimating tools.
-            </li>
-            <li className="mb-4">
-              <strong>Cost Control:</strong> Identify and eliminate unnecessary
-              expenses early in the planning stage.
-            </li>
-          </ul>
         </div>
       </div>
       <div className="py-6">

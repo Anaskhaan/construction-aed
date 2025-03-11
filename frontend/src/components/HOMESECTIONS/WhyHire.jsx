@@ -126,9 +126,9 @@ const WhyHire = () => {
           <img
             src="/group-smiling-engineers.webp"
             alt="Team"
-            className="rounded-lg  w-full h-auto relative  z-10"
+            className="rounded-lg w-full h-auto relative z-10"
           />
-          <div className=" absolute -bottom-3 -right-3 border border-r-2  border-b-2 rounded-xl border-t-transparent border-l-transparent border-[#0163be] h-56 lg:w-72  w-40"></div>
+          <div className=" absolute -bottom-3 -right-3 border border-r-2  border-b-2 rounded-xl border-t-transparent border-l-transparent border-[#0163be] h-56 lg:w-72  w-32"></div>
 
           <div
             className="absolute w-full h-full top-0 left-0 -z-10 rounded-lg border-2 border-[#0163BE]"
@@ -137,16 +137,16 @@ const WhyHire = () => {
         </div>
       </section>
 
-      <div className="bg-[#ebebeb] p-4 mt-4 h-80 mx-auto ">
+      <div className="bg-[#ebebeb]  mt-4 lg:h-72 h-44 mx-auto flex items-center rounded-3xl">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="service-content mb-8 relative">
-            <h2 className="font-semibold text-center text-4xl">
+          <div className="service-content mb-4 relative">
+            <h2 className="font-semibold text-center lg:text-4xl text-xl">
               Software&apos;s{" "}
               <span className="text-[#0163BE]">Swift Takeoffs </span> Use
             </h2>
           </div>
 
-          <div className="grid grid-cols-3 lg:grid-cols-4 gap-4 mx-auto">
+          <div className="grid grid-cols-4 gap-4 mx-auto">
             {LOGOS.map((logo) => (
               <div
                 key={logo.id}

@@ -68,14 +68,14 @@ const Quote = () => {
   };
 
   return (
-    <div id="GetQuote" className="w-auto mx-auto py-6 bg-white my-4">
+    <div id="GetQuote" className="w-auto mx-auto lg:py-6 bg-white">
       <Toaster />
-      <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-8 items-center">
-        <div className="p-6 ml-5">
-          <h2 className="lg:text-5xl text-xl tracking-wider font-bold ">
+      <div className="flex flex-col-reverse md:grid md:grid-cols-2  items-center">
+        <div className="p-6 lg:ml-5 -ml-2">
+          <h2 className="lg:text-5xl text-xl tracking-wider font-bold">
             Get A <span className="text-[#0163BE]">Free Quote</span> Now
           </h2>
-          <p className="lg:text-lg text-sm text-[#565656] mb-6">
+          <p className="lg:text-lg text-sm text-[#565656] mb-6 lg:mt-0 ">
             Ready to take your projects to the next level? Request a free quote
             today and let our expert estimators deliver reliability you can
             trust!
@@ -153,12 +153,10 @@ const Quote = () => {
           </form>
         </div>
         <div className="relative flex items-center justify-center">
-          <div className="absolute w-[65%] h-[90%] border-t-2 border-r-2 border-b-2 lg:left-32 left-20 border-l-2 border-[#0163BE] rounded-tl-[2%] rounded-br-[2%] rounded-tr-[30%]  top-2 lg:top-8"></div>
-          <div className="absolute w-[65%] h-[90%] bg-[#0163BE] rounded-tl-[2%]  rounded-tr-[30%] bottom-0"></div>
           <img
-            src="/builder.png"
+            src="/builder.svg"
             alt="Construction Worker"
-            className="relative z-10 w-[100%] object-contain -ml-4 -mt-6"
+            className="relative z-10 w-[100%] object-contain -mb-5 lg:mb-0"
           />
         </div>
       </div>

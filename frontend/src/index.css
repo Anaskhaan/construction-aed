@@ -5,3 +5,18 @@
 .wordSpaced {
   letter-spacing: 1em;
 }
+
+.card {
+  color: #374151;
+}
+.card h3 {
+  color: #0163b3;
+  font-size: 16px;
+}
+.card p {
+  font-size: 13px;
+}
+
+.card:hover h3 {
+  color: white;
+}

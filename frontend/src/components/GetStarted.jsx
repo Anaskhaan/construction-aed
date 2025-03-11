@@ -48,14 +48,11 @@ function GetStarted() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center ">
+    <div className="min-h-screen  flex items-center justify-center py-10">
       <div className="w-full bg-white  overflow-hidden">
         <div className="p-6 md:p-8">
           <h1 className="text-2xl md:text-3xl font-bold text-center mb-8">
-            How to Begin{" "}
-            <span className="text-[#0163be]">Construction Estimation &</span>
-            <br />
-            <span className="text-[#0163be]">Quantity Takeoffs</span> with Us
+            Easy <span className="text-[#0163be]">Steps to Get</span> Started
           </h1>
 
           <div className="flex flex-col md:flex-row gap-6">
