@@ -39,7 +39,7 @@ const TradesPage = ({ route }) => {
             <img
               src="/banner.svg"
               alt="service image"
-              className="w-full hidden lg:block  h-auto rounded-lg"
+              className="w-full   h-auto rounded-lg"
             />
             <div className="py-4 text-gray-700">
               <h1 className="lg:text-4xl text-2xl font-bold text-gray-900 text-center">
