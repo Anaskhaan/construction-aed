@@ -1,4 +1,3 @@
-import { ArrowLeft, Check, MoveRight } from "lucide-react";
 import WhyChooseBidworks from "../trades/WhyChooseBidworks";
 import SearchTrades from "../../components/SearchingTrades/SearchTrades";
 import { ServicesData } from "../../Helpers/ServicesData";

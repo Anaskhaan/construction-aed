@@ -64,9 +64,6 @@ const About = () => {
         </div>
 
         <div className=" top-12 flex flex-col justify-center text-left  px-4 md:px-12  md:text-left">
-          <h3 className="text-[#202020] font-medium text-lg md:text-lg uppercase mb-2">
-            About Us
-          </h3>
           <h2 className="lg:text-2xl text-xl   font-bold leading-tight text-black">
             Excellence In Construction And Estimating{" "}
             <span className="text-[#0163BE]">Takeoff Services</span>

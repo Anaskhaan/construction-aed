@@ -1,0 +1,25 @@
+@import "@fontsource/poppins/latin-italic.css"; /* Import Poppins Italic from npm */
+
+/* Century Schoolbook Bold Italic */
+@font-face {
+  font-family: "Century Schoolbook";
+  src: url("../assets/fonts/Century-School-Bold-Italic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Century Schoolbook", serif;
+  font-weight: bold;
+  font-style: italic;
+}

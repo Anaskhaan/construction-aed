@@ -9,9 +9,10 @@ const TradesPreview = () => {
 
   return (
     <div className="mt-10">
-      <h1 className="flex items-center justify-center font-bold lg:text-3xl text-2xl text-[#0163BE] ">
-        Our Trades
-      </h1>
+      <h2 className="font-semibold lg:text-4xl text-2xl px-2 text-center">
+        Construction<span className="text-[#0163BE]"> Trades We</span> Cover
+      </h2>
+
       <div className="w-full flex justify-center">
         <span className="text-sm text-center w-3/2 lg:w-1/2 text-gray-700">
           We specialize in providing construction takeoff services that support
@@ -27,11 +28,11 @@ const TradesPreview = () => {
               <li
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`cursor-pointer flex items-center h-20 border-2 border-white ${
+                className={`cursor-pointer flex items-center h-20 border-2 text-gray-700 border-white transition-transform duration-300 ${
                   activeIndex === index
-                    ? "bg-[#0163be] text-white rounded-xl"
-                    : "bg-blue-50 rounded-lg"
-                }  p-4 `}
+                    ? "bg-blue-50 text-[#0163be] font-bold rounded-xl border-2 border-blue-50 scale-102 "
+                    : "rounded-lg"
+                } p-4`}
               >
                 <img src={service.icon} className="w-5 h-auto" alt="icons" />
                 <div className="ml-3 space-x-3 ">{service.name}</div>

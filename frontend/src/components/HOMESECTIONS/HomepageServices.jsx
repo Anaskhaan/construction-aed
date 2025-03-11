@@ -71,33 +71,34 @@ const HomepageServices = () => {
   ];
 
   return (
-    <div className="bg-[#ebebeb] py-10  h-auto">
+    <div className="lg:bg-[#ebebeb] py-10  h-auto rounded-xl">
       <div className="service-content text-center">
-        <h2 className="font-semibold lg:text-4xl text-2xl">
-          <span className="text-[#0163BE]">Swift Takeoffs</span> Services
+        <h2 className="font-semibold lg:text-4xl text-2xl px-2">
+          Our<span className="text-[#0163BE]"> Construction Estimating</span>{" "}
+          Services
         </h2>
-        <p className="text-sm lg:text-lg  px-5 lg:p-5">
-          Swift Takeoffs provides accurate and reliable estimates for General
-          Contractors, Subcontractors, Lenders, Builders, Architects,
-          Engineering Firms, and Vendors, ensuring efficient budgeting, cost
-          control, and competitive bidding for all construction projects.
+        <p className="text-sm lg:text-lg  px-5 lg:p-5 text-gray-700">
+          Swift Takeoffs provides accurate and reliable estimates and
+          competitive bidding for all construction projects.
         </p>
       </div>
-      <div className="grid lg:grid-cols-4 grid-cols-1 p-8 gap-4">
+      <div className="grid lg:grid-cols-4 grid-cols-1 lg:p-8 p-4  gap-4">
         {services.map((service) => (
           <div
             key={service.id}
             onClick={() => navigate(service.route)}
-            className="p-4 border-b-8 border-[#0163be] rounded-lg shadow-md bg-white hover:cursor-pointer hover:shadow-lg hover:bg-[#3482cb] hover:border-white hover:text-white"
+            className="p-4 border-b-8 border-[#0163be] lg:h-auto h-52 rounded-lg shadow-md bg-white hover:cursor-pointer hover:shadow-lg hover:bg-[#3482cb] hover:border-white hover:text-white card hover:card"
           >
-            <img
-              src={service.img}
-              alt={service.title}
-              className="w-12 h-auto p-1 "
-            />
+            <div className="flex items-center gap-2">
+              <img
+                src={service.img}
+                alt={service.title}
+                className="w-12 h-auto p-1 "
+              />
+              <h3 className="text-xl font-[1rem] ">{service.title}</h3>
+            </div>
             <div>
-              <h3 className="text-xl font-semibold ">{service.title}</h3>
-              <p className="leading-tight">{service.description}</p>
+              <p className="leading-5">{service.description}</p>
             </div>
           </div>
         ))}

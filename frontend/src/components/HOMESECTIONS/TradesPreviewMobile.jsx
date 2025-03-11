@@ -5,27 +5,27 @@ const TradesPreviewMobile = ({ servicesData }) => {
 
   return (
     <div className="lg:hidden px-2 py-2">
-      <div className="">
+      <div className="space-y-1">
         {servicesData.map((service, index) => (
-          <div
-            key={index}
-            className={`border rounded-lg overflow-hidden  bg-white`}
-          >
+          <div key={index} className={`overflow-hidden  bg-white `}>
             <button
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
-              className={`w-full h-16 px-4 text-left flex items-center ${
+              className={`w-full h-16 px-4  text-left rounded-xl flex items-center border-2 border-gray-100   transition-transform duration-300 ${
                 openIndex === index
-                  ? "bg-blue-500 text-white rounded-lg"
-                  : "bg-blue-50"
+                  ? "bg-blue-50 text-[#0163be] font-bold rounded-xl"
+                  : "bg-white rounded-lg text-gray-500"
               }`}
             >
               <img src={service.icon} className="w-5 h-auto" alt="icons" />
-              <span className="px-4">{service.name}</span>
+              <h2 className="px-4">{service.name}</h2>
             </button>
+
+            {/* 
+                  
+                   */}
 
             {openIndex === index && (
               <div className="bg-white p-4 text-black">
-                <h2 className="text-xl font-bold mb-2">{service.title()}</h2>
                 <p className="text-gray-600 mb-4">{service.content}</p>
                 {/* <a
                   href={service.link}

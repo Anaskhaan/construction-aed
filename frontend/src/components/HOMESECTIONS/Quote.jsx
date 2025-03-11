@@ -68,14 +68,14 @@ const Quote = () => {
   };
 
   return (
-    <div id="GetQuote" className="w-auto mx-auto lg:py-6 py-0 bg-white">
+    <div id="GetQuote" className="w-auto mx-auto lg:py-6 bg-white">
       <Toaster />
       <div className="flex flex-col-reverse md:grid md:grid-cols-2  items-center">
         <div className="p-6 lg:ml-5 -ml-2">
           <h2 className="lg:text-5xl text-xl tracking-wider font-bold">
             Get A <span className="text-[#0163BE]">Free Quote</span> Now
           </h2>
-          <p className="lg:text-lg text-sm text-[#565656] mb-6">
+          <p className="lg:text-lg text-sm text-[#565656] mb-6 lg:mt-0 ">
             Ready to take your projects to the next level? Request a free quote
             today and let our expert estimators deliver reliability you can
             trust!

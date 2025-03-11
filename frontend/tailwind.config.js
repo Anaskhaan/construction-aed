@@ -4,10 +4,11 @@ export default {
   theme: {
     extend: {
       animation: {
-        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        "pulse-slow": "pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
       fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"], // Add Montserrat as a custom font
+        heading: ["Century Schoolbook", "serif"],
+        body: ["Poppins", "sans-serif"],
       },
     },
   },
