@@ -7,7 +7,7 @@ export default {
         "pulse-slow": "pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
       fontFamily: {
-        heading: ["Century Schoolbook", "serif"],
+        // heading: ["Century Schoolbook", "serif"],
         body: ["Poppins", "sans-serif"],
       },
     },

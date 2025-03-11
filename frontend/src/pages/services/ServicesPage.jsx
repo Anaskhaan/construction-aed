@@ -28,11 +28,6 @@ const TradesPage = ({ route }) => {
 
   return (
     <div className="py-12">
-      {/* <Link to="/services">
-        <button className=" hover:underline lg:mt-12 mt-24 lg:ml-20 ml-12  lg:text-xl text-md flex justify-center items-center gap-1 bg-[#0163be] text-white px-4 py-2 rounded-xl">
-          <ArrowLeft /> Services
-        </button>
-      </Link> */}
       <div className="flex justify-center items-center mt-20">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] ">
           <div className="col-span-2">
@@ -61,7 +56,7 @@ const TradesPage = ({ route }) => {
               <h2 className="mt-6 text-xl font-bold text-[#202020]">
                 {title2}
               </h2>
-              <ul className="mt-4 list-disc pl-6">
+              <ul className="mt-4 list-disc pl-6 ">
                 <li>{li1()}</li>
                 <li className="mt-2">{li2()}</li>
                 <li className="mt-2">{li3()}</li>
