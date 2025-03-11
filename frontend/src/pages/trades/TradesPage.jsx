@@ -51,13 +51,13 @@ const TradesPage = ({ route }) => {
               <img
                 src="/banner.svg"
                 alt="service image"
-                className="w-full md:hidden h-auto rounded-lg"
+                className="w-full hidden h-auto rounded-lg"
               />
 
               <h2 className="mt-6 text-xl font-bold text-[#202020]">
                 {title2}
               </h2>
-              <ul className="mt-4 list-disc pl-6">
+              <ul className="mt-4 list-disc pl-6 ">
                 <li>{li1()}</li>
                 <li className="mt-2">{li2()}</li>
                 <li className="mt-2">{li3()}</li>

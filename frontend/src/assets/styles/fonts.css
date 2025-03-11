@@ -9,8 +9,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  font-style: italic;
+  font-family: "Poppins", sans-serif !important;
+  font-style: italic !important;
 }
 
 h1,
