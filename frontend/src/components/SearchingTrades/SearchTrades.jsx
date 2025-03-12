@@ -49,9 +49,9 @@ export default function SearchTrades() {
   };
 
   return (
-    <div className="flex flex-col gap-8 w-full max-w-4xl mx-auto px-4">
+    <div className="flex flex-col gap-8 w-full max-w-4xl mx-auto px-4 ">
       {/* Search and Trades Section */}
-      <div className="bg-white rounded-lg shadow-xl p-6 mb-8">
+      <div className="bg-white rounded-lg shadow-xl p-6 mb-8 hidden lg:block">
         <div className="w-full">
           {/* Search Section */}
           <div className="mb-8">
@@ -82,12 +82,6 @@ export default function SearchTrades() {
                   onClick={() => handleTradeClick(trade.path)}
                   className="flex items-center gap-3 cursor-pointer group"
                 >
-                  <input
-                    type="checkbox"
-                    checked
-                    readOnly
-                    className="h-5 w-5 text-blue-500 border-gray-300 rounded cursor-pointer"
-                  />
                   <span className="text-gray-700 group-hover:text-blue-500 transition-colors">
                     {trade.name}
                   </span>

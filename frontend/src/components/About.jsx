@@ -48,7 +48,7 @@ const About = () => {
       </div> */}
 
       {/* About Us Section */}
-      <section className="flex flex-col md:grid md:grid-cols-2 items-center px-6 pb-12 bg-gray-50">
+      <section className="flex flex-col md:grid md:grid-cols-2 items-center px-6 pb-12 ">
         <div className="relative flex justify-center items-center h-full mb-6 md:mb-0">
           <img
             src="/About-us.webp"

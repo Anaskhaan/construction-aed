@@ -171,6 +171,7 @@ const Navbar = () => {
           <div className="flex items-center justify-center rounded-3xl border border-white px-6 py-2">
             <Link
               to="/GetQuote"
+              onClick={handleTabClick}
               className="bg-transparent text-white px-1 py-1 transition duration-300"
             >
               Get a Quote

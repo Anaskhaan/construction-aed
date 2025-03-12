@@ -6,7 +6,7 @@ export const ServicesData = [
     image: "/Service1.webp",
     title2: "Key Components of Cost Estimating",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Material Costs: </span> Material costs form
         the foundation of every construction estimate. Our services include:
         <ul>
@@ -23,10 +23,10 @@ export const ServicesData = [
             compensate for on-site waste and breakage.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">Labor Costs: </span> Labor is one of the
         most significant costs in construction. Our labor estimates consider:
         <ul>
@@ -43,10 +43,10 @@ export const ServicesData = [
             for overtime work or union-specific regulations.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Equipment and Machinery Costs:</span> Heavy
         equipment and machinery play a vital role in construction. We estimate:
         <ul>
@@ -63,10 +63,10 @@ export const ServicesData = [
             concrete pumps, and earthmoving equipment.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">
           Subcontractor & Specialty Contractor Costs:
         </span>{" "}
@@ -86,10 +86,10 @@ export const ServicesData = [
             due to scope changes.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li5: () => (
-      <h1>
+      <p>
         <span className="font-bold">Overhead and Indirect Costs:</span> Beyond
         direct construction expenses, every project has indirect costs that
         impact the total budget. We estimate:
@@ -107,10 +107,10 @@ export const ServicesData = [
             expenses and future price increases.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li6: () => (
-      <h1>
+      <p>
         <span className="font-bold">Waste Management and Disposal Costs:</span>{" "}
         Proper disposal and recycling of construction materials can impact the
         budget. Our estimates cover:
@@ -128,7 +128,7 @@ export const ServicesData = [
             construction waste.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     title3: "Comprehensive Takeoff Services ",
     Des3: () => (
@@ -150,17 +150,17 @@ export const ServicesData = [
         </ul>
       </>
     ),
-    title: "Cost Estimating ",
+    title: "Cost Estimating",
     description: () => (
       <>
-        <h1>
+        <p>
           At Swift Takeoffs, we provide comprehensive and precise cost
           estimating services to help construction professionals plan and manage
           project budgets effectively. Our estimates cover all aspects of
           material costs, labor, equipment, subcontractor expenses, and
           overhead, ensuring financial accuracy and preventing unexpected
           overruns.
-        </h1>
+        </p>
       </>
     ),
     route: "CES",
@@ -177,45 +177,45 @@ export const ServicesData = [
     image: "/S3.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Project Review: </span>Analyzing
         architectural, structural, and MEP drawings to identify all material
         requirements. Understanding project specifications to ensure accurate
         takeoff calculations.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">Quantity Extraction: </span>Using advanced
         estimating software to extract precise material quantities. Identifying
         required materials for structural, architectural, mechanical,
         electrical, and plumbing components.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Cost Estimation: </span>Assigning unit
         prices to materials for accurate budgeting and procurement planning.
         Considering market fluctuations and regional pricing variations.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Quality Assurance: </span> Cross-verifying
         takeoff data with industry standards and project specifications.
         Eliminating errors, inconsistencies, and overestimations to improve
         accuracy.
-      </h1>
+      </p>
     ),
     li5: () => (
-      <h1>
+      <p>
         <span className="font-bold">Final Reporting:</span> Delivering a
         detailed, structured, and easy-to-read takeoff report. Providing
         categorized material lists for procurement and cost control.
-      </h1>
+      </p>
     ),
 
-    title3: "Takeoff ",
+    // title3: "Material Takeoff Service",
     Des3: () => (
       <>
         <span className="font-bold">
@@ -238,17 +238,17 @@ export const ServicesData = [
     title: "Material Takeoff ",
     description: () => (
       <>
-        <h1>
+        <p>
           A Material Takeoff (MTO) is a detailed quantification of materials
           needed for a construction project. This includes raw materials,
           prefabricated components, and consumables required for structural,
           architectural, mechanical, and electrical work.
-        </h1>
-        <h1 className=" mt-4">
+        </p>
+        <p className=" mt-4">
           By utilizing Swift Takeoffs, you ensure that every aspect of material
           estimation is accurate, cost-effective, and aligned with project
           specifications.
-        </h1>
+        </p>
       </>
     ),
   },
@@ -264,7 +264,7 @@ export const ServicesData = [
     image: "/S3.webp",
     title2: "Key Components of Residential Estimating Services",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Site Preparation & Foundation Costs</span>
 
         <ul>
@@ -277,10 +277,10 @@ export const ServicesData = [
             improvements and structural reinforcements.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">Structural Framework & Building Shell</span>
 
         <ul>
@@ -297,10 +297,10 @@ export const ServicesData = [
             insulation, and exterior wall panels.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">3. Interior Construction & Finishes</span>
 
         <ul>
@@ -317,10 +317,10 @@ export const ServicesData = [
             panels, and decorative finishes.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">
           4. Mechanical, Electrical & Plumbing (MEP) Systems
         </span>{" "}
@@ -338,10 +338,10 @@ export const ServicesData = [
             transformers, panel boards, and fixtures.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li5: () => (
-      <h1>
+      <p>
         <span className="font-bold">5. Exterior & Site Development</span>{" "}
         <ul>
           <li>
@@ -357,10 +357,10 @@ export const ServicesData = [
             surveillance systems.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
 
-    title3: " Our Residential Estimating  ",
+    title3: " Our Residential Estimating Process ",
     Des3: () => (
       <>
         <ul>
@@ -412,7 +412,7 @@ export const ServicesData = [
     image: "/S3.webp",
     title2: "Key Components of Commercial Estimating Services",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Site Preparation & Foundation Costs</span>
 
         <ul>
@@ -430,10 +430,10 @@ export const ServicesData = [
             slab-on-grade foundations.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">Structural Framework & Framing</span>
 
         <ul>
@@ -447,10 +447,10 @@ export const ServicesData = [
             weatherproofing materials.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Exterior Finishes</span>
 
         <ul>
@@ -463,10 +463,10 @@ export const ServicesData = [
             weatherproofing materials.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Interior Construction & Finishing</span>{" "}
         <ul>
           <li>
@@ -481,10 +481,10 @@ export const ServicesData = [
             sealants.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li5: () => (
-      <h1>
+      <p>
         <span className="font-bold">
           Mechanical, Electrical & Plumbing (MEP) Systems
         </span>{" "}
@@ -502,10 +502,10 @@ export const ServicesData = [
             conduits, and lighting.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li6: () => (
-      <h1>
+      <p>
         <span className="font-bold">Landscaping & Site Development</span>{" "}
         <ul>
           <li>
@@ -521,10 +521,10 @@ export const ServicesData = [
             irrigation systems.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
 
-    title3: " Our Commercial Estimating  ",
+    title3: " Our Commercial Estimating Process",
     Des3: () => (
       <>
         <ul>
@@ -552,7 +552,7 @@ export const ServicesData = [
       </>
     ),
 
-    title: "Commercial Estimating  ",
+    title: "Commercial Estimating",
     description: () => (
       <>
         <p>
@@ -578,7 +578,7 @@ export const ServicesData = [
     image: "/S3.webp",
     title2: "Key Components of Industrial Estimating Services",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">
           1. Site Preparation & Foundation Costs
         </span>
@@ -597,10 +597,10 @@ export const ServicesData = [
             management and erosion control.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">
           2. Structural Framework & Building Shell
         </span>
@@ -619,10 +619,10 @@ export const ServicesData = [
             materials, metal panels, and insulation.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">
           3. Mechanical, Electrical & Plumbing (MEP) Systems
         </span>
@@ -641,10 +641,10 @@ export const ServicesData = [
             transformers, switchgear, conduits, and high-voltage wiring.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">
           4. Specialized Industrial Equipment & Systems
         </span>{" "}
@@ -662,10 +662,10 @@ export const ServicesData = [
             gas suppression, and emergency systems.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li5: () => (
-      <h1>
+      <p>
         <span className="font-bold">5. Exterior & Site Development</span>{" "}
         <ul>
           <li>
@@ -681,10 +681,10 @@ export const ServicesData = [
             spaces and retention ponds.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
 
-    title3: " Our Industrial Estimating   ",
+    title3: " Our Industrial Estimating Process",
     Des3: () => (
       <>
         <ul>
@@ -713,7 +713,7 @@ export const ServicesData = [
       </>
     ),
 
-    title: "Industrial Estimating  ",
+    title: "Industrial Estimating ",
     description: () => (
       <>
         <p>
@@ -739,7 +739,7 @@ export const ServicesData = [
     image: "/S3.webp",
     title2: "Key Components of Perlminary Estimating Services",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">1. Conceptual Cost Estimation</span>
 
         <ul>
@@ -756,10 +756,10 @@ export const ServicesData = [
             cost ranges to guide decision-making.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">2. Material & Labor Cost Assessment</span>
 
         <ul>
@@ -776,10 +776,10 @@ export const ServicesData = [
             rentals
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">3. Site Conditions & External Factors</span>
 
         <ul>
@@ -796,10 +796,10 @@ export const ServicesData = [
             compliance-related expenses.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">
           4. Preliminary Design & Structural Analysis
         </span>{" "}
@@ -817,7 +817,7 @@ export const ServicesData = [
             volatility, and market trends.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     // li5: () => (
     //   <h1>
@@ -839,7 +839,7 @@ export const ServicesData = [
     //   </h1>
     // ),
 
-    title3: " Our Preliminary Estimating Process  ",
+    title3: " Our Preliminary Estimating Process",
     Des3: () => (
       <>
         <ul>
@@ -868,7 +868,7 @@ export const ServicesData = [
       </>
     ),
 
-    title: "Preliminary Estimating Services ",
+    title: "Preliminary Estimating ",
     description: () => (
       <>
         <p>
@@ -892,7 +892,7 @@ export const ServicesData = [
     image: "/S3.webp",
     title2: "Key Components of General Contractor Estimating Services",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">1. Full-Scope Cost Estimation</span>
 
         <ul>
@@ -909,10 +909,10 @@ export const ServicesData = [
             operational expenses.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">2. Trade-Specific Cost Breakdown</span>
 
         <ul>
@@ -933,10 +933,10 @@ export const ServicesData = [
             painting, and cladding.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">
           3. Bid Preparation & Competitive Analysis
         </span>
@@ -955,10 +955,10 @@ export const ServicesData = [
             competitive yet profitable.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">
           4.Value Engineering & Cost Optimization
         </span>{" "}
@@ -976,10 +976,10 @@ export const ServicesData = [
             equipment use for optimal cost efficiency.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li5: () => (
-      <h1>
+      <p>
         <span className="font-bold">5. Risk & Contingency Planning</span>{" "}
         <ul>
           <li>
@@ -995,13 +995,13 @@ export const ServicesData = [
             overruns.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
 
-    title3: "Our General Contractor Estimating Process ",
+    title3: "Our General Contractor Estimating Process",
     Des3: () => (
       <>
-        <ul>
+        <p>
           <li>
             <span>1. Project Analysis </span>Reviewing plans, blueprints, and
             specifications to assess project scope.
@@ -1023,11 +1023,11 @@ export const ServicesData = [
             <span>5 . Final Report & Estimate Delivery </span>Providing clear,
             organized cost breakdowns for project budgeting and bidding.
           </li>
-        </ul>
+        </p>
       </>
     ),
 
-    title: "General Contractor Estimating Services ",
+    title: "General Contractor Estimating",
     description: () => (
       <>
         <p>
@@ -1047,12 +1047,12 @@ export const ServicesData = [
     src2: "/businesswoman.webp",
 
     route: "SES",
-    title1: "Subcontractor Estimating Services",
+    title1: "Subcontractor Estimating Service",
     Des1: "At Swift Takeoffs, we provide precise and reliable estimating services tailored specifically for subcontractors. Our detailed cost assessments help subcontractors prepare accurate bids, manage budgets, and secure profitable contracts while minimizing financial risks.",
     image: "/S3.webp",
     title2: "Key Components of Subcontractor Estimating Services",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">1. Trade-Specific Cost Estimation</span>
 
         <ul>
@@ -1077,10 +1077,10 @@ export const ServicesData = [
             sealants, and decorative finishes.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">
           2. Material Takeoffs & Quantity Estimation
         </span>
@@ -1099,10 +1099,10 @@ export const ServicesData = [
             cost-effective materials.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">3. Labor & Equipment Cost Assessment</span>
 
         <ul>
@@ -1119,10 +1119,10 @@ export const ServicesData = [
             with other trades.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">4. Competitive Bid Preparation</span>{" "}
         <ul>
           <li>
@@ -1138,10 +1138,10 @@ export const ServicesData = [
             changes and cost impacts.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
     li5: () => (
-      <h1>
+      <p>
         <span className="font-bold">5. Risk & Contingency Planning</span>{" "}
         <ul>
           <li>
@@ -1157,10 +1157,10 @@ export const ServicesData = [
             overruns.
           </li>
         </ul>
-      </h1>
+      </p>
     ),
 
-    title3: " Our Subcontractor Estimating Process  ",
+    title3: " Our Subcontractor Estimating Process",
     Des3: () => (
       <>
         <ul>
@@ -1189,7 +1189,7 @@ export const ServicesData = [
       </>
     ),
 
-    title: "Subcontractor Estimating Services",
+    title: "Subcontractor Estimating",
     description: () => (
       <>
         <p>

@@ -2,36 +2,11 @@ import { ArrowRight } from "lucide-react";
 
 export default function PrivacyPolicy() {
   return (
-    <div>
-      <div className="relative w-full h-60">
-        {/* Background Image */}
-        <div className="absolute inset-0 bg-[url('/construction-site.webp')] bg-cover bg-center bg-no-repeat"></div>
-        {/* Black Transparent Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        {/* Heading */}
-        <h1 className="absolute top-1/3 w-full text-center text-white text-4xl font-bold z-10">
-          Privacy Policy
-        </h1>
-        {/* Breadcrumb Links */}
-        <div className="absolute top-32 w-full flex justify-center items-center text-sm text-white z-10">
-          <a href="/" className="hover:text-white transition-colors">
-            Home
-          </a>
-          <span className="mx-2">
-            <ArrowRight />
-          </span>
-          <a
-            href="/privacy-policy"
-            className="hover:text-white transition-colors"
-          >
-            Privacy Policy
-          </a>
-        </div>
-      </div>
-      <div className="max-w-5xl mx-20 px-4 py-8">
+    <div className="px-4 sm:px-6 lg:px-8 py-8 mt-24">
+      <div className="max-w-5xl mx-auto">
         {/* Header Section */}
         <div className="mb-8">
-          <h1 className="text-xl font-semibold mb-4">
+          <h1 className="text-xl sm:text-2xl font-semibold mb-4">
             Swift Takeoffs Privacy Policy
           </h1>
           <p className="text-gray-600 mb-4">
@@ -39,10 +14,10 @@ export default function PrivacyPolicy() {
             data. This policy explains how we handle your personal information
             when you interact with our website{" "}
             <a
-              href="https://bidworksestimating.com"
+              href="https://swifttakeoffs.com"
               className="text-blue-600 hover:underline"
             >
-              bidworksestimating.com
+              swifttakeoffs.com
             </a>{" "}
             (&quot;the Site&quot;). By using the Site, you agree to be bound as
             set forth in this Privacy Policy.
@@ -51,7 +26,7 @@ export default function PrivacyPolicy() {
 
         {/* Collection of Personal Data Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-3">
+          <h2 className="text-lg sm:text-xl font-semibold mb-3">
             Collection Of Personal Data
           </h2>
           <p className="text-gray-600 mb-4">
@@ -59,7 +34,7 @@ export default function PrivacyPolicy() {
             improve our services.
           </p>
 
-          <h3 className="text-md font-semibold mb-2">
+          <h3 className="text-md sm:text-lg font-semibold mb-2">
             Voluntary Submission of Information:
           </h3>
           <p className="text-gray-600 mb-4">
@@ -69,7 +44,7 @@ export default function PrivacyPolicy() {
             choose to share.
           </p>
 
-          <h3 className="text-md font-semibold mb-2">
+          <h3 className="text-md sm:text-lg font-semibold mb-2">
             Collection Of Usage Information
           </h3>
           <p className="text-gray-600 mb-4">
@@ -83,7 +58,9 @@ export default function PrivacyPolicy() {
 
         {/* Usage of Data Section */}
         <section className="mb-8">
-          <h3 className="text-xl font-semibold mb-3">Usage Of Your Data</h3>
+          <h3 className="text-lg sm:text-xl font-semibold mb-3">
+            Usage Of Your Data
+          </h3>
           <p className="text-gray-600 mb-4">
             The personal information you provide is used to offer and enhance
             our services. This includes responding to your inquiries, keeping
@@ -94,7 +71,7 @@ export default function PrivacyPolicy() {
 
         {/* Marketing Communications Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-3">
+          <h2 className="text-lg sm:text-xl font-semibold mb-3">
             Marketing Communications
           </h2>
           <p className="text-gray-600 mb-4">
@@ -108,7 +85,7 @@ export default function PrivacyPolicy() {
 
         {/* Data Protection Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-3">
+          <h2 className="text-lg sm:text-xl font-semibold mb-3">
             Data Protection Measures
           </h2>
           <p className="text-gray-600 mb-4">
@@ -122,7 +99,7 @@ export default function PrivacyPolicy() {
 
         {/* Updates Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-3">
+          <h2 className="text-lg sm:text-xl font-semibold mb-3">
             Updates To The Privacy Policy
           </h2>
           <p className="text-gray-600">

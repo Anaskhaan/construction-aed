@@ -146,8 +146,13 @@ const GetQuote = () => {
               <option value="" disabled>
                 Select Level Type
               </option>
-              <option value="basic">Basic Takeoff</option>
-              <option value="advanced">Advanced Takeoff</option>
+              <option value="basic">
+                Basic SQ FT or LF & Material Descriptions
+              </option>
+              <option value="advanced">
+                PLUS Includes Piece Count & Breakdown of Assemblies Includes
+                Condensed Material Summary List
+              </option>
             </select>
           </div>
           <div className="flex items-center justify-center">

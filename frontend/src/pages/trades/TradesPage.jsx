@@ -37,7 +37,7 @@ const TradesPage = ({ route }) => {
             {/* Content for the first section */}
 
             <img
-              src="/banner.svg"
+              src="/banner.webp"
               alt="service image"
               className="w-full   h-auto rounded-lg"
             />
@@ -49,7 +49,7 @@ const TradesPage = ({ route }) => {
               <p className="mt-4">{description}</p>
               <p className="mt-4">{Des1}</p>
               <img
-                src="/banner.svg"
+                src="/banner.webp"
                 alt="service image"
                 className="w-full hidden h-auto rounded-lg"
               />
