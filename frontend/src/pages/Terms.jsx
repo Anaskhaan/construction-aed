@@ -2,44 +2,19 @@ import { ArrowRight } from "lucide-react";
 
 export default function Terms() {
   return (
-    <div>
-      <div className="relative w-full h-60">
-        {/* Background Image */}
-        <div className="absolute inset-0 bg-[url('/construction-site.webp')] bg-cover bg-center bg-no-repeat"></div>
-        {/* Black Transparent Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        {/* Heading */}
-        <h1 className="absolute top-1/3 w-full text-center text-white text-4xl font-bold z-10">
-          Terms and Conditions
-        </h1>
-        {/* Breadcrumb Links */}
-        <div className="absolute top-32 w-full flex justify-center items-center text-sm text-white z-10">
-          <a href="/" className="hover:text-white transition-colors">
-            Home
-          </a>
-          <span className="mx-2">
-            <ArrowRight />
-          </span>
-          <a
-            href="/privacy-policy"
-            className="hover:text-white transition-colors"
-          >
-            Terms and Conditions
-          </a>
-        </div>
-      </div>
-      <div className="max-w-5xl mx-20 px-4 py-8">
+    <div className="min-h-screen bg-white">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 mt-24">
         {/* Header Section */}
         <div className="mb-8">
-          <h1 className="text-xl font-semibold mb-4">
-            Welcome to Bid Works Estimating,LLC
+          <h1 className="text-xl sm:text-2xl font-semibold mb-4">
+            Welcome to Swift Takeoffs Estimating, LLC
           </h1>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-600 mb-4 text-sm sm:text-base">
             These terms and conditions outline the rules and regulations for the
-            use of Bid Works Estimating Website. Bid Works Estimating is located
-            at: Questions or Concerns? Contact:
+            use of Swift Takeoffs Estimating Website. Swift Takeoffs Estimating
+            is located at: Questions or Concerns? Contact:{" "}
             <a
-              href="info@swifttakeoffs.com"
+              href="mailto:info@swifttakeoffs.com"
               className="text-blue-600 hover:underline"
             >
               info@swifttakeoffs.com
@@ -47,18 +22,19 @@ export default function Terms() {
             .
             <br />
             By accessing this website, we assume you accept these terms and
-            conditions in full. Do not continue to use the Bid Works Estimating
-            website if you do not accept all of the terms and conditions stated
-            on this page.
+            conditions in full. Do not continue to use the Swift Takeoffs
+            Estimating website if you do not accept all of the terms and
+            conditions stated on this page.
           </p>
         </div>
+
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">Terminology</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">Terminology</h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             The following terminology applies to these Terms and Conditions,
             Privacy Statement, and Disclaimer Notice and any or all Agreements:
           </p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4 text-sm sm:text-base">
             <li>
               &quot;Client&quot;, &quot;You&quot; and &quot;Your&quot; refers to
               you, the person accessing this website and accepting the
@@ -73,7 +49,7 @@ export default function Terms() {
               both the Client and ourselves, or either the Client or ourselves.
             </li>
           </ul>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             All terms refer to the offer, acceptance, and consideration of
             payment necessary to undertake the process of our assistance to the
             Client in the most appropriate manner, in accordance with and
@@ -83,50 +59,52 @@ export default function Terms() {
 
         {/* License Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">License</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">License</h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             You may view or print pages from{" "}
             <a
-              href="https://www.bidworksestimating.com"
+              href="https://www.swifttakeoffs.com"
               className="text-blue-600 hover:underline"
             >
-              https://www.bidworksestimating.com
+              https://www.swifttakeoffs.com
             </a>{" "}
             for your own personal use subject to restrictions set in these terms
             and conditions. You must not:
           </p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
-            <li>Republish material from https://www.bidworksestimating.com</li>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4 text-sm sm:text-base">
+            <li>Republish material from https://www.swifttakeoffs.com</li>
             <li>
               Sell, rent, or sub-license material from
-              https://www.bidworksestimating.com
+              https://www.swifttakeoffs.com
             </li>
             <li>
               Reproduce, duplicate, or copy material from
-              https://www.bidworksestimating.com
+              https://www.swifttakeoffs.com
             </li>
             <li>
-              Redistribute content from Bid Works Estimating (unless content is
-              specifically made for redistribution)
+              Redistribute content from Swift Takeoffs Estimating (unless
+              content is specifically made for redistribution)
             </li>
           </ul>
         </section>
 
         {/* User Comments Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">User Comments</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
+            User Comments
+          </h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             This Agreement shall begin on the date hereof.
           </p>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             Certain parts of this website offer the opportunity for users to
             post and exchange opinions, information, material, and comments
-            (&quot; Comments &quot;). Bid Works Estimating does not screen,
+            (&quot;Comments&quot;). Swift Takeoffs Estimating does not screen,
             edit, publish, or review Comments prior to their appearance on the
             website, and Comments do not reflect the views or opinions of Bid
             Works Estimating, its agents, or affiliates.
           </p>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             Comments reflect the view and opinion of the person who posts such a
             view or opinion. To the extent permitted by applicable laws, Bid
             Works Estimating shall not be responsible or liable for the Comments
@@ -134,14 +112,16 @@ export default function Terms() {
             suffered as a result of any use of and/or posting of and/or
             appearance of the Comments on this website.
           </p>
-          <p className="text-gray-700 mb-4">
-            Bid Works Estimating reserves the right to monitor all Comments and
-            to remove any Comments which it considers in its absolute discretion
-            to be inappropriate, offensive, or otherwise in breach of these
-            Terms and Conditions.
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
+            Swift Takeoffs Estimating reserves the right to monitor all Comments
+            and to remove any Comments which it considers in its absolute
+            discretion to be inappropriate, offensive, or otherwise in breach of
+            these Terms and Conditions.
           </p>
-          <p className="text-gray-700 mb-4">You warrant and represent that:</p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
+            You warrant and represent that:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4 text-sm sm:text-base">
             <li>
               You are entitled to post the Comments on our website and have all
               necessary licenses and consents to do so;
@@ -161,25 +141,25 @@ export default function Terms() {
               custom or present commercial activities or unlawful activity.
             </li>
           </ul>
-          <p className="text-gray-700">
-            You hereby grant to Bid Works Estimating a non-exclusive
+          <p className="text-gray-700 text-sm sm:text-base">
+            You hereby grant to Swift Takeoffs Estimating a non-exclusive
             royalty-free license to use, reproduce, edit, and authorize others
             to use, reproduce, and edit any of your Comments in any and all
             forms, formats, or media.
           </p>
-          <div className="pt-10">
-            <h2 className="text-xl font-semibold mb-6">
+          <div className="pt-8 sm:pt-10">
+            <h2 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
               Hyperlinking To Our Content
             </h2>
 
             {/* Initial Policy Statement */}
-            <p className="text-gray-700 mb-6">
+            <p className="text-gray-700 mb-4 sm:mb-6 text-sm sm:text-base">
               The following organizations may link to our website without prior
               written approval:
             </p>
 
             {/* First List */}
-            <ul className="list-disc pl-6 space-y-3 mb-6 text-gray-700">
+            <ul className="list-disc pl-6 space-y-2 sm:space-y-3 mb-4 sm:mb-6 text-gray-700 text-sm sm:text-base">
               <li>Government agencies</li>
               <li>Search engines</li>
               <li>News organizations</li>
@@ -196,24 +176,24 @@ export default function Terms() {
             </ul>
 
             {/* Middle Paragraphs */}
-            <div className="space-y-4 mb-6">
-              <p className="text-gray-700">
+            <div className="space-y-3 sm:space-y-4 mb-4 sm:mb-6">
+              <p className="text-gray-700 text-sm sm:text-base">
                 These organizations may link to our home page, to publications,
                 or to other website information so long as the link: (a) is not
                 in any way misleading; (b) does not falsely imply sponsorship,
                 endorsement, or approval of the linking party and its products
                 or services; and (c) fits within the context of the linking
-                party&apos;site.
+                party&apos;s site.
               </p>
 
-              <p className="text-gray-700">
+              <p className="text-gray-700 text-sm sm:text-base">
                 We may consider and approve in our sole discretion other link
                 requests from the following types of organizations:
               </p>
             </div>
 
             {/* Second List */}
-            <ul className="list-disc pl-6 space-y-3 mb-6 text-gray-700">
+            <ul className="list-disc pl-6 space-y-2 sm:space-y-3 mb-4 sm:mb-6 text-gray-700 text-sm sm:text-base">
               <li>
                 commonly-known consumer and/or business information sources such
                 as Chambers of Commerce, American
@@ -234,8 +214,8 @@ export default function Terms() {
             </ul>
 
             {/* Final Paragraphs */}
-            <div className="space-y-4 mb-6">
-              <p className="text-gray-700">
+            <div className="space-y-3 sm:space-y-4 mb-4 sm:mb-6">
+              <p className="text-gray-700 text-sm sm:text-base">
                 We will approve link requests from these organizations if we
                 determine that: (a) the link would not reflect unfavorably on us
                 or our accredited businesses; (b) the organization does not have
@@ -247,7 +227,7 @@ export default function Terms() {
                 organization.
               </p>
 
-              <p className="text-gray-700">
+              <p className="text-gray-700 text-sm sm:text-base">
                 These organizations may link to our home page, to publications,
                 or to other website information so long as the link: (a) is not
                 in any way misleading; (b) does not falsely imply sponsorship,
@@ -258,10 +238,10 @@ export default function Terms() {
             </div>
 
             {/* Final List */}
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-700 mb-3 sm:mb-4 text-sm sm:text-base">
               Approved organizations may hyperlink to our website as follows:
             </p>
-            <ul className="list-disc pl-6 space-y-3 text-gray-700">
+            <ul className="list-disc pl-6 space-y-2 sm:space-y-3 text-gray-700 text-sm sm:text-base">
               <li>By use of our corporate name; or</li>
               <li>
                 By use of the uniform resource locator (Web address) being
@@ -275,9 +255,10 @@ export default function Terms() {
             </ul>
           </div>
         </section>
+
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">iframes</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">iframes</h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             Without prior approval and express written permission, you may not
             create frames around our webpages or use other techniques that alter
             in any way the visual presentation or appearance of our website.
@@ -286,8 +267,10 @@ export default function Terms() {
 
         {/* Reservation of Rights */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">Reservation of Rights</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
+            Reservation of Rights
+          </h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             We reserve the right at any time and in its sole discretion to
             request that you remove all links or any particular link to our
             website. You agree to immediately remove all links to our website
@@ -300,13 +283,13 @@ export default function Terms() {
 
         {/* Removal of Links */}
         <section className="mb-8">
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             If you find any link on our website or any linked website
             objectionable for any reason, you may contact us about this. We will
             consider requests to remove links but will have no obligation to do
             so or to respond directly to you.
           </p>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             Whilst we endeavour to ensure that the information on this website
             is correct, we do not warrant its completeness or accuracy; nor do
             we commit to ensuring that the website remains available or that the
@@ -316,8 +299,10 @@ export default function Terms() {
 
         {/* Content Liability */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">Content Liability</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
+            Content Liability
+          </h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             We shall have no responsibility or liability for any content
             appearing on your website. You agree to indemnify and defend us
             against all claims arising out of or based upon your website. No
@@ -331,8 +316,8 @@ export default function Terms() {
 
         {/* Disclaimer */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">Disclaimer</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">Disclaimer</h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             To the maximum extent permitted by applicable law, we exclude all
             representations, warranties, and conditions relating to our website
             and the use of this website (including, without limitation, any
@@ -340,7 +325,7 @@ export default function Terms() {
             fitness for purpose and/or the use of reasonable care and skill).
             Nothing in this disclaimer will:
           </p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4 text-sm sm:text-base">
             <li>
               Limit or exclude our or your liability for death or personal
               injury resulting from negligence;
@@ -358,7 +343,7 @@ export default function Terms() {
               under applicable law.
             </li>
           </ul>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             The limitations and exclusions of liability set out in this section
             and elsewhere in this disclaimer: (a) are subject to the preceding
             paragraph; and (b) govern all liabilities arising under the
@@ -366,20 +351,21 @@ export default function Terms() {
             including liabilities arising in contract, in tort (including
             negligence) and for breach of statutory duty.
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-700 text-sm sm:text-base">
             To the extent that the website and the information and services on
             the website are provided free of charge, we will not be liable for
             any loss or damage of any nature.
           </p>
         </section>
+
         <section className="mb-8">
-          <h1 className="text-xl font-semibold mb-4">
-            Bid Works Estimating Terms & Conditions:
+          <h1 className="text-xl sm:text-2xl font-semibold mb-4">
+            Swift Takeoffs Estimating Terms & Conditions:
           </h1>
-          <p className="text-gray-700 mb-2">
+          <p className="text-gray-700 mb-2 text-sm sm:text-base">
             Please Read Important Terms When You Place An Order
           </p>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             When you accept our estimate and/or pay for your order, you agree to
             our terms of service below:
           </p>
@@ -387,8 +373,10 @@ export default function Terms() {
 
         {/* Cost of Service Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">Cost Of Service:</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
+            Cost Of Service:
+          </h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             The cost of the service depends on the size of your project,
             specification involved, and time constraints. However, you can
             expect a flat rate provided by providing us with the fulfilled
@@ -399,10 +387,10 @@ export default function Terms() {
 
         {/* Payment Terms Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
             Payment Terms & Policy:
           </h2>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             Payment must be made and settled before we can proceed with the
             work. Please note any payment received after 2 pm EST will be
             treated the next day. If you have ongoing projects or committed
@@ -412,8 +400,10 @@ export default function Terms() {
 
         {/* Client Requirements Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">Client Requirements:</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
+            Client Requirements:
+          </h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             For proper estimating we must also have plans, charts must provide
             us with complete information such as drawings, specifications,
             addendum, and required format Omitting important pieces of your
@@ -423,10 +413,10 @@ export default function Terms() {
 
         {/* Disclaimer Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
             Disclaimer On Take-Off Results:
           </h2>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             Our take-offs and quantity surveys are only a 2-step quality control
             process on all take-off results. Circumstances beyond our control
             such as scale discrepancies, missing specs, human errors, or
@@ -434,7 +424,7 @@ export default function Terms() {
             errors and/or oversights to Materially detract at take-off results
             before going them to our bidding staff. Please review all results.
           </p>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             We are not responsible for errors caused by poor quality or
             incomplete drawings, specifications, addendum or Missing set of
             items provided at the time of order. Should updated versions of the
@@ -449,8 +439,8 @@ export default function Terms() {
 
         {/* Due Dates Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">Due Dates:</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">Due Dates:</h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             It is very important for us to meet the agreed due date. However,
             sometimes it is hard to determine how much time the team will
             actually take once we are working on it. If you have a specific date
@@ -459,7 +449,7 @@ export default function Terms() {
             sure to communicate with you and your dispatcher, and you can also
             contact Supervisor to find out the status of your order.
           </p>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             There are no overnight services after 2 pm EST. (The overnight time
             limit is 2 pm) We do not take offs through the Weekends. For urgent
             requirements and want us to do weekend shifts, Additional cost may
@@ -469,8 +459,10 @@ export default function Terms() {
 
         {/* Refund Policy Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">Refund Policy:</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
+            Refund Policy:
+          </h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             If you are not happy with the results of your take-off&apos;s please
             contact us and we offer unlimited revisions within in accordance of
             scope and work and within ten business days of your revision. We
@@ -493,9 +485,12 @@ export default function Terms() {
             we monitor this address constantly.
           </p>
         </section>
+
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">Assumption Policy:</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
+            Assumption Policy:
+          </h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             The Cost estimate take-off estimates will be based on the plans
             provided. We don&apos;t make to include any quantities we do not do
             shop engineering. The information in your results will be found
@@ -507,10 +502,10 @@ export default function Terms() {
 
         {/* Cost Estimation Policy Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
             Cost Estimating Policy And Explanation:
           </h2>
-          <div className="space-y-3 text-gray-700">
+          <div className="space-y-3 text-gray-700 text-sm sm:text-base">
             <p>
               <span className="font-semibold">Option 1:</span> Labor Man Hours
               Count (No Rate) (Level 1 or 2) unless this rate is provided by the
@@ -541,12 +536,14 @@ export default function Terms() {
 
         {/* Important Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">**IMPORTANT**</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
+            **IMPORTANT**
+          </h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             This is only an average cost. Please check your cost estimating
             results before using the information.
           </p>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             Due to the current market fluctuation the costs of construction
             materials has increases dramatically.
           </p>
@@ -554,10 +551,10 @@ export default function Terms() {
 
         {/* Disclaimer Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
             Disclaimer On Cost Estimating Results:
           </h2>
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
             Cost estimated is for example purposes only using control software.
             It will NOT include your specific overhead equipment cost, or custom
             labor pricing, etc. We DO NOT sell manufacturers verify prices and
@@ -586,10 +583,10 @@ export default function Terms() {
 
         {/* Additional Terms Section */}
         <section className="mb-8">
-          <h2 className="text-lg font-semibold mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
             Additional Terms About Our Services:
           </h2>
-          <p className="text-gray-700">
+          <p className="text-gray-700 text-sm sm:text-base">
             We strive to be as accurate as possible on all works performed for
             our customers. However, please make sure to complete your own
             quality control and review to ensure it meets your expectations. Due

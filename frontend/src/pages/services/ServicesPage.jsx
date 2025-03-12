@@ -31,19 +31,20 @@ const TradesPage = ({ route }) => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-[90%] ">
           <div className="col-span-2">
             <img
-              src="/banner.svg"
+              src="/banner.webp"
               alt="service image"
-              className="w-full hidden lg:block h-auto rounded-lg"
+              className="w-full  h-auto rounded-lg"
             />
             <div className="py-4 text-gray-700">
               <h1 className="lg:text-4xl text-2xl font-bold text-gray-900 text-center mb-2">
-                {title} <span className="text-[#0163BE]"> Services</span>
+                {title}
+                <span className="text-[#0163BE]"> Services</span>
               </h1>
               <p className="mt-2">{description()}</p>
               <img
-                src="/banner.svg"
+                src="/banner.webp"
                 alt="service image"
-                className="w-full md:hidden mt-1  h-auto rounded-lg"
+                className="w-full hidden mt-1  h-auto rounded-lg"
               />
               {Q && (
                 <h1 className="text-black font-bold text-md lg:text-xl mt-4">
@@ -68,16 +69,14 @@ const TradesPage = ({ route }) => {
               </ul>
             </div>
             <div className="py-6">
-              <h1 className="text-2xl font-bold text-gray-900">
-                {title3} <span className="text-[#0163BE]"> Services</span>
-              </h1>
+              <h1 className="text-2xl font-bold text-gray-900">{title3}</h1>
               <ul>
                 <li className="mt-4">{Des3()}</li>
               </ul>
             </div>
             <WhyChooseBidworks />
           </div>
-          <div className="col-span-1 bg-white p-4">
+          <div className=" col-span-1 bg-white p-4">
             <SearchTrades />
           </div>
         </div>

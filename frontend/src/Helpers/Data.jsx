@@ -6,36 +6,36 @@ export const data = [
     image: "/existingcondtion.svg",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p className="body">
         <span className="font-bold">Site Assessments:</span> Costs for
         environmental assessments, geotechnical surveys, and structural
         evaluations. Swift Takeoffs helps project managers plan for soil
         testing, ground stability checks, and hazard evaluations.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">Demolition:</span> Costs for removing
         existing structures, handling debris, and managing hazardous materials
         such as asbestos or lead. Swift Takeoffs includes both labor and
         equipment costs for safe, efficient demolition.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Remediation:</span> Costs for environmental
         remediation processes, such as soil decontamination, water treatment, or
         air quality control. Swift Takeoffs ensures accurate cost projection for
         these critical safety measures.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Soil and Geotechnical Conditions:</span>{" "}
         Costs related to soil stabilization, foundation reinforcement, and other
         necessary groundwork. Swift Takeoffs assesses these variables to ensure
         a solid foundation for your project.
-      </h1>
+      </p>
     ),
     title3: "Takeoff",
     Des3: "Our Existing Conditions Takeoff Services provide a comprehensive review of the site’s structural, environmental, and physical elements, ensuring accurate estimates for demolition, remediation, and site preparation. Swift Takeoffs takes into account factors such as hazardous material removal and environmental impact, ensuring that the site is prepared for safe and efficient construction.",
@@ -61,36 +61,36 @@ export const data = [
       </h1>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">Labor:</span> Costs for removing existing
         structures, handling debris, and managing hazardous materials such as
         asbestos or lead. Swift Takeoffs includes both labor and equipment costs
         for safe, efficient demolition.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Project Size and Complexity:</span> Costs
         for environmental remediation processes, such as soil decontamination,
         water treatment, or air quality control. Swift Takeoffs ensures accurate
         cost projection for these critical safety measures.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Site Conditions:</span> Costs related to
         soil stabilization, foundation reinforcement, and other necessary
         groundwork. Swift Takeoffs assesses these variables to ensure a solid
         foundation for your project.
-      </h1>
+      </p>
     ),
     li5: () => (
-      <h1>
+      <p>
         <span className="font-bold">Timeline:</span> Tight project schedules may
         incur additional costs, such as overtime or expedited material delivery.
         Swift Takeoffs provides transparent cost adjustments for accelerated
         timelines.
-      </h1>
+      </p>
     ),
     title3: "Takeoff",
     Des3: "Our Concrete Takeoff Services include precise measurements of concrete components like slabs, footings, walls, and beams. Swift Takeoffs performs detailed quantity calculations, ensuring that the exact volume of concrete, rebar, and formwork is ordered to minimize waste and optimize costs. These takeoffs seamlessly integrate into our cost estimation process to offer a complete overview of your concrete-related expenses.",
@@ -108,36 +108,36 @@ export const data = [
     image: "/masonry.svg",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Materials:</span> Bricks, blocks, stone,
         mortar, and reinforcement materials. Swift Takeoffs helps you choose the
         right materials based on your project’s aesthetic and structural
         requirements.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">Labor:</span> Skilled labor costs for
         masonry installation, which depend on local wage rates and the
         complexity of the project. Swift Takeoffs ensures accurate labor cost
         projections, accounting for project size and design intricacies{" "}
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Waste Minimization:</span> Accurate material
         estimates reduce waste and unnecessary spending. Swift Takeoffs
         calculates exact material needs, reducing excess and promoting cost
         savings.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Project Complexity:</span> Costs related to
         soil stabilization, foundation reinforcement, and other necessary
         groundwork. Swift Takeoffs assesses these variables to ensure a solid
         foundation for your project.
-      </h1>
+      </p>
     ),
     title3: "Takeoff",
     Des3: "Our Masonry Takeoff Services include precise quantity measurements for all masonry components, including bricks, blocks, and stone. Swift Takeoffs evaluates the type and quality of masonry materials to ensure you get accurate, cost-effective estimates that include material specifications, waste minimization, and labor requirements. We work closely with you to deliver a reliable financial plan for your masonry needs.",
@@ -154,36 +154,36 @@ export const data = [
     image: "/metalcon.svg",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Materials:</span>Structural steel, aluminum,
         copper, and other metal components. Swift Takeoffs ensures that you
         select the most cost-effective and structurally sound metals for your
         project.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">Labor:</span> Skilled labor costs for
         welding, installation, and assembly of metal components. Swift Takeoffs
         Estimating includes wage rates, productivity expectations, and
         complexity to ensure accurate labor cost projections.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Waste Minimization:</span> Accurate material
         estimates reduce waste and unnecessary spending. Swift Takeoffs
         calculates exact material needs, reducing excess and promoting cost
         savings.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Project Complexity:</span> Costs related to
         soil stabilization, foundation reinforcement, and other necessary
         groundwork. Swift Takeoffs assesses these variables to ensure a solid
         foundation for your project.
-      </h1>
+      </p>
     ),
     title3: "Takeoff ",
     Des3: "Our Existing Conditions Takeoff Services provide a comprehensive review of the site’s structural, environmental, and physical elements, ensuring accurate estimates for demolition, remediation, and site preparation. Swift Takeoffs takes into account factors such as hazardous material removal and environmental impact, ensuring that the site is prepared for safe and efficient construction.",
@@ -199,36 +199,36 @@ export const data = [
     image: "/wood.svg",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Materials:</span> Bricks, blocks, stone,
         mortar, and reinforcement materials. Swift Takeoffs helps you choose the
         right materials based on your project’s aesthetic and structural
         requirements.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">Labor:</span> Skilled labor costs for
         masonry installation, which depend on local wage rates and the
         complexity of the project. Swift Takeoffs ensures accurate labor cost
         projections, accounting for project size and design intricacies{" "}
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Waste Minimization:</span> Accurate material
         estimates reduce waste and unnecessary spending. Swift Takeoffs
         calculates exact material needs, reducing excess and promoting cost
         savings.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Project Complexity:</span> Costs related to
         soil stabilization, foundation reinforcement, and other necessary
         groundwork. Swift Takeoffs assesses these variables to ensure a solid
         foundation for your project.
-      </h1>
+      </p>
     ),
     title3: "Takeoff",
     Des3: "Our Wood, Plastics, and Composites Takeoff Services provide detailed measurements for framing, trim, millwork, and other structural or decorative elements. Swift Takeoffs calculates exact quantities and specifications for lumber, composite materials, and plastic components, ensuring that your project stays on budget. We also factor in material quality, waste minimization, and labor costs to deliver a complete financial projection.",
@@ -245,36 +245,36 @@ export const data = [
     image: "/thermal.svg",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Materials:</span> Insulation, waterproofing
         membranes, vapor barriers, and weatherproofing materials. Swift Takeoffs
         Estimating ensures the correct grade of materials to suit your
         building’s needs and local climate conditions.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold">Labor:</span> Installation costs for
         insulation and moisture protection systems, including sealing, caulking,
         and vapor barrier application. Swift Takeoffs provides accurate labor
         cost projections, ensuring energy-efficient installation.{" "}
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Energy Efficiency:</span> High-performance
         materials may incur additional upfront costs but offer long-term savings
         through reduced energy consumption. Swift Takeoffs helps you weigh these
         benefits and choose the most cost-effective solutions.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Site Conditions:</span> Local climate, soil
         conditions, and building exposure to moisture impact the selection and
         application of protective materials. Swift Takeoffs factors these
         variables into the overall cost.{" "}
-      </h1>
+      </p>
     ),
     title3: "Takeoff",
     Des3: "Our Thermal and Moisture Protection Takeoff Services provide detailed measurements and specifications for all protective materials, including insulation, waterproofing membranes, and vapor barriers. Swift Takeoffs ensures accurate quantity calculations, helping to reduce waste and ensure proper budgeting for both materials and labor. We work closely with you to deliver estimates that safeguard your building against moisture and temperature extremes.",
@@ -293,40 +293,40 @@ export const data = [
     image: "/OpeningEstimation.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Materials:</span> Doors, windows, glazing,
         skylights, and hardware.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         ensures that the right type and grade of materials are selected for your
         specific project requirements.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Installation and setup costs
         for fenestration systems and hardware.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         includes labor costs for framing, glazing, and hanging doors and
         windows, ensuring accurate projections.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Energy Efficiency: </span> High-performance
         glazing and insulated doors may increase upfront costs but offer
         long-term savings on energy bills.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span> Swift
         Takeoffs helps you make informed decisions based on energy efficiency
         goals.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Customization:</span> Custom doors, windows,
         or skylights may require additional fabrication costs.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         accounts for these factors to ensure comprehensive budgeting
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Openings Takeoff Services provide detailed measurements and material specifications for all door and window openings in your project. Swift Takeoffs ensures accurate material and labor cost projections, including glazing requirements and installation methods. By incorporating energy-efficient options and custom designs, we ensure that all aspects of your openings are handled cost-effectively and efficiently.",
@@ -342,39 +342,39 @@ export const data = [
     image: "/Finishes.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Materials:</span> Paints, coatings, flooring
         materials, tiles, wall coverings, and finishes.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span> Swift
         Takeoffs ensures that the right materials are selected for durability,
         appearance, and cost-effectiveness.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Installation and finishing
         labor costs, including painting, flooring installation, and wall
         covering application. Swift Takeoffs provides accurate labor cost
         projections to ensure efficient scheduling and project completion.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Project Size and Complexity: </span> Larger
         projects with more surface area to cover may increase material and labor
         costs.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         adjusts estimates to reflect the true scale and complexity of your
         project.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Customization:</span> Specialty finishes or
         custom designs may increase costs.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         includes detailed breakdowns of custom work, ensuring full transparency.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Finishes Takeoff Services provide precise measurements and material specifications for all finishing components, including paint, flooring, and wall coverings. Swift Takeoffs ensures that material quantities are accurately calculated, minimizing waste and optimizing costs. We deliver comprehensive estimates that cover all aspects of the finishing process, from material selection to final installation",
@@ -390,39 +390,39 @@ export const data = [
     image: "/Specialist.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Materials:</span> Paints, coatings, flooring
         materials, tiles, wall coverings, and finishes.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span> Swift
         Takeoffs ensures that the right materials are selected for durability,
         appearance, and cost-effectiveness.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Installation and finishing
         labor costs, including painting, flooring installation, and wall
         covering application. Swift Takeoffs provides accurate labor cost
         projections to ensure efficient scheduling and project completion.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Project Size and Complexity: </span> Larger
         projects with more surface area to cover may increase material and labor
         costs.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         adjusts estimates to reflect the true scale and complexity of your
         project.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Customization:</span> Specialty finishes or
         custom designs may increase costs.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         includes detailed breakdowns of custom work, ensuring full transparency.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Specialties Takeoff Services provide detailed evaluations of all custom and specialty elements in your project, including material specifications, labor requirements, and installation methods. Swift Takeoffs ensures that every unique component is budgeted accurately, helping you achieve a seamless integration of specialty items into your project’s overall design and financial plan.",
@@ -438,39 +438,39 @@ export const data = [
     image: "/Equip.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Equipment:</span> HVAC units, electrical
         systems, kitchen appliances, industrial equipment, and mechanical
         devices.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span> helps
         you select the right equipment based on performance, durability, and
         cost-effectiveness.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Installation and setup costs
         for mechanical and electrical equipment, based on complexity.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         includes accurate labor cost projections to ensure proper setup and
         efficient operation of all systems.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Maintenance: </span> Long-term operational
         and maintenance costs for equipment. Swift Takeoffs provides estimates
         that factor in ongoing maintenance and servicing needs, helping you plan
         for the future.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Shipping and Handling:</span> Costs for
         transporting large or specialized equipment to the project site.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         evaluates delivery logistics to avoid unexpected expenses.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Specialties Takeoff Services provide detailed evaluations of all custom and specialty elements in your project, including material specifications, labor requirements, and installation methods. Swift Takeoffs ensures that every unique component is budgeted accurately, helping you achieve a seamless integration of specialty items into your project’s overall design and financial plan.",
@@ -486,39 +486,39 @@ export const data = [
     image: "/Furnishing.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Material:</span> Furniture, fixtures, and
         decorative elements, including custom or off-the-shelf items
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         ensures that high-quality materials are selected based on design
         preferences and durability.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Installation and setup costs
         for furniture and fixtures.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         includes labor costs for assembly, placement, and finishing, ensuring
         accurate projections for time and manpower.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Customization: </span> Custom furniture or
         fixtures may require additional costs for design, fabrication, and
         delivery. Swift Takeoffs provides detailed estimates that account for
         all customization needs.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Shipping and Handling:</span> Costs for
         delivering furnishings and fixtures to the project site.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         evaluates delivery timelines and logistics to prevent delays and cost
         overruns.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Furnishings Takeoff Services provide detailed evaluations of all furniture, fixtures, and accessories required for your project. Swift Takeoffs ensures that material and labor costs are accurately calculated, helping you achieve the perfect balance between functionality, aesthetics, and budget.",
@@ -534,42 +534,42 @@ export const data = [
     image: "/construction.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Material:</span> Material: Specialized
         building materials required for unique structures, such as reinforced
         concrete, glass panels, or specialty roofing. Swift Takeoffs evaluates
         material requirements to ensure that your project meets all structural
         and aesthetic goals.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Skilled labor costs for
         constructing specialized structures, including custom installations or
         intricate designs.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         Skilled labor costs for constructing specialized structures, including
         custom installations or intricate designs.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Equipment: </span> Installation and
         maintenance costs for specialized equipment, such as filtration systems
         for pools or climate control systems for greenhouses.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         ensures that all equipment-related costs are integrated into the overall
         budget.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Project Complexity:</span> Large or
         intricate special construction projects may incur additional costs due
         to the need for specialized labor, materials, or equipment.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         ensures that these complexities are fully reflected in the budget.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Special Construction Takeoff Services provide detailed measurements and material specifications for all specialized elements of your project, including unique building materials, custom designs, and specialized equipment. Swift Takeoffs ensures that every component is accounted for in your financial plan, allowing for smooth execution of even the most complex projects.",
@@ -585,40 +585,40 @@ export const data = [
     image: "/Convey.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Material:</span> Material: Brackets, mounts,
         support frames, and other structural components required for securing
         mechanical systems.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         ensures that the right materials are selected for strength, durability,
         and cost-effectiveness.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Labor: Installation and setup
         costs for mechanical support systems, based on project complexity.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         includes labor costs for all aspects of the installation process,
         ensuring accurate projections.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Maintenance: </span> Project Complexity:
         Larger or more complex mechanical systems may require additional
         supports, increasing material and labor costs. Swift Takeoffs accounts
         for these factors to ensure comprehensive budgeting.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Building Size and Layout:</span> Project
         Complexity: Larger or more complex mechanical systems may require
         additional supports, increasing material and labor costs.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         accounts for these factors to ensure comprehensive budgeting.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Mechanical Support Takeoff Services provide detailed measurements and specifications for all brackets, mounts, and support systems required for your project’s mechanical equipment. Swift Takeoffs ensures that every component is accounted for in the financial plan, allowing for secure installation and efficient operation.",
@@ -635,41 +635,41 @@ export const data = [
     image: "/Convey.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Material:</span> Elevators, escalators,
         lifts, and other mechanical transportation systems.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         helps you select the most cost-effective and reliable equipment for your
         project’s needs.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Installation and setup costs
         for conveying systems, based on the complexity of the building and the
         system requirements.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         provides detailed labor cost projections to ensure efficient
         installation and operation.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Maintenance: </span> Long-term operational
         costs for servicing and maintaining conveying systems. Swift Takeoffs
         Estimating includes maintenance costs in the overall project budget to
         help you plan for future upkeep.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Building Size and Layout:</span> Larger
         buildings or more complex layouts may require additional conveying
         equipment, increasing costs.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         ensures that all equipment needs are accurately reflected in the
         financial plan.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Conveying Equipment Takeoff Services provide detailed evaluations of all mechanical transportation systems required for your project. Swift Takeoffs ensures that equipment, labor, and maintenance costs are accurately projected, helping you manage the installation and operation of conveying systems effectively.",
@@ -685,42 +685,42 @@ export const data = [
     image: "/Convey.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">System Component:</span>
         Sprinklers, alarms, fire extinguishers, and other fire suppression
         equipment.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         ensures that all system components are selected based on building
         requirements and fire safety regulations.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Labor: Installation and setup
         costs for fire suppression systems, based on project complexity and
         local safety codes.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         includes detailed labor cost projections to ensure compliance with
         safety standards.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Maintenance: </span> Long-term operational
         costs for maintaining and inspecting fire suppression systems. Swift
         Takeoffs Estimating includes maintenance costs in the overall project
         budget to help you plan for future servicing.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Building Size and Layout:</span> Building
         Size and Complexity: Larger or more complex buildings may require
         additional fire suppression systems, increasing costs.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         ensures that all system requirements are reflected in the financial
         plan.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Fire Suppression Takeoff Services provide detailed measurements and material specifications for all fire protection systems in your project. Swift Takeoffs ensures that equipment, labor, and maintenance costs are accurately projected, helping you manage the installation and operation of fire suppression systems effectively.",
@@ -737,42 +737,42 @@ export const data = [
     image: "/Convey.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Material:</span>
         Materials: Pipes, fixtures, connectors, valves, and fittings for water
         supply and drainage systems.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         ensures that high-quality materials are selected based on the
         building&apos;s specific plumbing requirements.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Labor: Installation and setup
         costs for plumbing systems, based on project complexity and local wage
         rates.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         provides accurate labor cost projections to ensure efficient
         installation and operation
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Waste Minimization: </span>Waste
         Minimization: Proper planning and material selection can reduce waste
         and unnecessary costs. Swift Takeoffs optimizes material usage, helping
         to reduce excess and control expenses.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Site Condition:</span>Site Conditions:
         Factors such as soil quality, water pressure, and building layout may
         affect the installation of plumbing systems, impacting overall costs.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         ensures that all site-specific variables are accounted for in the
         budget.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Plumbing Takeoff Services provide detailed measurements and specifications for all water supply and drainage components in your project. Swift Takeoffs ensures that material quantities and labor requirements are accurately calculated, helping you achieve a seamless plumbing installation while staying on budget.",
@@ -788,41 +788,41 @@ export const data = [
     image: "/Convey.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Equipment:</span>
         Equipment: HVAC units, ductwork, venting systems, and related climate
         control devices.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>
         helps you select the most cost-effective and energy-efficient equipment
         for your project
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Labor: Installation and setup
         costs for HVAC systems, based on local wage rates and project
         complexity.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         includes detailed labor cost projections to ensure proper installation
         and efficient operation.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Energy Efficiency: </span>Energy Efficiency:
         High-performance HVAC systems may increase upfront costs but offer
         long-term savings through reduced energy consumption. Swift Takeoffs
         Estimating helps you balance initial investment with future energy
         savings.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Maintenance:</span>Maintenance: Ongoing
         maintenance and inspection costs for HVAC systems. Swift Takeoffs
         includes maintenance expenses in the overall budget to help you plan for
         long-term operation.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our HVAC Takeoff Services provide detailed assessments of your project’s climate control needs, including equipment specifications, ductwork layouts, and installation requirements. Swift Takeoffs ensures that all HVAC-related costs are accurately integrated into the overall project budget, helping you manage installation and energy-efficient operation. ",
@@ -838,40 +838,40 @@ export const data = [
     image: "/Convey.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Material:</span>
         Wiring, electrical panels, switches, outlets, and fixtures. Swift
         Takeoffs ensures that high-quality electrical components are selected to
         meet your project’s power needs and safety standards.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span> Installation and setup costs
         for electrical systems, based on project complexity and local wage
         rates.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         includes accurate labor cost projections to ensure proper installation
         and compliance with electrical codes.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Project Size and Complexity:</span>Larger or
         more complex buildings may require additional electrical systems,
         increasing material and labor costs. Swift Takeoffs adjusts estimates to
         reflect the true scale and complexity of your project.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Energy Efficiency:</span> Costs for
         energy-efficient lighting and power systems that reduce long-term energy
         consumption.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span> helps
         you make informed decisions to balance upfront costs with future
         savings.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Electrical Takeoff Services provide detailed measurements and material specifications for all wiring, lighting, and power distribution components in your project. Swift Takeoffs ensures that material quantities and labor requirements are accurately calculated, helping you achieve efficient and safe electrical installation while staying on budget.",
@@ -887,41 +887,41 @@ export const data = [
     image: "/Convey.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Material:</span>
         Excavation and grading materials, such as fill dirt, gravel, and
         topsoil.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span> helps
         you source the correct materials based on site conditions and project
         requirements.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span>Excavation and grading labor
         costs, based on local wage rates and project size.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         provides accurate labor cost projections to ensure efficient site
         preparation.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Site Conditions:</span> Soil quality,
         terrain, and site accessibility may affect the cost of earthwork
         activities. Swift Takeoffs includes a thorough assessment of site
         conditions to adjust estimates accordingly.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Energy Efficiency:</span>Costs for heavy
         equipment used in excavation and grading, such as bulldozers, backhoes,
         and graders.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         ensures that equipment rental or purchase is included in the overall
         budget.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Earthwork Takeoff Services provide detailed measurements and material specifications for excavation, grading, and site preparation. Swift Takeoffs ensures that all site preparation costs are accurately reflected in the budget, including labor, materials, and equipment requirements.",
@@ -937,40 +937,40 @@ export const data = [
     image: "/Convey.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Material:</span>
         Paving materials, landscaping elements, fencing, and exterior fixtures.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span> helps
         you select the most durable and cost-effective materials for outdoor
         improvements.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span>Installation and setup costs
         for landscaping, paving, and fencing work.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         ensures that labor costs are accurately reflected in the overall project
         budget, allowing for efficient outdoor construction.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Site Conditions:</span> Terrain, soil
         quality, and weather conditions may affect the cost of exterior
         improvements.
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         includes a thorough assessment of site conditions to provide accurate
         estimates.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Customization: </span>Custom-designed
         outdoor features such as decorative paving patterns, water features, or
         specialty landscaping may require additional costs. Swift Takeoffs
         includes these factors to ensure full transparency.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Exterior Improvements Takeoff Services provide detailed measurements and material specifications for all outdoor elements, including landscaping, paving, and fencing. Swift Takeoffs ensures that material quantities, labor requirements, and site preparation costs are accurately calculated, helping you achieve a seamless transition from indoor to outdoor construction.",
@@ -986,42 +986,42 @@ export const data = [
     image: "/Convey.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Material:</span>
         Pipes, cables, connectors, and valves for utility connections.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         ensures that high-quality materials are selected based on the building’s
         utility needs and local codes.
-      </h1>
+      </p>
     ),
     li2: () => (
-      <h1>
+      <p>
         <span className="font-bold"> Labor:</span>Installation and setup costs
         for utility systems, based on project complexity and local wage rates.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         includes accurate labor cost projections to ensure proper installation
         and connection of all utility systems.
-      </h1>
+      </p>
     ),
     li3: () => (
-      <h1>
+      <p>
         <span className="font-bold">Project Size and Complexity:</span> Larger
         buildings or more complex utility layouts may require additional
         materials and labor, increasing overall costs.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         adjusts estimates to reflect the true scale and complexity of your
         project.
-      </h1>
+      </p>
     ),
     li4: () => (
-      <h1>
+      <p>
         <span className="font-bold">Regulatory Compliance:</span> Costs for
         meeting local utility regulations, securing permits, and ensuring
         compliance with building codes.{" "}
         <span className="text-[#0163be] font-bold"> Swift Takeoffs </span>{" "}
         ensures that all regulatory requirements are factored into the project
         budget.
-      </h1>
+      </p>
     ),
     title3: "Takeoff Services",
     Des3: "Our Utilities Takeoff Services provide detailed measurements and material specifications for water, sewer, gas, and electrical infrastructure in your project. Swift Takeoffs ensures that all utility system requirements are accurately reflected in the financial plan, allowing for efficient installation and long-term operation of essential building services.",
