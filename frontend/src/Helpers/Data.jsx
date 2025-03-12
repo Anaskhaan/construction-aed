@@ -1156,105 +1156,13 @@ export const latestPostsData = [
 
 export const servicesData = [
   {
-    name: "Cost Estimating Services",
-    icon: "/icons/2.concrete.svg",
-    alt: "icon1",
-    title: () => (
-      <h1 className="text-2xl font-bold mb-4">Cost Estimating Services</h1>
-    ),
-
-    content:
-      " At Swift Takeoffs, we provide comprehensive and precise cost estimating services to help construction professionals plan and manage project budgets effectively. Our estimates cover all aspects of material costs, labor, equipment, subcontractor expenses, and overhead, ensuring financial accuracy and preventing unexpected overruns",
-    image: "/tradespre/concrete.webp",
-    link: "/CES",
-  },
-  {
-    name: "Material Takeoff Services",
-
-    alt: "icon3",
-
-    icon: "/icons/18.electrical.svg",
-    title: () => (
-      <h1 className="text-2xl font-bold  mb-4">Material Takeoff Services</h1>
-    ),
-    content:
-      "At Swift Takeoffs, we specialize in providing precise and comprehensive material takeoff services to ensure accurate planning, budgeting, and procurement for construction projects. Our detailed takeoff reports help contractors, builders, and project managers estimate material quantities, reduce waste, and optimize project costs.",
-    image: "/tradespre/mep.webp",
-    link: "/PES",
-  },
-  {
-    name: "Residential Estimating Services",
-
-    alt: "icon2",
-
-    icon: "/icons/3.masonry.svg",
-    title: () => (
-      <h1 className="text-2xl   font-bold  mb-4">
-        Residential Estimating Services
-      </h1>
-    ),
-    content:
-      "At Swift Takeoffs, we provide accurate and comprehensive residential estimating services to help homeowners, contractors, and developers plan and budget their projects effectively. Our detailed estimates cover all aspects of materials, labor, equipment, and overhead costs, ensuring a smooth and cost-efficient construction process.",
-    image: "/tradespre/masonry.webp",
-    link: "/RES",
-  },
-  {
-    name: "Commercial Estimating Services",
-
-    alt: "icon3",
-
-    icon: "/icons/16.plumbing.svg",
-    title: () => (
-      <h1 className="text-2xl font-bold   mb-4">
-        Commercial Estimating Services
-      </h1>
-    ),
-    content:
-      "Plumbing estimating services from Swift Takeoffs provide detailed cost projections for the installation of water supply, drainage, and waste systems. These services ensure that all plumbing-related needs are included in the project budget, allowing for efficient installation and long-term operation of water systems.Plumbing Estimating Services include a comprehensive breakdown of costs for pipes, fixtures, valves, and connectors, ensuring that all plumbing materials and labor costs are included in the project’s financial plan. With Swift Takeoffs, you’ll receive accurate estimates for all aspects of plumbing work, from water supply installation to drainage system design.",
-    image: "/tradespre/plumbing.webp",
-    link: "/CoES",
-  },
-  {
-    name: "Industrial Estimating Services",
-
-    alt: "icon3",
-
-    icon: "/icons/5.wood.svg",
-    title: () => (
-      <h1 className="text-2xl font-bold  mb-4">
-        Industrial Estimating Services
-      </h1>
-    ),
-    content:
-      "At Swift Takeoffs, we provide comprehensive and precise industrial estimating services to support contractors, engineers, and project managers in budgeting and planning large-scale industrial projects. Our detailed estimates cover materials, labor, equipment, and overhead costs, ensuring cost efficiency, risk mitigation, and smooth project execution.",
-    image: "/tradespre/wood.webp",
-    link: "/IES",
-  },
-
-  {
-    name: "Preliminary Estimating Services",
-
-    alt: "icon3",
-
-    icon: "/icons/7.openings.svg",
-    title: () => (
-      <h1 className="text-2xl font-bold  mb-4">
-        Preliminary Estimating Services
-      </h1>
-    ),
-    content:
-      "At Swift Takeoffs, our preliminary estimating services provide early-stage cost assessments to help developers, contractors, and stakeholders make informed decisions before committing to full project execution. These estimates offer a high-level cost overview, assisting in budget planning, feasibility studies, and investment analysis.",
-    image: "/tradespre/opening.webp",
-    link: "/PRES",
-  },
-  {
     name: "General Contractor Estimating Services",
 
     alt: "icon3",
 
-    icon: "/icons/9.specialities.svg",
+    icon: "/mesonicon.svg",
     title: () => (
-      <h1 className="text-2xl font-bold  mb-4">
+      <h1 className="text-2xl font-bold  mb-4 text-[#0163be]">
         General Contractor Estimating Services
       </h1>
     ),
@@ -1268,9 +1176,9 @@ export const servicesData = [
 
     alt: "icon3",
 
-    icon: "/icons/8.finishes.svg",
+    icon: "/troyicon.svg",
     title: () => (
-      <h1 className="text-2xl font-bold  mb-4">
+      <h1 className="text-2xl font-bold  mb-4 text-[#0163be]">
         Subcontractor Estimating Services
       </h1>
     ),
@@ -1278,5 +1186,100 @@ export const servicesData = [
       "At Swift Takeoffs, we provide precise and reliable estimating services tailored specifically for subcontractors. Our detailed cost assessments help subcontractors prepare accurate bids, manage budgets, and secure profitable contracts while minimizing financial risks.",
     image: "/tradespre/finishes.webp",
     link: "/SES",
+  },
+  {
+    name: "Residential Estimating Services",
+
+    alt: "icon2",
+
+    icon: "/residential.svg",
+    title: () => (
+      <h1 className="text-2xl   font-bold  mb-4 text-[#0163be]">
+        Residential Estimating Services
+      </h1>
+    ),
+    content:
+      "At Swift Takeoffs, we provide accurate and comprehensive residential estimating services to help homeowners, contractors, and developers plan and budget their projects effectively. Our detailed estimates cover all aspects of materials, labor, equipment, and overhead costs, ensuring a smooth and cost-efficient construction process.",
+    image: "/tradespre/masonry.webp",
+    link: "/RES",
+  },
+  {
+    name: "Commercial Estimating Services",
+
+    alt: "icon3",
+
+    icon: "/commercial.svg",
+    title: () => (
+      <h1 className="text-2xl font-bold   mb-4 text-[#0163be]">
+        Commercial Estimating Services
+      </h1>
+    ),
+    content:
+      "Plumbing estimating services from Swift Takeoffs provide detailed cost projections for the installation of water supply, drainage, and waste systems. These services ensure that all plumbing-related needs are included in the project budget, allowing for efficient installation and long-term operation of water systems.Plumbing Estimating Services include a comprehensive breakdown of costs for pipes, fixtures, valves, and connectors, ensuring that all plumbing materials and labor costs are included in the project’s financial plan. With Swift Takeoffs, you’ll receive accurate estimates for all aspects of plumbing work, from water supply installation to drainage system design.",
+    image: "/tradespre/plumbing.webp",
+    link: "/CoES",
+  },
+  {
+    name: "Industrial Estimating Services",
+
+    alt: "icon3",
+
+    icon: "/industrial.svg",
+    title: () => (
+      <h1 className="text-2xl font-bold  mb-4 text-[#0163be]">
+        Industrial Estimating Services
+      </h1>
+    ),
+    content:
+      "At Swift Takeoffs, we provide comprehensive and precise industrial estimating services to support contractors, engineers, and project managers in budgeting and planning large-scale industrial projects. Our detailed estimates cover materials, labor, equipment, and overhead costs, ensuring cost efficiency, risk mitigation, and smooth project execution.",
+    image: "/tradespre/wood.webp",
+    link: "/IES",
+  },
+  {
+    name: "Cost Estimating Services",
+    icon: "/cost.svg",
+    alt: "icon1",
+    title: () => (
+      <h1 className="text-2xl font-bold mb-4 text-[#0163be]">
+        Cost Estimating Services
+      </h1>
+    ),
+
+    content:
+      " At Swift Takeoffs, we provide comprehensive and precise cost estimating services to help construction professionals plan and manage project budgets effectively. Our estimates cover all aspects of material costs, labor, equipment, subcontractor expenses, and overhead, ensuring financial accuracy and preventing unexpected overruns",
+    image: "/tradespre/concrete.webp",
+    link: "/CES",
+  },
+  {
+    name: "Material Takeoff Services",
+
+    alt: "icon3",
+
+    icon: "/material.svg",
+    title: () => (
+      <h1 className="text-2xl font-bold  mb-4 text-[#0163be]">
+        Material Takeoff Services
+      </h1>
+    ),
+    content:
+      "At Swift Takeoffs, we specialize in providing precise and comprehensive material takeoff services to ensure accurate planning, budgeting, and procurement for construction projects. Our detailed takeoff reports help contractors, builders, and project managers estimate material quantities, reduce waste, and optimize project costs.",
+    image: "/tradespre/mep.webp",
+    link: "/PES",
+  },
+  {
+    name: "Preliminary Estimating Services",
+
+    alt: "icon3",
+
+    icon: "/preliminary.svg",
+    title: () => (
+      <h1 className="text-2xl font-bold  mb-4 text-[#0163be]">
+        Preliminary Estimating Services
+      </h1>
+    ),
+    content:
+      "At Swift Takeoffs, our preliminary estimating services provide early-stage cost assessments to help developers, contractors, and stakeholders make informed decisions before committing to full project execution. These estimates offer a high-level cost overview, assisting in budget planning, feasibility studies, and investment analysis.",
+    image: "/tradespre/opening.webp",
+    link: "/PRES",
   },
 ];

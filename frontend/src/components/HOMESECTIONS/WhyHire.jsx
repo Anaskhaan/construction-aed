@@ -78,10 +78,10 @@ const WhyHire = () => {
   ];
 
   return (
-    <>
-      <section className="flex flex-col-reverse md:flex-row items-center gap-8 px-6 md:px-16 py-12 bg-white">
+    <div className=" bg-[#ebebeb] rounded-3xl">
+      <section className="flex flex-col-reverse md:flex-row items-center lg:gap-8  px-4 md:px-16 pt-12">
         {/* Text Section */}
-        <div className="flex-1  ">
+        <div className="flex-1  -mt-10 lg:mt-0">
           <h2 className="lg:text-2xl text-xl  font-bold text-[#202020]">
             Why Hire <span className="text-[#0163BE]">Swift Takeoffs?</span>
           </h2>
@@ -108,7 +108,7 @@ const WhyHire = () => {
           <div className=" mt-12">
             <Link
               to="contact"
-              className="px-6 py-2  bg-[#0163BE] text-white font-medium rounded-3xl  text-center "
+              className="px-3 py-1  bg-[#0163BE] text-white font-medium rounded-3xl  text-center "
             >
               Contact Now →
             </Link>
@@ -116,28 +116,16 @@ const WhyHire = () => {
         </div>
 
         {/* Image Section */}
-        <div className="flex relative mb-24">
-          <div className=" absolute -top-3 -left-3 border border-l-2  border-t-2 rounded-xl border-b-transparent border-r-transparent border-[#0163be] h-44 w-64"></div>
+        <div className="flex relative mb-20">
           <img
-            src="/group-architect.webp"
-            alt="Team Collaboration"
-            className="   absolute bottom-0 lg:-bottom-12 lg:-left-32 h-64 w-64 lg:h-96 lg:w-96 -left-12 z-20 transform  translate-y-32"
-          />
-          <img
-            src="/group-smiling-engineers.webp"
+            src="/building.webp"
             alt="Team"
-            className="rounded-lg w-full h-auto relative z-10"
+            className="w-96 h-auto rounded-2xl shadow-[#0163be] shadow-xl lg:mt-32  relative z-10"
           />
-          <div className=" absolute -bottom-3 -right-3 border border-r-2  border-b-2 rounded-xl border-t-transparent border-l-transparent border-[#0163be] h-56 lg:w-72  w-32"></div>
-
-          <div
-            className="absolute w-full h-full top-0 left-0 -z-10 rounded-lg border-2 border-[#0163BE]"
-            style={{ transform: "translate(15px, 15px)" }}
-          ></div>
         </div>
       </section>
 
-      <div className="bg-[#ebebeb]  mt-4 lg:h-72 h-44 mx-auto flex items-center rounded-3xl">
+      <div className="lg:h-72 h-44 mx-auto flex items-center">
         <div className="max-w-7xl mx-auto px-4">
           <div className="service-content mb-4 relative">
             <h2 className="font-semibold text-center lg:text-4xl text-xl">
@@ -162,7 +150,7 @@ const WhyHire = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

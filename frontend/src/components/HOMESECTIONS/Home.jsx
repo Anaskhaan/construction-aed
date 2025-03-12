@@ -16,7 +16,9 @@ export default function Home() {
       <About />
       <div className=" ">
         <HomepageServices />
-        <ConstructionBanner />
+        <div className="">
+          <ConstructionBanner />
+        </div>
         <WhyHire />
         <div className="">
           <TradesPreview />

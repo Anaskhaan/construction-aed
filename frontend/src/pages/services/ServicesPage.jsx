@@ -1,7 +1,6 @@
 import WhyChooseBidworks from "../trades/WhyChooseBidworks";
 import SearchTrades from "../../components/SearchingTrades/SearchTrades";
 import { ServicesData } from "../../Helpers/ServicesData";
-import { Link } from "react-router-dom";
 
 const TradesPage = ({ route }) => {
   const serviceData = ServicesData.find((item) => item.route === route);

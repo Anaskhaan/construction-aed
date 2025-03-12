@@ -174,7 +174,7 @@ const TradeCard = ({ trade }) => {
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 ">
       <img src={trade.icon} alt="trades icon" className="w-10 h-auto" />
-      <h2 className="text-xl font-bold text-[#0163be]">{trade.title}</h2>
+      <h2 className="text-2xl font-bold text-[#0163be]">{trade.title}</h2>
       <p className="text-gray-600 mt-2">{trade.description}</p>
       <Link to={trade.link}>
         <button className="mt-4 px-4 py-2 bg-[#0163be] text-white rounded-lg hover:bg-gray-800">
