@@ -36,19 +36,8 @@ const About = () => {
 
   return (
     <div className="relative">
-      {/* Cards Grid */}
-      {/* <div className=" absolute -top-32 -z-10 left-0">
-        <img
-          src="/About-Design.webp"
-          height={100}
-          width={100}
-          alt="design"
-          className="h-full w-auto"
-        />
-      </div> */}
-
       {/* About Us Section */}
-      <section className="flex flex-col md:grid md:grid-cols-2 items-center px-6 pb-12 ">
+      <section className="flex flex-col md:grid md:grid-cols-2 items-center px-6 py-12 -mt-20 lg:mt-0">
         <div className="relative flex justify-center items-center h-full mb-6 md:mb-0">
           <img
             src="/About-us.webp"

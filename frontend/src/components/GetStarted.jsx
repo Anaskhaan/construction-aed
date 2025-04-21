@@ -22,7 +22,7 @@ function GetStarted() {
       title: "Submit Your Drawing Plans",
       icon: <FileText className="text-white" size={20} />,
       content:
-        "You can easily upload your drawing plans in various formats. Simply email your construction drawings to info@swifttakeoffs.com We value your convenience, so feel free to choose the method that works best for you. Our team will review your project scope and any specific details for filing out the form.",
+        "You can easily upload your drawing plans in various formats or Simply email your construction drawings to info@swifttakeoffs.com.",
     },
     {
       id: 2,
@@ -49,7 +49,7 @@ function GetStarted() {
 
   return (
     <div className="min-h-screen  flex items-center justify-center py-10">
-      <div className="w-full bg-white  overflow-hidden">
+      <div className="w-full bg-white rounded-2xl overflow-hidden">
         <div className="p-6 md:p-8">
           <h1 className="text-2xl md:text-3xl font-bold text-center mb-8">
             Easy <span className="text-[#0163be]">Steps to Get</span> Started
@@ -61,7 +61,7 @@ function GetStarted() {
               <div className="grid relative h-full">
                 {/* Background Div - Lower z-index */}
                 <div
-                  className="lg:block hidden absolute lg:w-[480px] w-[18rem] 2xl:h-[800px] 2xl:w-[780px] lg:h-[490px] h-[19rem] lg:-top-7 top-1 lg:-left-7 left-3 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6 z-0"
+                  className="lg:block hidden absolute lg:w-[480px] w-[18rem] 2xl:h-[800px] 2xl:w-[780px] lg:h-[440px] h-[18rem] lg:-top-7 top-1 lg:-left-7 left-3 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6 z-0"
                   style={{
                     background:
                       "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
@@ -72,7 +72,7 @@ function GetStarted() {
                 <img
                   src="eng.webp"
                   alt="Construction plans"
-                  className="rounded-lg object-cover lg:h-[30rem] h-[10rem] w-full col-span-2 relative z-10"
+                  className="rounded-lg object-cover lg:h-[27rem] h-[10rem] w-full col-span-2 relative z-10"
                 />
               </div>
             </div>
@@ -83,21 +83,24 @@ function GetStarted() {
                 {steps.map((step) => (
                   <div
                     key={step.id}
-                    className="border border-gray-200 rounded-lg overflow-hidden"
+                    className="border border-gray-300 rounded-lg overflow-hidden"
                   >
                     <button
-                      className="w-full flex items-center p-4 text-left focus:outline-none"
+                      className="w-full flex items-center p-4 text-left focus:outline-none  "
                       onClick={() => toggleTab(step.id)}
                     >
-                      <div className="flex items-center">
+                      <div className="flex items-center ">
                         <div className="bg-[#0163be] rounded-full w-8 h-8 flex items-center justify-center mr-3">
-                          <span className="text-white font-medium">
+                          <span
+                            className="text-white font-medium"
+                            onClick={() => setOpenTab(step.id)}
+                          >
                             {step.id}
                           </span>
                         </div>
                         <h3 className="font-semibold text-lg">{step.title}</h3>
                       </div>
-                      <div className="ml-auto">
+                      <div className="ml-auto ">
                         {openTab === step.id ? (
                           <ChevronUp className="text-gray-500" size={20} />
                         ) : (
@@ -107,7 +110,7 @@ function GetStarted() {
                     </button>
 
                     {openTab === step.id && (
-                      <div className="px-4 pb-4 pt-1">
+                      <div className="px-4 pb-4 pt-1 ">
                         <p className="text-gray-600">{step.content}</p>
                         {step.id === 1 && (
                           <Link to="/getquote">

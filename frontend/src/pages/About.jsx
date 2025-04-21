@@ -88,7 +88,7 @@ export default function About() {
             className="rounded-md z-20 w-11/12 "
           />
           <div
-            className="absolute lg:w-[500px] w-[18rem] 2xl:h-[800px] 2xl:w-[780px] lg:h-[520px] h-[19rem] lg:top-8 top-1 lg:left-12 left-3 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
+            className="absolute lg:w-[500px] w-[18rem] 2xl:h-[800px] 2xl:w-[780px] lg:h-[520px] h-[19rem] lg:top-6 top-0 lg:left-12 left-3 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
             style={{
               background: "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
             }}

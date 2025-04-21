@@ -8,38 +8,43 @@ const Testimonials = () => {
   const feedbacks = [
     {
       name: "Saara D",
-      date: "08/10/24",
-      feedback: "Lorem Ipsum Dolor Sit Amet...",
+      date: "08/10/19",
+      feedback:
+        "I had a fantastic experience with swift takeoffs Estimating services! They were extremely professional, taking the time to fully understand my project needs. Their estimate was detailed, precise, and made the whole process seamless. If you're looking for accurate and trustworthy construction estimates, I highly recommend!",
       rating: 5,
-      image: "/Ellipse 133.webp",
+      image: "/Ellipse 133.jpg",
     },
     {
-      name: "John K.",
-      date: "08/10/24",
-      feedback: "Lorem Ipsum Dolor Sit Amet...",
+      name: "John",
+      date: "10/03/20",
+      feedback:
+        "swift takeoffs provides prompt and excellent service. They provided our firm with detailed takeoffs and estimates for our last three projects which we were successful bidder.",
       rating: 4.5,
-      image: "/Ellipse 134.webp",
+      image: "/Ellipse 134.jpg",
     },
     {
       name: "Anaika",
-      date: "08/10/24",
-      feedback: "Lorem Ipsum Dolor Sit Amet...",
+      date: "11/07/20",
+      feedback:
+        "swift takeoffs exceeded our expectations in every way. Their estimating services are accurate, their team is responsive and knowledgeable, and their commitment to transparency is commendable. I wholeheartedly recommend them to anyone in the construction industry. Thank you for your outstanding work!",
       rating: 4,
-      image: "/Ellipse 135.webp",
+      image: "/Ellipse 135.jpg",
     },
     {
-      name: "David L.",
-      date: "08/10/24",
-      feedback: "Lorem Ipsum Dolor Sit Amet...",
+      name: "David",
+      date: "27/12/21",
+      feedback:
+        "The best estimating company with the most affordable prices, very fast customer service, and very accurate estimates from the plans. I highly recommend them.",
       rating: 4.5,
-      image: "/Ellipse 136.webp",
+      image: "/Ellipse 136.jpg",
     },
     {
-      name: "Maria H.",
-      date: "08/10/24",
-      feedback: "Lorem Ipsum Dolor Sit Amet...",
+      name: "Robert H.",
+      date: "17/05/22",
+      feedback:
+        "Highly impressed with their estimation service! They went above and beyond to ensure that every aspect of my project was considered, resulting in estimates that were both comprehensive and precise.",
       rating: 5,
-      image: "/Ellipse 137.webp",
+      image: "/Ellipse 137.jpg",
     },
   ];
 
