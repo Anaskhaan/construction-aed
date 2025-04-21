@@ -140,7 +140,7 @@ const TradesPreview = () => {
       title: () => "Electrical Estimating",
       content:
         "Electrical estimating services from Swift Takeoffs provide detailed cost projections for the installation of wiring, lighting, and power distribution systems. These services ensure that all electrical needs are included in the project budget, allowing for safe and efficient installation of electrical systems.",
-      image: "/tradespre/mep.webp",
+      image: "/tradespre/electrical.webp",
     },
     {
       name: "Masonary Estimating",
@@ -196,7 +196,7 @@ const TradesPreview = () => {
       title: () => "Exterier Improvments",
       content:
         "Exterior Improvements estimating services from Swift Takeoffs provide detailed cost projections for landscaping, paving, and other outdoor elements of your construction project. These services ensure that all exterior features are included in the project budget, allowing for efficient planning and execution of outdoor spaces",
-      image: "/tradespre/finishes.webp",
+      image: "/tradespre/painting.webp",
     },
   ];
 

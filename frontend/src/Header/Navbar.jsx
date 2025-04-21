@@ -66,7 +66,7 @@ const Navbar = () => {
         <div
           className={`flex ${logoPosition} w-full transition-all duration-300`}
         >
-          <Link to="/">
+          <Link to="/" onClick={handleTabClick}>
             <img src={logoImage} alt="Logo" className="w-24 h-auto" />
           </Link>
         </div>

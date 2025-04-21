@@ -45,7 +45,7 @@ export default function Footer() {
           {/* Quick Links */}
           <div className="space-y-6 text-left">
             <h3 className="text-xl font-bold">Quick Links</h3>
-            <nav className="flex flex-col space-y-3 font-semibold">
+            <nav className="flex flex-col space-y-3 ">
               <Link to="/about" className="text-gray-300 hover:text-white">
                 About Us
               </Link>
@@ -62,8 +62,8 @@ export default function Footer() {
           <div className="space-y-6 text-left">
             <h3 className="text-xl font-bold">Contact Details</h3>
             <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <Mail className="w-6 h-auto text-white" />
+              <div className="flex items-center space-x-3  text-gray-300">
+                <Mail className="w-6 h-auto text-gray-300 hover:text-white" />
                 <a
                   href="mailto:info@swifttakeoffs.com"
                   className="text-gray-300"
@@ -72,14 +72,17 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-6 h-auto text-white" />
-                <a href="tel:8785014074" className="text-gray-300">
+                <Phone className="w-6 h-auto text-gray-300 hover:text-white" />
+                <a
+                  href="tel:8785014074"
+                  className="text-gray-300 hover:text-white"
+                >
                   878.501.4074 X312
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-6 h-auto text-white" />
-                <span className="text-gray-300">
+                <span className="text-gray-300 hover:text-white">
                   8 The Green #6092
                   <br />
                   Dover, DE, 19901

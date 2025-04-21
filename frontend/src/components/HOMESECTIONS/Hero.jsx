@@ -8,7 +8,7 @@ const Hero = () => {
           <img
             src="/Hero1Image.png"
             alt="left-img"
-            className="h-full w-full object-cover"
+            className="lg:h-full lg:w-full h-72 w-full object-cover"
           />
           <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-r from-white to-transparent pointer-events-none"></div>
         </div>
