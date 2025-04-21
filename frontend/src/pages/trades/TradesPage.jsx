@@ -48,11 +48,13 @@ const TradesPage = ({ route }) => {
               </h1>
               <p className="mt-4">{description}</p>
               <p className="mt-4">{Des1}</p>
+              <div className="w-[751px] h[501px]">
               <img
                 src="/banner.webp"
                 alt="service image"
                 className="w-full hidden h-auto rounded-lg"
               />
+              </div>
 
               <h2 className="mt-6 text-xl font-bold text-[#202020]">
                 {title2}
