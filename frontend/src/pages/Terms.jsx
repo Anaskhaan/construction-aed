@@ -594,6 +594,38 @@ export default function Terms() {
             material costs may vary.
           </p>
         </section>
+
+        {/* New SMS Terms & Conditions Section */}
+        <section className="mb-8">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
+            Swift Takeoffs SMS Terms & Conditions
+          </h2>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
+            By opting in to receive SMS messages from Swift Takeoffs, you agree
+            to receive text messages related to our services, including estimate
+            notifications, project updates, scheduling reminders, and customer
+            support messages.
+          </p>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
+            Message frequency may vary depending on your interaction with our
+            team or the number of ongoing projects.
+          </p>
+          <p className="text-gray-700 mb-4 text-sm sm:text-base">
+            Message and data rates may apply based on your mobile carrier's
+            plan.
+          </p>
+          <p className="text-gray-700 text-sm sm:text-base">
+            You can opt out at any time by texting STOP. For assistance, text
+            HELP or visit{" "}
+            <a
+              href="https://swifttakeoffs.com"
+              className="text-blue-600 hover:underline"
+            >
+              https://swifttakeoffs.com
+            </a>
+            .
+          </p>
+        </section>
       </div>
     </div>
   );
