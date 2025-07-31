@@ -59,15 +59,6 @@ function GetStarted() {
             {/* Left side - Images */}
             <div className="md:w-2/5">
               <div className="grid relative h-full">
-                {/* Background Div - Lower z-index */}
-                <div
-                  className="lg:block hidden absolute lg:w-[480px] w-[18rem] 2xl:h-[800px] 2xl:w-[780px] lg:h-[440px] h-[18rem] lg:-top-7 top-1 lg:-left-7 left-3 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6 z-0"
-                  style={{
-                    background:
-                      "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
-                  }}
-                ></div>
-
                 {/* Image - Higher z-index */}
                 <img
                   src="eng.webp"
