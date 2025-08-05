@@ -5,106 +5,201 @@ export default function PrivacyPolicy() {
         {/* Header Section */}
         <div className="mb-8">
           <h1 className="text-xl sm:text-2xl font-semibold mb-4">
-            Privacy Policy
+            Privacy Policy – Swift Takeoffs
           </h1>
           <p className="text-gray-600 mb-4">
-            Swifttakeoffs.com values your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you interact with our website{" "}
+            Effective Date: 25/6/2025
+            <br />
+            Swift Takeoffs LLC ("Swift Takeoffs", "we", "our", or "us") values
+            your privacy. This Privacy Policy outlines how we collect, use, and
+            protect your personal information when you interact with our website{" "}
             <a
               href="https://swifttakeoffs.com"
               className="text-blue-600 hover:underline"
             >
               swifttakeoffs.com
-            </a>. By accessing the Site, you agree to the practices described in this policy.
+            </a>{" "}
+            ("the Site") or communicate with us via messaging services
+            (including SMS and email).
+            <br />
+            By accessing the Site or submitting your information, you agree to
+            the practices described below.
           </p>
         </div>
 
         {/* Collection of Personal Data */}
         <section className="mb-8">
-          <h2 className="text-lg sm:text-xl font-semibold mb-3">Collection of Personal Data</h2>
+          <h2 className="text-lg sm:text-xl font-semibold mb-3">
+            1. Information We Collect
+          </h2>
 
           <h3 className="text-md sm:text-lg font-semibold mb-2">
-            1.1 Voluntary Submission of Information
+            A. Personal Information (Voluntary Submission)
           </h3>
           <p className="text-gray-600 mb-4">
-            When you engage with our Site, we may collect personal data that you voluntarily provide. This includes your name, email address, phone number, and any other information you choose to submit through our contact forms or communication tools.
+            We may collect information that you voluntarily provide, such as:
+            <br />- Name
+            <br />- Email Address
+            <br />- Phone Number
+            <br />- Company Name
+            <br />- Project Details
+            <br />- Any other information submitted through our forms or
+            communications
           </p>
 
           <h3 className="text-md sm:text-lg font-semibold mb-2">
-            1.2 Collection of Usage Information
+            B. Non-Personal Information (Automatically Collected)
           </h3>
           <p className="text-gray-600 mb-4">
-            We also collect non-personal information about your interaction with our Site. This may include your IP address, browser type, device type, operating system, and usage behavior. We use cookies and other tracking technologies to gather this information.
+            When you visit the Site, we may collect certain technical data
+            including:
+            <br />- IP Address
+            <br />- Browser Type
+            <br />- Device Type
+            <br />- Operating System
+            <br />- Pages Visited
+            <br />- Visit Timestamps
+            <br />- Cookies and tracking technologies
           </p>
         </section>
 
-        {/* Usage of Data */}
+        {/* Messaging and SMS Communications Section */}
         <section className="mb-8">
-          <h2 className="text-lg sm:text-xl font-semibold mb-3">Usage of Your Data</h2>
-
-          <h3 className="text-md sm:text-lg font-semibold mb-2">
-            2.1 Service Delivery and Improvement
+          <h3 className="text-lg sm:text-xl font-semibold mb-3">
+            2. Messaging and SMS Communications
           </h3>
           <p className="text-gray-600 mb-4">
-            We use the information you provide to deliver our estimating services, respond to your inquiries, and improve the functionality and user experience of our Site.
+            We may contact you via SMS or email for purposes such as:
+            <br />- Appointment confirmations
+            <br />- Estimate follow-ups
+            <br />- Project updates
+            <br />- Promotional offers (with your consent)
+            <br />
+            <br />
+            <strong>Message Frequency:</strong> Message frequency may vary based
+            on interaction. Standard message and data rates may apply from your
+            mobile provider.
+            <br />
+            <br />
+            <strong>Opt-Out Instructions:</strong> You may opt out of SMS
+            communications at any time by replying STOP to any message. You may
+            also contact us to request removal from our communication list.
           </p>
+        </section>
 
-          <h3 className="text-md sm:text-lg font-semibold mb-2">
-            2.2 Communication and Updates
+        {/* How We Use Your Information Section */}
+        <section className="mb-8">
+          <h3 className="text-lg sm:text-xl font-semibold mb-3">
+            3. How We Use Your Information
           </h3>
           <p className="text-gray-600 mb-4">
-            With your consent, we may contact you via SMS to provide updates regarding your estimates, inquiries, or project status. These are transactional messages only.
+            The information we collect may be used to:
+            <br />- Provide estimating and consultation services
+            <br />- Respond to inquiries and provide customer support
+            <br />- Improve our website and service offerings
+            <br />- Send updates and promotional materials (with your consent)
+            <br />- Analyze usage trends and website performance
           </p>
         </section>
 
         {/* SMS Consent Section */}
         <section className="mb-8">
           <h2 className="text-lg sm:text-xl font-semibold mb-3">
-            SMS Consent and Compliance
+            4. Marketing Communications
           </h2>
           <p className="text-gray-600 mb-4">
-            By providing your phone number and opting in, you consent to receive text messages from Swifttakeoffs.com. These messages are related to services you have requested.
-          </p>
-          <p className="text-gray-600 mb-4">
-            We do not use SMS for promotional or marketing purposes.
-          </p>
-          <p className="text-gray-600 mb-4">
-            Message frequency varies. Message and data rates may apply.
-          </p>
-          <p className="text-gray-600 mb-4">
-            You can opt out of SMS communications at any time by replying: STOP, QUIT, END, REVOKE, OPT OUT, CANCEL, or UNSUBSCRIBE.
+            If you opt in, we may send promotional messages, updates, or
+            newsletters. You may opt out at any time by:
+            <br />- Replying STOP to text messages
+            <br />- Clicking “unsubscribe” in email communications
+            <br />- Contacting us directly at{" "}
+            <a
+              href="mailto:info@swifttakeoffs.com"
+              className="text-blue-600 hover:underline"
+            >
+              info@swifttakeoffs.com
+            </a>
           </p>
         </section>
 
         {/* Data Protection Section */}
         <section className="mb-8">
           <h2 className="text-lg sm:text-xl font-semibold mb-3">
-            Data Protection Measures
+            5. Data Protection
           </h2>
           <p className="text-gray-600 mb-4">
-            We use appropriate technical and organizational measures to safeguard your personal data against unauthorized access, disclosure, or misuse. While we strive to protect your data, no method of transmission over the internet or electronic storage is completely secure.
+            We implement appropriate technical and administrative measures to
+            protect your data from unauthorized access, disclosure, or misuse.
+            While we strive to ensure security, no method of transmission or
+            storage is 100% secure.
           </p>
         </section>
 
-        {/* Data Sharing Policy */}
+        {/* Data Retention Section */}
         <section className="mb-8">
           <h2 className="text-lg sm:text-xl font-semibold mb-3">
-            Data Sharing Policy
+            6. Data Retention
           </h2>
           <p className="text-gray-600 mb-4">
-            Swifttakeoffs.com does not share your personal or mobile information with third parties or affiliates for marketing or promotional purposes.
-          </p>
-          <p className="text-gray-600 mb-4">
-            All categories of data sharing exclude SMS originator opt-in data and consent; this information will never be shared with any third parties.
+            We retain your data as long as needed to fulfill the purposes
+            outlined in this policy or as required by law. You may request
+            deletion of your data at any time by contacting us.
           </p>
         </section>
 
-        {/* Updates Section */}
+        {/* Third-Party Tools Section */}
         <section className="mb-8">
           <h2 className="text-lg sm:text-xl font-semibold mb-3">
-            Updates to This Privacy Policy
+            7. Third-Party Tools
           </h2>
           <p className="text-gray-600 mb-4">
-            This policy may be updated from time to time to reflect changes in our practices or legal requirements. The updated version will be posted on our website with the effective date. We encourage you to review this page periodically.
+            We may use secure third-party tools or platforms for communications
+            and analytics. These tools help deliver services but do not receive
+            or sell your data for unrelated purposes.
+          </p>
+        </section>
+
+        {/* Children’s Privacy Section */}
+        <section className="mb-8">
+          <h2 className="text-lg sm:text-xl font-semibold mb-3">
+            8. Children’s Privacy
+          </h2>
+          <p className="text-gray-600 mb-4">
+            Our services are not intended for individuals under 18 years of age.
+            We do not knowingly collect personal information from minors.
+          </p>
+        </section>
+
+        {/* Policy Updates Section */}
+        <section className="mb-8">
+          <h2 className="text-lg sm:text-xl font-semibold mb-3">
+            9. Policy Updates
+          </h2>
+          <p className="text-gray-600 mb-4">
+            This Privacy Policy may be updated periodically. Changes take effect
+            immediately upon being posted to this page. Please check back
+            regularly for updates.
+          </p>
+        </section>
+
+        {/* Contact Us Section */}
+        <section className="mb-8">
+          <h2 className="text-lg sm:text-xl font-semibold mb-3">
+            10. Contact Us
+          </h2>
+          <p className="text-gray-600 mb-4">
+            If you have any questions or requests related to this policy, please
+            contact:
+            <br />
+            📧{" "}
+            <a
+              href="mailto:info@swifttakeoffs.com"
+              className="text-blue-600 hover:underline"
+            >
+              info@swifttakeoffs.com
+            </a>
+            <br />
+            📞 +1 (678) 825-6967
           </p>
         </section>
 

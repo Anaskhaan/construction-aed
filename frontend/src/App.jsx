@@ -16,11 +16,14 @@ import BlogList from "./pages/BlogList";
 import BlogDetail from "./pages/BlogDetail";
 import Trades from "./pages/Trades";
 import Services from "./pages/services/Services";
+import CookieBanner from "./components/CookiesBanner";
+import CookiesPolicy from "./pages/CookiesPolicy";
 
 function App() {
   return (
     <>
       <Router>
+        <CookieBanner />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
@@ -37,6 +40,7 @@ function App() {
             <Route path="privacypolicy" element={<PrivacyPolicy />} />
             <Route path="getquote" element={<GetQuote />} />
             <Route path="trades" element={<Trades />} />
+            <Route path="CookiesPolicy" element={<CookiesPolicy />} />
             <Route
               path="existingconditions"
               element={<TradesPage route="existingconditions" />}
