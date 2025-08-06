@@ -40,6 +40,7 @@ function App() {
             <Route path="privacypolicy" element={<PrivacyPolicy />} />
             <Route path="getquote" element={<GetQuote />} />
             <Route path="trades" element={<Trades />} />
+            {/* <Route path="/GetFile" element={<GetFile />} /> */}
             <Route path="CookiesPolicy" element={<CookiesPolicy />} />
             <Route
               path="existingconditions"

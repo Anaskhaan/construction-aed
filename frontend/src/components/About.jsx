@@ -37,19 +37,13 @@ const About = () => {
   return (
     <div className="relative">
       {/* About Us Section */}
-      <section className="flex flex-col md:grid md:grid-cols-2 items-center px-6 py-12 -mt-20 lg:mt-0">
+      <section className="flex flex-col md:grid md:grid-cols-2 items-center  -mt-20 md:mt-0 lg:mt-0">
         <div className="relative flex justify-center items-center h-full mb-6 md:mb-0">
           <img
             src="/About-us.webp"
             alt="About Us"
-            className="rounded-md w-full z-20 md:w-11/12"
+            className="rounded-md w-full z-20 md:w-11/12 "
           />
-          <div
-            className="absolute lg:w-[490px] w-[280px] lg:h-[440px] h-[250px] 2xl:h-[680px] 2xl:w-[750px]  2xl:top-6 2xl:left-12 top-2 lg:top-4 lg:left-10 left-1 z-10 rounded-[5px] rotate-[174deg] translate-x-3 translate-y-3 md:translate-x-6 md:translate-y-6"
-            style={{
-              background: "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
-            }}
-          ></div>
         </div>
 
         <div className=" top-12 flex flex-col justify-center text-left  px-4 md:px-12  md:text-left">

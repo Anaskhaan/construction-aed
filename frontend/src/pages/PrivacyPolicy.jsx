@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        {/* Collection of Personal Data Section */}
+        {/* Collection of Personal Data */}
         <section className="mb-8">
           <h2 className="text-lg sm:text-xl font-semibold mb-3">
             1. Information We Collect
@@ -102,7 +102,7 @@ export default function PrivacyPolicy() {
           </p>
         </section>
 
-        {/* Marketing Communications Section */}
+        {/* SMS Consent Section */}
         <section className="mb-8">
           <h2 className="text-lg sm:text-xl font-semibold mb-3">
             4. Marketing Communications
@@ -201,6 +201,21 @@ export default function PrivacyPolicy() {
             <br />
             📞 +1 (678) 825-6967
           </p>
+        </section>
+
+        {/* Contact Information */}
+        <section className="mb-8">
+          <h2 className="text-lg sm:text-xl font-semibold mb-3">
+            Contact Information
+          </h2>
+          <p className="text-gray-600 mb-4">
+            If you have any questions regarding this policy, please contact us at:
+          </p>
+          <ul className="text-gray-600 list-disc list-inside">
+            <li>Email: info@swifttakeoffs.com</li>
+            <li>Phone: +1 929 566 4866</li>
+            <li>Website: <a href="https://swifttakeoffs.com" className="text-blue-600 hover:underline">https://swifttakeoffs.com</a></li>
+          </ul>
         </section>
       </div>
     </div>

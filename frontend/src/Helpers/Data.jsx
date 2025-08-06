@@ -53,12 +53,12 @@ export const data = [
     image: "/pointing-sketch.webp",
     title2: "Cost Factors",
     li1: () => (
-      <h1>
+      <p>
         <span className="font-bold">Materials:</span> Concrete mix, rebar,
         additives, formwork, and other structural supplies. Swift Takeoffs
         ensures you have the correct grade and quantity of materials for your
         specific project needs.
-      </h1>
+      </p>
     ),
     li2: () => (
       <p>

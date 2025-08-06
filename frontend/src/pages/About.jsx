@@ -16,7 +16,6 @@ import {
   Trophy,
   Users,
 } from "lucide-react";
-import Testimonials from "../components/Testimonials";
 import { Link } from "react-router-dom";
 export default function About() {
   const About = [
@@ -87,12 +86,6 @@ export default function About() {
             alt="group male architect preparing blueprint office"
             className="rounded-md z-20 w-11/12 "
           />
-          <div
-            className="absolute lg:w-[500px] w-[18rem] 2xl:h-[800px] 2xl:w-[780px] lg:h-[520px] h-[19rem] lg:top-6 top-0 lg:left-12 left-3 z-10 rounded-[5px] rotate-[176deg] translate-x-6 translate-y-6"
-            style={{
-              background: "linear-gradient(180deg, #0163BE 0%, #3693E9 100%)",
-            }}
-          ></div>
         </div>
         <div className="flex relative  flex-col justify-center space-y-5 h-full">
           <div>
@@ -267,7 +260,7 @@ export default function About() {
               Call Us Today For A Quick Quote
             </h1>
             <span className="text-lg md:text-4xl text-white flex py-4 md:py-8 gap-2 justify-center items-center">
-              <Phone size={24} md:size={32} /> 123 456 7890
+              <Phone size={24} md:size={32} /> 678 825 6967
             </span>
             <Link to="/contact">
               <button className="py-2 px-4 text-lg border-4 rounded-full bg-white flex justify-center items-center gap-2">
@@ -294,8 +287,6 @@ export default function About() {
           />
         </div>
       </section>
-
-      <Testimonials />
     </div>
   );
 }
