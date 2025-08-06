@@ -14,6 +14,7 @@ const Testimonials = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isHovering, setIsHovering] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [isMobile, setIsMobile] = useState(false);
 
   const feedbacks = [
     {
@@ -68,7 +69,17 @@ const Testimonials = () => {
     },
   ];
 
-  const testimonialsPerPage = 3;
+  // Check if mobile on mount and resize
+  useEffect(() => {
+    const checkIfMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkIfMobile();
+    window.addEventListener('resize', checkIfMobile);
+    return () => window.removeEventListener('resize', checkIfMobile);
+  }, []);
+
+  const testimonialsPerPage = isMobile ? 1 : 3;
   const totalSlides = Math.ceil(feedbacks.length / testimonialsPerPage);
 
   // Handle mouse movement for interactive effects
@@ -130,11 +141,6 @@ const Testimonials = () => {
     return stars;
   };
 
-  const getVisibleTestimonials = () => {
-    const startIndex = currentSlide * testimonialsPerPage;
-    return feedbacks.slice(startIndex, startIndex + testimonialsPerPage);
-  };
-
   // Google Logo SVG Component
   const GoogleLogo = () => (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -158,7 +164,7 @@ const Testimonials = () => {
   );
 
   return (
-    <div className="bg-gradient-to-b from-gray-50 to-white py-16 px-4 sm:px-6 lg:py-20 lg:px-8 relative overflow-hidden">
+    <div className="bg-[#ebebeb] rounded-3xl py-16 px-4 sm:px-6 lg:py-20 lg:px-8 relative overflow-hidden">
       {/* Subtle Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-32 h-32 bg-[#0163BE] rounded-full blur-3xl"></div>
@@ -178,7 +184,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <h2 className="text-2xl sm:text-5xl  font-extrabold text-gray-900 mb-6">
+          <h2 className="text-2xl sm:text-5xl font-extrabold text-gray-900 mb-6">
             <span className="block">Don't just take our word for it - </span>
             <span className="block text-[#0163BE] bg-gradient-to-r from-[#0163BE] to-[#0190BE] bg-clip-text text-transparent">
               hear what our clients say
@@ -206,107 +212,122 @@ const Testimonials = () => {
             }}
           />
 
-          {/* Navigation Arrows */}
-          <button
-            onClick={() => changeSlide(-1)}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 z-20 p-4 rounded-full bg-white shadow-xl border border-gray-200 hover:bg-[#0163BE] hover:border-[#0163BE] transition-all duration-300 group hover:scale-110"
-          >
-            <ChevronLeft className="w-6 h-6 text-gray-600 group-hover:text-white transition-colors" />
-          </button>
+          {/* Navigation Arrows - Mobile */}
+          {isMobile && (
+            <>
+              <button
+                onClick={() => changeSlide(-1)}
+                className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-20 p-2 rounded-full bg-white shadow-lg border border-gray-200 hover:bg-[#0163BE] hover:border-[#0163BE] transition-all duration-300 group hover:scale-110"
+              >
+                <ChevronLeft className="w-5 h-5 text-gray-600 group-hover:text-white transition-colors" />
+              </button>
 
-          <button
-            onClick={() => changeSlide(1)}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 z-20 p-4 rounded-full bg-white shadow-xl border border-gray-200 hover:bg-[#0163BE] hover:border-[#0163BE] transition-all duration-300 group hover:scale-110"
-          >
-            <ChevronRight className="w-6 h-6 text-gray-600 group-hover:text-white transition-colors" />
-          </button>
+              <button
+                onClick={() => changeSlide(1)}
+                className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-20 p-2 rounded-full bg-white shadow-lg border border-gray-200 hover:bg-[#0163BE] hover:border-[#0163BE] transition-all duration-300 group hover:scale-110"
+              >
+                <ChevronRight className="w-5 h-5 text-gray-600 group-hover:text-white transition-colors" />
+              </button>
+            </>
+          )}
+
+          {/* Navigation Arrows - Desktop */}
+          {!isMobile && (
+            <>
+              <button
+                onClick={() => changeSlide(-1)}
+                className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 z-20 p-4 rounded-full bg-white shadow-xl border border-gray-200 hover:bg-[#0163BE] hover:border-[#0163BE] transition-all duration-300 group hover:scale-110"
+              >
+                <ChevronLeft className="w-6 h-6 text-gray-600 group-hover:text-white transition-colors" />
+              </button>
+
+              <button
+                onClick={() => changeSlide(1)}
+                className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 z-20 p-4 rounded-full bg-white shadow-xl border border-gray-200 hover:bg-[#0163BE] hover:border-[#0163BE] transition-all duration-300 group hover:scale-110"
+              >
+                <ChevronRight className="w-6 h-6 text-gray-600 group-hover:text-white transition-colors" />
+              </button>
+            </>
+          )}
 
           {/* Testimonials Grid */}
           <div className="overflow-hidden rounded-2xl">
             <div
               className="flex transition-transform duration-700 ease-[cubic-bezier(0.25,0.46,0.45,0.94)]"
               style={{
-                transform: `translateX(-${currentSlide * 100}%)`,
+                transform: `translateX(-${currentSlide * (100 / testimonialsPerPage)}%)`,
               }}
             >
-              {Array.from({ length: totalSlides }).map((_, slideIndex) => (
-                <div key={slideIndex} className="w-full flex-shrink-0">
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-2">
-                    {feedbacks
-                      .slice(
-                        slideIndex * testimonialsPerPage,
-                        (slideIndex + 1) * testimonialsPerPage
-                      )
-                      .map((feedback, index) => (
-                        <div
-                          key={`${slideIndex}-${index}`}
-                          className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 p-6 border border-gray-100 hover:border-[#0163BE]/20 group hover:-translate-y-2"
-                        >
-                          {/* Google Review Header */}
-                          <div className="flex items-center justify-between mb-4">
-                            <div className="flex items-center gap-2">
-                              <GoogleLogo />
-                              <span className="text-sm text-gray-500 font-medium">
-                                Review
-                              </span>
-                            </div>
-                            {feedback.verified && (
-                              <div className="flex items-center gap-1 text-xs text-green-600 bg-green-50 px-2 py-1 rounded-full">
-                                <Check className="w-3 h-3" />
-                                <span>Verified</span>
-                              </div>
-                            )}
-                          </div>
-
-                          {/* User Info */}
-                          <div className="flex items-center mb-4">
-                            <div className="relative mr-4">
-                              <img
-                                src={feedback.image}
-                                alt={feedback.name}
-                                className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-md"
-                              />
-                              <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-white rounded-full flex items-center justify-center shadow-sm">
-                                <GoogleLogo />
-                              </div>
-                            </div>
-                            <div className="flex-1">
-                              <h3 className="font-semibold text-gray-900 text-lg">
-                                {feedback.name}
-                              </h3>
-                              <div className="flex items-center gap-2 mt-1">
-                                <div className="flex items-center gap-1">
-                                  {getStars(feedback.rating)}
-                                </div>
-                                <span className="text-sm text-gray-500">
-                                  {feedback.rating}/5
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-
-                          {/* Review Content */}
-                          <div className="mb-6">
-                            <Quote className="w-6 h-6 text-[#0163BE]/20 mb-2" />
-                            <p className="text-gray-700 leading-relaxed text-sm line-clamp-4 group-hover:line-clamp-none transition-all duration-300">
-                              {feedback.feedback}
-                            </p>
-                          </div>
-
-                          {/* Review Footer */}
-                          <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                            <div className="text-xs text-gray-500">
-                              {feedback.date}
-                            </div>
-                            <div className="flex items-center gap-4">
-                              <div className="flex items-center gap-1 text-xs text-gray-500">
-                                <ThumbsUp className="w-3 h-3" />
-                                <span>Helpful ({feedback.helpful})</span>
-                              </div>
-                            </div>
-                          </div>
+              {feedbacks.map((feedback, index) => (
+                <div 
+                  key={index} 
+                  className="flex-shrink-0 px-2"
+                  style={{ width: `${100 / testimonialsPerPage}%` }}
+                >
+                  <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 p-6 border border-gray-100 hover:border-[#0163BE]/20 group hover:-translate-y-2">
+                    {/* Google Review Header */}
+                    <div className="flex items-center justify-between mb-4">
+                      <div className="flex items-center gap-2">
+                        <GoogleLogo />
+                        <span className="text-sm text-gray-500 font-medium">
+                          Review
+                        </span>
+                      </div>
+                      {feedback.verified && (
+                        <div className="flex items-center gap-1 text-xs text-green-600 bg-green-50 px-2 py-1 rounded-full">
+                          <Check className="w-3 h-3" />
+                          <span>Verified</span>
                         </div>
-                      ))}
+                      )}
+                    </div>
+
+                    {/* User Info */}
+                    <div className="flex items-center mb-4">
+                      <div className="relative mr-4">
+                        <img
+                          src={feedback.image}
+                          alt={feedback.name}
+                          className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-md"
+                        />
+                        <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-white rounded-full flex items-center justify-center shadow-sm">
+                          <GoogleLogo />
+                        </div>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-semibold text-gray-900 text-lg">
+                          {feedback.name}
+                        </h3>
+                        <div className="flex items-center gap-2 mt-1">
+                          <div className="flex items-center gap-1">
+                            {getStars(feedback.rating)}
+                          </div>
+                          <span className="text-sm text-gray-500">
+                            {feedback.rating}/5
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Review Content */}
+                    <div className="mb-6">
+                      <Quote className="w-6 h-6 text-[#0163BE]/20 mb-2" />
+                      <p className="text-gray-700 leading-relaxed text-sm line-clamp-4 group-hover:line-clamp-none transition-all duration-300">
+                        {feedback.feedback}
+                      </p>
+                    </div>
+
+                    {/* Review Footer */}
+                    <div className="flex items-center justify-between pt-4 border-t border-gray-100">
+                      <div className="text-xs text-gray-500">
+                        {feedback.date}
+                      </div>
+                      <div className="flex items-center gap-4">
+                        <div className="flex items-center gap-1 text-xs text-gray-500">
+                          <ThumbsUp className="w-3 h-3" />
+                          <span>Helpful ({feedback.helpful})</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               ))}
@@ -381,15 +402,6 @@ const Testimonials = () => {
               </Link>
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#0163BE] to-[#0190BE] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
-
-            <div className="flex items-center mt-6 gap-3 text-sm text-gray-500">
-              <GoogleLogo />
-              <span>See all our reviews</span>
-              <div className="flex items-center gap-1">
-                <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                <span className="font-semibold text-gray-900">4.9/5</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
